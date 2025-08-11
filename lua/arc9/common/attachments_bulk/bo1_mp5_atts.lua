@@ -403,10 +403,10 @@ ARC9.LoadAttachment(ATT, "bo1_top_rail_g36c")
 
 ATT = {}
 
-ATT.PrintName = [[Picattiny Clamp]]
+ATT.PrintName = [[Picatinny Clamp]]
 ATT.CompactName = [[PIC]]
 ATT.Icon = Material("entities/mw3_generic.png")
-ATT.Description = [[Top picatinny rail for attaching optics belonging to a G36 platform rifle.
+ATT.Description = [[Modern claw mount with picatinny rail system for mounting optics.
 ]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
