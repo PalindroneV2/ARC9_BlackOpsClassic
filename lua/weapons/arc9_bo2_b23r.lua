@@ -6,13 +6,13 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "B23R"
 SWEP.Class = "Pistol"
-SWEP.Description = [[3 round burst pistol. High rate of fire with moderate recoil, poor range, and moderate damage.]]
+SWEP.Description = [[Select-fire 3 round burst pistol. High rate of fire with moderate recoil, poor range, and moderate damage.]]
 SWEP.Trivia = {
-    Manufacturer = "Beretta",
+    Manufacturer = "WE Tech",
     Calibre = "9x19mm Parabellum",
     Mechanism = "Short Recoil",
-    Country = "Italy",
-    Year = 2023,
+    Country = "China",
+    Year = 2011,
     Games = [[Call of Duty: Black Ops II]]
 }
 SWEP.Credits = {
@@ -36,7 +36,7 @@ SWEP.WorldModelOffset = {
 }
 -- SWEP.ViewModelFOVBase = 75
 
-SWEP.DefaultBodygroups = "00000000000000"
+SWEP.DefaultBodygroups = "10010000000000"
 
 SWEP.DefaultSkin = 6
 
@@ -234,6 +234,12 @@ SWEP.AttachmentElements = {
             {2,1}
         },
     },
+    ["b23rhandle"] = {
+        Bodygroups = {
+            {0,0},
+            {3,0},
+        },
+    },
     ["waw_aptrs"] = {
         AttPosMods = {
             [5] = {
@@ -274,7 +280,7 @@ SWEP.HookP_NameChange = function(self, name)
 
     local attached = self:GetElements()
 
-    local gunname = "B23R"
+    local gunname = "Black Dragon 2011"
 
     if attached["bo1_pap"] then
         gunname = "B34R"
@@ -306,9 +312,10 @@ SWEP.Attachments = {
         DefaultCompactName = "TAC",
         Bone = "j_gun",
         Scale = Vector(1, 1, 1),
-        Pos = Vector(5.5, 0.075, -0.7),
+        Pos = Vector(5.15, 0.075, 0.25),
         Ang = Angle(0, 0, 0),
         Category = {"cod_tactical_pistols"},
+        InstalledElements = {"b23rhandle"},
         -- CorrectiveAng = Angle(0.05, 0.1, 0),
     },
     {
@@ -361,6 +368,15 @@ SWEP.Attachments = {
         Pos = Vector(-5, 0, -1),
         Ang = Angle(0, 0, 0),
         Category = "universal_camo",
+        CosmeticOnly = true,
+    },
+    {
+        PrintName = "Cosmetic II",
+        DefaultCompactName = "Fake Grip",
+        Bone = "j_gun",
+        Pos = Vector(-5, 0, -1),
+        Ang = Angle(0, 0, 0),
+        Category = "bo2_b23r_handle",
         CosmeticOnly = true,
     },
 }

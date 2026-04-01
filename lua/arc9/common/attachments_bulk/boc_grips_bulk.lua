@@ -558,3 +558,24 @@ ATT.LHIK = true
 ATT.LHIK_Priority = 5
 
 ARC9.LoadAttachment(ATT, "bocw_grip_speed_pro_warsaw")
+
+ATT = {}
+
+ATT.PrintName = "No Fake Foregrip"
+ATT.CompactName = [[ALT]]
+ATT.Icon = Material("entities/bo2_generic.png", "mips smooth")
+ATT.Description = [[Removes the Fake Foregrip under the B23R's model.
+Belongs to Black Ops.]]
+ATT.CustomPros = {}
+ATT.CustomCons = {}
+ATT.SortOrder = 4
+ATT.MenuCategory = "ARC9 - BO1 Attachments"
+ATT.Free = false
+
+ATT.Category = {"bo2_b23r_handle"}
+ATT.ActivateElements = {"b23rhandle"}
+
+ATT.RecoilMult = 0.85
+ATT.RecoilUpMult = 0.85
+
+ARC9.LoadAttachment(ATT, "bo2_b23r_handle_remove")
