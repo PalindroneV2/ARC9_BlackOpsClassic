@@ -1021,6 +1021,7 @@ SWEP.HookP_NameChange = function(self, name)
         end
         if attached["300blk"] and attached["barrel_7"] then gunname = "MVP Wolverine" end
         if (model .. alt) == "Mk. 12 SPR" then gunname = "Lone Survivor" end
+        if (model .. alt) == "M16A4" and attached["cde_m203"] then gunname = "The O.G." end
     end
 
     return gunname

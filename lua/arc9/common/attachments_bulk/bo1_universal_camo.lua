@@ -520,7 +520,10 @@ ATT.FullColorIcon = true
 ATT.CompactName = "JUNGRUS"
 ATT.Icon = Material("entities/bo1_camos/jungle_rus.png")
 ATT.Category = "universal_camo"
-ATT.Description = [[Tselinoyarsk 240864.]]
+ATT.Description = [[Tselinoyarsk 24/08/64.
+
+
+2-0-4-8-6-3.]]
 ATT.MenuCategory = "ARC9 - Camos"
 ATT.CustomCamoTexture = "models/weapons/arc9/bo1/camos/jungle_rus"
 ATT.Folder = "BO1 CAMOS/JUNGLE"
