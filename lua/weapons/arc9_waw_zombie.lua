@@ -22,7 +22,7 @@ SWEP.Slot = 0
 SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arc9/c_waw_zombie.mdl"
-SWEP.ViewModelFOVBase = 60
+SWEP.ViewModelFOVBase = 75
 SWEP.NoTPIKVMPos = true
 SWEP.NoTPIK = false
 

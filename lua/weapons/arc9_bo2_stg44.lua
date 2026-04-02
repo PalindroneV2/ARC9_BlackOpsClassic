@@ -37,7 +37,7 @@ SWEP.WorldModelOffset = {
     Bone    =    "ValveBiped.Bip01_R_Hand",
     Scale = 1,
 }
-SWEP.ViewModelFOVBase = 60
+SWEP.ViewModelFOVBase = 75
 
 SWEP.DefaultBodygroups = "0000000000000000"
 
