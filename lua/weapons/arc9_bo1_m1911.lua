@@ -35,7 +35,7 @@ SWEP.WorldModelOffset = {
     Bone    =    "ValveBiped.Bip01_R_Hand",
     Scale = 1.1,
 }
-SWEP.ViewModelFOVBase = 75
+SWEP.ViewModelFOVBase = 60
 
 SWEP.DefaultBodygroups = "00000000000000"
 
@@ -246,14 +246,25 @@ SWEP.AttachmentElements = {
             },
         },
         Bodygroups = {
-            {1,2},
-            {2,2},
+            {1,3},
+            {2,3},
         },
     },
     ["shortbarrel"] = {
         AttPosMods = {
             [3] = {
                 Pos = Vector(5.85, 0, 1.25),
+            },
+        },
+        Bodygroups = {
+            {1,2},
+            {2,2},
+        },
+    },
+    ["officerbarrel"] = {
+        AttPosMods = {
+            [3] = {
+                Pos = Vector(5.29, 0, 1.25),
             },
         },
         Bodygroups = {
@@ -359,22 +370,26 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
         rhhammer = 3
     end
 
-    if attached["shortbarrel"] then
+    if attached["officerbarrel"] then
         slide = 1
         irons = 1
     end
-    if attached["longbarrel"] then
+    if attached["shortbarrel"] then
         slide = 2
         irons = 2
     end
+    if attached["longbarrel"] then
+        slide = 3
+        irons = 3
+    end
     if attached["irons_improved"] then
-        irons = irons + 3
+        irons = irons + 4
     end
     if attached["irons_novak"] then
-        irons = irons + 6
+        irons = irons + 8
     end
     if attached["irons_2025"] then
-        irons = irons + 9
+        irons = irons + 12
     end
 
     if attached["bo1_pap"] then
@@ -422,6 +437,10 @@ SWEP.HookP_NameChange = function(self, name)
 
     local gunname = "Colt M1911A1"
 
+    if attached["officerbarrel"] then
+        gunname = "Colt Officer"
+    end
+
     if attached["shortbarrel"] then
         gunname = "Colt Commander"
     end
@@ -432,7 +451,7 @@ SWEP.HookP_NameChange = function(self, name)
 
     if attached["bo1_pap"] then
         gunname = "Pain"
-        if attached["shortbarrel"] then
+        if attached["officerbarrel"] then
             gunname = "A Light Shining in Darkness"
         end
         if attached["longbarrel"] then

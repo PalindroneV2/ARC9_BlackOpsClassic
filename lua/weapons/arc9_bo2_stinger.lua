@@ -38,7 +38,7 @@ SWEP.WorldModelOffset = {
     Bone       =    "ValveBiped.Bip01_R_Hand",
     Scale      = 1.1,
 }
-SWEP.ViewModelFOVBase = 75
+SWEP.ViewModelFOVBase = 60
 
 SWEP.DefaultBodygroups = "00000000000000"
 
@@ -400,13 +400,6 @@ end
 
 SWEP.Attachments = {
     {
-        PrintName = "Sight",
-        Bone = "j_gun",
-        Pos = Vector(3, 0, 4),
-        Ang = Angle(0, 0, 0),
-        Category = {"bo1_alt_irons"},
-    },
-    {
         PrintName = "Ammunition",
         DefaultCompactName = "AMMO",
         Bone = "j_gun",
@@ -441,7 +434,6 @@ SWEP.Attachments = {
         Category = "mwc_proficiency",
         ExcludeElements = {"bo1_perkacola"},
     },
-    --Adding or removing slots doesn't take effect until map restart when it used to just work if you reloaded the weapon by dying or dropping it.
 }
 
 SWEP.Animations = {
@@ -457,14 +449,14 @@ SWEP.Animations = {
         Source = "draw",
         Time = 1,
         EventTable = {
-            {s = "ARC9_MW2E.M79_Draw", t = 1 / 35},
+            -- {s = "ARC9_MW2E.M79_Draw", t = 1 / 35},
         }
     },
     ["holster"] = {
         Source = "holster",
         Time = 1,
         EventTable = {
-            {s = "ARC9_MW2E.M79_Holster", t = 1 / 35},
+            -- {s = "ARC9_MW2E.M79_Holster", t = 1 / 35},
         }
     },
     ["fire"] = {

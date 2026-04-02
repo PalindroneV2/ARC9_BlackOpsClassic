@@ -22,13 +22,15 @@ SWEP.Slot = 0
 SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arc9/c_waw_zombie.mdl"
-SWEP.ViewModelFOVBase = 75
+SWEP.ViewModelFOVBase = 60
 SWEP.NoTPIKVMPos = true
-SWEP.NoTPIK = true
+SWEP.NoTPIK = false
 
 SWEP.EntitySelectIcon = true
 
 SWEP.CanLean = false
+
+SWEP.DefaultBodygroups = "00000000000000"
 
 -------------------------- MAGAZINE
 
@@ -117,7 +119,8 @@ SWEP.HoldTypeSights = "knife"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_ZOMBIE
 SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_KNIFE
-SWEP.AnimMelee = ACT_HL2MP_GESTURE_RANGE_ATTACK_ZOMBIE
+SWEP.AnimMelee = ACT_HL2MP_GESTURE_RANGE_ATTACK_MAGIC
+SWEP.NonTPIKAnimMelee = ACT_HL2MP_GESTURE_RANGE_ATTACK_ZOMBIE
 
 SWEP.ActivePos = Vector(0, 0, -1)
 SWEP.ActiveAng = Angle(0, 0, 0)

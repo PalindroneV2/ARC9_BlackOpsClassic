@@ -34,7 +34,7 @@ SWEP.WorldModelOffset = {
     Bone    =    "ValveBiped.Bip01_R_Hand",
     Scale = 1.2,
 }
-SWEP.ViewModelFOVBase = 75
+SWEP.ViewModelFOVBase = 60
 
 SWEP.DefaultBodygroups = "00000000000000"
 
@@ -184,18 +184,23 @@ SWEP.ProceduralIronFire = false
 
 SWEP.CaseBones = {}
 
+local ironPos = Vector(0, 3, 0)
+local ironAng = Angle(0, 0, 0)
+local activePos = Vector(1.5, 3, -6)
+local activeAng = Angle(0, 15, 0)
+
 SWEP.IronSights = {
-    Pos = Vector(0, 3, 0),
-    Ang = Angle(0, 0, 0),
+    Pos = ironPos,
+    Ang = ironAng,
     Magnification = 1.25,
     ViewModelFOV = 60,
     CrosshairInSights = false,
-    SwitchToSound = "", -- sound that plays when switching to this sight
+    SwitchToSound = "",
 }
 
 SWEP.SightMidPoint = { -- Where the gun should be at the middle of it's irons
-    Pos = Vector(0.75, 2, -3),
-    Ang = Angle(0, 7.5, 0),
+    Pos = ironPos + activePos / 2,
+    Ang = ironAng + activeAng / 2,
 }
 
 SWEP.CantPeek = false
@@ -209,8 +214,8 @@ SWEP.HoldTypeSights = "rpg"
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_RPG
 SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_RPG
 
-SWEP.ActivePos = Vector(1.5, 3, -6)
-SWEP.ActiveAng = Angle(0, 15, 0)
+SWEP.ActivePos = activePos
+SWEP.ActiveAng = activeAng
 
 local movingoffset = Vector(0, -0.25, -0.25)
 SWEP.MovingPos = movingoffset

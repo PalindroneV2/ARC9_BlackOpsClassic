@@ -260,6 +260,33 @@ ARC9.LoadAttachment(ATT, "bo1_m1911_trigger_long")
 
 ATT = {}
 
+ATT.PrintName = "Officer Compact Slide"
+ATT.CompactName = "3.5\" Officer"
+ATT.Icon = Material("materials/entities/bo1_atts/cosmetic/bo2_1911.png")
+ATT.Description = [[More compact 1911 slide with that improves handling and sprint times but reduces muzzle velocity and worsens recoil.]]
+ATT.CustomPros = {}
+ATT.CustomCons = {}
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - BO1 Attachments"
+
+ATT.RangeMaxMult = 0.65
+ATT.PhysBulletMuzzleVelocityMult = 0.8
+ATT.RecoilKickMult = 1.25
+ATT.SpreadAdd = math.rad(4.25 / 37.5)
+
+ATT.AimDownSightsTimeMult = 0.85
+ATT.SprintToFireTimeMult = 0.75
+
+ATT.SpreadAddHipFire = -math.rad(40 / 37.5)
+ATT.SpreadAddMove = -math.rad(20 / 37.5)
+
+ATT.Category = {"bo1_m1911_slides"}
+ATT.ActivateElements = {"1911_slide_officer", "officerbarrel"}
+
+ARC9.LoadAttachment(ATT, "bo1_m1911_slides_officer")
+
+ATT = {}
+
 ATT.PrintName = "Commander Short Slide"
 ATT.CompactName = "4.25\" Commander"
 ATT.Icon = Material("materials/entities/bo1_atts/cosmetic/bo2_1911.png")
