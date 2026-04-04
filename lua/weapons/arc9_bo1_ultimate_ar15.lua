@@ -121,7 +121,7 @@ SWEP.SpeedMultMelee = 1
 SWEP.SpeedMultCrouch = 1
 SWEP.SpeedMultBlindFire = 1
 
-SWEP.AimDownSightsTime = 0.175
+SWEP.AimDownSightsTime = 0.2
 SWEP.SprintToFireTime = 0.2
 
 SWEP.RPM = 900
@@ -182,18 +182,51 @@ SWEP.ProceduralIronFire = false
 
 SWEP.CaseBones = {}
 
+local ironPos = Vector(-2.76, -2, 0.3)
+local ironAng = Angle(0.025, -0.1, 0)
+
 SWEP.IronSights = {
-    Pos = Vector(-2.76, -2, 0.3),
-    Ang = Angle(0.025, -0.1, 0),
+    Pos = ironPos,
+    Ang = ironAng,
     Magnification = 1.1,
     ViewModelFOV = 60,
     CrosshairInSights = false,
-    SwitchToSound = "", -- sound that plays when switching to this sight
+    SwitchToSound = "",
 }
 
+SWEP.IronSightsHook = function(self)
+    local attached = self:GetElements()
+    local newpos = ironPos
+    local newang = ironAng
+
+    -- Check for Future Carry Handle alignment
+    if attached["future_carry"] then
+        newpos = Vector(-2.765, -2, -0.04)
+        newang = Angle(0, 0.65, 0)
+    end
+
+    -- Check for Rear Extra Irons alignment
+    if attached["cod_extrairons_rear"] then
+        newpos = Vector(-2.76, -2, 0.355)
+        newang = Angle(0.025, -0.22, 0)
+        if attached["future_top"] then
+            newpos = Vector(-2.76, -2, 0.3)
+            newang = Angle(0.025, -0.125, 0)
+        end
+    end
+
+    return {
+        Pos = newpos,
+        Ang = newang,
+        Magnification = 1.1,
+        ViewModelFOV = 50,
+        CrosshairInSights = false,
+    }
+end
+
 SWEP.SightMidPoint = { -- Where the gun should be at the middle of it's irons
-    Pos = Vector(-1.375, -1, -0.375),
-    Ang = Angle(0, 0, -2.5),
+    Pos = ironPos / 2,
+    Ang = ironAng / 2,
 }
 
 SWEP.HoldTypeHolstered = "passive"
@@ -439,24 +472,33 @@ SWEP.AttachmentElements = {
             {0,3},
         },
     },
-    ["future_carry"] = {
-        IronSights = {
-            Pos = Vector(-2.765, -2, -0.07),
-            Ang = Angle(0, 0.9, 0),
-            Magnification = 1.1,
-            ViewModelFOV = 60,
-            CrosshairInSights = false,
-        },
-    },
-    ["cod_extrairons_rear"] = {
-        IronSights = {
-            Pos = Vector(-2.76, -2, 0.35),
-            Ang = Angle(0.025, -0.2, 0),
-            Magnification = 1.1,
-            ViewModelFOV = 60,
-            CrosshairInSights = false,
-        },
-    },
+    -- ["future_carry"] = {
+    --     IronSights = {
+    --         Pos = Vector(-2.765, -2, -0.04),
+    --         Ang = Angle(0, 0.65, 0),
+    --         Magnification = 1.1,
+    --         ViewModelFOV = 60,
+    --         CrosshairInSights = false,
+    --     },
+    -- },
+    -- ["cod_extrairons_rear"] = {
+    --     IronSights = {
+    --         Pos = Vector(-2.76, -2, 0.35),
+    --         Ang = Angle(0.025, -0.2, 0),
+    --         Magnification = 1.1,
+    --         ViewModelFOV = 60,
+    --         CrosshairInSights = false,
+    --     },
+    -- },
+    -- ["extrafront"] = {
+    --     IronSights = {
+    --         Pos = Vector(-2.76, -2, 0.315),
+    --         Ang = Angle(0.025, -0.225, 0),
+    --         Magnification = 1.1,
+    --         ViewModelFOV = 60,
+    --         CrosshairInSights = false,
+    --     },
+    -- },
     ["classicrail"] = {
         Bodygroups = {
             {6,1},
@@ -515,15 +557,6 @@ SWEP.AttachmentElements = {
     ["aac_stock"] = {
         Bodygroups = {
             {5,9}
-        },
-    },
-    ["extrafront"] = {
-        IronSights = {
-            Pos = Vector(-2.76, -2, 0.315),
-            Ang = Angle(0.025, -0.225, 0),
-            Magnification = 1.1,
-            ViewModelFOV = 60,
-            CrosshairInSights = false,
         },
     },
 }

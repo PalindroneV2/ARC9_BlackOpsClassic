@@ -194,12 +194,14 @@ hook.Add("EntityTakeDamage", "ARC9_BO1_PERK_PHD", function(ent, dmg)
     local attached = wep:GetElements()
     if !attached["phd_flopper"] then return end
 
-    if attached["phd_flopper"] and dmg:GetDamageType() == DMG_BLAST then
-        dmg:ScaleDamage(0)
-    end
-    if attached["phd_flopper"] and dmg:GetDamageType() == DMG_FALL then
-        dmg:ScaleDamage(0)
-        PlayerDetonate(ent)
+    if attached["phd_flopper"] then
+        if dmg:GetDamageType() == DMG_BLAST then
+            dmg:ScaleDamage(0)
+        end
+        if dmg:GetDamageType() == DMG_FALL then
+            dmg:ScaleDamage(0)
+            PlayerDetonate(ent)
+        end
     end
 end)
 

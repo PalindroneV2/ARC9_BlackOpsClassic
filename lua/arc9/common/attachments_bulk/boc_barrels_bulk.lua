@@ -1,100 +1,83 @@
 local ATT = {}
 
 --GENERIC BARRELS
-ATT = {}
 
-ATT.PrintName = [[Stubby Barrel]]
-ATT.CompactName = [[STUB]]
+---------------------------------------------------------------------------------------
+-- STUBBY BARREL
+---------------------------------------------------------------------------------------
+ATT = {}
+ATT.PrintName = [[Short Barrel]]
+ATT.CompactName = [[SHORT]]
 ATT.Icon = Material("entities/bo1_atts/bocw/atts_ak5/barrels/mix_pro.png", "mips smooth")
-ATT.Description = [[Stubby Barrel.]]
-ATT.CustomPros = {}
-ATT.CustomCons = {}
+ATT.Description = [[Short Barrel.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
-ATT.Free = false
-ATT.Ignore = true
+ATT.Ignore = false
 
-ATT.Category = {"bo1_aug_barrels"}
-ATT.ActivateElements = {"barrel_stub", "newbarrel"}
-ATT.ExcludeElements = {}
+ATT.Category = {"boc_barrels", "boc_barrels_s", "boc_barrels_sm", "boc_barrels_sl"}
+ATT.ActivateElements = {"barrel_short", "newbarrel"}
 
 ATT.SpreadMult = 1.5
 ATT.RecoilMult = 1.25
 ATT.SpreadMultHipFire = 0.7
---ATT.SpreadMultMove = 0.7
-
 ATT.SpeedMult = 1.025
 ATT.SpeedMultSights = 1.125
-
 ATT.AimDownSightsTimeMult = 0.75
 ATT.SprintToFireTimeMult = 0.8
-
 ATT.RangeMaxMult = 0.6
 ATT.RangeMinMult = 0.6
 ATT.PhysBulletMuzzleVelocityMult = 0.6
 
-ARC9.LoadAttachment(ATT, "boc_barrel_stubby")
+ARC9.LoadAttachment(ATT, "boc_barrel_short")
 
+---------------------------------------------------------------------------------------
+-- MEDIUM BARREL
+---------------------------------------------------------------------------------------
 ATT = {}
-
-ATT.PrintName = [[Short Barrel]]
-ATT.CompactName = [[SHORT]]
+ATT.PrintName = [[Medium Barrel]]
+ATT.CompactName = [[MID]]
 ATT.Icon = Material("entities/bo1_atts/bocw/atts_ak5/barrels/heavy_pro.png", "mips smooth")
-ATT.Description = [[Short Barrel.]]
-ATT.CustomPros = {}
-ATT.CustomCons = {}
+ATT.Description = [[Medium Barrel.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
-ATT.Free = false
 
-ATT.Category = {"bo1_barrels"}
-ATT.ActivateElements = {"barrel_short", "newbarrel"}
-ATT.ExcludeElements = {}
+ATT.Category = {"boc_barrels", "boc_barrels_m", "boc_barrels_sm", "boc_barrels_ml"}
+ATT.ActivateElements = {"barrel_mid", "newbarrel"}
 
 ATT.SpreadMult = 1.15
 ATT.RecoilMult = 1.1
 ATT.SpreadMultHipFire = 0.9
---ATT.SpreadMultMove = 0.9
-
 ATT.SpeedMult = 1.01
 ATT.SpeedMultSights = 1.05
-
 ATT.AimDownSightsTimeMult = 0.9
 ATT.SprintToFireTimeMult = 0.95
-
 ATT.RangeMaxMult = 0.9
 ATT.RangeMinMult = 0.9
 ATT.PhysBulletMuzzleVelocityMult = 0.9
 
-ARC9.LoadAttachment(ATT, "boc_barrel_short")
+ARC9.LoadAttachment(ATT, "boc_barrel_mid")
 
+---------------------------------------------------------------------------------------
+-- LONG BARREL
+---------------------------------------------------------------------------------------
 ATT = {}
-
 ATT.PrintName = [[Long Barrel]]
 ATT.CompactName = [[LONG]]
 ATT.Icon = Material("entities/bo1_atts/bocw/atts_ak5/barrels/long_pro.png", "mips smooth")
 ATT.Description = [[Extended barrel designed to improve range and bullet velocity at the cost of handling speed.]]
-ATT.CustomPros = {}
-ATT.CustomCons = {}
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
-ATT.Free = false
 
-ATT.Category = {"bo1_barrels"}
+ATT.Category = {"boc_barrels", "boc_barrels_l", "boc_barrels_sl", "boc_barrels_ml"}
 ATT.ActivateElements = {"barrel_long", "newbarrel"}
-ATT.ExcludeElements = {}
 
 ATT.SpreadMult = 0.9
 ATT.RecoilMult = 0.85
 ATT.SpreadMultHipFire = 1.25
---ATT.SpreadMultMove = 1.25
-
 ATT.SpeedMult = 0.975
 ATT.SpeedMultSights = 0.925
-
 ATT.AimDownSightsTimeMult = 1.2
 ATT.SprintToFireTimeMult = 1.2
-
 ATT.RangeMaxMult = 1.3
 ATT.RangeMinMult = 1.3
 ATT.PhysBulletMuzzleVelocityMult = 1.3
@@ -242,3 +225,105 @@ ATT.PhysBulletMuzzleVelocityMult = 0.675
 ATT.ShootSound = "ARC9_WAW.SawnOff_Fire"
 
 ARC9.LoadAttachment(ATT, "waw_dbs_barrel_sawed")
+
+-- BESPOKE OLYMPIA --
+
+ATT = {}
+
+ATT.PrintName = [[Sawed-Off Barrel]]
+ATT.CompactName = [[SAWED-OFF]]
+ATT.Icon = Material("entities/bo1_atts/bocw/atts_ar15/barrels/m4.png", "mips smooth")
+ATT.Description = [[The shorter barrel length reduces muzzle velocity and effective range but increases handling in close spaces.]]
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - BO1 Attachments"
+ATT.Free = false
+
+ATT.Category = {"bo1_olympia_barrel"}
+ATT.ActivateElements = {"barrel_sawed"}
+
+ATT.SpreadMult = 1.5
+ATT.RecoilMult = 1.25
+ATT.PelletSpreadMult = 1.5
+ATT.SpreadMultHipFire = 1.375
+--ATT.SpreadMultMove = 0.7
+
+ATT.SpeedMult = 1.025
+ATT.SpeedMultSights = 1.125
+
+ATT.AimDownSightsTimeMult = 0.75
+ATT.SprintToFireTimeMult = 0.8
+
+ATT.RangeMaxMult = 0.6
+ATT.RangeMinMult = 0.6
+ATT.PhysBulletMuzzleVelocityMult = 0.6
+
+ARC9.LoadAttachment(ATT, "bo1_olympia_barrel_sawed")
+
+ATT = {}
+
+ATT.PrintName = [[Short Barrel]]
+ATT.CompactName = [[Short]]
+ATT.Icon = Material("entities/bo1_atts/bocw/atts_ar15/barrels/m4.png", "mips smooth")
+ATT.Description = [[The shorter barrel length reduces muzzle velocity and effective range but increases handling in close spaces.]]
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - BO1 Attachments"
+ATT.Free = false
+
+ATT.Category = {"bo1_olympia_barrel"}
+ATT.ActivateElements = {"barrel_short"}
+
+ATT.SpreadMult = 1.15
+ATT.RecoilMult = 1.1
+ATT.PelletSpreadMult = 1.2
+ATT.SpreadMultHipFire = 1.2
+--ATT.SpreadMultMove = 0.9
+
+ATT.SpeedMult = 1.01
+ATT.SpeedMultSights = 1.05
+
+ATT.AimDownSightsTimeMult = 0.9
+ATT.SprintToFireTimeMult = 0.95
+
+ATT.RangeMaxMult = 0.9
+ATT.RangeMinMult = 0.9
+ATT.PhysBulletMuzzleVelocityMult = 0.9
+
+ARC9.LoadAttachment(ATT, "bo1_olympia_barrel_short")
+
+-- BESPOKE PYTHON --
+
+ATT = {}
+
+ATT.PrintName = [[Snub-Nose Barrel]]
+ATT.CompactName = [[Snub]]
+ATT.Icon = Material("entities/bo1_atts/barrel/snubnose.png", "mips smooth")
+ATT.Description = [[The shorter barrel length reduces muzzle velocity and effective range but increases handling in close spaces.]]
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - BO1 Attachments"
+ATT.Free = false
+
+ATT.Category = {"bo1_python_barrel"}
+ATT.ActivateElements = {"snubnose"}
+
+ATT.SpreadMult = 1.5
+ATT.SpreadMultShooting = 1.5
+ATT.PelletSpreadMult = 1.5
+-- ATT.SpreadMultShooting = 1.25
+ATT.RecoilMult = 1.25
+-- ATT.SpreadMultHipFire = 0.75
+--ATT.SpreadMultMove = 0.7
+
+ATT.SpeedMult = 1.025
+ATT.SpeedMultSights = 1.125
+
+ATT.AimDownSightsTimeMult = 0.75
+ATT.SprintToFireTimeMult = 0.8
+
+ATT.RangeMaxMult = 0.6
+ATT.RangeMinMult = 0.6
+ATT.PhysBulletMuzzleVelocityMult = 0.6
+
+ARC9.LoadAttachment(ATT, "bo1_python_barrel_snubnose")

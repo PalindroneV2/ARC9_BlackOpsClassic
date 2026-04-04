@@ -179,10 +179,10 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSights = {
-    Pos = Vector(0.35, -8, 1),
-    Ang = Angle(0.05, -0.9, 0),
+    Pos = Vector(-1.535, 0, 0.8855),
+    Ang = Angle(0, -0.9, 0),
     Magnification = 1.5,
-    ViewModelFOV = 60,
+    ViewModelFOV = 50,
     CrosshairInSights = false,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
@@ -199,8 +199,8 @@ SWEP.HoldTypeSights = "ar2"
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_AR2
 
-SWEP.ActivePos = Vector(3, -6, -1)
-SWEP.ActiveAng = Angle(0, 0, -5)
+SWEP.ActivePos = Vector(0, 1, -1)
+SWEP.ActiveAng = Angle(0, 0, 0)
 
 local movingoffset = Vector(0, -0.25, -0.25)
 SWEP.MovingPos = movingoffset
@@ -221,7 +221,7 @@ SWEP.SprintVerticalOffset = false
 SWEP.SprintPos = SWEP.ActivePos + Vector(7.5, 0, -1)
 SWEP.SprintAng = SWEP.ActiveAng + Angle(40, 0, 0)
 
-SWEP.CustomizePos = Vector(22, 37.5, 4)
+SWEP.CustomizePos = Vector(14, 37.5, 4)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeSnapshotPos = Vector(0, 10, 0)
 SWEP.CustomizeSnapshotAng = Angle(0, 0, 0)
@@ -298,6 +298,14 @@ SWEP.Hook_TranslateAnimation = function (self, anim)
 end
 
 SWEP.Attachments = {
+    {
+        PrintName = "Optic",
+        Bone = "j_gun",
+        Scale = Vector(1, 1, 1),
+        Pos = Vector(0,0,0),
+        Ang = Angle(0, 0, 0),
+        Category = {"waw_garand_scope"},
+    },
     {
         PrintName = "Muzzle",
         Bone = "j_gun",
@@ -408,7 +416,7 @@ SWEP.Animations = {
         EventTable = {{ s = "ARC9_WAW.Garand_Mech", t = 0 }}
     },
     ["fire_empty"] = {
-        Source = {"fire_empty"},
+        Source = {"fire_last"},
         Time = 7 / 30,
         EjectAt = 0,
          EventTable = {
@@ -423,7 +431,7 @@ SWEP.Animations = {
         EventTable = {{ s = "ARC9_WAW.Garand_Mech", t = 0 }}
     },
     ["fire_iron_empty"] = {
-        Source = {"fire_ads_empty"},
+        Source = {"fire_last_ads"},
         Time = 7 / 30,
         EjectAt = 0,
         EventTable = {
@@ -432,7 +440,7 @@ SWEP.Animations = {
         },
     },
     ["reload"] = {
-        Source = "reload_long",
+        Source = "reload",
         Time = 105 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         Framerate = 37,
@@ -447,7 +455,7 @@ SWEP.Animations = {
         },
     },
     ["reload_empty"] = {
-        Source = "reload",
+        Source = "reload_empty",
         Time = 46 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         Framerate = 30,

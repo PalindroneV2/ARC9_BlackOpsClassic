@@ -922,3 +922,40 @@ ATT.CustomCamoScale = 5
 ATT.SortOrder = 15
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap15")
+
+ATT = {}
+
+ATT.PrintName = "Destron Finish"
+ATT.CompactName = "DESTRON"
+ATT.Icon = Material("materials/entities/bo1_generic.png")
+ATT.Description = [[Silver finish with an insignia for an alien race.]]
+ATT.CustomPros = {}
+ATT.CustomCons = {}
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - WAW Attachments"
+ATT.Free = true
+
+ATT.Category = {"waw_p38_cosmetic"}
+ATT.ActivateElements = {"destron_finish"}
+
+ARC9.LoadAttachment(ATT, "waw_p38_cosmetic_destron")
+
+ATT = {}
+
+ATT.PrintName = "Maria"
+ATT.CompactName = "Maria"
+ATT.Icon = Material("materials/entities/bo1_generic.png")
+ATT.Description = [[A special engraved 9mm Pistol that once belonged to a man wearing a checkered suit.
+The Virgin Mary is engraved on the grips.]]
+ATT.CustomPros = {}
+ATT.CustomCons = {}
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - BO1 Attachments"
+ATT.Free = true
+
+ATT.Category = {"bo2_bhp_cosmetic"}
+ATT.ActivateElements = {"maria"}
+ATT.ShootSound = "ARC9_BO2.FNV_9mm_Fire"
+ATT.InstallSound = "ARC9_BO2.FNV_EE"
+
+ARC9.LoadAttachment(ATT, "bo2_bhp_cosmetic_maria")

@@ -119,10 +119,10 @@ SWEP.HoldTypeSights = "knife"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_ZOMBIE
 SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_KNIFE
-SWEP.AnimMelee = ACT_HL2MP_GESTURE_RANGE_ATTACK_MAGIC
+SWEP.AnimMelee = ACT_HL2MP_GESTURE_RANGE_ATTACK_ZOMBIE
 SWEP.NonTPIKAnimMelee = ACT_HL2MP_GESTURE_RANGE_ATTACK_ZOMBIE
 
-SWEP.ActivePos = Vector(0, 0, -1)
+SWEP.ActivePos = Vector(0, 0, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.MovingPos = SWEP.ActivePos
@@ -137,8 +137,8 @@ SWEP.CrouchPos = SWEP.ActivePos
 SWEP.CrouchAng = SWEP.ActiveAng
 
 SWEP.SprintVerticalOffset = false
-SWEP.SprintPos = SWEP.ActivePos + Vector(0, 0, 2)
-SWEP.SprintAng = SWEP.ActiveAng + Angle(0, 20, 0)
+SWEP.SprintPos = SWEP.ActivePos + Vector(0, 0, 0.5)
+SWEP.SprintAng = SWEP.ActiveAng + Angle(0, 10, 0)
 
 SWEP.CustomizePos = Vector(18.5, 20, -32.5)
 SWEP.CustomizeAng = Angle(0, 90, 0)

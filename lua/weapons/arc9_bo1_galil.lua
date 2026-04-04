@@ -343,14 +343,14 @@ SWEP.AttachmentElements = {
             {1,1},
         },
     },
-    ["barrel_short"] = {
+    ["barrel_mid"] = {
         AttPosMods = {
             [4] = {
                 Pos = Vector(20, 0.1, 1.5),
             },
         },
     },
-    ["barrel_stub"] = {
+    ["barrel_short"] = {
         AttPosMods = {
             [4] = {
                 Pos = Vector(15.5, 0.1, 1.5),
@@ -366,10 +366,10 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
 
     local barrel = 0
     local iron = 0
-    if attached["barrel_short"] then
+    if attached["barrel_mid"] then
         barrel = 1
     end
-    if attached["barrel_stub"] then
+    if attached["barrel_short"] then
         barrel = 2
         iron = 1
         if attached["bo1_gp25"] then
@@ -468,7 +468,7 @@ SWEP.Attachments = {
         Bone = "j_gun",
         Pos = Vector(13, 0, 1.5),
         Ang = Angle(0, 0, 0),
-        Category = {"bo1_galil_barrel"},
+        Category = {"boc_barrels_sm"},
     },
     {
         PrintName = "Muzzle",

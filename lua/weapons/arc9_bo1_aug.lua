@@ -183,19 +183,51 @@ SWEP.ProceduralIronFire = false
 
 SWEP.CaseBones = {}
 
+local ironPos = Vector(-2.77, -5, 0.235)
+local ironAng = Angle(-0.025, -0.1, -0.5)
+
 SWEP.IronSights = {
-    Pos = Vector(-2.77, -5, 0.235),
-    Ang = Angle(-0.025, -0.1, -0.5),
-    ViewModelFOV = 60,
+    Pos = ironPos,
+    Ang = ironAng,
+    ViewModelFOV = 50,
     Magnification = 1.1,
     AssociatedSlot = 9,
     CrosshairInSights = false,
-    SwitchToSound = "", -- sound that plays when switching to this sight
+    SwitchToSound = "",
 }
-SWEP.SightMidPoint = { -- Where the gun should be at the middle of it's irons
-    Pos = Vector(-1.25, -2.5, -0.5),
-    Ang = Angle(-0.012, -0.05, -2.5),
+
+SWEP.SightMidPoint = {
+    Pos = ironPos / 2,
+    Ang = ironAng / 2,
 }
+
+SWEP.IronSightsHook = function(self)
+    local attached = self:GetElements()
+    local newpos = ironPos
+    local newang = ironAng
+
+    if attached["extrairon"] then
+        newpos = Vector(-2.7375, -6, 0.1)
+        newang = Angle(0, 0, 0)
+    end
+
+    if attached["aug_a3"] then
+        newpos = Vector(-2.765, -5, 0.78)
+        newang = Angle(-0.025, -0.175, -0.5)
+        if attached["extrairon"] then
+            newpos = Vector(-2.7375, -6, 0.65)
+            newang = Angle(0, 0, 0)
+        end
+    end
+
+    return {
+        Pos = newpos,
+        Ang = newang,
+        Magnification = 1.1,
+        ViewModelFOV = 50,
+        CrosshairInSights = false,
+    }
+end
 
 SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldType = "ar2"
@@ -367,29 +399,6 @@ SWEP.AttachmentElements = {
     },
 }
 
-SWEP.IronSightsHook = function(self)
-    local attached = self:GetElements()
-    local newpos = Vector(-2.765, -6, 0.275)
-    local newang = Angle(-0.0375, -0.1, -0.5)
-
-    if attached["extrairon"] then
-        newpos = Vector(-2.7375, -6, 0.1)
-        newang = Angle(-0, 0, 0)
-    end
-
-    if attached["aug_a3"] then
-        newpos = Vector(-2.765, -5, 0.78)
-        newang = Angle(-0.025, -0.175, -0.5)
-        if attached["extrairon"] then
-            newpos = Vector(-2.7375, -6, 0.65)
-            newang = Angle(-0, 0, 0)
-        end
-    end
-
-    return {Pos = newpos, Ang = newang, Magnification = 1.1, ViewModelFOV = 60, CrosshairInSights = false,}
-
-end
-
 SWEP.Hook_ModifyBodygroups = function(self, data)
 
     local vm = data.model
@@ -521,7 +530,7 @@ SWEP.Attachments = {
         Bone = "j_gun",
         Pos = Vector(9.5, 0, 3.1),
         Ang = Angle(0, 0, 0),
-        Category = {"bo1_aug_barrels"},
+        Category = {"boc_barrels"},
     },
     {
         PrintName = "Muzzle",

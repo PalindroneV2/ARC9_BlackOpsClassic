@@ -35,7 +35,7 @@ SWEP.WorldModelOffset = {
 }
 SWEP.ViewModelFOVBase = 75
 
-SWEP.DefaultBodygroups = "00000000000000"
+SWEP.DefaultBodygroups = "00000000000000000"
 
 SWEP.DamageMax = 30
 SWEP.DamageMin = 20 -- damage done at maximum range
@@ -278,12 +278,7 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
     local vm = data.model
     -- local CUSTSTATE = self:GetCustomize()
     local attached = data.elements
-
-    -- if CUSTSTATE then
-    --     vm:SetBodygroup(5, 1)
-    -- else
-    --     vm:SetBodygroup(5, 0)
-    -- end
+    local barrel = 0
 
     if attached["bo2_fastmag"] then
         vm:SetBodygroup(5, 1)
@@ -345,7 +340,7 @@ SWEP.Attachments = {
         Bone = "j_gun",
         Pos = Vector(13, 0, 4),
         Ang = Angle(0, 0, 0),
-        Category = {"bocw_ak5_barrels"},
+        Category = {"boc_barrels"},
     },
     {
         PrintName = "Muzzle",
@@ -354,7 +349,6 @@ SWEP.Attachments = {
         Pos = Vector(24, 0, 2.5),
         Ang = Angle(0, 0, 0),
         Category = {"cod_muzzle"},
-        ExcludeElements = {"newbarrel"},
     },
     {
         PrintName = "Underbarrel",
