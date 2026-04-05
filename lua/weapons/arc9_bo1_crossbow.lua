@@ -46,7 +46,7 @@ SWEP.RangeMin = 1000
 SWEP.Penetration = 0
 SWEP.DamageType = nil
 SWEP.ShootEnt = "arc9_bo1_xbow_bolt" -- Set to an entity to launch it out of this weapon.
-SWEP.ShootEntForce = 12500
+SWEP.ShootEntForce = 2000
 SWEP.ShootEntityData = {} -- Extra data that can be given to a projectile. Sets SENT.WeaponDataLink with this table.
 
 SWEP.PhysBulletMuzzleVelocity = 100 * 39.37

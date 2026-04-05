@@ -77,26 +77,26 @@ SWEP.BottomlessClip = true
 
 SWEP.Overheat = true -- Weapon will jam when it overheats, playing the "overheat" animation.
 SWEP.HeatPerShot = 1
-SWEP.HeatCapacity = 100 -- rounds that can be fired non-stop before the gun jams, playing the "fix" animation
+SWEP.HeatCapacity = 200 -- rounds that can be fired non-stop before the gun jams, playing the "fix" animation
 SWEP.HeatDissipation = 25 -- rounds' worth of heat lost per second
-SWEP.HeatLockout = false -- overheating means you cannot fire until heat has been fully depleted
+SWEP.HeatLockout = true -- overheating means you cannot fire until heat has been fully depleted
 SWEP.HeatDelayTime = 1 -- Amount of time that passes before heat begins to dissipate.
 
 SWEP.Crosshair = true
 SWEP.CanBlindFire = false
 
-SWEP.Recoil = 0.4
-SWEP.RecoilSide = 0.4
-SWEP.RecoilUp = 0.5
+SWEP.Recoil = 0
+SWEP.RecoilSide = 0
+SWEP.RecoilUp = 0
 
-SWEP.RecoilRandomUp = 0.3
-SWEP.RecoilRandomSide = 0.1
+SWEP.RecoilRandomUp = 0
+SWEP.RecoilRandomSide = 0
 
 SWEP.RecoilDissipationRate = 40 -- How much recoil dissipates per second.
 SWEP.RecoilResetTime = 0.01 -- How long the gun must go before the recoil pattern starts to reset.
 
 SWEP.RecoilAutoControl = 0.5
-SWEP.RecoilKick = 1
+SWEP.RecoilKick = 0
 
 SWEP.Spread = 0.075
 SWEP.SpreadAddRecoil = 0
@@ -116,7 +116,7 @@ SWEP.VisualRecoilCenter = Vector(0, 0, 0)
 SWEP.VisualRecoilPunch = 0
 SWEP.VisualRecoilSights = 0
 
-SWEP.Speed = 1
+SWEP.Speed = 0.85
 
 SWEP.ShootWhileSprint = true
 SWEP.ReloadInSights = false
@@ -155,11 +155,11 @@ SWEP.ShootPitch = 100
 SWEP.ShootPitchVariation = 0
 
 SWEP.ShootSoundLooping = "ARC9_BO1.Flamer_StartLoop"
-SWEP.ShootSoundTailW = "^weapons/arc9/bo1_flamer/stop.wav"
+SWEP.ShootSoundTail = "^weapons/arc9/bo1_flamer/stop.wav"
 -- SWEP.ShootSoundSilenced = "ARC9_BO2.Pistol_Sil"
 -- SWEP.DistantShootSound = "ARC9_WAW.PPSh_Dist"
 
---SWEP.MuzzleEffect = "muzzleflash_1"
+--SWEP.MuzzleEffect = "vfirethrower_jet"
 SWEP.MuzzleParticle = "muzzleflash_minimi" -- Used for some muzzle effects.
 
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
@@ -316,3 +316,11 @@ SWEP.Animations = {
         Source = {"fire"},
     },
 }
+
+if vFireInstalled then
+    SWEP.ShootEnt = "vfire_ball"
+    SWEP.ShootEntForce = 0
+    SWEP.ShootInterval = 0.03
+    SWEP.ShootLife = 2
+    SWEP.ShootFeed = 0.5
+end

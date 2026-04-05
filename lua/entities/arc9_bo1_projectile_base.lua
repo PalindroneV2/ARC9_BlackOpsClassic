@@ -95,10 +95,8 @@ if SERVER then
         local drunk = false
 
         if self.FireAndForget or self.SemiActive then
-            if self.SemiActive then
-                if IsValid(self.Weapon) then
-                    self.ShootEntData = self.Weapon:RunHook("Hook_GetShootEntData", {})
-                end
+            if self.SemiActive and IsValid(self.Weapon) then
+                self.ShootEntData = self.Weapon:RunHook("Hook_GetShootEntData", {})
             end
 
             if self.ShootEntData.Target and IsValid(self.ShootEntData.Target) then

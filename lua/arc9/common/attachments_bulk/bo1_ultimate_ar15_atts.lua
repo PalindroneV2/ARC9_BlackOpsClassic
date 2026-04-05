@@ -657,7 +657,7 @@ ATT.Attachments = {
         Bone = "j_gun",
         Pos = Vector(-10.5, 0, -1.3),
         Ang = Angle(0, 0, 0),
-        Category = {"cde_m203", "bo1_mk", "cod_grips"},
+        Category = {"cde_m203", "bo1_mk", "cod_grips", "cde_m203_bonemerge"},
     },
     {
         PrintName = "Tactical Right",
@@ -741,7 +741,7 @@ ATT.Attachments = {
         Bone = "j_gun",
         Pos = Vector(-10.5, 0, -1.2),
         Ang = Angle(0, 0, 0),
-        Category = {"cde_m203", "bo1_mk", "cod_grips"},
+        Category = {"cde_m203", "bo1_mk", "cod_grips", "cde_m203_bonemerge"},
         InstalledElements = {"mlok_rails"},
     },
     {
@@ -893,7 +893,7 @@ ATT.Attachments = {
         Bone = "j_gun",
         Pos = Vector(-10.5, 0, -1.2), --(-4, 0, -0.4)
         Ang = Angle(0, 0, 0),
-        Category = {"cde_m203", "bo1_mk", "bo1_flamer", "cod_rail_underbarrel"},
+        Category = {"cde_m203", "bo1_mk", "bo1_flamer", "cod_rail_underbarrel", "cde_m203_bonemerge"},
         ExcludeElements = {"ar15_ris", "mlok"}
     },
 }
@@ -1079,7 +1079,7 @@ ATT.Attachments = {
         Bone = "j_gun",
         Pos = Vector(-10.5, 0, -1.3),
         Ang = Angle(0, 0, 0),
-        Category = {"cde_m203", "bo1_mk", "cod_grips"},
+        Category = {"cde_m203", "bo1_mk", "cod_grips", "cde_m203_bonemerge"},
         InstalledElements = {"allowtac"},
     },
     {
@@ -1158,7 +1158,7 @@ ATT.Attachments = {
         Bone = "j_gun",
         Pos = Vector(-10.5, 0, -1.3),
         Ang = Angle(0, 0, 0),
-        Category = {"cde_m203", "bo1_mk", "cod_grips"},
+        Category = {"cde_m203", "bo1_mk", "cod_grips", "cde_m203_bonemerge"},
         InstalledElements = {"allowtac", "mlok_rails"},
     },
     {
@@ -1249,7 +1249,7 @@ ATT.Attachments = {
         Bone = "j_gun",
         Pos = Vector(-10.5, 0, -1.3),
         Ang = Angle(0, 0, 0),
-        Category = {"cde_m203", "bo1_mk", "cod_grips"},
+        Category = {"cde_m203", "bo1_mk", "cod_grips", "cde_m203_bonemerge"},
         InstalledElements = {"allowtac"},
     },
     {
@@ -1320,7 +1320,7 @@ ATT.Attachments = {
         Bone = "j_gun",
         Pos = Vector(-10.5, 0, -1.3),
         Ang = Angle(0, 0, 0),
-        Category = {"cde_m203", "bo1_mk", "cod_grips"},
+        Category = {"cde_m203", "bo1_mk", "cod_grips", "cde_m203_bonemerge"},
         InstalledElements = {"allowtac"},
     },
     {
@@ -1414,7 +1414,7 @@ ATT.Attachments = {
         Bone = "j_gun",
         Pos = Vector(-10.5, 0, -1.3),
         Ang = Angle(0, 0, 0),
-        Category = {"cde_m203", "bo1_mk", "cod_grips"},
+        Category = {"cde_m203", "bo1_mk", "cod_grips", "cde_m203_bonemerge"},
         InstalledElements = {"allowtac"},
     },
     {
@@ -1510,7 +1510,7 @@ ATT.Attachments = {
         Bone = "j_gun",
         Pos = Vector(-10.5, 0, -1.3),
         Ang = Angle(0, 0, 0),
-        Category = {"cde_m203", "bo1_mk", "cod_grips"},
+        Category = {"cde_m203", "bo1_mk", "cod_grips", "cde_m203_bonemerge"},
     },
     {
         PrintName = "Tactical Right",
@@ -2031,6 +2031,12 @@ ATT.Scale = Vector(1, 1, 1)
 -- ATT.ModelOffset = Vector(2,0,0)
 -- ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["future_top"] then
+        model:SetBodygroup(0,1)
+    end
+end
 
 ATT.ReloadTimeMult = 0.9
 
@@ -3290,7 +3296,7 @@ ATT.EnterUBGLSound = "ARC9_CDE.M203_Open"
 ATT.ExitUBGLSound = "ARC9_CDE.M203_Close"
 
 ATT.ShootEntUBGL = "arc9_bo1_m203_he"
-ATT.ShootEntForceUBGL = 15000
+ATT.ShootEntForceUBGL = 4000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 
@@ -3320,8 +3326,8 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - BO1 AR-15 Attachments"
 ATT.Free = false
 
-ATT.Category = {"cde_m203"}
-ATT.ActivateElements = {"notbg"}
+ATT.Category = {"cde_m203_bonemerge"}
+ATT.ActivateElements = {"notbg","cde_m203_notbg"}
 ATT.ExcludeElements = {"no_ubgl", "bo1_fastmag"}
 
 ATT.AimDownSightsTimeMult = 1.1
@@ -3346,7 +3352,7 @@ ATT.EnterUBGLSound = "ARC9_CDE.M203_Open"
 ATT.ExitUBGLSound = "ARC9_CDE.M203_Close"
 
 ATT.ShootEntUBGL = "arc9_bo1_m203_he"
-ATT.ShootEntForceUBGL = 15000
+ATT.ShootEntForceUBGL = 4000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 

@@ -158,7 +158,7 @@ SWEP.DistantShootSound = "ARC9_CDE.M16_Dist"
 SWEP.UBGLIntegralReload = true -- The UBGL uses reload animations that are baked into the gun.
 SWEP.DoFireAnimationUBGL = true
 SWEP.NoShellEjectUBGL = true
-SWEP.MuzzleEffectQCAUBGL = 1
+SWEP.MuzzleEffectQCAUBGL = 5
 
 --SWEP.MuzzleEffect = "muzzleflash_1"
 SWEP.MuzzleParticle = "muzzleflash_famas" -- Used for some muzzle effects.
@@ -1083,7 +1083,7 @@ SWEP.Hook_TranslateAnimation = function (self, anim)
 
     local suffix = ""
 
-    if attached["cde_m203"] then
+    if attached["cde_m203"] or attached["cde_m203_notbg"] then
         suffix = "_m203"
         if self:GetUBGL() then
             suffix = "_glsetup"

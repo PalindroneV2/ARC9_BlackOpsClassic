@@ -39,7 +39,7 @@ ATT.EnterUBGLSound = "ARC9_BO1.M203_Open"
 ATT.ExitUBGLSound = "ARC9_BO1.M203_Close"
 
 ATT.ShootEntUBGL = "arc9_bo1_gp25_he"
-ATT.ShootEntForceUBGL = 15000
+ATT.ShootEntForceUBGL = 4000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 
@@ -84,7 +84,7 @@ ATT.EnterUBGLSound = "ARC9_BO1.M203_Open"
 ATT.ExitUBGLSound = "ARC9_BO1.M203_Close"
 
 ATT.ShootEntUBGL = "arc9_bo1_m203_he"
-ATT.ShootEntForceUBGL = 15000
+ATT.ShootEntForceUBGL = 4000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 
@@ -129,7 +129,7 @@ ATT.EnterUBGLSound = "ARC9_BO1.M203_Open"
 ATT.ExitUBGLSound = "ARC9_BO1.M203_Close"
 
 ATT.ShootEntUBGL = "arc9_bo1_tishina_he"
-ATT.ShootEntForceUBGL = 15000
+ATT.ShootEntForceUBGL = 4000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 
@@ -174,7 +174,7 @@ ATT.EnterUBGLSound = "ARC9_BO1.M203_Open"
 ATT.ExitUBGLSound = "ARC9_BO1.M203_Close"
 
 ATT.ShootEntUBGL = "arc9_bo1_m203_he"
-ATT.ShootEntForceUBGL = 15000
+ATT.ShootEntForceUBGL = 4000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 
@@ -220,7 +220,7 @@ ATT.EnterUBGLSound = "ARC9_BO1.M203_Open"
 ATT.ExitUBGLSound = "ARC9_BO1.M203_Close"
 
 ATT.ShootEntUBGL = "arc9_bo1_25mm_he"
-ATT.ShootEntForceUBGL = 15000
+ATT.ShootEntForceUBGL = 4000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 
@@ -312,9 +312,9 @@ ATT.UBGLFiremode = -1
 ATT.UBGLFiremodeName = "FLAMER"
 ATT.UBGLChamberSize = 0
 ATT.ShootVolumeUBGL = 110
-ATT.RPMUBGL = 700
+ATT.RPMUBGL = 1000
 
-ATT.FirstShootSoundUBGL = false
+ATT.FirstShootSoundUBGL = "ARC9_BO1.Flamer_Start"
 ATT.ShootSoundUBGL = false
 ATT.ShootSoundLoopingUBGL = "ARC9_BO1.Flamer_StartLoop"
 ATT.ShootSoundTailUBGL = "^weapons/arc9/bo1_flamer/stop.wav"
@@ -329,7 +329,45 @@ ATT.ShootEntForceUBGL = 1000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_minimi"
 
+ATT.Attachments = {
+    {
+        PrintName = "Firetype",
+        DefaultName = "Included",
+        Bone = "j_gun",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0,0, -3),
+        Category = {"boc_firetype"},
+    },
+}
+
 ARC9.LoadAttachment(ATT, "bo1_ubgl_flamer")
+
+ATT = {}
+
+ATT.PrintName = [[vFire Flames]]
+ATT.CompactName = [[VFIRE]]
+ATT.Icon = Material("materials/entities/bo1_atts/ubs/flamer.png")
+ATT.Description = [[Fancier flames from vFire.]]
+ATT.CustomPros = {}
+ATT.CustomCons = {}
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - WAW Attachments"
+ATT.Free = false
+if vFireInstalled then
+    ATT.Hidden = false
+else
+    ATT.Hidden = true
+end
+
+ATT.Category = {"boc_firetype"}
+
+ATT.ShootEntUBGL = "vfire_ball"
+ATT.ShootEntForceUBGL = 1000
+
+ATT.MuzzleParticleUBGL = ""
+
+ARC9.LoadAttachment(ATT,"boc_firetype_vfire")
 
 ATT = {}
 
@@ -369,7 +407,7 @@ ATT.EnterUBGLSound = "ARC9_BO1.M203_Open"
 ATT.ExitUBGLSound = "ARC9_BO1.M203_Close"
 
 ATT.ShootEntUBGL = "arc9_bo1_25mm_he"
-ATT.ShootEntForceUBGL = 15000
+ATT.ShootEntForceUBGL = 4000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 
@@ -418,7 +456,7 @@ ATT.EnterUBGLSound = "ARC9_BO1.M203_Open"
 ATT.ExitUBGLSound = "ARC9_BO1.M203_Close"
 
 ATT.ShootEntUBGL = "arc9_bo1_m203_he"
-ATT.ShootEntForceUBGL = 15000
+ATT.ShootEntForceUBGL = 4000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 
