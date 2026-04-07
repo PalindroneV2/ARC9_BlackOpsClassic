@@ -215,6 +215,11 @@ SWEP.IronSightsHook = function(self)
         end
     end
 
+    if attached["handguard_famas"] then
+        newpos = Vector(-2.76, -2, -0.3)
+        newang = Angle(0.025, 0.3, 0)
+    end
+
     return {
         Pos = newpos,
         Ang = newang,

@@ -74,20 +74,20 @@ Slightly tightens aim when firing from hip.]],
         ModelOffset = Vector(0, 0, 0),
         ToggleStats = {
             {
+                PrintName = "Flashlight OFF",
+                Flashlight = false,
+            },
+            {
                 PrintName = "Flashlight ON",
                 Flashlight = true,
                 FlashlightColor = Color(255, 255, 255),
-                FlashlightMaterial = Material("effects/flashlight001"),
+                -- FlashlightMaterial = Material("effects/flashlight001"),
                 FlashlightDistance = 1024,
                 FlashlightFOV = 50,
                 FlashlightAttachment = 1,
                 SpreadMultHipFire = 0.9,
                 AimDownSightsTimeAdd = 0.02,
             },
-            {
-                PrintName = "Flashlight OFF",
-                Flashlight = false,
-            }
         }
     },
     ["bo2_tac_mtar"] = {
