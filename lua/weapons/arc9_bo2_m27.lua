@@ -245,7 +245,7 @@ SWEP.AttachmentElements = {
             Magnification = 1.1,
             CrosshairInSights = false,
             SwitchToSound = "",
-            ViewModelFOV = 60,
+            ViewModelFOV = 50,
         }
     },
     ["extmag"] = {
@@ -466,7 +466,7 @@ SWEP.Attachments = {
     {
         Hidden = true,
         Bone = "j_gun",
-        Pos = Vector(0.2, 0.105, 3.55),
+        Pos = Vector(0.2, 0.105, 3.75),
         Ang = Angle(0, 0, 0),
         Category = {"cod_extrairons_rear"},
         InstalledElements = {"mount"},
@@ -476,7 +476,7 @@ SWEP.Attachments = {
         RequireElements = {"extrarear"},
         PrintName = "Front Sight",
         Bone = "j_gun",
-        Pos = Vector(12, 0.105, 3.55),
+        Pos = Vector(12, 0.105, 3.75),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0,0,1),
         Category = {"cod_extrairons_front"},

@@ -492,6 +492,12 @@ SWEP.HookP_NameChange = function(self, name)
         if attached["stock_pro"] then
             gunname = "Alzheimers"
         end
+        if attached["m21_scope"] then
+            gunname = "Dmentia"
+        end
+        if attached["ghillie"] then
+            gunname = "Shadow of Chernobyl"
+        end
     end
 
     return gunname

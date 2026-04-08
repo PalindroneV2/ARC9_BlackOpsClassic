@@ -206,17 +206,17 @@ SWEP.IronSightsHook = function(self)
     local newpos = ironPos
     local newang = ironAng
 
-    if attached["extrairon"] then
-        newpos = Vector(-2.7375, -6, 0.1)
-        newang = Angle(0, 0, 0)
+    if attached["aug_a2"] and attached["extrairon"] then
+        newpos = Vector(-2.7375, -5, 0.1)
+        newang = Angle(0, -0.2, 0)
     end
 
     if attached["aug_a3"] then
-        newpos = Vector(-2.765, -5, 0.78)
+        newpos = Vector(-2.765, -4, 0.78)
         newang = Angle(-0.025, -0.175, -0.5)
         if attached["extrairon"] then
-            newpos = Vector(-2.7375, -6, 0.65)
-            newang = Angle(0, 0, 0)
+            newpos = Vector(-2.7375, -4, 0.65)
+            newang = Angle(0, -0.125, 0)
         end
     end
 
@@ -397,6 +397,10 @@ SWEP.AttachmentElements = {
             }
         },
     },
+}
+SWEP.StandardPresets = {
+    "[AUG A3]XQAAAQALAgAAAAAAAAA9iIIiM7tuo1AtTygaX+szrqgFwiK+FYd1CRARVimJoBEyMt6oq2gLOPvutubU2mWmCtKmB+h/4XMPGewlqSf/3CmEGF014R7waEHCGgav7EnTVyrf6kr7VSIsAcZXxofxtAYgScEOvYF0TcATknNGEZuNHR4vD7jJ2mZNIKlaPBJO4fphNJklgi3TkB1kTpk4of1Iuamf4M5nRPUvJnnWS98UnM4Bnjb4mwiVkUg=",
+    "[AUG A2]XQAAAQDgAQAAAAAAAAA9iIIiM7tuo1AtTygaX+szrqgFwiK+FYd1BsTNVimJoBFQUbtUbo+jeo+q/JbFTyrwmYrjTZOewRQ5zePb+qbunfCGJAxMcUGvKpSlA14Ldq1BmuqbirOuJCv1aiQKNWBb22neUJcZYncXTWpcWQXvlfmukkVNfo/yFDEv5KxNkAyKlZ+GnOtbiRV5emBQHzyI5K6DwgYX2g8=",
 }
 
 SWEP.Hook_ModifyBodygroups = function(self, data)

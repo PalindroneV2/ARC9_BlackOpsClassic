@@ -17,7 +17,7 @@ ATT.ActivateElements = {"diopter_rear", "extrairon", "extrarear"}
 
 ATT.Model = "models/weapons/arc9/atts/cod_extra/rear_diopter.mdl"
 ATT.Scale = Vector(1, 1, 1)
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.25)
 ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.ModelBodygroups = "0"
 
@@ -32,8 +32,8 @@ end
 
 ATT.Sights = {
     {
-        Pos = Vector(-0, 9, -1.355),
-        Ang = Angle(0, -0.19, 0),
+        Pos = Vector(-0, 7, -1.355),
+        Ang = Angle(0, -0.4, 0),
         ViewModelFOV = 50,
         Magnification = 1,
         IgnoreExtra = false
@@ -59,7 +59,7 @@ ATT.ActivateElements = {"troy_rear", "extrairon", "extrarear"}
 
 ATT.Model = "models/weapons/arc9/atts/cod_extra/rear_irons.mdl"
 ATT.Scale = Vector(1, 1, 1)
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.ModelBodygroups = "0"
 
@@ -82,7 +82,7 @@ ATT.ActivateElements = {"matech_rear", "extrairon", "extrarear"}
 
 ATT.Model = "models/weapons/arc9/atts/cod_extra/rear_irons.mdl"
 ATT.Scale = Vector(1, 1, 1)
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.ModelBodygroups = "1"
 
@@ -105,7 +105,7 @@ ATT.ActivateElements = {"40l_rear", "extrairon", "extrarear"}
 
 ATT.Model = "models/weapons/arc9/atts/cod_extra/rear_irons.mdl"
 ATT.Scale = Vector(1, 1, 1)
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.ModelBodygroups = "3"
 
@@ -128,7 +128,7 @@ ATT.ActivateElements = {"3arc_rear", "extrairon", "extrarear"}
 
 ATT.Model = "models/weapons/arc9/atts/cod_extra/rear_irons.mdl"
 ATT.Scale = Vector(1, 1, 1)
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.ModelBodygroups = "5"
 
@@ -151,7 +151,7 @@ ATT.ActivateElements = {"masada_rear", "extrairon", "extrarear"}
 
 ATT.Model = "models/weapons/arc9/atts/cod_extra/rear_irons.mdl"
 ATT.Scale = Vector(1, 1, 1)
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.ModelBodygroups = "2"
 
@@ -174,7 +174,7 @@ ATT.ActivateElements = {"mbus_rear", "extrairon","extrarear"}
 
 ATT.Model = "models/weapons/arc9/atts/cod_extra/rear_irons.mdl"
 ATT.Scale = Vector(1, 1, 1)
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.ModelBodygroups = "4"
 
@@ -203,7 +203,7 @@ ATT.ActivateElements = {"mbus_rear", "extrairon","extrarear"}
 
 ATT.Model = "models/weapons/arc9/atts/cod_extra/rear_irons.mdl"
 ATT.Scale = Vector(1, 1, 1)
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.ModelBodygroups = "6"
 
@@ -226,7 +226,7 @@ ATT.ActivateElements = {"mbus_rear", "extrairon","extrarear"}
 
 ATT.Model = "models/weapons/arc9/atts/cod_extra/rear_irons.mdl"
 ATT.Scale = Vector(1, 1, 1)
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.ModelBodygroups = "7"
 
@@ -251,7 +251,7 @@ ATT.ActivateElements = {"troy_front", "extrairon","extrafront"}
 ATT.ExcludeElements = {"mw2_m4_irons"}
 -- ATT.ExcludeElements = {"cod_rail_riser", "mw2_m4_irons"}
 ATT.Model = "models/weapons/arc9/atts/cod_extra/front_irons.mdl"
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelBodygroups = "0"
 
 ARC9.LoadAttachment(ATT, "cod_extra_iron_front_troy")
@@ -273,7 +273,7 @@ ATT.ActivateElements = {"matech_front", "extrairon", "extrafront"}
 ATT.ExcludeElements = {"mw2_m4_irons"}
 -- ATT.ExcludeElements = {"cod_rail_riser", "mw2_m4_irons"}
 ATT.Model = "models/weapons/arc9/atts/cod_extra/front_irons.mdl"
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelBodygroups = "1"
 
 ARC9.LoadAttachment(ATT, "cod_extra_iron_front_matech")
@@ -295,7 +295,7 @@ ATT.ActivateElements = {"40l_front", "extrairon", "extrafront"}
 ATT.ExcludeElements = {"mw2_m4_irons"}
 -- ATT.ExcludeElements = {"cod_rail_riser", "mw2_m4_irons"}
 ATT.Model = "models/weapons/arc9/atts/cod_extra/front_irons.mdl"
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelBodygroups = "3"
 
 ARC9.LoadAttachment(ATT, "cod_extra_iron_front_arms40l")
@@ -317,7 +317,7 @@ ATT.ActivateElements = {"matech_front", "extrairon", "extrafront"}
 ATT.ExcludeElements = {"mw2_m4_irons"}
 -- ATT.ExcludeElements = {"cod_rail_riser", "mw2_m4_irons"}
 ATT.Model = "models/weapons/arc9/atts/cod_extra/front_irons.mdl"
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelBodygroups = "2"
 
 ARC9.LoadAttachment(ATT, "cod_extra_iron_front_masada")
@@ -339,7 +339,7 @@ ATT.ActivateElements = {"mbus_front", "extrairon", "extrafront"}
 ATT.ExcludeElements = {"mw2_m4_irons"}
 -- ATT.ExcludeElements = {"cod_rail_riser", "mw2_m4_irons"}
 ATT.Model = "models/weapons/arc9/atts/cod_extra/front_irons.mdl"
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelBodygroups = "4"
 
 ATT.DrawFunc = function(swep, model, wm)
@@ -367,7 +367,7 @@ ATT.ActivateElements = {"diopter_front", "extrairon","extrafront"}
 ATT.ExcludeElements = {"mw2_m4_irons"}
 -- ATT.ExcludeElements = {"cod_rail_riser", "mw2_m4_irons"}
 ATT.Model = "models/weapons/arc9/atts/cod_extra/front_diopter.mdl"
-ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelOffset = Vector(0,0,-0.2)
 ATT.ModelBodygroups = "0"
 
 ATT.DrawFunc = function(swep, model, wm)

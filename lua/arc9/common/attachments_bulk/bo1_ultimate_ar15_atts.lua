@@ -638,7 +638,7 @@ ATT.AimDownSightsTimeMult = 1.05
 ATT.SprintToFireTimeMult = 1.05
 
 ATT.Category = {"retro_ar15_handguard_20", "retro_ar15_handguard_14"}
-ATT.ActivateElements = {"handguard_a4", "nosling", "no_ub_rail", "ar15_ris", "no_tac_rail"}
+ATT.ActivateElements = {"handguard_a4", "nosling", "no_ub_rail", "ar15_ris", "no_tac_rail","m16gas"}
 
 ATT.Attachments = {
     {
@@ -648,7 +648,7 @@ ATT.Attachments = {
         ExcludeElements = {"mw2_m4_irons"},
         -- ExcludeElements = {"cod_optic", "cod_rail_riser", "mw2_m4_irons"},
         Bone = "j_gun",
-        Pos = Vector(-16.65, 0, -3.3),
+        Pos = Vector(-16.65, 0, -3.45),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -732,7 +732,7 @@ ATT.Attachments = {
         ExcludeElements = {"mw2_m4_irons"},
         -- ExcludeElements = {"cod_optic", "cod_rail_riser", "mw2_m4_irons"},
         Bone = "j_gun",
-        Pos = Vector(-16.65, 0, -3.3),
+        Pos = Vector(-16.65, 0, -3.45),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -1059,7 +1059,10 @@ ATT.MenuCategory = "ARC9 - BO1 AR-15 Attachments"
 ATT.Free = false
 
 ATT.Category = {"retro_ar15_handguard_carbine"}
-ATT.ActivateElements = {"nosling", "ar15_ris", "no_ub_rail", "ris_carbine", "handguard_ris", "carbine_hg"}
+ATT.ActivateElements = {
+"nosling", "ar15_ris", "no_ub_rail", "ris_carbine",
+"handguard_ris", "carbine_hg","m4gas"
+}
 
 ATT.Attachments = {
     {
@@ -1070,7 +1073,7 @@ ATT.Attachments = {
         ExcludeElements = {"mw2_m4_irons"},
         -- ExcludeElements = {"cod_optic", "cod_rail_riser", "mw2_m4_irons", "cod_tactical"},
         Bone = "j_gun",
-        Pos = Vector(-11.5, 0, -3.3),
+        Pos = Vector(-11.25, 0, -3.45),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -1110,7 +1113,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 180),
         Category =  {"cod_tactical_top"},
         -- RequireElements = {"gasblock_flat"},
-        ExcludeElements = {"mw2_m4_top"}
+        ExcludeElements = {"mw2_m4_top","gasblock_carbine_cut"}
     },
 }
 
@@ -1149,7 +1152,7 @@ ATT.Attachments = {
         ExcludeElements = {"mw2_m4_irons"},
         -- ExcludeElements = {"cod_optic", "cod_rail_riser", "mw2_m4_irons", "cod_tactical"},
         Bone = "j_gun",
-        Pos = Vector(-13, 0, -3.3),
+        Pos = Vector(-13, 0, -3.45),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -1239,7 +1242,7 @@ ATT.Attachments = {
         InstalledElements = {"gasblock_carbine_cut"},
         ExcludeElements = {"gasblock_flat"},
         Bone = "j_gun",
-        Pos = Vector(-13.125, 0, -3.3),
+        Pos = Vector(-13.125, 0, -3.45),
         Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(13.5, 0, 4.15),
     },
@@ -1310,7 +1313,7 @@ ATT.Attachments = {
         InstalledElements = {"gasblock_carbine_cut"},
         ExcludeElements = {"gasblock_flat"},
         Bone = "j_gun",
-        Pos = Vector(-11.5, 0, -3.3),
+        Pos = Vector(-11.5, 0, -3.45),
         Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(13.5, 0, 4.15),
     },
@@ -1392,7 +1395,7 @@ ATT.MenuCategory = "ARC9 - BO1 AR-15 Attachments"
 ATT.Free = false
 
 ATT.Category = {"retro_ar15_handguard_commando"}
-ATT.ActivateElements = {"nosling", "ar15_ris", "no_ub_rail", "ris_carbine", "handguard_geiselle", "carbine_hg",
+ATT.ActivateElements = {"nosling", "ar15_ris", "no_ub_rail", "ris_carbine", "handguard_geissele", "carbine_hg",
 "additionalhandguard","416gas"}
 ATT.ExcludeElements = {"mw2_m4_irons"}
 
@@ -1404,7 +1407,7 @@ ATT.Attachments = {
         InstalledElements = {"gasblock_carbine_cut"},
         ExcludeElements = {"gasblock_flat"},
         Bone = "j_gun",
-        Pos = Vector(-13.125, 0, -3.3),
+        Pos = Vector(-13.125, 0, -3.45),
         Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(13.5, 0, 4.15),
     },
@@ -1490,7 +1493,7 @@ ATT.AimDownSightsTimeMult = 1.05
 ATT.SprintToFireTimeMult = 1.05
 
 ATT.Category = {"retro_ar15_handguard_20", "retro_ar15_handguard_14"}
-ATT.ActivateElements = {"handguard_geiselle_long", "nosling", "no_ub_rail", "ar15_ris", "no_tac_rail",
+ATT.ActivateElements = {"handguard_geissele_long", "nosling", "no_ub_rail", "ar15_ris", "no_tac_rail",
 "additionalhandguard","416gas"}
 
 ATT.Attachments = {
@@ -1501,7 +1504,7 @@ ATT.Attachments = {
         ExcludeElements = {"mw2_m4_irons"},
         -- ExcludeElements = {"cod_optic", "cod_rail_riser", "mw2_m4_irons"},
         Bone = "j_gun",
-        Pos = Vector(-16.65, 0, -3.3),
+        Pos = Vector(-16.65, 0, -3.45),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -3085,7 +3088,7 @@ ATT.Attachments = {
         Category = {"retro_ar15_iron", "cod_optic", "cod_rail_riser", "ar15_rail_riser", "mw3e_deagle_tactical", "bo1_addon_irons_2"},
         ExcludeElements = {"handguard_famas"},
         Bone = "j_gun",
-        Pos = Vector(-1, 0, -0.45),
+        Pos = Vector(-3.5, 0, -3.4),
         Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(1.5, 0, 1),
         -- Installed = "retro_ar15_iron_carry",
@@ -3105,7 +3108,7 @@ ATT.Attachments = {
         Category = {"cod_extrairons_rear"},
         ExcludeElements = {"handguard_famas"},
         Bone = "j_gun",
-        Pos = Vector(2.5, 0, -0.25),
+        Pos = Vector(0, 0, -3.4),
         Ang = Angle(0, 0, 0),
     },
 }
@@ -3162,7 +3165,7 @@ ATT.Attachments = {
         Category = {"retro_ar15_iron", "cod_optic", "cod_rail_riser", "ar15_rail_riser", "mw3e_deagle_tactical", "bo1_addon_irons_2"},
         ExcludeElements = {"handguard_famas"},
         Bone = "j_gun",
-        Pos = Vector(-1, 0, -0.45),
+        Pos = Vector(-3.5, 0, -3.4),
         Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(1.5, 0, 1),
         -- Installed = "retro_ar15_iron_carry",
@@ -3182,7 +3185,7 @@ ATT.Attachments = {
         Category = {"cod_extrairons_rear"},
         ExcludeElements = {"handguard_famas"},
         Bone = "j_gun",
-        Pos = Vector(2.5, 0, -0.25),
+        Pos = Vector(0, 0, -3.4),
         Ang = Angle(0, 0, 0),
     },
 }
@@ -3229,7 +3232,7 @@ ATT.Attachments = {
         Category = {"retro_ar15_iron", "cod_optic", "cod_rail_riser", "ar15_rail_riser", "mw3e_deagle_tactical", "bo1_addon_irons_2"},
         ExcludeElements = {"handguard_famas"},
         Bone = "j_gun",
-        Pos = Vector(-1, 0, -0.42),
+        Pos = Vector(-3.5, 0, -3.37),
         Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(1.5, 0, 1),
         -- Installed = "retro_ar15_iron_carry",
@@ -3249,7 +3252,7 @@ ATT.Attachments = {
         Category = {"cod_extrairons_rear"},
         ExcludeElements = {"handguard_famas"},
         Bone = "j_gun",
-        Pos = Vector(2.5, 0, -0.295),
+        Pos = Vector(0, 0, -3.445),
         Ang = Angle(0, 0, 0),
     },
 }

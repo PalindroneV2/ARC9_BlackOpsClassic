@@ -189,7 +189,7 @@ SWEP.IronSights = {
     Pos = ironPos,
     Ang = ironAng,
     Magnification = 1.1,
-    ViewModelFOV = 60,
+    ViewModelFOV = 50,
     CrosshairInSights = false,
     SwitchToSound = "",
 }
@@ -642,7 +642,7 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
 
     if attached["handguard_m203"] then hand = 1
     elseif attached["handguard_a2"] then hand = 2
-    elseif attached["handguard_a4"] then
+    elseif attached["handguard_a4"] or attached["handguard_cod4m16"] then
         hand = 3
         if attached["mw3_psrscope"] then
             gasblock = 2
@@ -655,7 +655,7 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
         covers = 1
     elseif attached["handguard_car15"] then hand = 4
         gasblock = 1
-    elseif attached["handguard_ris"] then hand = 5
+    elseif attached["handguard_ris"] or attached["handguard_cod4m4"] then hand = 5
         if length == 1 then
             gasblock = 1
         end
@@ -685,8 +685,9 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
     elseif attached["handguard_flamer"] then
         gasblock = 1
         hand = 13
-    elseif attached["additionalhandguard"] then
-        gasblock = 3
+    end
+    if attached["additionalhandguard"] then
+        -- gasblock = 0
         hand = 15
         covers = 0
     end
@@ -702,7 +703,7 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
 
     if attached["extrafront"] then
         gasblock = 2
-        if attached["handguard_ris"] then
+        if attached["handguard_ris"] or attached["handguard_cod4m4"] then
             gasblock = 3
         end
         if attached["handguard_a4"] then
@@ -725,10 +726,10 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
         if attached["handguard_ris_mw19"] then
             gasblock = 4
         end
-        if attached["handguard_ris"] then
+        if attached["handguard_ris"] or attached["handguard_cod4m4"] then
             gasblock = 3
         end
-        if attached["handguard_a4"] then
+        if attached["handguard_a4"] or attached["handguard_cod4m16"] then
             if length < 2 then
                 gasblock = 2
             end
@@ -753,7 +754,7 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
         if length == 2 and attached["handguard_a4"] then
             gasblock = 4
         end
-        if attached["handguard_ris"] then
+        if attached["handguard_ris"] or attached["handguard_cod4m4"] then
             gasblock = 3
         end
         if attached["carbine_hg"] then
@@ -1005,7 +1006,7 @@ SWEP.HookP_NameChange = function(self, name)
                 sport = "SP3"
             end
         end
-        if attached["handguard_car15"] and attached["gen2_extended"] then
+        if attached["handguard_car15"] then
             sport = "Gov't"
         end
         gunname = name .. " " .. sport
@@ -1155,9 +1156,10 @@ SWEP.Attachments = {
         PrintName = "Upper",
         DefaultCompactName = "A1 TOP",
         Bone = "j_gun",
-        Pos = Vector(2.5, 0, 2.96),
+        Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
         Category = {"retro_ar15_upper"},
+        Icon_Offset = Vector(2.5, 0, 2.96),
         -- Installed = "retro_ar15_upper_a1",
         -- Integral = true,
         ExcludeElements = {"is_patriot"},
