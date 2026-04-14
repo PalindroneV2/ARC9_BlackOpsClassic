@@ -13,7 +13,7 @@
 	$detailblendfactor 0
 	
 	$phong "1"
-//	$phongexponent	"15"
+	$phongexponent	"15"
 	$phongboost "2.5"
 	$phongfresnelranges "[2 5 4]"
 	$phongtint "[1 .65 .2]"

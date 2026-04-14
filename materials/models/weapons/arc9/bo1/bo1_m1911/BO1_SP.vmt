@@ -2,20 +2,21 @@
 {
 	"$basetexture" "models/weapons/arc9/bo1/bo1_m1911/1911_sp"
 	"$bumpmap" "models/weapons/arc9/bo1/bo1_m1911/1911_mp_n"
-	// "$phongexponenttexture" "models/weapons/arc9/bo1/bo1_m1911/1911_mp_env"
-	// "$envmapmask" "models/weapons/arc9/bo1/bo1_m1911/1911_mp_env"
+	"$phongexponenttexture" "models/weapons/arc9/bo1/bo1_m1911/1911_s"
+	"$envmapmask" "models/weapons/arc9/bo1/bo1_m1911/1911_s"
 	$normalmapalphaenvmapmask 1
 	
-	//"$color2" "[ .4 .4 .4 ]"
 	"$blendtintbybasealpha" "1"
 	"$phong" "1"
 	"$phongboost" "1"
+	$phongexponent	"20"
 	"$phongalbedotint" "2"
 	"$PhongFresnelRanges" "[ 2 5 4 ]"
+	$phongtint "[.1 .1 .3]"
+
 	"$envmap" "env_cubemap"
-//	"$basemapalphaenvmapmask" "1"
 	$envmapfresnel "0.01"
-	$envmaptint "[ .01 .01 .01 ]"
+	$envmaptint "[ .02 .02 .06]"
 
 	"$nocull" "1"
 }

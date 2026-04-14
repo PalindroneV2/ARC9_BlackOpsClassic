@@ -32,6 +32,8 @@ SWEP.NoTPIKVMPos = true
 SWEP.WorldModelOffset = {
     Pos        =    Vector(-6.5, 2.5, -4.255),
     Ang        =    Angle(-7.5, -1, 180),
+    TPIKPos        =    Vector(-3.5, 2.5, -4.255),
+    TPIKAng        =    Angle(-7.5, -1, 180),
     Bone    =    "ValveBiped.Bip01_R_Hand",
     Scale = 1.2,
 }
