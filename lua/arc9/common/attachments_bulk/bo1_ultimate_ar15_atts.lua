@@ -1749,7 +1749,7 @@ ATT.Sights = {
     {
         Pos = Vector(0, 12, -1.65),
         Ang = Angle(0, 0.1, 0),
-        ViewModelFOV = 60,
+        ViewModelFOV = 50,
         IsIronSight = true,
     }
 }
@@ -1854,7 +1854,7 @@ ATT.Sights = {
     {
         Pos = Vector(0, 10, -2.8),
         Ang = Angle(0, -0.1, 0),
-        ViewModelFOV = 60,
+        ViewModelFOV = 50,
         IsIronSight = true,
     }
 }
@@ -3377,3 +3377,20 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_ubgl_mw203")
+
+ATT = {}
+
+ATT.PrintName = "Wrapped Sling"
+ATT.CompactName = "SLING"
+ATT.Icon = Material("materials/entities/bo1_atts/cosmetic/commando_sling.png")
+ATT.Description = [[Give your weapon a stylish look by attaching a strap to the weapon.]]
+ATT.CustomPros = {}
+ATT.CustomCons = {}
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - BO1 Attachments"
+ATT.Free = true
+
+ATT.Category = {"bo1_cosmetic_ar15"}
+ATT.ExcludeElements = {"nosling"}
+
+ARC9.LoadAttachment(ATT, "bo1_ar15_cosmetic_strap")

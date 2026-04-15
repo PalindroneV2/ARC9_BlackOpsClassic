@@ -23,8 +23,8 @@ ARC9.LoadAttachment(ATT, "bo1_grip_integral")
 
 ATT = {}
 
-ATT.PrintName = "Vertical Foregrip"
-ATT.CompactName = [[VERT]]
+ATT.PrintName = "KAC Vertical Foregrip (BO1)"
+ATT.CompactName = [[KAC]]
 ATT.Icon = Material("entities/bo1_atts/ubs/bo1_foregrip.png", "mips smooth")
 ATT.Description = [[Vertical foregrip that goes under the weapon's handguard.
 Belongs to Black Ops.]]
