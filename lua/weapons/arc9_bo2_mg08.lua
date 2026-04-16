@@ -44,9 +44,9 @@ SWEP.CustomCamoScale = 1
 SWEP.CustomBlendFactor = 1
 
 SWEP.DamageMax = 55
-SWEP.DamageMin = 35 -- damage done at maximum range
-SWEP.RangeMax = 8000
-SWEP.RangeMin = 2000
+SWEP.DamageMin = 30 -- damage done at maximum range
+SWEP.RangeMax = 102 * 39
+SWEP.RangeMin = 48 * 39
 SWEP.Penetration = 8
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any

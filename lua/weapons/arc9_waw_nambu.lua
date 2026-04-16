@@ -42,8 +42,8 @@ SWEP.DefaultSkin = 6
 
 SWEP.DamageMax = 25
 SWEP.DamageMin = 5 -- damage done at maximum range
-SWEP.RangeMax = 4000
-SWEP.RangeMin = 1000
+SWEP.RangeMax = 40 * 39
+SWEP.RangeMin = 20 * 39
 SWEP.Penetration = 2
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any

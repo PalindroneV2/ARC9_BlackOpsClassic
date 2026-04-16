@@ -45,8 +45,8 @@ SWEP.DefaultWMBodygroups = "00"
 
 SWEP.DamageMax = 50
 SWEP.DamageMin = 30 -- damage done at maximum range
-SWEP.RangeMax = 7200
-SWEP.RangeMin = 1800
+SWEP.RangeMax = 150 * 39
+SWEP.RangeMin = 50 * 39
 SWEP.Penetration = 9
 SWEP.DamageType = DMG_AIRBOAT
 SWEP.ShootEntity = nil -- entity to fire, if any

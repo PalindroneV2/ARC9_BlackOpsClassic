@@ -39,10 +39,10 @@ SWEP.ViewModelFOVBase = 75
 
 SWEP.DefaultBodygroups = "00000000000000"
 
-SWEP.DamageMax = 42
+SWEP.DamageMax = 50
 SWEP.DamageMin = 25 -- damage done at maximum range
-SWEP.RangeMax = 7500
-SWEP.RangeMin = 1500
+SWEP.RangeMax = 120 * 39
+SWEP.RangeMin = 30 * 39
 SWEP.Penetration = 8
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -86,11 +86,11 @@ SWEP.RecoilResetTime = 0.01 -- How long the gun must go before the recoil patter
 SWEP.RecoilAutoControl = 0.5
 SWEP.RecoilKick = 1.1
 
-SWEP.Spread = math.rad(1.9 / 37.5)
+SWEP.Spread = math.rad(5 / 37.5)
 SWEP.SpreadMultShooting = 1.375
 
 SWEP.SpreadMultSights = 0.1
-SWEP.SpreadAddHipFire = math.rad(175 / 37.5)
+SWEP.SpreadAddHipFire = math.rad(180 / 37.5)
 SWEP.SpreadAddMove = math.rad(0 / 37.5)
 SWEP.SpreadAddMidAir = 0
 -- SWEP.SpreadAddShooting = math.rad(5 / 37.5) -- math.rad(108 / 37.5)

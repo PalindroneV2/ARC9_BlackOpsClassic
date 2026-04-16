@@ -40,9 +40,9 @@ SWEP.ViewModelFOVBase = 75
 SWEP.DefaultBodygroups = "00000000000"
 
 SWEP.DamageMax = 300
-SWEP.DamageMin = 75 -- damage done at maximum range
-SWEP.RangeMax = 10000
-SWEP.RangeMin = 2500
+SWEP.DamageMin = 99 -- damage done at maximum range
+SWEP.RangeMax = 170 * 39
+SWEP.RangeMin = 40 * 39
 SWEP.Penetration = 50
 SWEP.ImpactForce = 25
 SWEP.ArmorPiercing = 0.99

@@ -41,8 +41,8 @@ SWEP.DefaultBodygroups = "00000000000000"
 
 SWEP.DamageMax = 60
 SWEP.DamageMin = 25 -- damage done at maximum range
-SWEP.RangeMax = 4000
-SWEP.RangeMin = 500
+SWEP.RangeMax = 75 * 39
+SWEP.RangeMin = 50 * 39
 SWEP.Penetration = 4
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -174,7 +174,7 @@ SWEP.IronSights = {
     Pos = Vector(-2.15, 0, 0.95),
     Ang = Angle(0, -0.5, 0),
     Magnification = 1.1,
-    ViewModelFOV = 60,
+    ViewModelFOV = 50,
     CrosshairInSights = false,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }

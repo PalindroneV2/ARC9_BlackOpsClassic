@@ -38,10 +38,10 @@ SWEP.ViewModelFOVBase = 75
 
 SWEP.DefaultBodygroups = "0010000000000"
 
-SWEP.DamageMax = 30
-SWEP.DamageMin = 12 -- damage done at maximum range
-SWEP.RangeMax = 2500
-SWEP.RangeMin = 1250
+SWEP.DamageMax = 40
+SWEP.DamageMin = 15 -- damage done at maximum range
+SWEP.RangeMax = 40 * 39
+SWEP.RangeMin = 10 * 39
 SWEP.Penetration = 2
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -399,7 +399,7 @@ SWEP.Animations = {
         Source = "reload_in",
         Time = 2.433 * (30 / 40),
         RestoreAmmo = 1, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 1.2,
+        MinProgress = 35 / 40,
         EventTable = {
             {s = "ARC9_BO1.Python_Open", t = 20 / 40},
             {s = "ARC9_BO2.Judge_Empty", t = 40 / 40},

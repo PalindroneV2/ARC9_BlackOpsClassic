@@ -43,8 +43,8 @@ SWEP.DefaultBodygroups = "00000000000000"
 
 SWEP.DamageMax = 250
 SWEP.DamageMin = 250
-SWEP.RangeMax = 1000
-SWEP.RangeMin = 1000
+SWEP.RangeMax = 150 * 39
+SWEP.RangeMin = 150 * 39
 SWEP.Penetration = 0
 SWEP.DamageType = nil
 SWEP.ShootEnt = "arc9_bo1_40mm_he" -- Set to an entity to launch it out of this weapon.

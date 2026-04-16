@@ -45,8 +45,8 @@ SWEP.DefaultBodygroups = "00000000000000"
 
 SWEP.DamageMax = 33
 SWEP.DamageMin = 23 -- damage done at maximum range
-SWEP.RangeMax = 6000
-SWEP.RangeMin = 1000
+SWEP.RangeMax = 50 * 39
+SWEP.RangeMin = 20 * 39
 SWEP.Penetration = 8
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any

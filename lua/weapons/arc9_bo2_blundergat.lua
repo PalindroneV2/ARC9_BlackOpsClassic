@@ -41,9 +41,9 @@ SWEP.CustomCamoScale = 2
 SWEP.CustomBlendFactor = 1
 
 SWEP.DamageMax = 50
-SWEP.DamageMin = 25 -- damage done at maximum range
-SWEP.RangeMax = 4000
-SWEP.RangeMin = 2000
+SWEP.DamageMin = 30 -- damage done at maximum range
+SWEP.RangeMax = 80 * 39
+SWEP.RangeMin = 40 * 39
 SWEP.Penetration = 2
 SWEP.ImpactForce = 25
 SWEP.DamageType = DMG_BUCKSHOT

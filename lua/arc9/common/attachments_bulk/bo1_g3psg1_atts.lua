@@ -238,8 +238,8 @@ ATT.PhysBulletMuzzleVelocityMult = 1.25
 ATT.SpreadMult = 0.3
 ATT.SpreadMultHipFire = 1.25
 
-ATT.DamageMaxAdd = 5
-ATT.DamageMinAdd = 15
+ATT.DamageMaxAdd = 15
+ATT.DamageMinAdd = 5
 ATT.RPMAdd = -100
 
 ARC9.LoadAttachment(ATT, "bo1_g3_mag_psg1")

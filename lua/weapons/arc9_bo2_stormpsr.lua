@@ -40,8 +40,8 @@ SWEP.DefaultBodygroups = "00000000000"
 
 SWEP.DamageMax = 100
 SWEP.DamageMin = 50
-SWEP.RangeMax = 10000
-SWEP.RangeMin = 2500
+SWEP.RangeMax = 200 * 39
+SWEP.RangeMin = 50 * 39
 SWEP.Penetration = 20
 SWEP.ImpactForce = 10
 SWEP.ArmorPiercing = 0.99

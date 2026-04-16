@@ -40,8 +40,8 @@ SWEP.DefaultBodygroups = "00000000000000"
 
 SWEP.DamageMax = 25
 SWEP.DamageMin = 15 -- damage done at maximum range
-SWEP.RangeMax = 6000
-SWEP.RangeMin = 1000
+SWEP.RangeMax = 100 * 39
+SWEP.RangeMin = 50 * 39
 SWEP.Penetration = 0
 SWEP.DamageType = nil
 SWEP.ShootEnt = "arc9_bo1_rocket_law" -- Set to an entity to launch it out of this weapon.
