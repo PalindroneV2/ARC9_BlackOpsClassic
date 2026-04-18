@@ -187,6 +187,22 @@ local function PlayerDetonate(ply)
     })
 end
 
+-- ATT = {}
+
+-- ATT.PrintName = [[Who's Who]]
+-- ATT.CompactName = [[WHO]]
+-- ATT.Icon = Material("entities/bo1_atts/perkacola/whos_who.png")
+-- ATT.Description = [[Survive lethal damage and teleport to a safe location.]]
+-- ATT.SortOrder = 0
+-- ATT.MenuCategory = "ARC9 - BO1 Attachments"
+-- ATT.Free = false
+
+-- ATT.Category = {"bo1_perkacola"}
+-- ATT.ActivateElements = {"whoswho"} -- This matches the hook logic
+-- ATT.InstallSound = "ARC9_BO1.Perk_WhosWho"
+
+-- ARC9.LoadAttachment(ATT, "bo1_perkacola_whoswho")
+
 hook.Add("EntityTakeDamage", "ARC9_BO1_PERK_PHD", function(ent, dmg)
     if !(ent:IsPlayer() or ent:IsNPC()) then return end
     local wep = ent:GetActiveWeapon()
@@ -255,3 +271,45 @@ local function drop(ent, attacker)
 end
 hook.Add("OnNPCKilled", "ARC9_BO1_PERK_VULTURE", drop)
 hook.Add("PlayerDeath", "ARC9_BO1_PERK_VULTURE", function(ply, infl, atk) drop(ply, atk) end)
+
+-- hook.Add("EntityTakeDamage", "ARC9_BO1_PERK_WHOSWHO", function(ent, dmg)
+--     if !ent:IsPlayer() or !ent:Alive() then return end
+
+--     local wep = ent:GetActiveWeapon()
+--     if !IsValid(wep) or !wep.ARC9 then return end
+
+--     local attached = wep:GetElements()
+--     if !attached["whoswho"] then return end
+
+--     -- Check if the hit would be lethal
+--     if dmg:GetDamage() >= ent:Health() then
+--         -- 1. Clamp damage so player survives at 10 HP
+--         dmg:SetDamage(ent:Health() - 10)
+
+--         -- 2. Find a random location
+--         -- We try to find a spot within a 1500 unit radius
+--         local randomDir = VectorRand()
+--         randomDir.z = 0 -- Keep it mostly on the ground plane
+
+--         local targetPos = ent:GetPos() + (randomDir * math.random(500, 1500))
+
+--         -- Basic Trace to ensure we don't teleport into a wall
+--         local tr = util.TraceHull({
+--             start = targetPos + Vector(0, 0, 100),
+--             endpos = targetPos - Vector(0, 0, 1000),
+--             mins = ent:OBBMins(),
+--             maxs = ent:OBBMaxs(),
+--             filter = ent
+--         })
+
+--         if tr.Hit then
+--             ent:SetPos(tr.HitPos + Vector(0, 0, 10))
+--         end
+
+--         -- Visual/Sound effects to indicate the "Who's Who" save
+--         ent:EmitSound("ARC9_BO1.Perk_WhosWho_Trigger" or "weapons/physcannon/energy_disintegrated.wav")
+
+--         -- Optional: Give a brief moment of invulnerability to prevent instant double-death
+--         ent:ScreenFade(SCREENFADE.IN, Color(255, 255, 255, 128), 0.5, 0)
+--     end
+-- end)
