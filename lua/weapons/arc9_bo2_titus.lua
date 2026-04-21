@@ -1,5 +1,5 @@
 SWEP.Base = "arc9_base"
-SWEP.Spawnable = false -- this obviously has to be set to true
+SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ARC9 - Black Ops II" -- edit this if you like
 SWEP.SubCategory = "Specials/Explosives"
 SWEP.AdminOnly = false
@@ -20,12 +20,12 @@ SWEP.Credits = {
     Author = "Palindrone"
 }
 
-SWEP.Slot = 2
+SWEP.Slot = 4
 
 SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arc9/c_bo2_titus.mdl"
-SWEP.WorldModel = "v"
+SWEP.WorldModel = "models/weapons/w_rif_famas.mdl"
 SWEP.WorldModelMirror = "models/weapons/arc9/c_bo2_titus.mdl"
 SWEP.MirrorVMWM = true
 SWEP.NoTPIKVMPos = true
@@ -252,7 +252,7 @@ SWEP.SprintVerticalOffset = false
 SWEP.SprintPos = SWEP.ActivePos
 SWEP.SprintAng = SWEP.ActiveAng
 
-SWEP.CustomizePos = Vector(14.5, 30, 5.5)
+SWEP.CustomizePos = Vector(14.5, 35, 5.5)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 
 SWEP.BarrelLength = 0 -- = 25

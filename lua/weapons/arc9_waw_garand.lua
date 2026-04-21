@@ -357,6 +357,15 @@ SWEP.Attachments = {
         Category = {"bo1_stock_h"},
         Installed = "bo1_stock_heavy",
     },
+    {
+        Hidden = true,
+        Bone = "j_gun",
+        Pos = Vector(5, 0, 1.5),
+        Ang = Angle(0, 0, 0),
+        Category = {"bocw_ak5_intgrip"},
+        Installed = "bocw_ak5_grip",
+        Integral = true,
+    },
 }
 
 SWEP.HideBones = {
@@ -379,11 +388,11 @@ SWEP.Animations = {
     },
     ["draw"] = {
         Source = "draw",
-        Time = 0.75,
+        Time = 1,
     },
     ["draw_empty"] = {
         Source = "draw_empty",
-        Time = 0.5,
+        Time = 1,
     },
     ["bash"] = {
         Source = "swipe",
@@ -395,11 +404,11 @@ SWEP.Animations = {
     },
     ["holster"] = {
         Source = "holster",
-        Time = 0.5,
+        Time = 1,
     },
     ["holster_empty"] = {
         Source = "holster_empty",
-        Time = 0.5,
+        Time = 1,
     },
     ["ready"] = {
         Source = "first_draw",
@@ -443,7 +452,7 @@ SWEP.Animations = {
         Source = "reload",
         Time = 105 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-        Framerate = 37,
+        Framerate = 30,
         Checkpoints = {28, 38, 69},
         EventTable = {
             {s = "ARC9_WAW.Garand_Pull", t = 16 / 30},
@@ -452,6 +461,12 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Garand_Pull", t = 68 / 30},
             {s = "ARC9_WAW.Garand_In", t = 77 / 30},
             {s = "ARC9_WAW.Garand_Close", t = 85 / 30},
+        },
+        IKTimeLine = {
+            {t = 0, lhik = 1, rhik = 0},
+            {t = 20 / 105, lhik = 0, rhik = 0},
+            {t = 35 / 105, lhik = 0, rhik = 0},
+            {t = 50 / 105, lhik = 1, rhik = 0},
         },
     },
     ["reload_empty"] = {
@@ -478,7 +493,10 @@ SWEP.Animations = {
             {s = "ARC9_WAW.RGren_Futz", t = 34 / 30},
             {s = "ARC9_WAW.RGren_Load", t = 40 / 30},
             {s = "ARC9_WAW.RGren_Click", t = 41 / 30},
-        }
+        },
+        IKTimeLine = {
+            {t = 0, lhik = 0, rhik = 0},
+        },
     },
     ["exit_ubgl"] = {
         Source = "glsetup_out",
@@ -487,7 +505,13 @@ SWEP.Animations = {
             {s = "ARC9_WAW.RGren_Click", t = 24 / 40},
             {s = "ARC9_WAW.RGren_Remove", t = 36 / 40},
             {s = "ARC9_WAW.RGren_Futz", t = 38 / 40},
-        }
+        },
+        IKTimeLine = {
+            {t = 0, lhik = 0, rhik = 0},
+            {t = 20 / 105, lhik = 0, rhik = 0},
+            {t = 60 / 105, lhik = 0, rhik = 0},
+            {t = 70 / 105, lhik = 1, rhik = 0},
+        },
     },
     ["enter_ubgl_empty"] = {
         Source = "glsetup_in_empty",

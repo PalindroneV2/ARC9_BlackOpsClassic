@@ -135,8 +135,9 @@ SWEP.Firemodes = {
         PrintName = "600 RPM",
         Mode = -1,
         RPM = 600,
-        DamageMaxMult = 0.85,
-        DamageMinMult = 0.90,
+        DamageMaxMult = 0.9,
+        DamageMinMult = 0.9,
+        RecoilMult = 1.1,
     },
     {
         Mode = 1,
@@ -332,6 +333,15 @@ SWEP.Attachments = {
         Category = {"bo1_stock_h"},
         Installed = "bo1_stock_heavy",
     },
+    {
+        Hidden = true,
+        Bone = "j_gun",
+        Pos = Vector(4, 0, 0.75),
+        Ang = Angle(0, 0, 0),
+        Category = {"bocw_ak5_intgrip"},
+        Installed = "bocw_ak5_grip",
+        Integral = true,
+    },
 }
 
 SWEP.HideBones = {
@@ -406,6 +416,28 @@ SWEP.Animations = {
             {s = "ARC9_WAW.BAR_In", t = 54 / 30},
             {s = "ARC9_WAW.BAR_Tap", t = 70 / 30 },
         },
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 1,
+                rhik = 0
+            },
+            {
+                t = 20 / 95,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 75 / 95,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 85 / 95,
+                lhik = 1,
+                rhik = 0
+            },
+        },
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -416,6 +448,28 @@ SWEP.Animations = {
             {s = "ARC9_WAW.BAR_Tap", t = 62 / 30 },
             {s = "ARC9_WAW.BAR_Charge", t = 80 / 30 },
             --{s = "ARC9_WAW.BAR_Charge", t = 98 / 30 },
+        },
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 1,
+                rhik = 0
+            },
+            {
+                t = 20 / 111,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 85 / 111,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 105 / 111,
+                lhik = 1,
+                rhik = 0
+            },
         },
     },
 }

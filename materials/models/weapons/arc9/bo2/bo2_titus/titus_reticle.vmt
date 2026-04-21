@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	$basetexture	"models/weapons/arc9/bo2/bo2_titus/titus_reticle"
+	"$translucent" "1"
+	"$color2" "[ 0 1 0 ]"
+}

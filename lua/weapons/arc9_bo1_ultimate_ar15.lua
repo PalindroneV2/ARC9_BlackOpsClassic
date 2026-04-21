@@ -751,9 +751,10 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
         if attached["handguard_mlok_short"] then
             gasblock = 3
         end
-    elseif attached["gasblock_flat"] then
+    end
+    if attached["gasblock_flat"] then
         gasblock = 2
-        if length == 2 and attached["handguard_a4"] then
+        if length == 2 and (attached["handguard_a4"] or attached["handguard_cod4m16"]) then
             gasblock = 4
         end
         if attached["handguard_ris"] or attached["handguard_cod4m4"] then
@@ -763,7 +764,7 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
             gasblock = 3
             if length == 1 then gasblock = 3 end
         end
-        if hand >= 11 then
+        if hand >= 11 and !attached["handguard_cod4m16"] then
             gasblock = 3
         end
     end
