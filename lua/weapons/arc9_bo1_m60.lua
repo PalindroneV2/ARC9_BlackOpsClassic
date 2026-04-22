@@ -191,19 +191,41 @@ SWEP.ProceduralIronFire = false
 
 SWEP.CaseBones = {}
 
+local bo1_m60_ironpos = Vector(-3.245, -0.5, 0.6)
+local bo1_m60_ironang = Angle(0.05, 0.4, 0)
+
 SWEP.IronSights = {
-    Pos = Vector(-3.245, -5, 0.6),
-    Ang = Angle(0.05, 0.4, 0),
+    Pos = bo1_m60_ironpos,
+    Ang = bo1_m60_ironang,
     Magnification = 1.1,
-    ViewModelFOV = 60,
+    ViewModelFOV = 50,
     CrosshairInSights = false,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
 
 SWEP.SightMidPoint = { -- Where the gun should be at the middle of it's irons
-    Pos = Vector(-1.75, -2.5, 0.3),
-    Ang = Angle(0.025, 0.2, 0),
+    Pos = bo1_m60_ironpos / 2,
+    Ang = bo1_m60_ironang / 2,
 }
+
+SWEP.IronSightsHook = function(self)
+    local attached = self:GetElements()
+    local newpos = bo1_m60_ironpos
+    local newang = bo1_m60_ironang
+
+    if attached["bo1_irons_alt"] then
+        newpos = Vector(-3.245, -6, 0.575)
+        newang = Angle(0.05, 0.4, 0)
+    end
+
+    return {
+        Pos = newpos,
+        Ang = newang,
+        ViewModelFOV = 50,
+        Magnification = 1.1,
+        CrosshairInSights = false,
+    }
+end
 
 SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldType = "ar2"
@@ -275,20 +297,6 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
     local attached = data.elements
     -- COSMETICS
     -- CAMO
-
-    local newpos = Vector(-3.245, -6, 0.6)
-    local newang = Angle(0.05, 0.4, 0)
-
-    if attached["bo1_irons_alt"] then
-        newpos = Vector(-3.245, -6, 0.575)
-        newang = Angle(0.05, 0.4, 0)
-    end
-
-    self.IronSights = {
-        Pos = newpos,
-        Ang = newang,
-        Magnification = 1.1
-    }
 
     local camo = 0
     if attached["universal_camo"] then

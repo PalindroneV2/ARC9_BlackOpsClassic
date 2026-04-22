@@ -186,9 +186,12 @@ SWEP.ProceduralIronFire = false
 
 SWEP.CaseBones = {}
 
+local bo1_fal_ironpos = Vector(-2.205, -0.5, 0.15)
+local bo1_fal_ironang = Angle(0.05, 0, 0)
+
 SWEP.IronSights = {
-    Pos = Vector(-2.205, -0.5, 0.15),
-    Ang = Angle(0.05, 0, 0),
+    Pos = bo1_fal_ironpos,
+    Ang = bo1_fal_ironang,
     Magnification = 1.1,
     ViewModelFOV = 60,
     CrosshairInSights = false,
@@ -196,9 +199,28 @@ SWEP.IronSights = {
 }
 
 SWEP.SightMidPoint = { -- Where the gun should be at the middle of it's irons
-    Pos = Vector(-1.1, -0.25, 0.075),
-    Ang = Angle(0.025, 0, 0),
+    Pos = bo1_fal_ironpos / 2,
+    Ang = bo1_fal_ironang / 2,
 }
+
+SWEP.IronSightsHook = function(self)
+    local attached = self:GetElements()
+    local newpos = bo1_fal_ironpos
+    local newang = bo1_fal_ironang
+
+    if attached["barrel_osw"] then
+        newpos = Vector(-2.22, -0.5, 0.25)
+        newang = Angle(0.025, 0.1, 0)
+    end
+
+    return {
+        Pos = newpos,
+        Ang = newang,
+        ViewModelFOV = 50,
+        Magnification = 1.1,
+        CrosshairInSights = false,
+    }
+end
 
 SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldType = "ar2"
@@ -374,15 +396,9 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
     local vm = data.model
     -- local CUSTSTATE = self:GetCustomize()
     local attached = data.elements
-    local newpos = Vector(-2.205, -0.5, 0.15)
-    local newang = Angle(0.05, 0, 0)
 
-    if attached["barrel_osw"] then
-        newpos = Vector(-2.22, -0.5, 0.25)
-        newang = Angle(0.025, 0.1, 0)
-        if attached["cod_optic"] then
-            vm:SetBodygroup(2,2)
-        end
+    if attached["barrel_osw"] and attached["cod_optic"] then
+        vm:SetBodygroup(2,2)
     end
     -- COSMETICS
     -- CAMO
@@ -395,15 +411,6 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
         camo = camo + 2
     end
     vm:SetSkin(camo)
-
-    self.IronSights = {
-        Pos = newpos,
-        Ang = newang,
-        Magnification = 1.1,
-        ViewModelFOV = 60,
-        CrosshairInSights = false,
-        SwitchToSound = "", -- sound that plays when switching to this sight
-    }
 
 end
 

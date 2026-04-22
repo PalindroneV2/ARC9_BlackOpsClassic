@@ -199,9 +199,12 @@ SWEP.ProceduralIronFire = false
 
 SWEP.CaseBones = {}
 
+local waw_m1919_ironpos = Vector(-3.55, 4, 1)
+local waw_m1919_ironang = Angle(-2.4275, 0.55, 0)
+
 SWEP.IronSights = {
-    Pos = Vector(-3.55, 4, 1),
-    Ang = Angle(-2.4275, 0.55, 0),
+    Pos = waw_m1919_ironpos,
+    Ang = waw_m1919_ironang,
     Magnification = 1.5,
     ViewModelFOV = 50,
     CrosshairInSights = false,
@@ -209,9 +212,28 @@ SWEP.IronSights = {
 }
 
 SWEP.SightMidPoint = { -- Where the gun should be at the middle of it's irons
-    Pos = Vector(-1.75, 2, 0),
-    Ang = Angle(-1.22, 0.275, -2.5),
+    Pos = waw_m1919_ironpos / 2,
+    Ang = waw_m1919_ironang / 2,
 }
+
+SWEP.IronSightsHook = function(self)
+    local attached = self:GetElements()
+    local newpos = waw_m1919_ironpos
+    local newang = waw_m1919_ironang
+
+    if attached["waw_stinger"] then
+        newpos = Vector(-3.565, 5, 1.3)
+        newang = Angle(-2.45, -0.65, 0)
+    end
+
+    return {
+        Pos = newpos,
+        Ang = newang,
+        ViewModelFOV = 50,
+        Magnification = 1.1,
+        CrosshairInSights = false,
+    }
+end
 
 SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldType = "ar2"
@@ -283,19 +305,6 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
     if self:GetBipod() then
         vm:SetBodygroup(1,2)
     end
-
-    local newpos = Vector(-3.55, 5, 1)
-    local newang = Angle(-2.4275, 0.55, 0)
-    if attached["waw_stinger"] then
-        -- vm:SetBodygroup(0,1)
-        newpos = Vector(-3.565, 5, 1.3)
-        newang = Angle(-2.45, -0.65, 0)
-    end
-    self.IronSights = {
-        Pos = newpos,
-        Ang = newang,
-        Magnification = 1.5,
-    }
 
 end
 
