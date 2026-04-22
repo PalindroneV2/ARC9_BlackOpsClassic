@@ -403,7 +403,7 @@ SWEP.Attachments = {
     {
         Hidden = true,
         Bone = "j_gun",
-        Pos = Vector(-3, 0, 3),
+        Pos = Vector(-3, 0, 3.01),
         Ang = Angle(0, 0, 0),
         Category = {"cod_extrairons_rear"},
         InstalledElements = {"mount"},
@@ -413,7 +413,7 @@ SWEP.Attachments = {
         RequireElements = {"extrarear"},
         PrintName = "Front Sight",
         Bone = "j_gun",
-        Pos = Vector(7.1, 0, 3),
+        Pos = Vector(6.5, 0, 3.01),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0,0,1),
         Category = {"cod_extrairons_front"},

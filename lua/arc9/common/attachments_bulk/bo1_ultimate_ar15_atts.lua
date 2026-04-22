@@ -648,7 +648,7 @@ ATT.Attachments = {
         ExcludeElements = {"mw2_m4_irons"},
         -- ExcludeElements = {"cod_optic", "cod_rail_riser", "mw2_m4_irons"},
         Bone = "j_gun",
-        Pos = Vector(-16.65, 0, -3.45),
+        Pos = Vector(-16.25, 0, -3.45),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -732,7 +732,7 @@ ATT.Attachments = {
         ExcludeElements = {"mw2_m4_irons"},
         -- ExcludeElements = {"cod_optic", "cod_rail_riser", "mw2_m4_irons"},
         Bone = "j_gun",
-        Pos = Vector(-16.65, 0, -3.45),
+        Pos = Vector(-16.4, 0, -3.45),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -806,6 +806,105 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_mlok")
+
+ATT = {}
+
+ATT.PrintName = [[Geissele SMR 12" Handguard]]
+ATT.CompactName = [[SMR 12"]]
+ATT.Icon = Material("entities/bo1_atts/bocw/atts_ar15/barrels/m16.png", "mips smooth")
+ATT.Description = [[A long handguard with quad-rail RIS mounts. While usually used for 20" barrels, it can fit a 14.5" barrel with a low profile gas block.
+Allows for the attachment of alternative front sights and tactical attachments on all of the 4 rails
+Its robust steel construction adds weight.]]
+ATT.SortOrder = 2
+ATT.MenuCategory = "ARC9 - BO1 AR-15 Attachments"
+ATT.Free = false
+
+ATT.RecoilMult = 0.95
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.05
+
+ATT.Category = {"retro_ar15_handguard_20", "retro_ar15_handguard_14"}
+ATT.ActivateElements = {"handguard_geissele_long", "nosling", "no_ub_rail", "ar15_ris", "no_tac_rail",
+"additionalhandguard","416gas"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Front",
+        Category = {"cod_extrairons_front"},
+        InstalledElements = {"gasblock_cut"},
+        ExcludeElements = {"mw2_m4_irons"},
+        -- ExcludeElements = {"cod_optic", "cod_rail_riser", "mw2_m4_irons"},
+        Bone = "j_gun",
+        Pos = Vector(-16.45, 0, -3.45),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Underbarrel",
+        DefaultCompactName = "UB",
+        Bone = "j_gun",
+        Pos = Vector(-10.5, 0, -1.3),
+        Ang = Angle(0, 0, 0),
+        Category = {"cde_m203", "bo1_mk", "cod_grips", "cde_m203_bonemerge"},
+    },
+    {
+        PrintName = "Tactical Right",
+        DefaultCompactName = "TAC R",
+        Bone = "j_gun",
+        Pos = Vector(-15.5, 0.7, -2.25),
+        Ang = Angle(0, 0, -90),
+        Category =  {"cod_tactical"}
+    },
+    {
+        PrintName = "Tactical Left",
+        DefaultCompactName = "TAC L",
+        Bone = "j_gun",
+        Pos = Vector(-15.5, -0.7, -2.25),
+        Ang = Angle(0, 0, 90),
+        Category =  {"cod_tactical"}
+    },
+    {
+        PrintName = "Tactical Top",
+        DefaultCompactName = "TAC TOP",
+        Bone = "j_gun",
+        Pos = Vector(-13, 0, -3.25),
+        Ang = Angle(0, 0, 180),
+        Category =  {"cod_tactical_top"},
+        ExcludeElements = {"mw2_m4_irons"}
+    },
+    {
+        PrintName = "Tactical Bottom",
+        DefaultCompactName = "TAC BOT",
+        Bone = "j_gun",
+        Pos = Vector(-15, 0, 2.3 - 3.75),
+        Ang = Angle(0, 0, 0),
+        Category = {"cod_tactical", "bo1_bipod"},
+        ExcludeElements = {"cde_m203", "bo1_mk"}
+    },
+}
+
+ATT.Model = "models/weapons/arc9/atts/retro_ar15/handguard_hk416.mdl"
+ATT.Scale = Vector(1, 1, 1)
+-- ATT.ModelOffset = Vector(2,0,0)
+-- ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["universal_camo"] then
+        model:SetSkin(1)
+    else
+        model:SetSkin(0)
+    end
+    local CUSTSTATE = swep:GetCustomize()
+    if CUSTSTATE then
+        model:SetBodygroup(0, 5)
+        model:SetBodygroup(1, 6)
+    else
+        model:SetBodygroup(0, 4)
+        model:SetBodygroup(1, 5)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "retro_ar15_handguard_geissele_long")
 
 -- HANDGUARDS M4
 ATT = {}
@@ -907,7 +1006,6 @@ ATT.LHIK = true
 ATT.LHIK_Priority = 0
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_flamer")
-
 
 ATT = {}
 
@@ -1073,7 +1171,7 @@ ATT.Attachments = {
         ExcludeElements = {"mw2_m4_irons"},
         -- ExcludeElements = {"cod_optic", "cod_rail_riser", "mw2_m4_irons", "cod_tactical"},
         Bone = "j_gun",
-        Pos = Vector(-11.25, 0, -3.45),
+        Pos = Vector(-11.1, 0, -3.45),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -1152,7 +1250,7 @@ ATT.Attachments = {
         ExcludeElements = {"mw2_m4_irons"},
         -- ExcludeElements = {"cod_optic", "cod_rail_riser", "mw2_m4_irons", "cod_tactical"},
         Bone = "j_gun",
-        Pos = Vector(-13, 0, -3.45),
+        Pos = Vector(-12.8, 0, -3.45),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -1407,7 +1505,7 @@ ATT.Attachments = {
         InstalledElements = {"gasblock_carbine_cut"},
         ExcludeElements = {"gasblock_flat"},
         Bone = "j_gun",
-        Pos = Vector(-13.125, 0, -3.45),
+        Pos = Vector(-12.8, 0, -3.45),
         Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(13.5, 0, 4.15),
     },
@@ -1475,105 +1573,6 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_geissele")
-
-ATT = {}
-
-ATT.PrintName = [[Geissele SMR 12" Handguard]]
-ATT.CompactName = [[SMR 12"]]
-ATT.Icon = Material("entities/bo1_atts/bocw/atts_ar15/barrels/m16.png", "mips smooth")
-ATT.Description = [[A long handguard with quad-rail RIS mounts. While usually used for 20" barrels, it can fit a 14.5" barrel with a low profile gas block.
-Allows for the attachment of alternative front sights and tactical attachments on all of the 4 rails
-Its robust steel construction adds weight.]]
-ATT.SortOrder = 2
-ATT.MenuCategory = "ARC9 - BO1 AR-15 Attachments"
-ATT.Free = false
-
-ATT.RecoilMult = 0.95
-ATT.AimDownSightsTimeMult = 1.05
-ATT.SprintToFireTimeMult = 1.05
-
-ATT.Category = {"retro_ar15_handguard_20", "retro_ar15_handguard_14"}
-ATT.ActivateElements = {"handguard_geissele_long", "nosling", "no_ub_rail", "ar15_ris", "no_tac_rail",
-"additionalhandguard","416gas"}
-
-ATT.Attachments = {
-    {
-        PrintName = "Front",
-        Category = {"cod_extrairons_front"},
-        InstalledElements = {"gasblock_cut"},
-        ExcludeElements = {"mw2_m4_irons"},
-        -- ExcludeElements = {"cod_optic", "cod_rail_riser", "mw2_m4_irons"},
-        Bone = "j_gun",
-        Pos = Vector(-16.65, 0, -3.45),
-        Ang = Angle(0, 0, 0),
-    },
-    {
-        PrintName = "Underbarrel",
-        DefaultCompactName = "UB",
-        Bone = "j_gun",
-        Pos = Vector(-10.5, 0, -1.3),
-        Ang = Angle(0, 0, 0),
-        Category = {"cde_m203", "bo1_mk", "cod_grips", "cde_m203_bonemerge"},
-    },
-    {
-        PrintName = "Tactical Right",
-        DefaultCompactName = "TAC R",
-        Bone = "j_gun",
-        Pos = Vector(-15.5, 0.7, -2.25),
-        Ang = Angle(0, 0, -90),
-        Category =  {"cod_tactical"}
-    },
-    {
-        PrintName = "Tactical Left",
-        DefaultCompactName = "TAC L",
-        Bone = "j_gun",
-        Pos = Vector(-15.5, -0.7, -2.25),
-        Ang = Angle(0, 0, 90),
-        Category =  {"cod_tactical"}
-    },
-    {
-        PrintName = "Tactical Top",
-        DefaultCompactName = "TAC TOP",
-        Bone = "j_gun",
-        Pos = Vector(-13, 0, -3.25),
-        Ang = Angle(0, 0, 180),
-        Category =  {"cod_tactical_top"},
-        ExcludeElements = {"mw2_m4_irons"}
-    },
-    {
-        PrintName = "Tactical Bottom",
-        DefaultCompactName = "TAC BOT",
-        Bone = "j_gun",
-        Pos = Vector(-15, 0, 2.3 - 3.75),
-        Ang = Angle(0, 0, 0),
-        Category = {"cod_tactical", "bo1_bipod"},
-        ExcludeElements = {"cde_m203", "bo1_mk"}
-    },
-}
-
-ATT.Model = "models/weapons/arc9/atts/retro_ar15/handguard_hk416.mdl"
-ATT.Scale = Vector(1, 1, 1)
--- ATT.ModelOffset = Vector(2,0,0)
--- ATT.ModelAngleOffset = Angle(0,0,0)
-ATT.BoneMerge = true
-
-ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["universal_camo"] then
-        model:SetSkin(1)
-    else
-        model:SetSkin(0)
-    end
-    local CUSTSTATE = swep:GetCustomize()
-    if CUSTSTATE then
-        model:SetBodygroup(0, 5)
-        model:SetBodygroup(1, 6)
-    else
-        model:SetBodygroup(0, 4)
-        model:SetBodygroup(1, 5)
-    end
-end
-
-ARC9.LoadAttachment(ATT, "retro_ar15_handguard_geissele_long")
 
 -- REAR SIGHTS
 ATT = {}
@@ -3108,7 +3107,7 @@ ATT.Attachments = {
         Category = {"cod_extrairons_rear"},
         ExcludeElements = {"handguard_famas"},
         Bone = "j_gun",
-        Pos = Vector(0, 0, -3.4),
+        Pos = Vector(0, 0, -3.45),
         Ang = Angle(0, 0, 0),
     },
 }
@@ -3185,7 +3184,7 @@ ATT.Attachments = {
         Category = {"cod_extrairons_rear"},
         ExcludeElements = {"handguard_famas"},
         Bone = "j_gun",
-        Pos = Vector(0, 0, -3.4),
+        Pos = Vector(0, 0, -3.45),
         Ang = Angle(0, 0, 0),
     },
 }

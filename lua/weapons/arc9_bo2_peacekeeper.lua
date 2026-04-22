@@ -236,30 +236,24 @@ SWEP.AttachmentElements = {
         },
     },
     ["bo1_alt_irons"] = {
-        Bodygroups = {
-            {2,1},
-        },
         IronSights = {
             Pos = Vector(-2.825, -3, 1.04),
             Ang = Angle(0.04, 0, 0),
             Magnification = 1.1,
-            ViewModelFOV = 60,
+            ViewModelFOV = 550,
             CrosshairInSights = false,
             SwitchToSound = "", -- sound that plays when switching to this sight
         }
     },
     ["extrarear"] = {
-        Bodygroups = {
-            {2,2},
-        },
         IronSights = {
-            Pos = Vector(-2.825, -1.25, 0.26),
-            Ang = Angle(0.025, 0, 0),
+            Pos = Vector(-2.825, -1.25, 0.275),
+            Ang = Angle(0.025, -0.05, 0),
             Magnification = 1.1,
-            ViewModelFOV = 60,
+            ViewModelFOV = 50,
             CrosshairInSights = false,
             SwitchToSound = "", -- sound that plays when switching to this sight
-        }
+        },
     },
 }
 
@@ -280,6 +274,12 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
     end
     if attached["bo1_igrip"] then
         vm:SetBodygroup(3,1)
+    end
+    if attached["mount"] then
+        vm:SetBodygroup(2,1)
+    end
+    if attached["extrarear"] then
+        vm:SetBodygroup(2,2)
     end
 
     local camo = 0
@@ -327,7 +327,7 @@ SWEP.Attachments = {
         PrintName = "Optic",
         DefaultCompactName = "Irons",
         Bone = "j_gun",
-        Pos = Vector(3, 0, 3.65),
+        Pos = Vector(3.4, 0, 3.57),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-3.5, 0, 0.8),
         Category = {"cod_optic", "cod_rail_riser", "bo1_alt_irons"},
@@ -387,7 +387,7 @@ SWEP.Attachments = {
     {
         Hidden = true,
         Bone = "j_gun",
-        Pos = Vector(-1, 0, 3.45),
+        Pos = Vector(-1, 0, 3.64),
         Ang = Angle(0, 0, 0),
         Category = {"cod_extrairons_rear"},
         InstalledElements = {"mount"},
@@ -397,7 +397,7 @@ SWEP.Attachments = {
         RequireElements = {"extrarear"},
         PrintName = "Front Sight",
         Bone = "j_gun",
-        Pos = Vector(9.3, 0, 3.45),
+        Pos = Vector(9.3, 0, 3.64),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0,0,1),
         Category = {"cod_extrairons_front"},

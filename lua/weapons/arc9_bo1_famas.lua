@@ -184,7 +184,7 @@ SWEP.IronSights = {
     Pos = Vector(-2.895, -5, 0.3),
     Ang = Angle(0.025, -0.15, 0),
     Magnification = 1.1,
-    ViewModelFOV = 60,
+    ViewModelFOV = 50,
     CrosshairInSights = false,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
@@ -305,10 +305,10 @@ SWEP.AttachmentElements = {
                 Pos = Vector(2, 0.1, 6.4)
             },
             [7] = {
-                Pos = Vector(0.25, 0.1, 6.3)
+                Pos = Vector(-0.25, 0.1, 6.475)
             },
             [8] = {
-                Pos = Vector(9.75, 0.1, 6.3)
+                Pos = Vector(9.5, 0.1, 6.475)
             },
         },
     },
@@ -320,7 +320,7 @@ SWEP.IronSightsHook = function(self)
     local newang = Angle(0.025, -0.15, 0)
 
     if attached["extrairon"] then
-        newpos = Vector(-2.895, -5, 0)
+        newpos = Vector(-2.895, -5, 0.1)
         newang = Angle(0.025, -0.15, 0)
     end
 
@@ -328,12 +328,12 @@ SWEP.IronSightsHook = function(self)
         newpos = Vector(-2.895, -3, 0.3)
         newang = Angle(0.025, 0.25, 0)
         if attached["extrairon"] then
-            newpos = Vector(-2.895, -5, -1.45)
-            newang = Angle(0.025, 0.05, 0)
+            newpos = Vector(-2.895, -5, -1.39)
+            newang = Angle(0.025, -0.1, 0)
         end
     end
 
-    return {Pos = newpos, Ang = newang, Magnification = 1.1, ViewModelFOV = 60, CrosshairInSights = false,}
+    return {Pos = newpos, Ang = newang, Magnification = 1.1, ViewModelFOV = 50, CrosshairInSights = false,}
 
 end
 
@@ -468,7 +468,7 @@ SWEP.Attachments = {
     {
         Hidden = true,
         Bone = "j_gun",
-        Pos = Vector(0.25, 0.1, 4.9),
+        Pos = Vector(0, 0.1, 5),
         Ang = Angle(0, 0, 0),
         Category = {"cod_extrairons_rear"},
         InstalledElements = {"mount"},
@@ -478,7 +478,7 @@ SWEP.Attachments = {
         RequireElements = {"extrarear"},
         PrintName = "Front Sight",
         Bone = "j_gun",
-        Pos = Vector(6, 0.1, 4.9),
+        Pos = Vector(6, 0.1, 5),
         Ang = Angle(0, 0, 0),
         Category = {"cod_extrairons_front"},
     },

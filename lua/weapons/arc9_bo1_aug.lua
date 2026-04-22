@@ -207,7 +207,7 @@ SWEP.IronSightsHook = function(self)
     local newang = ironAng
 
     if attached["aug_a2"] and attached["extrairon"] then
-        newpos = Vector(-2.7375, -5, 0.1)
+        newpos = Vector(-2.7375, -5, 0.18)
         newang = Angle(0, -0.2, 0)
     end
 

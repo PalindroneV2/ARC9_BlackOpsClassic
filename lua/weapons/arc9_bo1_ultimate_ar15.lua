@@ -206,13 +206,9 @@ SWEP.IronSightsHook = function(self)
     end
 
     -- Check for Rear Extra Irons alignment
-    if attached["cod_extrairons_rear"] then
-        newpos = Vector(-2.76, -2, 0.355)
-        newang = Angle(0.025, -0.22, 0)
-        if attached["future_top"] then
-            newpos = Vector(-2.76, -2, 0.3)
-            newang = Angle(0.025, -0.125, 0)
-        end
+    if attached["cod_extrairons_rear"] and attached["future_top"] then
+        newpos = Vector(-2.76, -2, 0.3)
+        newang = Angle(0.025, -0.125, 0)
     end
 
     if attached["handguard_famas"] then

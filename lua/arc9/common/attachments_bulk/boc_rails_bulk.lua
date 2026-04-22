@@ -204,7 +204,7 @@ local Attachments = {
             {
                 PrintName = "Front Sight",
                 Bone = "j_gun",
-                Pos = Vector(-4.5, -0.03, -4.94),
+                Pos = Vector(-4.5, -0.03, -4.865),
                 Ang = Angle(0, 0, 0),
                 Category = {"cod_extrairons_front"},
                 InstalledElements = {"a2mount"},
@@ -214,7 +214,7 @@ local Attachments = {
             {
                 Hidden = true,
                 Bone = "j_gun",
-                Pos = Vector(-0.5, -0.03, -4.94),
+                Pos = Vector(-0.5, -0.03, -4.865),
                 Ang = Angle(0, 0, 0),
                 Category = {"cod_extrairons_rear"},
                 InstalledElements = {"a2mount"},
@@ -253,7 +253,7 @@ local Attachments = {
             {
                 Hidden = true,
                 Bone = "j_gun",
-                Pos = Vector(-0.5, -0.03, -4.375),
+                Pos = Vector(-0.35, -0.03, -4.375),
                 Ang = Angle(0, 0, 0),
                 Category = {"cod_extrairons_rear"},
                 InstalledElements = {"a3mount"},

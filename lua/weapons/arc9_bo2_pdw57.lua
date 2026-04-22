@@ -235,6 +235,21 @@ SWEP.AttachmentElements = {
             {2,2},
         },
     },
+    ["extrarear"] = {
+        AttPosMods = {
+            [1] = {
+                Pos = Vector(-1.6, 0, 2.9),
+            },
+        },
+        IronSights = {
+            Pos = Vector(-2.825, -3, 0.475),
+            Ang = Angle(0, -0.05, 0),
+            Magnification = 1.1,
+            ViewModelFOV = 50,
+            CrosshairInSights = false,
+            SwitchToSound = "", -- sound that plays when switching to this sight
+        },
+    },
 }
 
 SWEP.Hook_ModifyBodygroups = function(self, data)
@@ -287,10 +302,10 @@ SWEP.Attachments = {
     {
         PrintName = "Optic",
         Bone = "j_gun",
-        Pos = Vector(1.5, -0.025, 2.925),
+        Pos = Vector(1.5, 0, 2.85),
         Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(0, 0, 1.25),
-        Category = {"cod_optic", "cod_rail_riser", "mw3e_deagle_tactical"},
+        Category = {"cod_optic", "cod_rail_riser", "mw3e_deagle_tactical", "cod_extrairons_rear"},
         InstalledElements = {"mount"},
     },
     {
@@ -377,6 +392,17 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
         Category = {"universal_camo"},
         CosmeticOnly = true,
+    },
+    {
+        Hidden = false,
+        RequireElements = {"extrarear"},
+        PrintName = "Front Sight",
+        Bone = "j_gun",
+        -- Pos = Vector(7.5, -0.025, 3.05),
+        Pos = Vector(7.5, 0, 2.9),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0,0,0),
+        Category = {"cod_extrairons_front"},
     },
 }
 

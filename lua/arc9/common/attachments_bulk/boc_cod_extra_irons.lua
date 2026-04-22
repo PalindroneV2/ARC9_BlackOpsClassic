@@ -17,7 +17,7 @@ ATT.ActivateElements = {"diopter_rear", "extrairon", "extrarear"}
 
 ATT.Model = "models/weapons/arc9/atts/cod_extra/rear_diopter.mdl"
 ATT.Scale = Vector(1, 1, 1)
-ATT.ModelOffset = Vector(0,0,-0.25)
+ATT.ModelOffset = Vector(0,0,-0.15)
 ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.ModelBodygroups = "0"
 
