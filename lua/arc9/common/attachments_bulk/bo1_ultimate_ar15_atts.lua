@@ -81,9 +81,9 @@ ATT.SpeedMultSights = 1.25
 ATT.AimDownSightsTimeMult = 0.7
 ATT.SprintToFireTimeMult = 0.75
 
-ATT.RangeMaxMult = 0.6
-ATT.RangeMinMult = 0.6
-ATT.PhysBulletMuzzleVelocityMult = 0.6
+ATT.RangeMaxMult = 0.7
+ATT.RangeMinMult = 0.7
+ATT.PhysBulletMuzzleVelocityMult = 0.7
 
 ARC9.LoadAttachment(ATT, "retro_ar15_barrel_7")
 
@@ -142,9 +142,9 @@ ATT.SpeedMultSights = 1.25
 ATT.AimDownSightsTimeMult = 0.7
 ATT.SprintToFireTimeMult = 0.75
 
-ATT.RangeMaxMult = 0.6
-ATT.RangeMinMult = 0.6
-ATT.PhysBulletMuzzleVelocityMult = 0.6
+ATT.RangeMaxMult = 0.7
+ATT.RangeMinMult = 0.7
+ATT.PhysBulletMuzzleVelocityMult = 0.7
 
 ARC9.LoadAttachment(ATT, "retro_ar15_barrel_9mm")
 
@@ -232,9 +232,9 @@ ATT.SpeedMultSights = 1.2
 ATT.AimDownSightsTimeMult = 0.75
 ATT.SprintToFireTimeMult = 0.8
 
-ATT.RangeMaxMult = 0.7
-ATT.RangeMinMult = 0.7
-ATT.PhysBulletMuzzleVelocityMult = 0.7
+ATT.RangeMaxMult = 0.8
+ATT.RangeMinMult = 0.8
+ATT.PhysBulletMuzzleVelocityMult = 0.8
 
 ARC9.LoadAttachment(ATT, "retro_ar15_barrel_10")
 
@@ -2331,8 +2331,8 @@ ATT.SpreadMultShooting = 1.1
 ATT.SpreadMult = 1.1
 ATT.DamageMax = 35
 ATT.DamageMin = 15
-ATT.RangeMaxMult = 0.7
-ATT.RangeMinMult = 0.7
+ATT.RangeMaxMult = 0.9
+ATT.RangeMinMult = 0.85
 ATT.RecoilUpMult = 0.9
 ATT.RecoilSideMult = 0.9
 ATT.PenetrationMult = 0.8
@@ -2374,8 +2374,8 @@ ATT.SpreadMultShooting = 1.1
 ATT.SpreadMult = 1.1
 ATT.DamageMax = 35
 ATT.DamageMin = 15
-ATT.RangeMaxMult = 0.7
-ATT.RangeMinMult = 0.7
+ATT.RangeMaxMult = 0.9
+ATT.RangeMinMult = 0.85
 ATT.RecoilUpMult = 0.9
 ATT.RecoilSideMult = 0.9
 ATT.PenetrationMult = 0.8
@@ -2417,8 +2417,8 @@ ATT.SpreadMultShooting = 1.1
 ATT.SpreadMult = 1.1
 ATT.DamageMax = 35
 ATT.DamageMin = 15
-ATT.RangeMaxMult = 0.7
-ATT.RangeMinMult = 0.7
+ATT.RangeMaxMult = 0.9
+ATT.RangeMinMult = 0.85
 ATT.RecoilUpMult = 0.9
 ATT.RecoilSideMult = 0.9
 ATT.PenetrationMult = 0.8
@@ -2460,8 +2460,8 @@ ATT.SpreadMultShooting = 1.1
 ATT.SpreadMult = 1.1
 ATT.DamageMax = 35
 ATT.DamageMin = 15
-ATT.RangeMaxMult = 0.7
-ATT.RangeMinMult = 0.7
+ATT.RangeMaxMult = 0.9
+ATT.RangeMinMult = 0.85
 ATT.RecoilUpMult = 0.9
 ATT.RecoilSideMult = 0.9
 ATT.PenetrationMult = 0.8
@@ -2500,8 +2500,8 @@ ATT.SpreadMultShooting = 1.1
 ATT.SpreadMult = 1.1
 ATT.DamageMax = 35
 ATT.DamageMin = 15
-ATT.RangeMaxMult = 0.7
-ATT.RangeMinMult = 0.7
+ATT.RangeMaxMult = 0.9
+ATT.RangeMinMult = 0.85
 ATT.RecoilUpMult = 0.9
 ATT.RecoilSideMult = 0.9
 ATT.PenetrationMult = 0.8
@@ -2543,8 +2543,8 @@ ATT.SpreadMultShooting = 1.1
 ATT.SpreadMult = 1.1
 ATT.DamageMax = 35
 ATT.DamageMin = 15
-ATT.RangeMaxMult = 0.7
-ATT.RangeMinMult = 0.7
+ATT.RangeMaxMult = 0.9
+ATT.RangeMinMult = 0.85
 ATT.RecoilUpMult = 0.9
 ATT.RecoilSideMult = 0.9
 ATT.PenetrationMult = 0.8
@@ -2586,8 +2586,8 @@ ATT.SpreadMultShooting = 1.1
 ATT.SpreadMult = 1.1
 ATT.DamageMax = 35
 ATT.DamageMin = 15
-ATT.RangeMaxMult = 0.7
-ATT.RangeMinMult = 0.7
+ATT.RangeMaxMult = 0.9
+ATT.RangeMinMult = 0.85
 ATT.RecoilUpMult = 0.9
 ATT.RecoilSideMult = 0.9
 ATT.PenetrationMult = 0.8
