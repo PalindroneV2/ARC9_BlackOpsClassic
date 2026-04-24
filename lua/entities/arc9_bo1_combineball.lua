@@ -46,7 +46,7 @@ if SERVER then
 
         -- Loop the ambient hum
         self:EmitSound("NPC_CombineBall.Launch")
-        self:EmitSound("NPC_CombineBall.WhizLoop", 75, 100, 1, CHAN_STATIC)
+        self:EmitSound("NPC_CombineBall.WhizLoop", 75, 100, 1, CHAN_AUTO)
     end
 
     -- Override PhysicsCollide to allow bouncing

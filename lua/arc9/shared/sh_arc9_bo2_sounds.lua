@@ -2,19 +2,19 @@
 
 sound.Add({
     name = "ARC9_BO2.M1911_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = "^weapons/arc9/bo2_generic_pistol/fire_heavy.wav"
 })
 sound.Add({
     name = "ARC9_BO2.BHP_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = "^weapons/arc9/bo2_generic_pistol/fire_light.wav"
 })
 sound.Add({
     name = "ARC9_BO2.B23R_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = "^weapons/arc9/bo2_generic_pistol/fire_b23r.wav"
 })
@@ -26,13 +26,13 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.Kard_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = "^weapons/arc9/bo2_generic_pistol/fire_kard.wav"
 })
 sound.Add({
     name = "ARC9_BO2.Pistol_Sil",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = "^weapons/arc9/bo2_generic_pistol/sil_bo2.wav"
 })
@@ -44,7 +44,7 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.PistolBurst_RingOff",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = "^weapons/arc9/bo2_generic_pistol/ringoff_bo2.wav"
 })
@@ -80,7 +80,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.357_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = {
         "^weapons/arc9/bo1_python/fire_bo2.wav",
@@ -88,14 +88,14 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.NMA_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = "^weapons/arc9/bo1_python/fire_nma.wav"
 })
 
 sound.Add({
     name = "ARC9_BO2.Judge_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = {
         "^weapons/arc9/bo1_python/fire_judge.wav",
@@ -131,7 +131,7 @@ sound.Add({
 
 sound.Add( {
     name = "ARC9_BO2.MP7_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -141,7 +141,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.Vector_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -151,7 +151,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.Chicom_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -161,7 +161,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.EVO3_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -171,7 +171,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.Peace_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -181,7 +181,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.PDW57_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -191,7 +191,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.MSMC_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -201,7 +201,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.MSMC_Sil",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -255,7 +255,7 @@ sound.Add( {
 
 sound.Add( {
     name = "ARC9_BO2.M27_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -285,7 +285,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.SCAR_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -295,7 +295,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.MTAR_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -305,7 +305,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.Type95_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -315,7 +315,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.OSW_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -325,7 +325,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.AN94_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -345,7 +345,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_BO2.M27_Sil",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -425,7 +425,7 @@ sound.Add( {
 
 sound.Add({
     name = "ARC9_BO2.870_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -435,7 +435,7 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.KSG_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -445,7 +445,7 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.1216_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -455,7 +455,7 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.S12_Sil",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -530,7 +530,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.Blundergat_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -540,7 +540,7 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.Acidgat_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -574,7 +574,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.LSAT_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -584,7 +584,7 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.LSAT_Sil",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -595,7 +595,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.QBB_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -606,7 +606,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.HAMR_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -617,7 +617,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.Mk48_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -727,26 +727,26 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.Ballista_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = "^weapons/arc9/bo2_generic_sniper/fire_ballista.wav"
 })
 sound.Add({
     name = "ARC9_BO2.Ballista_Sil",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = "^weapons/arc9/bo2_generic_sniper/sil_ballista.wav"
 })
 
 sound.Add({
     name = "ARC9_BO2.SVU_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = "^weapons/arc9/bo2_generic_sniper/fire_svu.wav"
 })
 sound.Add({
     name = "ARC9_BO2.DSR50_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = "^weapons/arc9/bo2_generic_sniper/fire_dsr.wav"
 })
@@ -842,7 +842,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.Vulcan_FireStart",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -850,7 +850,7 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.Vulcan_FireLoop",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -889,7 +889,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.RGMK2_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = {
         "^weapons/arc9/bo2_raygunmk2/fire1.wav",
@@ -937,7 +937,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.Storm_Fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     sound = {
         "^weapons/arc9/bo2_storm/fire/fire1.wav",
@@ -978,7 +978,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.Storm_Spin",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 70,
     sound = "^weapons/arc9/bo2_storm/spin.wav"
 })
@@ -1014,7 +1014,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO2.GAU19_Fire_Start",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -1022,7 +1022,7 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.GAU19_Fire_Loop",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -1030,7 +1030,7 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.GAU19_Fire_Stop",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     level = 100,
     volume = 0.75,
     sound = "^weapons/arc9/BO2_VULCAN/fire_stop.wav"

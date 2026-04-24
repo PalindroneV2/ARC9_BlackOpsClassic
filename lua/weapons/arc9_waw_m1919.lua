@@ -44,9 +44,9 @@ SWEP.CustomBlendFactor = 1
 
 SWEP.DamageMax = 50
 SWEP.DamageMin = 25 -- damage done at maximum range
-SWEP.RangeMax = 80 * 39
+SWEP.RangeMax = 100 * 39
 SWEP.RangeMin = 10 * 39
-SWEP.Penetration = 8
+SWEP.Penetration = 10
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.EntityMuzzleVelocity = 10000
