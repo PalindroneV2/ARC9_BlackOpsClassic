@@ -19,7 +19,7 @@ SWEP.Credits = {
     Author = "Palindrone"
 }
 
-SWEP.Slot = 2
+SWEP.Slot = 4
 
 SWEP.UseHands = true
 
