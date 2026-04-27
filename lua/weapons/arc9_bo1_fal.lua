@@ -186,7 +186,7 @@ SWEP.ProceduralIronFire = false
 
 SWEP.CaseBones = {}
 
-local bo1_fal_ironpos = Vector(-2.205, -0.5, 0.15)
+local bo1_fal_ironpos = Vector(-2.205, -0.5, 0.18)
 local bo1_fal_ironang = Angle(0.05, 0, 0)
 
 SWEP.IronSights = {
@@ -209,7 +209,7 @@ SWEP.IronSightsHook = function(self)
     local newang = bo1_fal_ironang
 
     if attached["barrel_osw"] then
-        newpos = Vector(-2.22, -0.5, 0.25)
+        newpos = Vector(-2.22, -0.5, 0.28)
         newang = Angle(0.025, 0.1, 0)
     end
 
