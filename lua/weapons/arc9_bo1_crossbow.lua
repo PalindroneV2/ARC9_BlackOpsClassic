@@ -228,6 +228,10 @@ SWEP.BarrelLength = 0 -- = 25
 SWEP.ExtraSightDist = 5
 
 SWEP.AttachmentElements = {
+    ["bo1_pap"] = {
+        ClipSizeMult = 1 / 3,
+        -- ShootEnt = "arc9_bo1_xbow_bolt_pap",
+    }
 }
 
 SWEP.Hook_ModifyBodygroups = function(self, data)

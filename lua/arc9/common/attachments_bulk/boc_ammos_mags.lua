@@ -459,7 +459,7 @@ ATT = {}
 ATT.PrintName = [[Acid Gat Kit]]
 ATT.CompactName = [[ACID]]
 ATT.Icon = Material("entities/bo1_atts/ammo/acid_kit.png")
-ATT.Description = [[Crossbow bolts fitted with custom electronic high-explosive warheads.]]
+ATT.Description = [[Explosive Flechettes that spread acid around.]]
 ATT.CustomPros = {}
 ATT.CustomCons = {}
 ATT.SortOrder = 0
@@ -504,6 +504,25 @@ ATT.ActivateElements = {"xbow_explosive"}
 ATT.ShootEnt = "arc9_bo1_xbow_bolt_exp"
 
 ARC9.LoadAttachment(ATT, "bo1_xbow_ammo_expl")
+
+ATT = {}
+
+ATT.PrintName = [[Explosive Crossbow Bolt]]
+ATT.CompactName = [[LAWTON]]
+ATT.Icon = Material("entities/bo1_atts/ammo/FMJ.png")
+ATT.Description = [[Crossbow bolts fitted with custom electronic high-explosive warheads.]]
+ATT.CustomPros = {}
+ATT.CustomCons = {}
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - BO1 Attachments"
+ATT.Free = false
+
+ATT.Category = {"bo1_xbow_ammo"}
+ATT.ActivateElements = {"xbow_explosive"}
+ATT.RequireElements = {"bo1_pap"}
+ATT.ShootEnt = "arc9_bo1_xbow_bolt_exp_pap"
+
+ARC9.LoadAttachment(ATT, "bo1_xbow_ammo_expl_pap")
 
 ATT = {}
 

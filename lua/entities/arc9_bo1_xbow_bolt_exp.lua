@@ -19,6 +19,11 @@ if SERVER then
         local effectdata = EffectData()
         effectdata:SetOrigin( self:GetPos() )
         if self.Stuck then
+            if (self.NextBeep or 0) < CurTime() then
+                self.NextBeep = CurTime() + 0.5
+                -- Using a standard C4 beep sound, or you can swap for your LockOn sound
+                self:EmitSound("ARC9_BO1.Rocket_LockOn", 75, 100, 0.5, CHAN_AUTO)
+            end
             if self.DetonateTime < CurTime() then
                 util.BlastDamage(self, self:GetOwner(), self:GetPos(), 200, 150)
                 EffectData():SetOrigin(self:GetPos())

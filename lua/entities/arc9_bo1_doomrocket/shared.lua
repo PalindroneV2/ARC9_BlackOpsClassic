@@ -79,7 +79,7 @@ if SERVER then
 
         if self:WaterLevel() >= 1 then
             util.Effect( "WaterSurfaceExplosion", effectdata )
-            self:EmitSound("weapons/underwater_explode3.wav", 125, 100, 1, CHAN_AUTO)
+            self:EmitSound("weapons/underwater_explode3.wav", 125, 100, 1, CHAN_STATIC)
         else
             util.Effect( "Explosion", effectdata)
             self:EmitSound("ARC9_BO1.DOOMRPG_Impact")

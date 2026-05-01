@@ -38,7 +38,7 @@ function ENT:Detonate()
 
     if self:WaterLevel() > 0 then
         util.Effect( "WaterSurfaceExplosion", effectdata )
-        --self:EmitSound("weapons/underwater_explode3.wav", 125, 100, 1, CHAN_AUTO)
+        --self:EmitSound("weapons/underwater_explode3.wav", 125, 100, 1, CHAN_STATIC)
     else
         --util.Effect( "HelicopterMegaBomb", effectdata)
         util.Effect("bo1_m202_explode", effectdata)

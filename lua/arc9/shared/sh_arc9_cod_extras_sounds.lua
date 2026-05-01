@@ -2,7 +2,7 @@
 
 sound.Add( {
     name = "ARC9_CDE.M16_First",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1.0,
     level = 100,
     sound = {
@@ -11,7 +11,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_CDE.M16_Auto",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1.0,
     level = 100,
     sound = {
@@ -23,7 +23,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_CDE.M16_Sil",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1.0,
     level = 100,
     sound = {
@@ -32,7 +32,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_CDE.M16_Dist",
-    channel = CHAN_WEAPON,
+    channel = CHAN_STATIC,
     volume = 1.0,
     level = 100,
     sound = {
@@ -42,7 +42,7 @@ sound.Add( {
 
 sound.Add( {
     name = "ARC9_CDE.M16_9mm",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1.0,
     level = 100,
     sound = {
@@ -51,7 +51,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_CDE.M16_9mmSil",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1.0,
     level = 100,
     sound = {
@@ -60,7 +60,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_CDE.M16_9mmDist",
-    channel = CHAN_WEAPON,
+    channel = CHAN_STATIC,
     volume = 1.0,
     level = 100,
     sound = {
@@ -109,7 +109,7 @@ sound.Add( {
 
 sound.Add( {
     name = "ARC9_CDE.M203_Fire",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1.0,
     level = 100,
     sound = {
@@ -123,7 +123,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_CDE.M203_Dist",
-    channel = CHAN_WEAPON,
+    channel = CHAN_STATIC,
     volume = 1.0,
     level = 100,
     sound = {
@@ -192,7 +192,7 @@ sound.Add({
 })
 sound.Add({
     name = "ARC9_BO2.FNV_9mm_Fire",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     level = 100,
     sound = "^weapons/arc9/fnv_ee/fnv_9mm_fire.ogg"
 })
@@ -214,7 +214,7 @@ sound.Add({
 
 sound.Add( {
     name = "ARC9_BO1.DOOMSG_Fire",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1,
     level = 100,
     --pitch = {100},
@@ -225,7 +225,7 @@ sound.Add( {
 
 sound.Add( {
     name = "ARC9_WAW.SSG_Fire",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1,
     level = 100,
     --pitch = {100},
@@ -267,7 +267,7 @@ sound.Add( {
 
 sound.Add({
     name = "ARC9_BO1.Chaingun_Fire",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -278,7 +278,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO1.DOOMRPG_Fire",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -289,7 +289,7 @@ sound.Add({
 
 sound.Add({
     name = "ARC9_BO1.DOOMRPG_Impact",
-    channel = CHAN_WEAPON,
+    channel = CHAN_STATIC,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},
@@ -302,7 +302,7 @@ sound.Add({
 
 sound.Add( {
     name = "ARC9_CDE.Ak5_First",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1.0,
     level = 100,
     sound = {
@@ -311,7 +311,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_CDE.Ak5_Sil",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1.0,
     level = 100,
     sound = {
@@ -320,7 +320,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_CDE.Ak5_Fire",
-    channel = CHAN_AUTO,
+    channel = CHAN_WEAPON,
     volume = 1.0,
     level = 100,
     sound = {

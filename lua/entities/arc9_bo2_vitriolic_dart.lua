@@ -48,6 +48,31 @@ if SERVER then
 
     function ENT:Think()
         if self.Stuck then
+           if !self.HasDistracted then
+                self.HasDistracted = true
+                local owner = self:GetOwner()
+
+                if IsValid(owner) and owner:IsPlayer() then
+                    owner:SetNoTarget(true)
+                end
+
+                sound.EmitHint(16, self:GetPos(), 5000, 0.5, self)
+                local nearby = ents.FindInSphere(self:GetPos(), 5000)
+
+                for _, npc in ipairs(nearby) do
+                    if IsValid(npc) and npc:IsNPC() and npc:Health() > 0 then
+                        npc:ClearEnemyMemory()
+                        npc:SetEnemy(nil)
+                        -- Force them to the bolt
+                        npc:SetTarget(self)
+                        npc:SetLastPosition(self:GetPos())
+                        npc:SetSchedule(SCHED_FORCED_GO_RUN)
+                        -- NEW: This stops Combine from firing while moving
+                        npc:SetNPCState(NPC_STATE_IDLE)
+                        npc:SetCondition(COND_IDLE_INTERRUPT)
+                    end
+                end
+            end
             if self.DetonateTime < CurTime() then
                 dmginfo:SetAttacker(self:GetOwner())
                 dmginfo:SetInflictor(self)
@@ -76,7 +101,7 @@ if SERVER then
             timer.Simple(0, function()
                 self:SetSolid(SOLID_NONE)
                 self:SetMoveType(MOVETYPE_NONE)
-                if not tgt:IsWorld() then
+                if !tgt:IsWorld() then
                     self:SetParent(tgt)
                 end
             end)

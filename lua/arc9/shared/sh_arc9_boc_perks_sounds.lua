@@ -64,3 +64,11 @@ sound.Add({
     level = 100,
     sound = "^weapons/arc9/bo1_perks/perk_deadshot.wav"
 })
+
+sound.Add({
+    name = "ARC9_BO1.Perk_WhosWho",
+    channel = CHAN_USER_BASE + 1,
+    volume = 0.65,
+    level = 100,
+    sound = "^weapons/arc9/bo1_perks/perk_whoswho.wav"
+})
