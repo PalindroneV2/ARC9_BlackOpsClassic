@@ -11,7 +11,7 @@ Despite this, dual mode shotgun can switch between semi-automatic fire and pump-
 SWEP.Trivia = {
     Manufacturer = "Franchi",
     Calibre = "12 Gauge",
-    Mechanism = "Gas-Operated",
+    Mechanism = "Gas-Operated, Pump-action",
     Country = "Italy",
     Year = 1979,
     Games = [[MW2, BO1, MW3, BO2, IW, BOCW, MW23]]

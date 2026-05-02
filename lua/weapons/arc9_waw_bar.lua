@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Long-stroke gas piston, rising bolt lock",
     Country = "USA",
     Year = 1917,
-    Games = [[COD1, COD2, COD3, WAW, BO1, WW2, VG]]
+    Games = [[COD1, COD2, COD3, WAW, BO1, WWII, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

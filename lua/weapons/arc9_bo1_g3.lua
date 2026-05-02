@@ -11,7 +11,7 @@ SWEP.Trivia = {
     Manufacturer = "Heckler & Koch",
     Calibre = "7.62x51mm NATO",
     Mechanism = "Roller-Delayed Blowback",
-    Country = "Germany",
+    Country = "West Germany",
     Year = 1958,
     Games = [[COD4, BO1, MW22, MW23]]
 }

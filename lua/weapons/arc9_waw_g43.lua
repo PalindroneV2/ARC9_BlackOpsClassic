@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Short-stroke gas piston, flapper-locking",
     Country = "Nazi Germany",
     Year = 1943,
-    Games = [[COD1, COD2, COD3, WAW, BO1, WW2, VG]]
+    Games = [[COD1, COD2, COD3, WAW, BO1, WWII, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

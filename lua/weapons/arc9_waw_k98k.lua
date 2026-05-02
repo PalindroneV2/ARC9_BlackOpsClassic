@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Bolt Action",
     Country = "Nazi Germany",
     Year = 1934,
-    Games = [[COD1, COD2, COD3, WAW, BO1, WW2, MW19, VG]]
+    Games = [[COD1, COD2, COD3, WAW, BO1, WWII, MW19, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

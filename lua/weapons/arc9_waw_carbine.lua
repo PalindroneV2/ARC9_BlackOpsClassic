@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Gas-Operated, rotating bolt",
     Country = "USA",
     Year = 1942,
-    Games = [[COD1, COD2, WAW, BO1, WW2, VG, Mobile]]
+    Games = [[COD1, COD2, WAW, BO1, WWII, VG, Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

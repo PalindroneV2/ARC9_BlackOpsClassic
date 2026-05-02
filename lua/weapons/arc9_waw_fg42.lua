@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Gas-Operated",
     Country = "Nazi Germany",
     Year = 1943,
-    Games = [[COD1, COD2, COD3, WAW, BO1, WW2]]
+    Games = [[COD1, COD2, COD3, WAW, BO1, WWII]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

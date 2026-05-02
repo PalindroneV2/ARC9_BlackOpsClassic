@@ -16,7 +16,7 @@ SWEP.Trivia = {
     Mechanism = "Blowback",
     Country = "Nazi Germany",
     Year = 1940,
-    Games = [[COD1, COD2, COD3, WAW, BO1, BO2, AW, BO3, WW2, BO4, VG]]
+    Games = [[COD1, COD2, COD3, WAW, BO1, BO2, AW, BO3, WWII, BO4, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"
