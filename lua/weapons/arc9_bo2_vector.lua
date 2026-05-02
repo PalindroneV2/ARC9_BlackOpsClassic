@@ -8,12 +8,12 @@ SWEP.PrintName = "Vector K10"
 SWEP.Class = "Submachine Gun"
 SWEP.Description = [[American SMG with a unique recoil absorption system.]]
 SWEP.Trivia = {
-    Manufacturer = "TDI",
+    Manufacturer = "Kriss USA, Inc",
     Calibre = ".45 ACP",
-    Mechanism = "Gas-Operated",
+    Mechanism = "Off-axis bolt travel blowback, closed bolt",
     Country = "USA",
-    Year = 2006,
-    Games = [[MW2, BO2, Ghosts, COD:O, Mobile, MW19, MWII]]
+    Year = 2009,
+    Games = [[MW2, BO2, Ghosts, COD:O, Mobile, MW19, MW22, MW23]]
 }
 SWEP.Credits = {
     Author = "Palindrone"
@@ -338,16 +338,6 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
         Category = {"bo1_igrip"},
-    },
-    {
-        PrintName = "Tactical Left",
-        DefaultCompactName = "TAC L",
-        Bone = "j_gun",
-        Pos = Vector(9, -0.5, 0.375),
-        Ang = Angle(0, 0, 90),
-        Icon_Offset = Vector(0, 0, 0),
-        Category = {"cod_rail_tactical"},
-        -- RequireElements = {"bo1_igrip"},
     },
     {
         PrintName = "Tactical Right",

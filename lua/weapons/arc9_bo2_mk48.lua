@@ -6,16 +6,16 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Mk 48"
 SWEP.Class = "General Purpose Machine Gun"
-SWEP.Description = [[Belgian fully automatic LMG. Increased damage and range.
+SWEP.Description = [[Belgian fully automatic GPMG. Increased damage and range.
 Scaled up version of the Mk 46 Mod 0 and fires the more powerful 7.62x51mm NATO.
 Being used by US Naval Forces, USSOCOM, and Indian Special Forces.]]
 SWEP.Trivia = {
     Manufacturer = "FN Herstal",
     Calibre = "7.62x51mm NATO",
-    Mechanism = "Gas-Operated",
+    Mechanism = "Gas-Operated, open bolt",
     Country = "Belgium",
     Year = 2003,
-    Games = [[BO2]]
+    Games = [[Call of Duty: Black Ops II]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

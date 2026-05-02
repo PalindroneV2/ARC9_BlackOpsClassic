@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Gas Operated",
     Country = "Russia",
     Year = 1994,
-    Games = [[Call of Duty: Black Ops II]]
+    Games = [[BO2, BO3, BO4, Mobile, MW19]]
 }
 SWEP.Credits = {
     Author = "Palindrone"
@@ -190,8 +190,8 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSights = {
-    Pos = Vector(-2.7125, -3, 0.25),
-    Ang = Angle(0, 0.3, 0),
+    Pos = Vector(-2.7125, -3, 0.33),
+    Ang = Angle(0, 0.15, 0),
     Magnification = 1.1,
     ViewModelFOV = 60,
     CrosshairInSights = false,

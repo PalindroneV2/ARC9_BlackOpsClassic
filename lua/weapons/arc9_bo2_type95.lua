@@ -13,8 +13,8 @@ SWEP.Trivia = {
     Calibre = "5.8x42mm DBP10",
     Mechanism = "Gas-Operated",
     Country = "China",
-    Year = 1995,
-    Games = [[Call of Duty: Black Ops II]]
+    Year = 2025,
+    Games = [[BO2, Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

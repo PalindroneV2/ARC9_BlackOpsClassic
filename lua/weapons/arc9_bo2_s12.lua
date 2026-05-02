@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Gas-Operated",
     Country = "Russia",
     Year = 1990,
-    Games = [[Call of Duty: Black Ops II]]
+    Games = [[BO2, COD:O, MWR]]
 }
 SWEP.Credits = {
     Author = "Palindrone"
@@ -314,7 +314,6 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
         Category = {"cod_optic", "cod_rail_riser"},
         InstalledElements = {"mount"},
-        ExcludeElements = {"stock_l"},
     },
     {
         PrintName = "Muzzle",
@@ -326,7 +325,6 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Underbarrel",
-        DefaultCompactName = "Angled",
         Bone = "j_gun",
         Pos = Vector(10, 0, -1.2),
         Ang = Angle(0, 0, 0),
@@ -342,7 +340,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Firing Group",
-        DefaultCompactName = "AUTO",
+        DefaultCompactName = "SEMI",
         Bone = "j_gun",
         Pos = Vector(0.15, 0, 0),
         Ang = Angle(0, 0, 0),

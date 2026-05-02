@@ -10,9 +10,9 @@ SWEP.Description = [[Well-known yet somewhat rare pistol made for the Imperial J
 SWEP.Trivia = {
     Manufacturer = "Koishikawa Arsenal",
     Calibre = "8x22mm Nambu",
-    Mechanism = "Short Recoil",
-    Country = "Japan",
-    Year = 1928,
+    Mechanism = "Recoil-Spring",
+    Country = "Imperial Japan",
+    Year = 1906,
     Games = [[Call of Duty: World at War]]
 }
 SWEP.Credits = {

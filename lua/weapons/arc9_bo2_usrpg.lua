@@ -6,15 +6,14 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "RPG" --small change makes no real difference
 SWEP.Class = "Rocket Launcher"
-SWEP.Description = [[A Russian portable, reusable, unguided, shoulder-launched, anti-tank rocket-propelled grenade launcher.
-The ruggedness, simplicity, low cost, and effectiveness of the RPG-7 has made it the most widely used anti-armor weapon in the world.]]
+SWEP.Description = [[An American copy and modification of the venerable Russian RPG-7 system, manufactured for US-aligned nations and groups reliant on older Soviet-style equipment. Fires the same unguided anti-tank rockets as any other RPG derivative.]]
 SWEP.Trivia = {
-    Manufacturer = "Bazalt",
+    Manufacturer = "AirTronic USA",
     Calibre = "85x40mm RPG",
     Mechanism = "Rocket Propelled Grenade",
-    Country = "USSR",
-    Year = 1958,
-    Games = [[COD4, MW2, BO1, MW3, BO2, AW, MW19, BOCW, MW22, MW23]]
+    Country = "USA",
+    Year = 2017,
+    Games = [[BO2, COD:O, Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"
@@ -272,7 +271,7 @@ SWEP.HookP_NameChange = function(self, name)
 
     local attached = self:GetElements()
 
-    local gunname = "RPG"
+    local gunname = "PSRL-1"
 
     if attached["bo1_pap"] then
         gunname = "Rocket Propelled Grievance"

@@ -13,7 +13,7 @@ SWEP.Trivia = {
     Mechanism = "Double Barrel O/U, Break Action",
     Country = "USA",
     Year = 1984,
-    Games = [[Call of Duty: Black Ops]]
+    Games = [[BO1, BO2, BO3, BO6]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

@@ -13,7 +13,7 @@ SWEP.Trivia = {
     Mechanism = "Roller-Delayed Blowback",
     Country = "Germany",
     Year = 1958,
-    Games = [[COD4:MW, BO1]]
+    Games = [[COD4, BO1, MW22, MW23]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

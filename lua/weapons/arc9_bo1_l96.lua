@@ -13,8 +13,8 @@ SWEP.Trivia = {
     Calibre = ".338 Lapua",
     Mechanism = "Bolt-Action",
     Country = "United Kingdom",
-    Year = 1995,
-    Games = [[BO1, MW3, BOCW]]
+    Year = 1982,
+    Games = [[BO1, Mobile, BOCW]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

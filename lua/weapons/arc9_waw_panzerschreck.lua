@@ -9,12 +9,12 @@ SWEP.Class = "Rocket Launcher"
 SWEP.Description = [[A german man-portable, reusable, unguided, shoulder-launched, anti-tank rocket-propelled grenade launcher.
 It was based on captured Lend-Lease Act M1 Bazookas captured from the Soviets.]]
 SWEP.Trivia = {
-    Manufacturer = "Rheinmetall",
+    Manufacturer = "Enzinger Union AG, HASAG",
     Calibre = "88mm Rocket",
     Mechanism = "Recoil-less Rifle Rocket Propelled Charge",
     Country = "Nazi Germany",
     Year = 1943,
-    Games = [[COD1, COD2, COD3, WAW, WW2, VG]]
+    Games = [[COD1, COD2, COD3, WAW, BO1, WW2, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

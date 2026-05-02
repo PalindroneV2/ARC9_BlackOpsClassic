@@ -8,12 +8,12 @@ SWEP.PrintName = "PPSh-41"
 SWEP.Class = "Submachine Gun"
 SWEP.Description = [[Russian submachine gun with an obscene rate of fire and a drum magazine.]]
 SWEP.Trivia = {
-    Manufacturer = "Tula Arms Plant",
+    Manufacturer = "Numerous",
     Calibre = "7.62x25mm Tokarev",
-    Mechanism = "Straight Blowback",
+    Mechanism = "Blowback, open boolt",
     Country = "USSR",
     Year = 1941,
-    Games = [[COD2, WAW, BO1, BO3, WW2, BOCW, VG]]
+    Games = [[COD1, COD2, WAW, BO1, BO3, WWII, BOCW, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

@@ -11,9 +11,9 @@ It is one of the most common weapons to appear across the Call of Duty series, t
 SWEP.Trivia = {
     Manufacturer = "C.G. Haenel",
     Calibre = "7.92x33mm Kurz",
-    Mechanism = "Gas-Operated",
+    Mechanism = "Long-stroke gas piston, closed tilting bolt",
     Country = "Nazi Germany",
-    Year = 1942,
+    Year = 1943,
     Games = [[COD2, COD3, COD4, WAW, BO1, BO2, AW, BO3, WWII, VG]]
 }
 SWEP.Credits = {

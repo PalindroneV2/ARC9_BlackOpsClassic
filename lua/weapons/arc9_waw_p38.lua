@@ -11,10 +11,10 @@ It was an item sought after by Allied soldiers as war souvenirs.]]
 SWEP.Trivia = {
     Manufacturer = "Walther GMBH",
     Calibre = "9x19mm Parabellum",
-    Mechanism = "Short Recoil",
+    Mechanism = "Short Recoil, hinged locking piece assisted breechblock",
     Country = "Nazi Germany",
-    Year = 1938,
-    Games = [[BR1, COD3, WAW, WWII]]
+    Year = 1939,
+    Games = [[BR1, COD3, WAW, BO1, WWII]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

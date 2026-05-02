@@ -9,12 +9,12 @@ SWEP.Class = "Rocket Launcher"
 SWEP.Description = [[An American design to replace WW2 era flamethrowers that had remained the standard incendiary devices for the US Military until well into the 60s.
 It can carry 4 rockets.]]
 SWEP.Trivia = {
-    Manufacturer = "Ordnance Development Division",
-    Calibre = "66mm Incendiary Rockets",
-    Mechanism = "Rocket Propelled Grenade",
+    Manufacturer = "Northrop Corporation, Electro-Mechanical Division",
+    Calibre = "66mm M235 incendiary TPA",
+    Mechanism = "Single shot, Rocket Propelled Grenade",
     Country = "USA",
     Year = 1978,
-    Games = [[Call of Duty: Black Ops II]]
+    Games = [[BO1, BO6, BO7]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

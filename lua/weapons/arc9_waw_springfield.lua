@@ -9,7 +9,7 @@ SWEP.Class = "Rifle"
 SWEP.Description = [[American bolt action rifle that was used as the standard infantry rifle in the Great War and remained in specialized roles such as snipers during WW2.
 This variant specifically saw much more use by the US Marines during the WW2 rather than the more modern M1903A4.]]
 SWEP.Trivia = {
-    Manufacturer = "Springfield",
+    Manufacturer = "Springfield Armory",
     Calibre = ".30-06 Springfield",
     Mechanism = "Bolt Action",
     Country = "USA",

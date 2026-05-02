@@ -10,12 +10,12 @@ SWEP.Description = [["What does a battle rifle have in common with a microwave? 
 
 American semi-automatic battle rifle using an en-bloc 8 round magazine, which gave US Troops an advantage against the more commonplace bolt-action rifles wielded by their enemies during WW2.]]
 SWEP.Trivia = {
-    Manufacturer = "U.S. Ordnance",
+    Manufacturer = "Springfield Armory",
     Calibre = ".30-06 Springfield",
-    Mechanism = "Recoil-Operated",
+    Mechanism = "Gas-operated, closed rotating bolt",
     Country = "USA",
-    Year = 1928,
-    Games = [[COD1, COD2, COD3, WAW, BO1, WW2, VG]]
+    Year = 1934,
+    Games = [[COD1, COD2, COD3, WAW, BO1, AW, IW, WW2, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

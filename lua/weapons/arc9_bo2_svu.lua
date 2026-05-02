@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Gas Operated, Rotating Bolt",
     Country = "Russia",
     Year = 1994,
-    Games = [[BO2, Ghosts]]
+    Games = [[BO2, Ghosts, COD:O, Mobile, BO6]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

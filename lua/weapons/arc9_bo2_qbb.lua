@@ -5,7 +5,7 @@ SWEP.SubCategory = "Light Machine Guns"
 SWEP.AdminOnly = false
 
 SWEP.PrintName = "QBB LSW"
-SWEP.Class = "General Purpose Machine Gun"
+SWEP.Class = "Light Machine Gun"
 SWEP.Description = [[Chinese fully automatic LMG in Light Squad Weapon configuration standard for the People's Liberation Army.
 Highest rate of fire in class.]]
 SWEP.Trivia = {
@@ -13,8 +13,8 @@ SWEP.Trivia = {
     Calibre = "5.8x42mm DBP10",
     Mechanism = "Gas-Operated",
     Country = "China",
-    Year = 1995,
-    Games = [[Call of Duty: Black Ops II]]
+    Year = 2025,
+    Games = [[BO2, Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

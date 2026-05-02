@@ -9,12 +9,12 @@ SWEP.Class = "Anti-Materiel Precision Rifle"
 SWEP.Description = [[American semi-automatic, high caliber sniper rifle. Effective at long range. 
 Very heavy, very powerful, and extremely dangerous in the right hands.]]
 SWEP.Trivia = {
-    Manufacturer = "Barrett",
+    Manufacturer = "Barrett Firearms Manufacturing",
     Calibre = ".50 BMG",
     Mechanism = "Recoil Operated, Rotating Bolt",
     Country = "USA",
-    Year = 1980,
-    Games = [[COD4, MW2, MW3, BO2, BOCW]]
+    Year = 1982,
+    Games = [[COD4, MW2, MW3, BO2, BOCW, BO6]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

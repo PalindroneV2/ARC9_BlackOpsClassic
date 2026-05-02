@@ -15,7 +15,7 @@ SWEP.Trivia = {
     Mechanism = "Recoil-less Rifle Rocket Propelled Charge",
     Country = "USA",
     Year = 1942,
-    Games = [[COD1, COD2, COD3, WAW, WW2, VG]]
+    Games = [[COD1, COD2, COD3, WAW]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

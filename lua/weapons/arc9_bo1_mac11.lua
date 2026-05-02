@@ -10,10 +10,10 @@ SWEP.Description = [[American machine pistol made as a subcompact variant of the
 Has an absurdly high fire rate. Very powerful, but only in close-quarters.]]
 SWEP.Trivia = {
     Manufacturer = "Military Armament Corporation",
-    Calibre = ".380 ACP",
-    Mechanism = "Blowback",
+    Calibre = "9x19mm Parabellum",
+    Mechanism = "Straight blowback",
     Country = "United States",
-    Year = 1950,
+    Year = 1972,
     Games = [[Call of Duty: Black Ops]]
 }
 SWEP.Credits = {

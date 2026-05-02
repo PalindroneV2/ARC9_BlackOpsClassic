@@ -11,7 +11,7 @@ SWEP.Trivia = {
     Mechanism = "Bashing",
     Materials = "AR500 Anti-Ballistic Steel, Translucent Polycarbonate",
     Country = "USA",
-    Games = [[MW2, MW3, BO2, MW19, MW22]]
+    Games = [[Call of Duty: Black Ops II, Call of Duty: Black Ops 6]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

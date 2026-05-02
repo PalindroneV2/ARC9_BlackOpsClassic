@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Blowback",
     Country = "Imperial Japan",
     Year = 1942,
-    Games = [[COD1, COD2, COD3, WAW, BO1, BO2, AW, BO3, WW2, BO4, VG]]
+    Games = [[WAW, BO1, WWII, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

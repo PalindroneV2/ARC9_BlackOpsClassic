@@ -6,15 +6,15 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Spectre"
 SWEP.Class = "Submachine Gun"
-SWEP.Description = [[Italian SMG used by Swiss and Italian Special Forces.
+SWEP.Description = [[Italian SMG used by Swiss and Italian Special Forces. Recognizable by its quad-stack casket magazine.
 High damage and fire rate, but recoil and spread are punishing.]]
 SWEP.Trivia = {
     Manufacturer = "SITES",
     Calibre = "9x19mm Parabellum",
-    Mechanism = "Blowback",
+    Mechanism = "Blowback, closed bolt",
     Country = "Italy",
-    Year = 1980,
-    Games = [[Call of Duty: Black Ops]]
+    Year = 1984,
+    Games = [[BO1, BO6]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

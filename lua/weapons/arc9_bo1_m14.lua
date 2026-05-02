@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Gas-Operated",
     Country = "USA",
     Year = 1959,
-    Games = [[Call of Duty: Black Ops Cold War]]
+    Games = [[COD4, BO1, BO2, BO3, BOCW, MW22, MW23, Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

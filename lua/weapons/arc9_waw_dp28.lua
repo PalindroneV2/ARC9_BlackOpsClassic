@@ -11,10 +11,10 @@ Nicknamed "Record Player" by soldiers due to its disc-shaped magazine that was f
 SWEP.Trivia = {
     Manufacturer = "Tula Arms",
     Calibre = "7.62x54mmR",
-    Mechanism = "Gas-Operated",
+    Mechanism = "Gas-Operated, flapper locking",
     Country = "USSR",
-    Year = 1927,
-    Games = [[COD2, WAW]]
+    Year = 1928,
+    Games = [[COD1, WAW. VG, Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

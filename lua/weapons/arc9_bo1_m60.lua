@@ -13,7 +13,7 @@ SWEP.Trivia = {
     Calibre = "7.62x51mm NATO",
     Mechanism = "Gas-Operated",
     Country = "USA",
-    Year = 1953,
+    Year = 1957,
     Games = [[COD4, MW2, BO1, MW3, BO2, BOCW]]
 }
 SWEP.Credits = {

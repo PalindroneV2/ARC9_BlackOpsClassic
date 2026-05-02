@@ -6,14 +6,14 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Ray Gun"
 SWEP.Class = "Wonder Weapon"
-SWEP.Description = [[An experimental Nazi "Wonder Weapons". Fires green bolts of plasma which explode on impact.
+SWEP.Description = [[An experimental Nazi "Wonder Weapon". Fires green bolts of plasma which explode on impact.
 Careful not to kill yourself with it.]]
 SWEP.Trivia = {
     Manufacturer = "Group 935",
     Calibre = "Atomic Cold Cells",
     Mechanism = "Unknown",
-    Country = "Unknown",
-    Year = "Unknown",
+    Country = "Nazi Germany",
+    Year = "1945",
     Games = [[WAW, BO1, BO2, BO3, BO4, BOCW, VG]]
 }
 SWEP.Credits = {

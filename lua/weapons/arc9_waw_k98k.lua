@@ -12,8 +12,8 @@ SWEP.Trivia = {
     Manufacturer = "Mauser",
     Calibre = "7.92x57mm Mauser",
     Mechanism = "Bolt Action",
-    Country = "German Empire",
-    Year = 1935,
+    Country = "Nazi Germany",
+    Year = 1934,
     Games = [[COD1, COD2, COD3, WAW, BO1, WW2, MW19, VG]]
 }
 SWEP.Credits = {

@@ -6,7 +6,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "XPR-50"
 SWEP.Class = "Anti-Materiel Precision Rifle"
-SWEP.Description = [[American .50 caliber semi-automatic sniper rifle. Deadly from the chest up, with moderate recoil.
+SWEP.Description = [[British .50 caliber semi-automatic sniper rifle. Deadly from the chest up, with moderate recoil.
 Very heavy, very powerful, and extremely dangerous in the right hands.]]
 SWEP.Trivia = {
     Manufacturer = "Accuracy International",

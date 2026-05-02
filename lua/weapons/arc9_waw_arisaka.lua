@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Bolt Action",
     Country = "Imperial Japan",
     Year = 1939,
-    Games = [[Call of Duty: World at War]]
+    Games = [[WAW, BO1, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

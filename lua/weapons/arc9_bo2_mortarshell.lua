@@ -6,12 +6,12 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Mortar Shell"
 SWEP.ShortPrintName = "HE Mortar"
-SWEP.Class = "Grenade"
-SWEP.Description = [[Fragmentation hand grenade used by the United States military.]]
+SWEP.Class = "Improvised Munition"
+SWEP.Description = [[HE munition for the M1 infantry mortar improvised as an impact grenade.]]
 SWEP.Trivia = {
     Country = "USA",
-    Year = 1968,
-    Games = [[Many CODs]]
+    Year = 1935,
+    Games = [[WAW, BO2]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

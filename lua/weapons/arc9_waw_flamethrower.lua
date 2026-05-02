@@ -11,10 +11,10 @@ Finally decommissioned at the end of the 70s after the Korean and Vietnam wars.]
 SWEP.Trivia = {
     Manufacturer = "US Army Chemical Warfare Service",
     Calibre = "Napalm/Gasoline",
-    Mechanism = "Straight Blowback",
+    Mechanism = "Nitrogen propellant",
     Country = "USA",
-    Year = 1940,
-    Games = [[Call of Duty: World at War]]
+    Year = 1944,
+    Games = [[WAW, BO1, WW2, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

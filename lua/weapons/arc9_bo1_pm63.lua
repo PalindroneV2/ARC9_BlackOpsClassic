@@ -13,7 +13,7 @@ SWEP.Trivia = {
     Calibre = "9x18mm Makarov",
     Mechanism = "Straight Blowback",
     Country = "Poland",
-    Year = 1963,
+    Year = 1965,
     Games = [[BO1, BOCW]]
 }
 SWEP.Credits = {
