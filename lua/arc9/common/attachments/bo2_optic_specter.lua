@@ -1,13 +1,9 @@
 ATT.PrintName = "ELCAN Specter DR (1-4x)"
 ATT.CompactName = [[SPECTER]]
 ATT.Icon = Material("entities/bo1_atts/optics/bo2_specter.png", "mips smooth")
-ATT.Description = [[Medium range combat scope for improved precision at longer ranges.
-Belongs to Black Ops.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "1-4x",
-    ["Backup Irons"] = "True"
-}
-ATT.CustomCons = {}
+ATT.Description = [[Medium range combat scope for improved precision at longer ranges.]]
+ATT.CustomPros = {["Backup Irons"] = "True"}
+ATT.CustomCons = {["Loss of peripheral vision on higher magnifications"] = ""}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
 ATT.Free = false
@@ -47,10 +43,10 @@ ATT.Sights = {
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnificationMin = 1
+ATT.RTScopeMagnificationMax = 4
+ATT.RTScopeNew_ShadowScale = 0.55
 ATT.RTScopeSubmatIndex = 0
-ATT.RTScopeFOV = 20
-ATT.RTScopeFOVMax = 8
-ATT.RTScopeFOVMin = 20
 ATT.RTScopeAdjustable = true
 ATT.RTScopeAdjustmentLevels = 1
 ATT.RTScopeRes = 512

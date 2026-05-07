@@ -1,11 +1,9 @@
-ATT.PrintName = "Weaver M73B1 scope (4x)"
+ATT.PrintName = "Weaver M73B1 scope (3.5x)"
 ATT.CompactName = [[Weaver 3.5x]]
 ATT.Icon = Material("entities/bo1_atts/optics/waw_mosin.png", "mips smooth")
 ATT.Description = [[Medium range combat scope for improved precision at longer ranges.
 Belongs to World at War.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "4x",
-}
+ATT.CustomPros = {}
 ATT.CustomCons = {}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - WAW Attachments"
@@ -31,14 +29,15 @@ ATT.Sights = {
         -- Pos = Vector(0.365, 10, -3.14),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 30,
-        Magnification = 1,
+        Magnification = 1.15,
         IgnoreExtra = true
     },
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnification = 3.5
+ATT.RTScopeNew_ShadowScale = 0.45
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 9
 ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo1/bo1_acogs/acog_lens")
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/waw_scope_us.png", "mips smooth")

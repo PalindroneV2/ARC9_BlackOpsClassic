@@ -3,10 +3,8 @@ ATT.CompactName = [[AWM]]
 ATT.Icon = Material("entities/bo1_atts/optics/bo1_vzoom.png", "mips smooth")
 ATT.Description = [[Long range combat scope with variable zoom.
 Belongs to Black Ops.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "8x",
-}
-ATT.CustomCons = {}
+ATT.CustomPros = {}
+ATT.CustomCons = {["Loss of peripheral vision on higher magnifications"] = ""}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
 ATT.Free = false
@@ -43,12 +41,13 @@ ATT.Attachments = {
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnificationMin = 5
+ATT.RTScopeMagnificationMax = 10
+ATT.RTScopeReticleScale = 0.9
+ATT.RTScopeNew_ShadowScale = 0.75
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 2
-ATT.RTScopeFOVMax = 2
-ATT.RTScopeFOVMin = 8
 ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 4
+ATT.RTScopeAdjustmentLevels = 1
 ATT.RTScopeRes = 1024
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo1/bo1_acogs/longscope_lens")
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo1_l96.png", "mips smooth")

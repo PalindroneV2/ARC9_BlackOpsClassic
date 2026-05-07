@@ -3,9 +3,7 @@ ATT.CompactName = [[C.SCOPE]]
 ATT.Icon = Material("entities/bo1_atts/optics/waw_telescopic.png", "mips smooth")
 ATT.Description = [[Medium range combat scope for improved precision at longer ranges.
 Belongs to Black Ops II.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "2x",
-}
+ATT.CustomPros = {}
 ATT.CustomCons = {}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
@@ -33,7 +31,7 @@ end
 ATT.Sights = {
     {
         Pos = Vector(0, 6, 0.1275),
-        Ang = Angle(0, 0, 0),
+        Ang = Angle(0.1, 0, 0),
         ViewModelFOV = 50,
         Magnification = 1,
         IgnoreExtra = true
@@ -41,8 +39,10 @@ ATT.Sights = {
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnification = 2
+ATT.RTScopeNew_ShadowScale = 0.6
+ATT.RTScopeReticleScale = 0.75
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 9
 ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_acogs/acog_lens")
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo3_mauserscope.png", "mips smooth")

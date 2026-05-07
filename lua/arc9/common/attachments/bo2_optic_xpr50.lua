@@ -3,9 +3,7 @@ ATT.CompactName = [[XPR-50]]
 ATT.Icon = Material("entities/bo1_atts/optics/bo1_vzoom.png", "mips smooth")
 ATT.Description = [[High-Powered Sniper Scope for the XPR-50.
 Belongs to Black Ops II.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "12x",
-}
+ATT.CustomPros = {}
 ATT.CustomCons = {}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
@@ -51,12 +49,17 @@ ATT.Attachments = {
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnificationMin = 7
+ATT.RTScopeMagnificationMax = 14
+ATT.RTScopeNew_ShadowScale = 0.6
+ATT.RTScopeReticleScale = 1.7
+ATT.RTScopeNew_ReticleBlackBox = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 2
 ATT.RTScopeFOVMax = 2
 ATT.RTScopeFOVMin = 12
 ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 4
+ATT.RTScopeAdjustmentLevels = 1
 ATT.RTScopeRes = 1024
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo1/bo1_acogs/longscope_lens")
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/psg1_scope.png", "mips smooth")
