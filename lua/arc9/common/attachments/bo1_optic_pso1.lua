@@ -5,7 +5,7 @@ ATT.Description = [[Russian-made 4x magnification sniper scope designed for prec
 Features a clear reticle with bullet drop compensation and rangefinding capabilities, originally paired with the Dragunov sniper rifle.
 Belongs to Black Ops.]]
 ATT.CustomPros = {}
-ATT.CustomCons = {}
+ATT.CustomCons = {["Reduced peripheral vision."] = ""}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
 ATT.Free = false
