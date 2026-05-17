@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Gas-Operated",
     Country = "Switzerland",
     Year = 1990,
-    Games = [[BO2, MW19]]
+    Games = [[BO2, MW19, BO6]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

@@ -1,11 +1,10 @@
 ATT.PrintName = "Swarovski Scope (2x)"
 ATT.CompactName = [[SWAROVSKI 2x]]
 ATT.Icon = Material("entities/bo1_atts/optics/bo1_coltscope.png", "mips smooth")
-ATT.Description = [[Short range combat scope for improved precision at longer ranges.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "2x"
+ATT.Description = [[Integral combat scope for improved precision at intermediate ranges.]]
+ATT.CustomPros = {["Backup Irons"] = "True"
 }
-ATT.CustomCons = {}
+ATT.CustomCons = {["Reduced peripheral vision."] = ""}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
 ATT.Free = false
@@ -22,7 +21,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.Sights = {
     {
         Pos = Vector(0.025, 6.5, -5.66),
-        Ang = Angle(0, 0, 0),
+        Ang = Angle(0.03, 0, 0),
         ViewModelFOV = 50,
         Magnification = 1.5,
         IgnoreExtra = true
@@ -38,11 +37,12 @@ ATT.Sights = {
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnification = 2
+ATT.RTScopeNew_ShadowScale = 0.75
+ATT.RTScopeReticleScale = 0.45
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 10
 ATT.RTScopeRes = 1024
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo1/bo1_acogs/acog_lens")
-ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo1_aug_crosshair.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.2
+ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo1_aug_crosshair.png", "mips smooth")   
 ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false

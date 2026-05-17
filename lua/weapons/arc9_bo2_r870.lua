@@ -14,8 +14,8 @@ SWEP.Trivia = {
     Calibre = "12 Gauge",
     Mechanism = "Pump-Action",
     Country = "USA",
-    Year = 1950,
-    Games = [[Call of Duty: Black Ops II]]
+    Year = 1951,
+    Games = [[BO2, MW19, MW22, MW23, BO6]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

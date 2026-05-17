@@ -10,8 +10,8 @@ SWEP.Description = [[Multi-barrel piercing shot rifle based on Metal Storm techn
 SWEP.Trivia = {
     Manufacturer = "Metal Storm",
     Calibre = "7.62x51mm NATO",
-    Mechanism = "Metal Storm",
-    Country = "USA",
+    Mechanism = "Superposed load, electrically fired",
+    Country = "Australia",
     Year = 2025,
     Games = [[Call of Duty: Black Ops II]]
 }

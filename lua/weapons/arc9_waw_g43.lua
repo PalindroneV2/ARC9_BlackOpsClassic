@@ -9,12 +9,12 @@ SWEP.Class = "Battle Rifle"
 SWEP.Description = [[WW2 era German semi-automatic rifle successor of the G41(W).
 Made to catch up with the SVT-38 and subsequently the SVT-40.]]
 SWEP.Trivia = {
-    Manufacturer = "Walther",
+    Manufacturer = "Walther GMBH",
     Calibre = "7.92x57mm Mauser",
-    Mechanism = "Gas-Operated",
+    Mechanism = "Short-stroke gas piston, flapper-locking",
     Country = "Nazi Germany",
     Year = 1943,
-    Games = [[COD1, COD2, COD3, WAW, BO1, WW2, VG]]
+    Games = [[COD1, COD2, COD3, WAW, BO1, WWII, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

@@ -6,14 +6,14 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "FHJ-18 AA"
 SWEP.Class = "Missile Launcher"
-SWEP.Description = [[Futurized FIM-92 AA.]]
+SWEP.Description = [[Chinese copy and modernization of Raytheon's FIM-92 Stinger MANPADS. Fires infrared homing surface-to-air missiles.]]
 SWEP.Trivia = {
-    Manufacturer = "Raytheon Missile Systems",
+    Manufacturer = "Shanghai Academy of Spaceflight Technology",
     Calibre = "40x46mm HE",
     Mechanism = "Missile",
-    Country = "USA",
+    Country = "China",
     Year = 2025,
-    Games = [[MW2, BO2, BOCW]]
+    Games = [[Call of Duty: Black Ops II, Call of Duty: Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

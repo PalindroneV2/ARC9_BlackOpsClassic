@@ -14,8 +14,8 @@ SWEP.Trivia = {
     Calibre = ".45 ACP",
     Mechanism = "Blowback",
     Country = "USA",
-    Year = 1920,
-    Games = [[COD1, COD2, COD3, WAW, BO1, WW2, VG]]
+    Year = 1942,
+    Games = [[COD1, COD2, COD3, WAW, BO1, COD:O]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

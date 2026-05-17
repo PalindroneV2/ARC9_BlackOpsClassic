@@ -11,10 +11,10 @@ Machine gun variant.]]
 SWEP.Trivia = {
     Manufacturer = "Heckler & Koch",
     Calibre = "7.62x51mm NATO",
-    Mechanism = "Roller-Delayed Blowback",
-    Country = "Germany",
-    Year = 1958,
-    Games = [[COD4:MW, BO1]]
+    Mechanism = "Roller-Delayed Blowback, closed bolt",
+    Country = "West Germany",
+    Year = 1961,
+    Games = [[BO1, MW22, MW23]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

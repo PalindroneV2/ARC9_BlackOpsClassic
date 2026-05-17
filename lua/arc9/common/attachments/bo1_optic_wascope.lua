@@ -3,10 +3,9 @@ ATT.CompactName = [[S&B 2.5–10×56]]
 ATT.Icon = Material("entities/bo1_atts/optics/bo1_vzoom.png", "mips smooth")
 ATT.Description = [[Long range combat scope with variable zoom.
 Belongs to Black Ops.]]
-ATT.CustomPros = {
-    ["Variable Zoom"] = "",
+ATT.CustomPros = {}
+ATT.CustomCons = {["Loss of peripheral vision on higher magnifications"] = ""
 }
-ATT.CustomCons = {}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
 ATT.Free = false
@@ -33,7 +32,7 @@ ATT.Sights = {
         Pos = Vector(-0.1525, 7.75, -0.9),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 50,
-        Magnification = 1,
+        Magnification = 1.25,
         IgnoreExtra = true
     },
 }
@@ -52,10 +51,10 @@ ATT.Attachments = {
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnificationMin = 2.5
+ATT.RTScopeMagnificationMax = 10
+ATT.RTScopeNew_ShadowScale = 0.75
 ATT.RTScopeSubmatIndex = 5
-ATT.RTScopeFOV = 2
-ATT.RTScopeFOVMax = 2
-ATT.RTScopeFOVMin = 8
 ATT.RTScopeAdjustable = true
 ATT.RTScopeAdjustmentLevels = 4
 ATT.RTScopeRes = 1024

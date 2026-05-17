@@ -5,16 +5,16 @@ SWEP.SubCategory = "Machine Guns"
 SWEP.AdminOnly = false
 
 SWEP.PrintName = "BAR"
-SWEP.Class = "Light Machine Gun"
+SWEP.Class = "Automatic Rifle"
 SWEP.Description = [[Automatic rifle developed by the legendary John Moses Browning for use with the "walking-fire" doctrine of the Great War, but entered too late to make an appreciable difference.
 The rifle saw a role shift to a light machine gun during the WW2. Though many complained that this new A2 variant was too heavy, thanks to its non-removable bipod.]]
 SWEP.Trivia = {
-    Manufacturer = "U.S. Ordnance",
+    Manufacturer = "Many",
     Calibre = ".30-06 Springfield",
-    Mechanism = "Recoil-Operated",
+    Mechanism = "Long-stroke gas piston, rising bolt lock",
     Country = "USA",
-    Year = 1918,
-    Games = [[COD1, COD2, COD3, WAW, BO1, WW2, VG]]
+    Year = 1917,
+    Games = [[COD1, COD2, COD3, WAW, BO1, WWII, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

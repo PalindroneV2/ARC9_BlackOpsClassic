@@ -35,8 +35,8 @@ SWEP.Trivia = {
     Manufacturer = "Group 935",
     Calibre = "Vaccum Tubes",
     Mechanism = "Unknown",
-    Country = "Unknown",
-    Year = "Unknown",
+    Country = "Nazi Germany",
+    Year = "1945",
     Designer = "Dr. Edward Richtofen",
     Games = [[WAW, BO1, BO3, BO4, VG, MWZ]]
 }

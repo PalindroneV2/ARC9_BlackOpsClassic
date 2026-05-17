@@ -4,10 +4,7 @@ ATT.Icon = Material("entities/bo1_atts/optics/bo2_dual_band.png", "mips smooth")
 ATT.Description = [[Advanced optical sight combining thermal and night vision capabilities.
 Highlights enemies in yellow against a green background, enhancing target acquisition in low-light and obscured environments.
 ]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "2x",
-    ["Threat Identification"] = "True"
-}
+ATT.CustomPros = {["Threat Identification"] = "True"}
 ATT.CustomCons = {}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
@@ -33,11 +30,11 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 10
+ATT.RTScopeMagnification = 2
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo2_dualband.png", "mips smooth")
 ATT.RTScopeShadowIntensity = 1.5
-ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeReticleScale = 0.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeNoShadow = false
 

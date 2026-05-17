@@ -3,10 +3,8 @@ ATT.CompactName = [[Colt 3x]]
 ATT.Icon = Material("entities/bo1_atts/optics/bo1_coltscope.png", "mips smooth")
 ATT.Description = [[Medium range combat scope for improved precision at longer ranges.
 Belongs to Black Ops.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "3x",
-}
-ATT.CustomCons = {}
+ATT.CustomPros = {}
+ATT.CustomCons = {["Reduced peripheral vision."] = ""}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
 ATT.Free = false
@@ -34,14 +32,15 @@ ATT.Sights = {
         Pos = Vector(-0, 6.5, -1.0475),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 50,
-        Magnification = 1,
+        Magnification = 1.15,
         IgnoreExtra = true
     },
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnification = 3
+ATT.RTScopeNew_ShadowScale = 0.45
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 10
 ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo1/bo1_acogs/acog_lens")
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo1_acog_cross.png", "mips smooth")

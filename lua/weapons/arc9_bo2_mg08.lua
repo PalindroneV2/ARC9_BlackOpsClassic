@@ -11,7 +11,7 @@ Being a water-cooled squad weapon, it is extremely heavy and near-unusable from 
 SWEP.Trivia = {
     Manufacturer = "Deutsche Waffen und Munitionsfabriken",
     Calibre = "Deutsche Waffen und Munitionsfabriken",
-    Mechanism = "Short-Recoil",
+    Mechanism = "Short-Recoil, toggle-locked",
     Country = "German Empire",
     Year = 1908,
     Games = [[BO2, BO3]]

@@ -190,9 +190,9 @@ SWEP.ShootEntUBGL = nil
 --SWEP.MuzzleEffect = "muzzleflash_1"
 SWEP.MuzzleParticle = "muzzleflash_m14" -- Used for some muzzle effects.
 
-SWEP.ShellModel = "models/shells/shell_556.mdl"
+SWEP.ShellModel = "models/shells/shell_12gauge.mdl"
 SWEP.ShellPitch = 90
-SWEP.ShellScale = 1.4
+SWEP.ShellScale = 1.3
 
 SWEP.MuzzleEffectQCA = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectQCA = 2 -- which attachment to put the case effect on
@@ -211,7 +211,7 @@ SWEP.CaseBones = {}
 
 SWEP.IronSights = {
     Pos = Vector(-2.625, -3, -0.1),
-    Ang = Angle(0, 0, 0),
+    Ang = Angle(-0.12, 0.25, 0),
     Magnification = 1.1,
     ViewModelFOV = 60,
     CrosshairInSights = false,

@@ -4,10 +4,9 @@ ATT.Icon = Material("entities/bo1_atts/optics/bo1_vzoom.png", "mips smooth")
 ATT.Description = [[High-quality variable zoom scope offering a magnification range from 3x to 9x, designed for versatile medium to long-range engagements.
 Features fully multicoated optics for enhanced light transmission and a 40mm objective lens for a wide field of view.
 Belongs to Black Ops.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "8x",
+ATT.CustomPros = {}
+ATT.CustomCons = {["Loss of peripheral vision on higher magnifications"] = ""
 }
-ATT.CustomCons = {}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
 ATT.Free = false
@@ -25,7 +24,7 @@ ATT.Sights = {
         Pos = Vector(-0.0025, 6.5, -1.13),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 50,
-        Magnification = 1,
+        Magnification = 1.15,
         IgnoreExtra = true
     },
 }
@@ -45,9 +44,9 @@ ATT.Attachments = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 5
-ATT.RTScopeFOV = 2
-ATT.RTScopeFOVMax = 2
-ATT.RTScopeFOVMin = 8
+ATT.RTScopeMagnificationMin = 3
+ATT.RTScopeMagnificationMax = 9
+ATT.RTScopeNew_ShadowScale = 0.5
 ATT.RTScopeAdjustable = true
 ATT.RTScopeAdjustmentLevels = 4
 ATT.RTScopeRes = 1024

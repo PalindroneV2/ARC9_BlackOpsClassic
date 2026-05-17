@@ -9,12 +9,12 @@ SWEP.Class = "Anti-Materiel Precision Rifle"
 SWEP.Description = [[American semi-automatic, high caliber sniper rifle. Effective at long range. 
 Very heavy, very powerful, and extremely dangerous in the right hands.]]
 SWEP.Trivia = {
-    Manufacturer = "Barrett",
+    Manufacturer = "Barrett Firearms Manufacturing",
     Calibre = ".50 BMG",
     Mechanism = "Recoil Operated, Rotating Bolt",
     Country = "USA",
-    Year = 1980,
-    Games = [[COD4, MW2, MW3, BO2, BOCW]]
+    Year = 1982,
+    Games = [[COD4, MW2, MW3, BO2, BOCW, BO6]]
 }
 SWEP.Credits = {
     Author = "Palindrone"
@@ -67,7 +67,7 @@ SWEP.TracerEffect = "ARC9_tracer" -- The effect to use for hitscan tracers
 SWEP.TracerColor = Color(255, 255, 255) -- Color of tracers. Only works if tracer effect supports it. For physical bullets, this is compressed down to 9-bit color.
 
 SWEP.ChamberSize = 0 -- dont fucking change this again.
-SWEP.ClipSize = 5 -- DefaultClip is automatically set.
+SWEP.ClipSize = 10 -- DefaultClip is automatically set.
 SWEP.SupplyLimit = 10
 SWEP.SecondarySupplyLimit = 10
 SWEP.ReloadTime = 1
@@ -129,7 +129,7 @@ SWEP.RestoreBreathTime = 10
 SWEP.FreeAimRadius = 0
 SWEP.FreeAimRadiusMultSights = 0
 
-SWEP.RPM = 125
+SWEP.RPM = 150
 SWEP.AmmoPerShot = 1 -- number of shots per trigger pull.
 SWEP.Firemodes = {
     {

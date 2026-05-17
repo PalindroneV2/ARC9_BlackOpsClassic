@@ -9,12 +9,12 @@ SWEP.Class = "Machine Pistol"
 SWEP.Description = [[Soviet submachine gun designed for security forces.
 Being used by low-ranking army staff, vehicle drivers, personnel, and special forces.]]
 SWEP.Trivia = {
-    Manufacturer = "KBP",
-    Calibre = "9x18mm Parabellum",
-    Mechanism = "Blowback",
+    Manufacturer = "KBP, Zastava Arms",
+    Calibre = ".32 ACP, .380 ACP",
+    Mechanism = "Blowback, closed bolt",
     Country = "Czechoslovakia",
     Year = 1961,
-    Games = [[COD4, MW2, BO1]]
+    Games = [[COD4, MW2, BO1, MW3, COD:O]]
 }
 SWEP.Credits = {
     Author = "Palindrone"
@@ -176,7 +176,7 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSights = {
-    Pos = Vector(-2.915, -2, 0.625),
+    Pos = Vector(-3, -2, 0.65),
     Ang = Angle(0.035, 0.775, 0),
     Magnification = 1.1,
     ViewModelFOV = 60,

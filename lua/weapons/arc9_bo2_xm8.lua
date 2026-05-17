@@ -7,14 +7,14 @@ SWEP.AdminOnly = false
 SWEP.PrintName = "M8A1"
 SWEP.Class = "Assault Rifle"
 SWEP.Description = [[German 4 round burst assault rifle. Bursts can be fired in quick succession.
-Remnant of HK's OICW prototype.]]
+Modernization of HK's OICW prototype.]]
 SWEP.Trivia = {
     Manufacturer = "Heckler & Koch",
     Calibre = "5.56x45mm NATO",
     Mechanism = "Gas-Operated",
     Country = "Germany",
-    Year = 2002,
-    Games = [[Call of Duty: Black Ops II]]
+    Year = 2025,
+    Games = [[BO2, BO7]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

@@ -4,7 +4,6 @@ ATT.Icon = Material("entities/bo1_atts/optics/bo2_tfinder.png", "mips smooth")
 ATT.Description = [[Black Ops II Electronic Sight.
 Provides an electronic crosshair for the user as well as providing range data in real time.]]
 ATT.CustomPros = {
-    ["Zoom Level"] = "2x",
     ["Clearer sight picture"] = "",
     ["Threat Identification"] = "True"
 }

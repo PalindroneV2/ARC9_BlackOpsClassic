@@ -6,15 +6,16 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Death Machine II"
 SWEP.Class = "Heavy Machine Gun"
-SWEP.Description = [[Multi-barreled Gatling gun with high capacity and extremely high rate of fire.]]
+SWEP.Description = [[Multi-barreled heavy rotary gun with high capacity and extremely high rate of fire.
+Guaranteed to turn anything lighter than a tank to scrap or giblets.]]
 
 SWEP.Trivia = {
-    Manufacturer = "U.S. Ordnance/General Electric",
+    Manufacturer = "Fulcrum Concepts/General Electric",
     Calibre = ".50 BMG",
     Mechanism = "Electrically driven rotary breech",
     Country = "USA",
-    Year = 1960,
-    Games = [[Call of Duty: Black Ops II]]
+    Year = 2012,
+    Games = [[BO2, Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

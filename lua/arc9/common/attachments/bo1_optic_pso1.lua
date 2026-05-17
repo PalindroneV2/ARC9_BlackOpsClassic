@@ -4,10 +4,8 @@ ATT.Icon = Material("entities/bo1_atts/optics/bo1_vzoom.png", "mips smooth")
 ATT.Description = [[Russian-made 4x magnification sniper scope designed for precision shooting.
 Features a clear reticle with bullet drop compensation and rangefinding capabilities, originally paired with the Dragunov sniper rifle.
 Belongs to Black Ops.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "6x",
-}
-ATT.CustomCons = {}
+ATT.CustomPros = {}
+ATT.CustomCons = {["Reduced peripheral vision."] = ""}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
 ATT.Free = false
@@ -23,9 +21,9 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.Sights = {
     {
         Pos = Vector(-0.0125, 8, -1.27),
-        Ang = Angle(0, 0, 0),
+        Ang = Angle(0.04, -0.05, 0),
         ViewModelFOV = 50,
-        Magnification = 1,
+        Magnification = 1.15,
         IgnoreExtra = true,
     },
 }
@@ -44,8 +42,11 @@ ATT.Attachments = {
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnification = 4
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.75
+ATT.RTScopeNew_DisableRTVM = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 6
 ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_acogs/acog_lens")
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo1_dragunov.png", "mips smooth")

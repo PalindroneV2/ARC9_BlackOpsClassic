@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Bolt Action",
     Country = "Russian Empire",
     Year = 1891,
-    Games = [[Call of Duty: World at War]]
+    Games = [[COD1, COD2, WAW, BO1, WWII, VG, Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

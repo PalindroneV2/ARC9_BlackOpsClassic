@@ -4,11 +4,9 @@ ATT.Icon = Material("entities/bo1_atts/optics/bo1_thermal.png", "mips smooth")
 ATT.Description = [[Early-generation night vision sight designed for low-light conditions.
 Features a green-tinted image with a 1x magnification, suitable for close-range engagements.
 ]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "2x",
-    ["Threat Identification"] = "True"
+ATT.CustomPros = {["Threat Identification"] = "True"
 }
-ATT.CustomCons = {}
+ATT.CustomCons = {["Significantly reduced peripheral vision."] = ""}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
 ATT.Free = false
@@ -32,8 +30,9 @@ ATT.Sights = {
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnification = 2
+ATT.RTScopeNew_ShadowScale = 0.7
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 10
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo1_thermal_us.png", "mips smooth")
 ATT.RTScopeShadowIntensity = 1.5

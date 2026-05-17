@@ -12,7 +12,7 @@ It is incredibly popular with police and military, as well as civilians.]]
 SWEP.Trivia = {
     Manufacturer = "FN Herstal",
     Calibre = "5.7x28mm",
-    Mechanism = "Short Recoil",
+    Mechanism = "Delayed Blowback",
     Country = "Belgium",
     Year = 1998,
     Games = [[MW3, BO2]]
@@ -174,8 +174,8 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSights = {
-    Pos = Vector(-2.43, -1, 0.7),
-    Ang = Angle(-0.075, 0, 0),
+    Pos = Vector(-2.43, -1, 0.66),
+    Ang = Angle(-0.1, 0.15, 0),
     Magnification = 1.1,
     ViewModelFOV = 60,
     CrosshairInSights = false,

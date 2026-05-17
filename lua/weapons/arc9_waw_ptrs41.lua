@@ -10,11 +10,11 @@ SWEP.Description = [[Russian anti-materiel rifle made for destroying armored veh
 It's a devastating anti-tank power comes at the cost of a massive 2 meter length and weight that makes it unable to be fired from the shoulder.]]
 SWEP.Trivia = {
     Manufacturer = "Many",
-    Calibre = "14.5x144mm",
-    Mechanism = "Recoil Operated, Tilting Bolt",
+    Calibre = "14.5x114mm",
+    Mechanism = "Short-stroke gas piston, Tilting Bolt",
     Country = "USSR",
     Year = 1941,
-    Games = [[Call of Duty: World at War]]
+    Games = [[COD1, WAW, WWII, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

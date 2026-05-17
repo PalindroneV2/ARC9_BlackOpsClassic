@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Gas-Operated",
     Country = "India",
     Year = 2006,
-    Games = [[Call of Duty: Black Ops II]]
+    Games = [[Call of Duty: Black Ops II, Call of Duty: Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

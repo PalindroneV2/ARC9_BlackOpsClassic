@@ -15,7 +15,7 @@ SWEP.Trivia = {
     Mechanism = "Blishlock",
     Country = "USA",
     Year = 1920,
-    Games = [[COD1, COD2, COD3, WAW, BO1, WW2, VG]]
+    Games = [[BO2, BO3, WWII, BO4, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

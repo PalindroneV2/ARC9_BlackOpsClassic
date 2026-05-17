@@ -8,12 +8,12 @@ SWEP.PrintName = "Browning M1919"
 SWEP.Class = "General Purpose Machine Gun"
 SWEP.Description = [[Belt-fed light machine gun in .30-06 variant of the .50 BMG M2 machine gun designed by the legendary John Browning.]]
 SWEP.Trivia = {
-    Manufacturer = "U.S. Ordnance",
+    Manufacturer = "Several",
     Calibre = ".30-06 Springfield",
-    Mechanism = "Recoil-Operated",
+    Mechanism = "Recoil-Operated, closed bolt",
     Country = "USA",
     Year = 1919,
-    Games = [[COD1, COD2, COD3, WAW]]
+    Games = [[COD1, COD2, COD3, WAW, WWII]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

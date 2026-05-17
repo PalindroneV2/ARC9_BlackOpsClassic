@@ -11,7 +11,7 @@ The bore gets tighter towards the end, aiding in accuracy.]]
 SWEP.Trivia = {
     Manufacturer = "Colt",
     Calibre = ".357 Magnum",
-    Mechanism = "Double Action",
+    Mechanism = "Double-Action, Single-Action",
     Country = "USA",
     Year = 1955,
     Games = [[BO1, BO2]]
@@ -173,8 +173,8 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSights = {
-    Pos = Vector(-2.15, 0, 0.95),
-    Ang = Angle(0, -0.5, 0),
+    Pos = Vector(-2.15, 0, 0.9),
+    Ang = Angle(-0.05, -0.45, 0),
     Magnification = 1.1,
     ViewModelFOV = 50,
     CrosshairInSights = false,

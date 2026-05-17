@@ -6,15 +6,15 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "PDW-57"
 SWEP.Class = "Personal Defense Weapon"
-SWEP.Description = [[A PDW in 5.7x28mm successor to FN's P90, with a magazine that pivots to the left instead of being pulled from the top.
+SWEP.Description = [[A successor to FN's P90 chambered in 5.7x28mm, with a magazine that pivots to the left instead of being pulled from the top.
 Fully automatic, with increased range and largest ammo capacity in its class.]]
 SWEP.Trivia = {
-    Manufacturer = "IH Armament",
+    Manufacturer = "IH Armament CO.",
     Calibre = "5.7x28mm",
     Mechanism = "Gas-Operated",
     Country = "Belgium",
     Year = 2025,
-    Games = [[Call of Duty: Black Ops II]]
+    Games = [[Call of Duty: Black Ops II, Call of Duty: Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

@@ -5,16 +5,16 @@ SWEP.SubCategory = "Sniper Rifles"
 SWEP.AdminOnly = false
 
 SWEP.PrintName = "WA 2000"
-SWEP.Class = "Designated Marskman Rifle"
-SWEP.Description = [[German semi-automatic precision rifle created in response to the 1972 Summer Olympics Massacre in Munich.
+SWEP.Class = "Sniper Rifle"
+SWEP.Description = [[German semi-automatic bullpup precision rifle created in response to the 1972 Summer Olympics Massacre in Munich.
 Only 176 were ever built due to high production cost.]]
 SWEP.Trivia = {
-    Manufacturer = "Kalashnikov Concern",
-    Calibre = "7.62x51mm NATO",
+    Manufacturer = "Walther",
+    Calibre = ".300 Winchester Magnum",
     Mechanism = "Gas Operated, Rotating Bolt",
     Country = "West Germany",
-    Year = 1982,
-    Games = [[MW2, BO1, MW3 (Cut), COD:O]]
+    Year = 1978,
+    Games = [[MW2, BO1, COD:O, MW22, MW23]]
 }
 SWEP.Credits = {
     Author = "Palindrone"
@@ -65,7 +65,7 @@ SWEP.TracerEffect = "ARC9_tracer" -- The effect to use for hitscan tracers
 SWEP.TracerColor = Color(255, 255, 255) -- Color of tracers. Only works if tracer effect supports it. For physical bullets, this is compressed down to 9-bit color.
 
 SWEP.ChamberSize = 0 -- dont fucking change this again.
-SWEP.ClipSize = 10 -- DefaultClip is automatically set.
+SWEP.ClipSize = 6 -- DefaultClip is automatically set.
 SWEP.SupplyLimit = 5
 SWEP.SecondarySupplyLimit = 5
 SWEP.ReloadTime = 1
@@ -127,7 +127,7 @@ SWEP.RestoreBreathTime = 10
 SWEP.FreeAimRadius = 0
 SWEP.FreeAimRadiusMultSights = 0
 
-SWEP.RPM = 600
+SWEP.RPM = 234
 SWEP.AmmoPerShot = 1 -- number of shots per trigger pull.
 SWEP.Firemodes = {
     {

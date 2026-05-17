@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Blowback",
     Country = "Israel",
     Year = 1950,
-    Games = [[BO1, BO2]]
+    Games = [[BO1, BO2, MW19, Mobile, MW22, MW23]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

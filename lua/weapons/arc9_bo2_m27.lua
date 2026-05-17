@@ -10,10 +10,10 @@ SWEP.Description = [[Fully automatic assault rifle. Reduced recoil provides high
 SWEP.Trivia = {
     Manufacturer = "Heckler & Koch",
     Calibre = "5.56x45mm NATO",
-    Mechanism = "Gas Piston",
+    Mechanism = "Gas-operated short-stroke piston",
     Country = "Germany",
     Year = 2004,
-    Games = [[Call of Duty: Black Ops II]]
+    Games = [[Call of Duty: Black Ops II, Call of Duty: Ghosts]]
 }
 SWEP.Credits = {
     Author = "Palindrone"
@@ -186,7 +186,7 @@ SWEP.CaseBones = {}
 
 SWEP.IronSights = {
     Pos = Vector(-2.825, 0, 0.1),
-    Ang = Angle(0.025, 0.8, 0),
+    Ang = Angle(0.02, 0.85, 0),
     Magnification = 1.1,
     ViewModelFOV = 60,
     CrosshairInSights = false,

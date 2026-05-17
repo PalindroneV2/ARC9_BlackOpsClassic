@@ -13,7 +13,7 @@ SWEP.Trivia = {
     Calibre = "9x19mm Parabellum",
     Mechanism = "Blowback",
     Country = "West Germany",
-    Year = 1950,
+    Year = 1963,
     Games = [[Call of Duty: Black Ops]]
 }
 SWEP.Credits = {

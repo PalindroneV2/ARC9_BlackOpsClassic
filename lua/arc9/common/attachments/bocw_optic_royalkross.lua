@@ -3,9 +3,7 @@ ATT.CompactName = [[RK 4x]]
 ATT.Icon = Material("entities/bo1_atts/optics/bo1_coltscope.png", "mips smooth")
 ATT.Description = [[Medium range combat scope for improved precision at longer ranges.
 Belongs to Black Ops Cold War.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "4x",
-}
+ATT.CustomPros = {}
 ATT.CustomCons = {}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
@@ -22,14 +20,16 @@ ATT.ModelOffset = Vector(0, 0, -0.2)
 ATT.Sights = {
     {
         Pos = Vector(0, 6, -1.3),
-        Ang = Angle(0, 0, 0),
+        Ang = Angle(0.05, 0, 0),
         ViewModelFOV = 50,
-        Magnification = 1,
+        Magnification = 1.15,
         IgnoreExtra = true,
     },
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnification = 4
+ATT.RTScopeNew_ShadowScale = 0.45
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 6
 ATT.RTScopeRes = 512

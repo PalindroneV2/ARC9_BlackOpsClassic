@@ -5,17 +5,15 @@ SWEP.SubCategory = "Light Machine Guns"
 SWEP.AdminOnly = false
 
 SWEP.PrintName = "LSAT"
-SWEP.Class = "General Purpose Machine Gun"
-SWEP.Description = [[Belgian fully automatic LMG. Versatile and strong overall.
-Scaled up version of the MK 46 Mod 0 and fires the more powerful 7.62x51mm NATO.
-Used by US Naval Forces, USSOCOM, and Indian Special Forces.]]
+SWEP.Class = "Light Machine Gun"
+SWEP.Description = [[Versatile American light machine gun developed from the Lightweight Small Arms Technologies program. Fires caseless 5mm rounds.]]
 SWEP.Trivia = {
-    Manufacturer = "FN Herstal",
+    Manufacturer = "AAI Corporation",
     Calibre = "5.56x45mm Caseless",
-    Mechanism = "Short-stroke gas piston",
+    Mechanism = "Gas-piston; push-through feed-and-ejection; open, swinging chamber",
     Country = "USA",
     Year = 2010,
-    Games = [[Call of Duty: Black Ops II]]
+    Games = [[Call of Duty: Black Ops II, Call of Duty Online]]
 }
 SWEP.Credits = {
     Author = "Palindrone"
@@ -201,7 +199,7 @@ SWEP.CaseBones = {}
 
 SWEP.IronSights = {
     Pos = Vector(-3.36, -5, 0.25),
-    Ang = Angle(0.025, 0.5, 0),
+    Ang = Angle(0.020, 0.45, 0),
     Magnification = 1.1,
     ViewModelFOV = 60,
     CrosshairInSights = false,

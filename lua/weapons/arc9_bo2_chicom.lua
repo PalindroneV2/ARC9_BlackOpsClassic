@@ -6,13 +6,13 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Chicom CQB"
 SWEP.Class = "Personal Defense Weapon"
-SWEP.Description = [[A Chinese PDW submachine gun that operatres in 4-round bursts.
+SWEP.Description = [[A Chinese personal defense weapon that operatres in 4-round bursts.
 High cyclic fire rate allows for fast consecutive bursts.]]
 SWEP.Trivia = {
-    Manufacturer = "Jianshe",
-    Calibre = "5.7x28mm",
-    Mechanism = "Gas-Operated",
-    Country = "Belgium",
+    Manufacturer = "China South Industries Group",
+    Calibre = "5.7x28mm DAP92",
+    Mechanism = "Blowback, open bolt",
+    Country = "China",
     Year = 2025,
     Games = [[Call of Duty: Black Ops II]]
 }
@@ -182,8 +182,8 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSights = {
-    Pos = Vector(-3.175, -2, 0.85),
-    Ang = Angle(0, -0.75, 0),
+    Pos = Vector(-3.175, -2, 0.8),
+    Ang = Angle(-0.01, -0.75, 0),
     Magnification = 1.1,
     ViewModelFOV = 60,
     CrosshairInSights = false,

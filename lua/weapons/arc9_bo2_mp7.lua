@@ -15,7 +15,7 @@ SWEP.Trivia = {
     Mechanism = "Gas-Operated",
     Country = "Germany",
     Year = 2001,
-    Games = [[MW3, BO2, MW19]]
+    Games = [[MW3, BO2, MW19, MW22, MW23, Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

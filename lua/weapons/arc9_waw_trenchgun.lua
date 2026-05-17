@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Mechanism = "Pump-Action",
     Country = "USA",
     Year = 1897,
-    Games = [[COD2, COD3, WAW, BO1, WW2, BO4, VG]]
+    Games = [[COD2, COD3, WAW, BO1, WWII, BO4, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

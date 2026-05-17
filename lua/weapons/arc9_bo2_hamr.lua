@@ -5,7 +5,7 @@ SWEP.SubCategory = "Light Machine Guns"
 SWEP.AdminOnly = false
 
 SWEP.PrintName = "HAMR"
-SWEP.Class = "General Purpose Machine Gun"
+SWEP.Class = "Light Machine Gun"
 SWEP.Description = [[Heat Adaptive Modular Rifle.
 Fully automatic LMG. Reduces recoil during sustained fire.]]
 SWEP.Trivia = {

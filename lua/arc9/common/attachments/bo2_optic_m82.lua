@@ -5,10 +5,8 @@ ATT.Description = [[High-precision American-made optic designed for the Barrett 
  Features a 4.5 to 14× magnification range and a 50mm objective lens, providing exceptional clarity and target acquisition at extended ranges
  The robust construction ensures reliability under the heavy recoil of .50 BMG rounds.
 Belongs to Black Ops II.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "12x",
-}
-ATT.CustomCons = {}
+ATT.CustomPros = {}
+ATT.CustomCons = {["Loss of peripheral vision on higher magnifications"] = ""}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
 ATT.Free = false
@@ -53,12 +51,13 @@ ATT.Sights = {
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnificationMin = 4.5
+ATT.RTScopeMagnificationMax = 14
+ATT.RTScopeReticleScale = 0.7
+ATT.RTScopeNew_ShadowScale = 1.4
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 2
-ATT.RTScopeFOVMax = 2
-ATT.RTScopeFOVMin = 12
 ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 4
+ATT.RTScopeAdjustmentLevels = 3
 ATT.RTScopeRes = 1024
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo1/bo1_acogs/longscope_lens")
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/psg1_scope.png", "mips smooth")

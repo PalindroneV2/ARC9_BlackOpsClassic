@@ -12,8 +12,8 @@ SWEP.Trivia = {
     Calibre = "40x46mm HE",
     Mechanism = "Spring-Loaded Revolving Chamber",
     Country = "South Africa",
-    Year = 1982,
-    Games = [[Call of Duty: Black Ops II]]
+    Year = 1983,
+    Games = [[BO2, Mobile, MW19, MW22, MW23]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

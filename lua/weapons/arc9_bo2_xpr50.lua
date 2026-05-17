@@ -6,7 +6,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "XPR-50"
 SWEP.Class = "Anti-Materiel Precision Rifle"
-SWEP.Description = [[American .50 caliber semi-automatic sniper rifle. Deadly from the chest up, with moderate recoil.
+SWEP.Description = [[British .50 caliber semi-automatic sniper rifle. Deadly from the chest up, with moderate recoil.
 Very heavy, very powerful, and extremely dangerous in the right hands.]]
 SWEP.Trivia = {
     Manufacturer = "Accuracy International",
@@ -67,7 +67,7 @@ SWEP.TracerEffect = "ARC9_tracer" -- The effect to use for hitscan tracers
 SWEP.TracerColor = Color(255, 255, 255) -- Color of tracers. Only works if tracer effect supports it. For physical bullets, this is compressed down to 9-bit color.
 
 SWEP.ChamberSize = 0 -- dont fucking change this again.
-SWEP.ClipSize = 5 -- DefaultClip is automatically set.
+SWEP.ClipSize = 8 -- DefaultClip is automatically set.
 SWEP.SupplyLimit = 10
 SWEP.SecondarySupplyLimit = 10
 SWEP.ReloadTime = 1
@@ -129,7 +129,7 @@ SWEP.RestoreBreathTime = 10
 SWEP.FreeAimRadius = 0
 SWEP.FreeAimRadiusMultSights = 0
 
-SWEP.RPM = 600
+SWEP.RPM = 375
 SWEP.AmmoPerShot = 1 -- number of shots per trigger pull.
 SWEP.Firemodes = {
     {

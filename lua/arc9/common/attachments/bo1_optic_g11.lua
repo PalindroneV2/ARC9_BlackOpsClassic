@@ -3,9 +3,7 @@ ATT.CompactName = [[G11 Scope]]
 ATT.Icon = Material("entities/bo1_atts/optics/bo1_g11scope.png", "mips smooth")
 ATT.Description = [[4x optic designed for medium-range engagements, enhancing accuracy and precision for distant targets, exclusive to the G11.
 Belongs to Black Ops.]]
-ATT.CustomPros = {
-    ["Zoom Level"] = "4x",
-}
+ATT.CustomPros = {}
 ATT.CustomCons = {}
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - BO1 Attachments"
@@ -30,19 +28,20 @@ end
 ATT.Sights = {
     {
         Pos = Vector(0.02, 6.5, -1.35),
-        Ang = Angle(0, 0.1, 0),
+        Ang = Angle(0.08, 0, 0),
         ViewModelFOV = 50,
-        Magnification = 1,
+        Magnification = 1.15,
         IgnoreExtra = true
     },
 }
 
 ATT.RTScope = true
+ATT.RTScopeMagnification = 4
+ATT.RTScopeNew_ShadowScale = 0.5
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 9
 ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo1/bo1_acogs/acog_lens")
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo1_g11.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false

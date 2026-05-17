@@ -10,10 +10,10 @@ SWEP.Description = [[A French assault rifle firing the 5.56mm NATO round Using a
 SWEP.Trivia = {
     Manufacturer = "GIAT Industries",
     Calibre = "5.56x45mm NATO",
-    Mechanism = "Gas-Operated",
+    Mechanism = "Lever-delayed blowback",
     Country = "France",
     Year = 1978,
-    Games = [[MW2, BO1, BO3, MW19, BOCW]]
+    Games = [[MW2, BO1, COD:O, MW19, BOCW, Mobile, MW23]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

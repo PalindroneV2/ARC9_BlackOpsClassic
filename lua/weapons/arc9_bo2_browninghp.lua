@@ -11,7 +11,7 @@ Semi-automatic with medium capacity and power. Effective at close range.]]
 SWEP.Trivia = {
     Manufacturer = "FN Herstal",
     Calibre = "9x19mm Parabellum",
-    Mechanism = "Short Recoil",
+    Mechanism = "Short Recoil, tilting barrel",
     Country = "Belgium",
     Year = 1935,
     Games = [[Call of Duty: Black Ops II]]
@@ -175,7 +175,7 @@ SWEP.CaseBones = {}
 
 SWEP.IronSights = {
     Pos = Vector(-2.35, 0, 0.73),
-    Ang = Angle(-0.075, 0, 0),
+    Ang = Angle(-0.075, 0.12, 0),
     Magnification = 1.1,
     ViewModelFOV = 50,
     CrosshairInSights = false,
@@ -260,7 +260,7 @@ SWEP.HookP_NameChange = function(self, name)
 
     local attached = self:GetElements()
 
-    local gunname = "FN Browning HP"
+    local gunname = "FN Browning Hi-Power"
 
     if attached["maria"] then
         gunname = "Maria"

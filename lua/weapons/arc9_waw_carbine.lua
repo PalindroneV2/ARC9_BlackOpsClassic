@@ -9,12 +9,12 @@ SWEP.Class = "Assault Rifle"
 SWEP.Description = [[During World War 2 the US Army requested a lightweight weapon for rear echelon troops with greater range than a pistol but lighter than the M1 Garand or M1A1 Thompson. What they came up with was the M1 Carbine, with a new caliber desinged specially for this weapon.
 Despite not being designed for frontline combat, the M1 Carbine soon found itself serving in the line of battle wielded by officers, paratroopers, NCOs and the like.]]
 SWEP.Trivia = {
-    Manufacturer = "Springfield Armory",
+    Manufacturer = "Many",
     Calibre = ".30 Carbine",
-    Mechanism = "Gas-Operated",
+    Mechanism = "Gas-Operated, rotating bolt",
     Country = "USA",
     Year = 1942,
-    Games = [[COD1, COD2, COD3, COD4, WAW, BO1, WWII, VG]]
+    Games = [[COD1, COD2, WAW, BO1, WWII, VG, Mobile]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

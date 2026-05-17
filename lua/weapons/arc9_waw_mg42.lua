@@ -13,10 +13,10 @@ Once nicknamed "Hitler's Buzzsaw".]]
 SWEP.Trivia = {
     Manufacturer = "Numerous",
     Calibre = "7.92x57mm Mauser",
-    Mechanism = "Recoil-Operated",
+    Mechanism = "Recoil-Operated, roller-locked",
     Country = "Nazi Germany",
     Year = 1942,
-    Games = [[COD1, COD2, COD3, WAW, BO1, BO3, WW2, VG]]
+    Games = [[COD1, COD2, COD3, WAW, BO1, BO3, WWII, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"

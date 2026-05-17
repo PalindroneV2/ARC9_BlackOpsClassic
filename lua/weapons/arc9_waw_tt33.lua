@@ -9,12 +9,12 @@ SWEP.Class = "Pistol"
 SWEP.Description = [[A Soviet pistol designed shortly before WW2.
 Served as the standard issue pistol for the Soviets during the war until it was replaced by the Makarov PM.]]
 SWEP.Trivia = {
-    Manufacturer = "Walther GMBH",
+    Manufacturer = "Tula Arms Plant",
     Calibre = "7.62×25mm Tokarev",
-    Mechanism = "Short Recoil",
-    Country = "Nazi Germany",
-    Year = 1938,
-    Games = [[COD2, COD3, WAW, WWII, VG]]
+    Mechanism = "Short Recoil, locked breach",
+    Country = "USSR",
+    Year = 1930,
+    Games = [[WAW, BO1 WWII, VG]]
 }
 SWEP.Credits = {
     Author = "Palindrone"
