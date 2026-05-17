@@ -196,7 +196,7 @@ hook.Add("EntityTakeDamage", "ARC9_BO1_PERK_WHOSWHO", function(ent, dmg)
         -- 1. SEARCH FOR SPAWN/POSITION
         local spawnPoints = ents.FindByClass("info_player_start")
         local targetPos = nil
-        local deathPos = ent:GetPos() 
+        local deathPos = ent:GetPos()
         local deathAng = ent:GetAngles()
 
         if SERVER then
