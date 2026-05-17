@@ -21,9 +21,9 @@ ATT.ShotgunReload = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0.0225, 9, -2.995),
+        Pos = Vector(0, 9, -3),
         Ang = Angle(-0.35, 0.2, 0),
-        ViewModelFOV = 35,
+        ViewModelFOV = 25,
         Magnification = 1.15,
         IgnoreExtra = true
     },
@@ -32,10 +32,10 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeMagnification = 4
-ATT.RTScopeNew_ShadowScale = 2.5
 ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo1/bo1_acogs/acog_lens")
-ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/waw_scope_us.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.15
+ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/waw_scope_us.png")
+ATT.RTScopeReticleScale = 1.75
 ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
+ATT.RTScopeNew_ReticleBlackBox = true

@@ -31,7 +31,7 @@ ATT.Sights = {
     {
         Pos = Vector(-0.1525, 7.75, -0.9),
         Ang = Angle(0, 0, 0),
-        ViewModelFOV = 50,
+        ViewModelFOV = 45,
         Magnification = 1.25,
         IgnoreExtra = true
     },
@@ -54,11 +54,13 @@ ATT.RTScope = true
 ATT.RTScopeMagnificationMin = 2.5
 ATT.RTScopeMagnificationMax = 10
 ATT.RTScopeNew_ShadowScale = 0.75
+ATT.RTScopeReticleScale = 1.5
 ATT.RTScopeSubmatIndex = 5
 ATT.RTScopeAdjustable = true
 ATT.RTScopeAdjustmentLevels = 4
 ATT.RTScopeRes = 1024
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo1/bo1_acogs/longscope_lens")
-ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo1_wa2000.png", "mips smooth")
+ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo1_wa2000.png")
 ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
+ATT.RTScopeNew_ReticleBlackBox = true

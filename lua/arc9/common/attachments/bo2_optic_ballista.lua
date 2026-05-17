@@ -40,12 +40,13 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeMagnification = 6
 ATT.RTScopeNew_ShadowScale = 1.3
-ATT.RTScopeReticleScale = 0.75
+ATT.RTScopeReticleScale = 1.45
 ATT.RTScopeRes = 1024
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo1/bo1_acogs/longscope_lens")
-ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/psg1_scope.png", "mips smooth")
+ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/psg1_scope.png")
 ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
+ATT.RTScopeNew_ReticleBlackBox = true
 
 ATT.Attachments = {
     {
