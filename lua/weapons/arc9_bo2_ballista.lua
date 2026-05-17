@@ -65,7 +65,7 @@ SWEP.TracerEffect = "ARC9_tracer" -- The effect to use for hitscan tracers
 SWEP.TracerColor = Color(255, 255, 255) -- Color of tracers. Only works if tracer effect supports it. For physical bullets, this is compressed down to 9-bit color.
 
 SWEP.ChamberSize = 0 -- dont fucking change this again.
-SWEP.ClipSize = 5 -- DefaultClip is automatically set.
+SWEP.ClipSize = 7 -- DefaultClip is automatically set.
 SWEP.SupplyLimit = 9
 SWEP.SecondarySupplyLimit = 9
 SWEP.ReloadTime = 1
@@ -138,7 +138,7 @@ SWEP.ManualActionChamber = 1 -- How many shots we go between needing to cycle ag
 SWEP.ManualAction = true -- Pump/bolt action. Play the "cycle" animation after firing, when the trigger is released.
 SWEP.ManualActionNoLastCycle = false -- Do not cycle on the last shot.
 SWEP.SlamFire = false
-SWEP.CycleTime = 1
+SWEP.CycleTime = 1.33
 
 SWEP.ARC9WeaponCategory = 5
 SWEP.NPCWeight = 100

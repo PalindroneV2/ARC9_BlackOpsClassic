@@ -65,7 +65,7 @@ SWEP.TracerEffect = "ARC9_tracer" -- The effect to use for hitscan tracers
 SWEP.TracerColor = Color(255, 255, 255) -- Color of tracers. Only works if tracer effect supports it. For physical bullets, this is compressed down to 9-bit color.
 
 SWEP.ChamberSize = 0 -- dont fucking change this again.
-SWEP.ClipSize = 10 -- DefaultClip is automatically set.
+SWEP.ClipSize = 6 -- DefaultClip is automatically set.
 SWEP.SupplyLimit = 5
 SWEP.SecondarySupplyLimit = 5
 SWEP.ReloadTime = 1
@@ -127,7 +127,7 @@ SWEP.RestoreBreathTime = 10
 SWEP.FreeAimRadius = 0
 SWEP.FreeAimRadiusMultSights = 0
 
-SWEP.RPM = 600
+SWEP.RPM = 234
 SWEP.AmmoPerShot = 1 -- number of shots per trigger pull.
 SWEP.Firemodes = {
     {
