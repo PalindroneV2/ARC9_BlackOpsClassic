@@ -138,7 +138,7 @@ SWEP.Firemodes = {
 }
 SWEP.ManualActionChamber = 1 -- How many shots we go between needing to cycle again.
 SWEP.ManualAction = true -- Pump/bolt action. Play the "cycle" animation after firing, when the trigger is released.
-SWEP.ManualActionNoLastCycle = false -- Do not cycle on the last shot.
+SWEP.ManualActionNoLastCycle = true -- Do not cycle on the last shot.
 SWEP.CycleTime = 1
 
 SWEP.ARC9WeaponCategory = 2
@@ -422,7 +422,6 @@ SWEP.Animations = {
             "fire",
         },
         Time = 3 / 10,
-        EjectAt = 0.15,
     },
     ["fire_iron"] = {
         Source = {
@@ -435,7 +434,7 @@ SWEP.Animations = {
             "pump",
         },
         Time = 20 / 35,
-        EjectAt = 0.3,
+        EjectAt = 0.15,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Back", t = 2 / 30},
             {s = "ARC9_BO2.Shotgun_Fwd", t = 7 / 30},
@@ -446,7 +445,7 @@ SWEP.Animations = {
             "pump_ads",
         },
         Time = 20 / 35,
-        --EjectAt = 0.3,
+        EjectAt = 0.15,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Back", t = 2 / 30},
             {s = "ARC9_BO2.Shotgun_Fwd", t = 7 / 30},

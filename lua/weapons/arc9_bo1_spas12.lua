@@ -138,6 +138,7 @@ SWEP.Firemodes = {
     {
         Mode = 1,
         ManualAction = true,
+        ManualActionNoLastCycle = true,
         PrintName = "PUMP",
         EjectDelay = 0.2,
         SpreadMult = 0.8,
