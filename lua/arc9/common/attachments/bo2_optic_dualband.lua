@@ -22,7 +22,7 @@ ATT.Sights = {
     {
         Pos = Vector(0, 7.5, -1.5325),
         Ang = Angle(0, 0.1, 0),
-        ViewModelFOV = 40,
+        ViewModelFOV = 30,
         Magnification = 1.25,
         IgnoreExtra = true
     },
@@ -34,9 +34,10 @@ ATT.RTScopeMagnification = 2
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo2_dualband.png", "mips smooth")
 ATT.RTScopeShadowIntensity = 1.5
-ATT.RTScopeReticleScale = 0.5
+ATT.RTScopeReticleScale = 0.8
 ATT.RTScopeNoPP = false
 ATT.RTScopeNoShadow = false
+ATT.RTScopeNew_ReticleBlackBox = true
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = true
