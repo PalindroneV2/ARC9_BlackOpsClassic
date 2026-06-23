@@ -303,6 +303,7 @@ SWEP.HookP_NameChange = function(self, name)
 
     if attached["bo1_pap"] then
         gunname = "Evolved Death Stalker"
+        -- Death Stalker is a deadly type of african scorpion.
     end
 
     return gunname
