@@ -106,12 +106,12 @@ SWEP.VisualRecoilCenter = Vector(0,0, 0)
 SWEP.VisualRecoilUp = 0.25
 SWEP.VisualRecoilSide = 0.23
 SWEP.VisualRecoilRoll = 1
-SWEP.VisualRecoilPunch = 2
+SWEP.VisualRecoilPunch = 1
 -- SWEP.VisualRecoilSights = 0.25
 SWEP.VisualRecoilUpMultSights = 0.2
 SWEP.VisualRecoilSideMultSights = 0.2
 SWEP.VisualRecoilRollMultSights = 1
-SWEP.VisualRecoilPunchMultSights = 1 / 2
+SWEP.VisualRecoilPunchMultSights = 0.2 / 2
 
 SWEP.Speed = 1
 
@@ -244,7 +244,7 @@ SWEP.AttachmentElements = {
             Pos = Vector(-2.825, -3, 1.04),
             Ang = Angle(0.04, 0, 0),
             Magnification = 1.1,
-            ViewModelFOV = 550,
+            ViewModelFOV = 55,
             CrosshairInSights = false,
             SwitchToSound = "", -- sound that plays when switching to this sight
         }
@@ -336,7 +336,7 @@ SWEP.Attachments = {
         Icon_Offset = Vector(-3.5, 0, 0.8),
         Category = {"cod_optic", "cod_rail_riser", "bo1_alt_irons"},
         InstalledElements = {"mount"},
-        MergeSlots = {8},
+        MergeSlots = {10},
     },
     {
         PrintName = "Muzzle",
@@ -354,6 +354,22 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
         Category = {"cod_grips", "bo1_igrip"},
         ActivateElements = {"no_angled","no_pwd"}
+    },
+    {
+        PrintName = "Tactical Right",
+        DefaultCompactName = "TAC R",
+        Bone = "j_gun",
+        Pos = Vector(9, 0.825, 2.5),
+        Ang = Angle(0, 0, -90),
+        Category = {"cod_tactical"},
+    },
+    {
+        PrintName = "Tactical Left",
+        DefaultCompactName = "TAC L",
+        Bone = "j_gun",
+        Pos = Vector(9, -0.825, 2.5),
+        Ang = Angle(0, 0, 90),
+        Category = {"cod_tactical"},
     },
     {
         PrintName = "Firing Group",

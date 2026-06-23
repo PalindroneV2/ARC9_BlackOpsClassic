@@ -335,7 +335,7 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
         Category = {"cod_optic", "cod_rail_riser"},
         InstalledElements = {"mount"},
-        MergeSlots = {7},
+        MergeSlots = {9},
     },
     {
         PrintName = "Muzzle",
@@ -352,6 +352,22 @@ SWEP.Attachments = {
         Pos = Vector(13, 0, 0.5),
         Ang = Angle(0, 0, 0),
         Category = {"cod_grips", "bo2_m320"},
+    },
+    {
+        PrintName = "Tactical Right",
+        DefaultCompactName = "TAC R",
+        Bone = "j_gun",
+        Pos = Vector(17.25, 1.11, 2.575),
+        Ang = Angle(0, 0, -90),
+        Category = {"cod_tactical"},
+    },
+    {
+        PrintName = "Tactical Left",
+        DefaultCompactName = "TAC L",
+        Bone = "j_gun",
+        Pos = Vector(17.25, -1.11, 2.575),
+        Ang = Angle(0, 0, 90),
+        Category = {"cod_tactical"},
     },
     {
         PrintName = "Firing Group",
