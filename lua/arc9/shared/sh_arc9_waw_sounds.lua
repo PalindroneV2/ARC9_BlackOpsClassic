@@ -1563,7 +1563,7 @@ sound.Add( {
 } )
 sound.Add( {
     name = "ARC9_WAW.PPSh_Dist",
-    channel = CHAN_WEAPON,
+    channel = CHAN_STATIC,
     volume = 1.0,
     level = 100,
     --pitch = {95, 110},

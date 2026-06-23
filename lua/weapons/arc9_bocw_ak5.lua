@@ -282,7 +282,7 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
     local vm = data.model
     -- local CUSTSTATE = self:GetCustomize()
     local attached = data.elements
-    local barrel = 0
+    -- local barrel = 0
 
     if attached["bo2_fastmag"] then
         vm:SetBodygroup(5, 1)
