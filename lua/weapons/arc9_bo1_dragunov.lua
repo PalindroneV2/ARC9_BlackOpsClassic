@@ -103,7 +103,10 @@ SWEP.VisualRecoilUp = 0.35
 SWEP.VisualRecoilSide = 0.125
 SWEP.VisualRecoilRoll = 1
 SWEP.VisualRecoilPunch = 3
-SWEP.VisualRecoilSights = 0.5
+SWEP.VisualRecoilUpMultSights = 0.2
+SWEP.VisualRecoilSideMultSights = 0.2
+SWEP.VisualRecoilRollMultSights = 1
+SWEP.VisualRecoilPunchMultSights = 1
 
 SWEP.Speed = 0.9
 
@@ -119,8 +122,8 @@ SWEP.SpeedMultBlindFire = 1
 SWEP.AimDownSightsTime = 0.3
 SWEP.SprintToFireTime = 0.3
 
-SWEP.Sway = 0
-SWEP.SwayAddSights = 0.25
+SWEP.Sway = 1
+SWEP.SwayAddSights = 0.9
 SWEP.HoldBreathTime = 5
 SWEP.RestoreBreathTime = 10
 

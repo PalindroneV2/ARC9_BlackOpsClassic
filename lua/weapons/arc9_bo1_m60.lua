@@ -79,6 +79,7 @@ SWEP.CanBlindFire = false
 
 SWEP.Recoil = 1
 SWEP.RecoilSide = 1
+SWEP.RecoilSideMultSights = 0.25
 SWEP.RecoilUp = 0.8
 
 SWEP.RecoilRandomUp = 0.25
@@ -106,10 +107,14 @@ SWEP.VisualRecoilCenter = Vector(0, 0, 0)
 SWEP.VisualRecoilUp = 0.2
 SWEP.VisualRecoilSide = 0.25
 SWEP.VisualRecoilRoll = 1
-SWEP.VisualRecoilPunch = 3.5
-SWEP.VisualRecoilSights = 0.35
+SWEP.VisualRecoilPunch = 2.5
+-- SWEP.VisualRecoilSights = 0.35
+SWEP.VisualRecoilUpMultSights = 0.2
+SWEP.VisualRecoilSideMultSights = 0.2
+SWEP.VisualRecoilRollMultSights = 1
+SWEP.VisualRecoilPunchMultSights = 0.35
 
-SWEP.Speed = 0.75
+SWEP.Speed = 0.8
 
 SWEP.ShootWhileSprint = true
 SWEP.ReloadInSights = false
@@ -191,7 +196,7 @@ SWEP.ProceduralIronFire = false
 
 SWEP.CaseBones = {}
 
-local bo1_m60_ironpos = Vector(-3.245, -0.5, 0.6)
+local bo1_m60_ironpos = Vector(-3.245, -5, 0.6)
 local bo1_m60_ironang = Angle(0.05, 0.4, 0)
 
 SWEP.IronSights = {
@@ -214,7 +219,7 @@ SWEP.IronSightsHook = function(self)
     local newang = bo1_m60_ironang
 
     if attached["bo1_irons_alt"] then
-        newpos = Vector(-3.245, -6, 0.575)
+        newpos = Vector(-3.245, -5, 0.575)
         newang = Angle(0.05, 0.4, 0)
     end
 

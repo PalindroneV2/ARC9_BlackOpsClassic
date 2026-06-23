@@ -106,7 +106,11 @@ SWEP.VisualRecoilUp = 0.22
 SWEP.VisualRecoilSide = 0.25
 SWEP.VisualRecoilRoll = 1
 SWEP.VisualRecoilPunch = 1.7
-SWEP.VisualRecoilSights = 0.5
+-- SWEP.VisualRecoilSights = 0.5
+SWEP.VisualRecoilUpMultSights = 0.2
+SWEP.VisualRecoilSideMultSights = 0.2
+SWEP.VisualRecoilRollMultSights = 1
+SWEP.VisualRecoilPunchMultSights = 0.5
 
 SWEP.Speed = 0.95
 
@@ -184,10 +188,10 @@ SWEP.CaseBones = {}
 SWEP.Bipod = false
 
 SWEP.IronSights = {
-    Pos = Vector(-2.72, -3, 0.425),
+    Pos = Vector(-2.72, -2, 0.425),
     Ang = Angle(0.015, -0.2, 0),
     Magnification = 1.1,
-    ViewModelFOV = 60,
+    ViewModelFOV = 50,
     CrosshairInSights = false,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
