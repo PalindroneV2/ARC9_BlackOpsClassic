@@ -237,7 +237,7 @@ SWEP.SprintVerticalOffset = false
 SWEP.SprintPos = SWEP.ActivePos + Vector(9, 0, -1)
 SWEP.SprintAng = SWEP.ActiveAng + Angle(40, 0, 0)
 
-SWEP.CustomizePos = Vector(25, 32.5, 4)
+SWEP.CustomizePos = Vector(25, 37.5, 2.5)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeSnapshotPos = Vector(0, 10, 0)
 SWEP.CustomizeSnapshotAng = Angle(0, 0, 0)

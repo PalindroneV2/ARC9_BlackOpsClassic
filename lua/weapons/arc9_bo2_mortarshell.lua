@@ -196,7 +196,7 @@ SWEP.SprintVerticalOffset = false
 SWEP.SprintPos = SWEP.ActivePos
 SWEP.SprintAng = SWEP.ActiveAng
 
-SWEP.CustomizePos = Vector(10.5, 20, 4)
+SWEP.CustomizePos = Vector(10.8, 25, 4.5)
 SWEP.CustomizeAng = Angle(90, 40, -10)
 
 SWEP.BarrelLength = 0 -- = 25

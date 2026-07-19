@@ -219,7 +219,7 @@ SWEP.SprintVerticalOffset = false
 SWEP.SprintPos = SWEP.ActivePos + Vector(9, 0, -1)
 SWEP.SprintAng = SWEP.ActiveAng + Angle(40, 0, 0)
 
-SWEP.CustomizePos = Vector(19, 32, 5.5)
+SWEP.CustomizePos = Vector(17.5, 35, 4.25)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 
 local wolfPos = Vector (-1.56, -9, -1)

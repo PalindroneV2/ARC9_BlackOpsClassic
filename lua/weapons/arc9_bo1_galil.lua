@@ -303,7 +303,7 @@ SWEP.SprintAngHook = function(self)
     end
 end
 
-SWEP.CustomizePos = Vector(12.5, 30, 4.5)
+SWEP.CustomizePos = Vector(12.5, 35, 4)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeSnapshotPos = Vector(2.5,5,2)
 

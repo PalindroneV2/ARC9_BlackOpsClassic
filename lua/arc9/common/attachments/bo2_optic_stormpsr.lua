@@ -40,9 +40,10 @@ ATT.RTScopeAdjustmentLevels = 4
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo2_storm_alt.png", "mips smooth")
 ATT.RTScopeShadowIntensity = 1.5
-ATT.RTScopeReticleScale = 0.9
+ATT.RTScopeReticleScale = 0.75
 ATT.RTScopeNoPP = false
 ATT.RTScopeNoShadow = false
+ATT.RTScopeNew_ReticleBlackBox = true
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false

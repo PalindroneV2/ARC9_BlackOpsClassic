@@ -305,7 +305,7 @@ SWEP.SprintAngHook = function(self)
     end
 end
 
-SWEP.CustomizePos = Vector(10, 30, 4)
+SWEP.CustomizePos = Vector(10, 35, 3)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 
 SWEP.BarrelLength = 0 -- = 25

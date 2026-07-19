@@ -393,7 +393,7 @@ SWEP.BipodPosHook = function(self)
     return NewBipodPos
 end
 
-SWEP.CustomizePos = Vector(12.5, 32.5, 5.25)
+SWEP.CustomizePos = Vector(12.5, 35, 4.5)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeSnapshotPos = Vector(0, 5, 0)
 SWEP.CustomizeSnapshotAng = Angle(0, 0, 0)

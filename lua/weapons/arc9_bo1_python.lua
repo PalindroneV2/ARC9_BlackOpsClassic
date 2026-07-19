@@ -226,7 +226,7 @@ SWEP.ActiveAngHook = function(self)
     end
 end
 
-SWEP.CustomizePos = Vector(17.5, 25, 3)
+SWEP.CustomizePos = Vector(16, 30, 3)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 
 SWEP.BarrelLength = 0 -- = 9
