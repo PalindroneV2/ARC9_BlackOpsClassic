@@ -107,12 +107,12 @@ SWEP.VisualRecoilSideMultSights = 0.2
 SWEP.VisualRecoilRollMultSights = 1
 SWEP.VisualRecoilPunchMultSights = 1
 
-SWEP.Speed = 0.9
+SWEP.Speed = 0.95
 
 SWEP.ShootWhileSprint = true
 SWEP.ReloadInSights = false
 
-SWEP.SpeedMultSights = 0.8
+SWEP.SpeedMultSights = 0.85
 SWEP.SpeedMultShooting = 0.75
 SWEP.SpeedMultMelee = 1
 SWEP.SpeedMultCrouch = 1

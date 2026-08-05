@@ -238,6 +238,10 @@ ATT.PhysBulletMuzzleVelocityMult = 1.25
 ATT.SpreadMult = 0.3
 ATT.SpreadMultHipFire = 1.25
 
+ATT.SpeedMult = 1.1
+ATT.SpeedMultShooting = 1.1
+ATT.SpeedMultSights = 1.1
+
 ATT.DamageMaxAdd = 15
 ATT.DamageMinAdd = 5
 ATT.RPMAdd = -100
