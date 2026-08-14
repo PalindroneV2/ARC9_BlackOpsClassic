@@ -403,7 +403,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MK_Shell", t = 56 / 35},
         },
         RestoreAmmo = 1,
-        -- MinProgress = 57 / 30,
+        MinProgress = 57 / 80,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -425,7 +426,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MK_Shell", t = 56 / 35},
         },
         RestoreAmmo = 3,
-        -- MinProgress = 57 / 30,
+        MinProgress = 57 / 80,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -445,7 +447,8 @@ SWEP.Animations = {
         EventTable = {
             {s = "ARC9_BO1.MK_Shell", t = 29 / 35},
         },
-        -- MinProgress = 25 / 30,
+        MinProgress = 25 / 51,
+        FireASAP = 1,
     },
     ["reload_insert_pap"] = {
         Source = "reload_loop",
@@ -454,6 +457,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MK_Shell", t = 29 / 35},
         },
         RestoreAmmo = 2,
+        MinProgress = 25 / 51,
+        FireASAP = 1,
     },
     ["reload_finish"] = {
         Source = "reload_out",
@@ -473,6 +478,7 @@ SWEP.Animations = {
                 rhik = 1
             },
         },
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",

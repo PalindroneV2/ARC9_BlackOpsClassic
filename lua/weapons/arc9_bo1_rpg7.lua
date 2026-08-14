@@ -373,6 +373,7 @@ SWEP.Animations = {
         Source = "reload",
         Time = 93 / 30,
         MinProgress = 0.1,
+        FireASAP = 1,
         EventTable = {
             {s = "weapons/arc9/bo1_rpg/slide.wav", t = 25 / 30},
             {s = "weapons/arc9/bo1_rpg/futz.wav", t = 33 / 30},

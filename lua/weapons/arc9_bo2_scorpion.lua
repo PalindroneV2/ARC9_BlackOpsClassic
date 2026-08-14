@@ -484,7 +484,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Kiparis_MagOut", t = 16 / 30},
             {s = "ARC9_BO1.Kiparis_MagIn", t = 47 / 30},
         },
-        MinProgress = 2,
+        MinProgress = 1.6 / 2.8,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -516,7 +517,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Kiparis_MagIn", t = 47 / 30},
             {s = "ARC9_BO2.AR_Fwd", t = 65 / 30},
         },
-        MinProgress = 2.5,
+        MinProgress = 70 / 98,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -547,7 +549,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Kiparis_MagOut", t = 10 / 30},
             {s = "ARC9_BO1.Kiparis_MagIn", t = 30 / 30},
         },
-        MinProgress = 1.5,
+        MinProgress = 1 / 2.2,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -579,7 +582,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Kiparis_MagIn", t = 30 / 30},
             {s = "ARC9_BO2.AR_Fwd", t = 45 / 30},
         },
-        MinProgress = 2,
+        MinProgress = 1.5 / 2.63,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,

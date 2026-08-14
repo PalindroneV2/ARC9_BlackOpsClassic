@@ -492,7 +492,8 @@ SWEP.Animations = {
         Source = "reload_in",
         Time = 60 / 30,
         RestoreAmmo = 1, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 20 / 30,
+        MinProgress = 27 / 60,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.K98_Up", t = 5 / 30},
             {s = "ARC9_WAW.K98_Back", t = 10 / 30},
@@ -502,7 +503,8 @@ SWEP.Animations = {
     ["reload_insert"] = {
         Source = "reload_loop",
         Time = 26 / 40,
-        MinProgress = 3 / 30,
+        MinProgress = 3 / 26,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.K98_Bullet", t = 3 / 30},
         }

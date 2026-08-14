@@ -468,7 +468,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.1216_Out", t = 0.1},
             {s = "ARC9_BO2.1216_In", t = 1.2},
         },
-        MinProgress = 1,
+        MinProgress = 1.2 / 2.5,
+        FireASAP = 1,
     },
     ["fast_empty"] = {
         Source = "fast_empty",
@@ -476,7 +477,8 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0,
         LHIKOut = 0.4,
-        MinProgress = 1.8,
+        MinProgress = 1.8 / 3,
+        FireASAP = 1,
         Mult = 0.75,
         EventTable = {
             {s = "ARC9_BO2.1216_Out", t = 0.1},

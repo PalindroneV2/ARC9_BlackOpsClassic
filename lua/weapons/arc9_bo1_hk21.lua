@@ -448,6 +448,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.HK21_Out", t = 100 / 35},
             {s = "ARC9_BO1.HK21_In", t = 110 / 35}
         },
+        MinProgress = 120 / 145,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -482,6 +484,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.HK21_Pull", t = 152 / 35},
             {s = "ARC9_BO1.HK21_Release", t = 157 / 35},
         },
+        MinProgress = 160 / 195,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -513,7 +517,8 @@ SWEP.Animations = {
             --{s = "ARC9_BO1.G3_Futz", t = 100 / 35},
             {s = "ARC9_BO1.HK21_In", t = 100 / 35}
         },
-        MinProgress = 110 / 30,
+        MinProgress = 110 / 135,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -547,7 +552,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.HK21_Pull", t = 145 / 35},
             {s = "ARC9_BO1.HK21_Release", t = 150 / 35},
         },
-        MinProgress = 125 / 30,
+        MinProgress = 145 / 180,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,

@@ -380,7 +380,8 @@ SWEP.Animations = {
         Source = "reload_in",
         Time = 3.49,
         RestoreAmmo = 1, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 3,
+        MinProgress = 3 / 3.49,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.M32_Open", t = 0.5},
             {s = "ARC9_BO1.M203_40mmOut", t = 1},
@@ -393,6 +394,7 @@ SWEP.Animations = {
         Source = "reload_loop",
         Time = 1.006,
         MinProgress = 16 / 30,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.M32_In", t = 0.5},
         },
@@ -401,7 +403,8 @@ SWEP.Animations = {
         Source = "reload_in",
         Time = 3.49,
         RestoreAmmo = 9, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 3,
+        MinProgress = 3 / 3.49,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.M32_Open", t = 0.5},
             {s = "ARC9_BO1.M203_40mmOut", t = 1},
@@ -414,6 +417,7 @@ SWEP.Animations = {
         Source = "reload_loop",
         Time = 1.006,
         MinProgress = 16 / 30,
+        FireASAP = 1,
         RestoreAmmo = 8,
         EventTable = {
             {s = "ARC9_BO2.M32_In", t = 0.5},

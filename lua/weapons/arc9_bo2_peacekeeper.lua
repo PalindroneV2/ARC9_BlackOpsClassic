@@ -519,7 +519,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.AR_MagOut", t = 16 / 30},
             {s = "ARC9_BO2.AR_MagIn", t = 42 / 30}
         },
-        MinProgress = 55 / 30,
+        MinProgress = 1.5 / 2.4,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -551,7 +552,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.AR_MagIn", t = 42 / 30},
             {s = "ARC9_BO2.AR_Fwd", t = 60 / 30},
         },
-        MinProgress = 60 / 30,
+        MinProgress = 2 / 2.83,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -578,7 +580,8 @@ SWEP.Animations = {
     ["reload_fast"] = {
         Source = "reload_fast",
         Time = 1.7999,
-        MinProgress = 25 / 30,
+        MinProgress = 0.85 / 1.7999,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.AR_MagOut", t = 10 / 30},
             {s = "ARC9_BO2.AR_MagIn", t = 25 / 30},
@@ -609,7 +612,8 @@ SWEP.Animations = {
     ["reload_empty_fast"] = {
         Source = "reload_empty_fast",
         Time = 2.3,
-        MinProgress = 50 / 30,
+        MinProgress = 1.4 / 2.3,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.AR_MagOut", t = 10 / 30},
             {s = "ARC9_BO2.AR_MagIn", t = 25 / 30},
@@ -692,7 +696,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.AR_MagOut", t = 16 / 30},
             {s = "ARC9_BO2.AR_MagIn", t = 42 / 30},
         },
-        MinProgress = 55 / 30,
+        MinProgress = 1.5 / 2.83,
+        FireASAP = 1,
     },
     ["reload_empty_grip"] = {
         Source = "reload_empty_grip",
@@ -702,12 +707,14 @@ SWEP.Animations = {
             {s = "ARC9_BO2.AR_MagIn", t = 42 / 30},
             {s = "ARC9_BO2.AR_Fwd", t = 60 / 30},
         },
-        MinProgress = 65 / 30,
+        MinProgress = 2 / 2.83,
+        FireASAP = 1,
     },
     ["reload_grip_fast"] = {
         Source = "reload_grip_fast",
         Time = 1.7999,
-        MinProgress = 25 / 30,
+        MinProgress = 0.85 / 1.8,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.AR_MagOut", t = 10 / 30},
             {s = "ARC9_BO2.AR_MagIn", t = 25 / 30},
@@ -716,7 +723,8 @@ SWEP.Animations = {
     ["reload_empty_grip_fast"] = {
         Source = "reload_empty_grip_fast",
         Time = 2.3,
-        MinProgress = 50 / 30,
+        MinProgress = 1.4 / 2.3,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.AR_MagOut", t = 10 / 30},
             {s = "ARC9_BO2.AR_MagIn", t = 25 / 30},

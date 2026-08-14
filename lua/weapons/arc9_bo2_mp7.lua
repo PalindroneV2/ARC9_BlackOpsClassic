@@ -514,7 +514,8 @@ SWEP.Animations = {
     ["reload_fast"] = {
         Source = "reload_fast",
         Time = 2.4333,
-        MinProgress = 40 / 30,
+        MinProgress = 1.45 / 2.4333,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.MP7_Out", t = 10 / 30},
             {s = "ARC9_BO2.MP7_In", t = 40 / 30},
@@ -523,7 +524,8 @@ SWEP.Animations = {
     ["reload_empty_fast"] = {
         Source = "reload_empty_fast",
         Time = 2.7333,
-        MinProgress = 55 / 30,
+        MinProgress = 2 / 2.7333,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.MP7_Out", t = 10 / 30},
             {s = "ARC9_BO2.MP7_In", t = 40 / 30},
@@ -597,7 +599,8 @@ SWEP.Animations = {
     ["reload_grip_fast"] = {
         Source = "reload_grip_fast",
         Time = 2.4333,
-        MinProgress = 40 / 30,
+        MinProgress = 1.45 / 2.4333,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.MP7_Out", t = 10 / 30},
             {s = "ARC9_BO2.MP7_In", t = 40 / 30},
@@ -606,7 +609,8 @@ SWEP.Animations = {
     ["reload_empty_grip_fast"] = {
         Source = "reload_empty_grip_fast",
         Time = 2.7333,
-        MinProgress = 55 / 30,
+        MinProgress = 2 / 2.7333,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.MP7_Out", t = 10 / 30},
             {s = "ARC9_BO2.MP7_In", t = 40 / 30},

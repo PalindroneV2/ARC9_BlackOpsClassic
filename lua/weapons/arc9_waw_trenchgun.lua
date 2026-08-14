@@ -431,7 +431,8 @@ SWEP.Animations = {
         Source = "reload_start",
         Time = 35 / 40,
         RestoreAmmo = 1,
-        MinProgress = 21 / 40,
+        MinProgress = 15 / 35,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.Trenchgun_Shell", t = 15 / 40},
         },
@@ -461,7 +462,8 @@ SWEP.Animations = {
     ["reload_insert"] = {
         Source = "reload_loop",
         Time = 25 / 40,
-        MinProgress = 21 / 40,
+        MinProgress = 10 / 25,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.Trenchgun_Shell", t = 10 / 40},
         },

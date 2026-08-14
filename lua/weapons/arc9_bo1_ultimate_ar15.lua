@@ -1421,8 +1421,8 @@ SWEP.Animations = {
             {s = "^weapons/arc9/cde_m16/grab.ogg", t = 1.45},
             {s = "^weapons/arc9/cde_m16/gearhit.ogg", t = 1.6}
         },
-        MagSwapTime = 1.3,
-        MinProgress = 1.5,
+        MinProgress = 1.3 / 2,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -1462,8 +1462,8 @@ SWEP.Animations = {
             {s = "^weapons/arc9/cde_m16/grab.ogg", t = 1.7},
             {s = "^weapons/arc9/cde_m16/gearhit.ogg", t = 2.15}
         },
-        MagSwapTime = 1.3,
-        MinProgress = 1.75,
+        MinProgress = 1.75 / 2.5,
+        FireASAP = 2.5,
     },
     ["fast"] = {
         Source = "fast",
@@ -1501,8 +1501,8 @@ SWEP.Animations = {
             {s = "^weapons/arc9/cde_m16/grab.ogg", t = 1.45},
             {s = "^weapons/arc9/cde_m16/gearhit.ogg", t = 1.6}
         },
-        MagSwapTime = 1.3,
-        MinProgress = 1.5,
+        MinProgress = 1 / 1.83,
+        FireASAP = 1,
     },
     ["fast_empty"] = {
         Source = "fast_empty",
@@ -1542,8 +1542,8 @@ SWEP.Animations = {
             {s = "^weapons/arc9/cde_m16/grab.ogg", t = 1.4},
             {s = "^weapons/arc9/cde_m16/gearhit.ogg", t = 2}
         },
-        MagSwapTime = 1.3,
-        MinProgress = 1.75,
+        MinProgress = 1.75 / 2.33,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",
@@ -1670,6 +1670,8 @@ SWEP.Animations = {
             {s = "^weapons/arc9/cde_m16/grab.ogg", t = 1.45},
             {s = "^weapons/arc9/cde_m16/gearhit.ogg", t = 1.6}
         },
+        MinProgress = 1.3 / 2,
+        FireASAP = 1,
     },
     ["reload_empty_m203"] = {
         Source = "reload_empty_gl",
@@ -1694,6 +1696,8 @@ SWEP.Animations = {
             {s = "^weapons/arc9/cde_m16/grab.ogg", t = 1.7},
             {s = "^weapons/arc9/cde_m16/gearhit.ogg", t = 2.15}
         },
+        MinProgress = 1.75 / 2.5,
+        FireASAP = 1,
     },
     ["enter_sprint_m203"] = {
         Source = "sprint_in_gl",
@@ -1927,6 +1931,8 @@ SWEP.Animations = {
             {s = "^weapons/arc9/cde_m16/grab.ogg", t = 1.45},
             {s = "^weapons/arc9/cde_m16/gearhit.ogg", t = 1.6}
         },
+        MinProgress = 1.3 / 2,
+        FireASAP = 1,
     },
     ["reload_empty_mk"] = {
         Source = "reload_empty_mk",
@@ -1951,6 +1957,8 @@ SWEP.Animations = {
             {s = "^weapons/arc9/cde_m16/grab.ogg", t = 1.7},
             {s = "^weapons/arc9/cde_m16/gearhit.ogg", t = 2.15}
         },
+        MinProgress = 1.75 / 2.5,
+        FireASAP = 1,
     },
     ["enter_sprint_mk"] = {
         Source = "sprint_in_mk",
@@ -2236,6 +2244,8 @@ SWEP.Animations = {
             {s = "^weapons/arc9/cde_m16/grab.ogg", t = 1.45},
             {s = "^weapons/arc9/cde_m16/gearhit.ogg", t = 1.6}
         },
+        MinProgress = 1.3 / 2,
+        FireASAP = 1,
     },
     ["reload_empty_ft"] = {
         Source = "reload_empty_ft",
@@ -2260,6 +2270,8 @@ SWEP.Animations = {
             {s = "^weapons/arc9/cde_m16/grab.ogg", t = 1.7},
             {s = "^weapons/arc9/cde_m16/gearhit.ogg", t = 2.15}
         },
+        MinProgress = 1.75 / 2.5,
+        FireASAP = 1,
     },
     ["enter_sprint_ft"] = {
         Source = "sprint_in_ft",

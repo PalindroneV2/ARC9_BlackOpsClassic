@@ -461,7 +461,8 @@ SWEP.Animations = {
         Time = 40 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         RestoreAmmo = 1, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 0.5,
+        MinProgress = 21 / 40,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Shell", t = 21 / 30},
         },
@@ -493,7 +494,8 @@ SWEP.Animations = {
         Time = 26 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         TPAnimStartTime = 0.3,
-        MinProgress = 15 / 30,
+        MinProgress = 10 / 26,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Shell", t = 10 / 30},
         },
@@ -570,7 +572,8 @@ SWEP.Animations = {
         Time = 40 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         RestoreAmmo = 2, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 20 / 30,
+        MinProgress = 21 / 40,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Shell", t = 21 / 30},
         },
@@ -600,7 +603,8 @@ SWEP.Animations = {
     ["reload_insert_fast"] = {
         Source = "fast_loop",
         Time = 26 / 30,
-        MinProgress = 15 / 30,
+        MinProgress = 10 / 26,
+        FireASAP = 1,
         RestoreAmmo = 1,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Shell", t = 10 / 30},
@@ -666,7 +670,8 @@ SWEP.Animations = {
         Time = 40 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         RestoreAmmo = 4, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 1,
+        MinProgress = 21 / 40,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Shell", t = 21 / 30},
         },
@@ -698,7 +703,8 @@ SWEP.Animations = {
         Time = 26 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         TPAnimStartTime = 0.3,
-        MinProgress = 15 / 30,
+        MinProgress = 10 / 26,
+        FireASAP = 1,
         RestoreAmmo = 3,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Shell", t = 10 / 30},
@@ -731,7 +737,8 @@ SWEP.Animations = {
         Time = 40 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         RestoreAmmo = 7, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 1,
+        MinProgress = 21 / 40,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Shell", t = 21 / 30},
         },
@@ -763,7 +770,8 @@ SWEP.Animations = {
         Time = 26 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         TPAnimStartTime = 0.3,
-        MinProgress = 15 / 30,
+        MinProgress = 10 / 26,
+        FireASAP = 1,
         RestoreAmmo = 6,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Shell", t = 10 / 30},
@@ -832,7 +840,8 @@ SWEP.Animations = {
         Time = 40 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         RestoreAmmo = 1, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 1,
+        MinProgress = 21 / 40,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_MW3E.KSG_In", t = 21 / 30},
         },
@@ -864,7 +873,8 @@ SWEP.Animations = {
         Time = 26 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         TPAnimStartTime = 0.3,
-        MinProgress = 15 / 30,
+        MinProgress = 10 / 26,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_MW3E.KSG_In", t = 10 / 30},
         },
@@ -927,7 +937,8 @@ SWEP.Animations = {
         Time = 40 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         RestoreAmmo = 2, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 1,
+        MinProgress = 21 / 40,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_MW3E.KSG_In", t = 21 / 30},
         },
@@ -959,7 +970,8 @@ SWEP.Animations = {
         Time = 26 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         TPAnimStartTime = 0.3,
-        MinProgress = 15 / 30,
+        MinProgress = 10 / 26,
+        FireASAP = 1,
         RestoreAmmo = 1,
         EventTable = {
             {s = "ARC9_MW3E.KSG_In", t = 10 / 30},

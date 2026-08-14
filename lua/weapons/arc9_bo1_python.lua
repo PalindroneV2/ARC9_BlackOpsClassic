@@ -452,7 +452,8 @@ SWEP.Animations = {
         Source = "reload_in",
         Time = 67 / 40,
         RestoreAmmo = 1, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 1,
+        MinProgress = 62 / 67,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO1.Python_Open", t = 20 / 40},
             {s = "ARC9_BO1.Python_Empty", t = 26 / 40},
@@ -462,7 +463,8 @@ SWEP.Animations = {
     ["reload_insert"] = {
         Source = "reload_loop",
         Time = 31 / 40,
-        MinProgress = 25 / 40,
+        MinProgress = 25 / 31,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO1.Python_Bullet", t = 25 / 40},
         },
@@ -544,6 +546,8 @@ SWEP.Animations = {
     ["reload_akimbo"] = {
         Source = "reload_ab",
         Time = 92 / 35,
+        MinProgress = 51 / 92,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO1.Python_Open", t = 21 / 35},
             {s = "ARC9_BO1.Python_Empty", t = 27 / 35},
@@ -554,7 +558,8 @@ SWEP.Animations = {
     ["reload_akimbo_r"] = {
         Source = "reload_ar",
         Time = 92 / 35,
-        MinProgress = 51 / 35,
+        MinProgress = 51 / 92,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO1.Python_Open", t = 21 / 35},
             {s = "ARC9_BO1.Python_Empty", t = 27 / 35},

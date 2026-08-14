@@ -493,7 +493,8 @@ SWEP.Animations = {
         Time = 60 / 30,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         RestoreAmmo = 1, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 20 / 30,
+        MinProgress = 35 / 60,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.Arisaka_Up", t = 5 / 30},
             {s = "ARC9_WAW.Arisaka_Back", t = 10 / 30},
@@ -503,7 +504,8 @@ SWEP.Animations = {
     ["reload_insert"] = {
         Source = "reload_loop",
         Time = 26 / 40,
-        MinProgress = 3 / 30,
+        MinProgress = 3 / 26,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.Arisaka_Insert", t = 3 / 30},
         }
@@ -583,5 +585,6 @@ SWEP.Animations = {
             {s = "ARC9_WAW.RGren_Click", t = 24 / 30},
         },
         MinProgress = 0.1,
+        FireASAP = 1,
     },
 }

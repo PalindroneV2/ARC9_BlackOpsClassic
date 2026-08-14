@@ -466,7 +466,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.RPK_Futz", t = 1.95},
             {s = "ARC9_BO1.RPK_MagIn", t = 2.4},
         },
-        MinProgress = 1.4,
+        MinProgress = 2.5 / 3.36,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -478,7 +479,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.LMG_Back", t = 2.75},
             {s = "ARC9_BO2.LMG_Fwd", t = 2.9},
         },
-        MinProgress = 2.0,
+        MinProgress = 2.93 / 4.03,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",

@@ -505,7 +505,8 @@ SWEP.Animations = {
     ["reload_fast"] = {
         Source = "fast",
         Time = 2.4333,
-        MinProgress = 40 / 30,
+        MinProgress = 1.333 / 2.4333,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.MP7_Out", t = 10 / 30},
             {s = "ARC9_BO2.MP7_In", t = 40 / 30},
@@ -536,7 +537,8 @@ SWEP.Animations = {
     ["reload_empty_fast"] = {
         Source = "fast_empty",
         Time = 2.7333,
-        MinProgress = 55 / 30,
+        MinProgress = 2 / 2.7333,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.MP7_Out", t = 10 / 30},
             {s = "ARC9_BO2.MP7_In", t = 40 / 30},

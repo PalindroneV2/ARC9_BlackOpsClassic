@@ -530,12 +530,13 @@ SWEP.Animations = {
     },
     ["fast"] = {
         Source = "reload_fast",
-        Time = (1.8 * 1.25) / 1.15,
+        Time = 1.95,
         EventTable = {
-            {s = "ARC9_BO2.AR_MagOut", t = 0.5 / 1.15},
-            {s = "ARC9_BO2.AR_MagIn", t = 1 / 1.15},
+            {s = "ARC9_BO2.AR_MagOut", t = 0.45},
+            {s = "ARC9_BO2.AR_MagIn", t = 0.87},
         },
-        MinProgress = 1,
+        MinProgress = 0.87 / 1.95,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -561,13 +562,14 @@ SWEP.Animations = {
     },
     ["fast_empty"] = {
         Source = "reload_empty_fast",
-        Time = (2.633 * 1.25) / 1.15,
-        MinProgress = 1.8,
+        Time = 2.865,
+        MinProgress = 1.75 / 2.865,
+        FireASAP = 1,
         EventTable = {
-            {s = "ARC9_BO2.AR_MagOut", t = 0.5 / 1.15},
-            {s = "ARC9_BO2.AR_MagIn", t = 1 / 1.15},
-            {s = "ARC9_BO2.AR_Back", t = 1.8 / 1.15},
-            {s = "ARC9_BO2.AR_Fwd", t = 2 / 1.15},
+            {s = "ARC9_BO2.AR_MagOut", t = 0.45},
+            {s = "ARC9_BO2.AR_MagIn", t = 0.87},
+            {s = "ARC9_BO2.AR_Back", t = 1.56},
+            {s = "ARC9_BO2.AR_Fwd", t = 1.74},
         },
         IKTimeLine = {
             {

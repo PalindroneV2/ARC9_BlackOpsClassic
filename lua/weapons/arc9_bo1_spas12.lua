@@ -513,12 +513,13 @@ SWEP.Animations = {
     },
     ["reload_start"] = {
         Source = "reload_in",
-        Time = 54 / 30,
+        Time = 54 / 35,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         RestoreAmmo = 1,
-        -- MinProgress = 40 / 30,
+        MinProgress = 40 / 54,
+        FireASAP = 1,
         EventTable = {
-            {s = "ARC9_BO1.MK_Shell", t = 40 / 30},
+            {s = "ARC9_BO1.MK_Shell", t = 40 / 35},
         },
         IKTimeLine = {
             {
@@ -545,12 +546,13 @@ SWEP.Animations = {
     },
     ["reload_start_pap"] = {
         Source = "reload_in",
-        Time = 54 / 30,
+        Time = 54 / 35,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         RestoreAmmo = 12,
-        -- MinProgress = 40 / 30,
+        MinProgress = 40 / 54,
+        FireASAP = 1,
         EventTable = {
-            {s = "ARC9_BO1.MK_Shell", t = 40 / 30},
+            {s = "ARC9_BO1.MK_Shell", t = 40 / 35},
         },
         IKTimeLine = {
             {
@@ -577,14 +579,15 @@ SWEP.Animations = {
     },
     ["reload_insert"] = {
         Source = "reload_loop",
-        Time = 26 / 30,
+        Time = 26 / 35,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         TPAnimStartTime = 0.3,
         EventTable = {
-            {s = "ARC9_BO1.MK_Shell", t = 10 / 30},
+            {s = "ARC9_BO1.MK_Shell", t = 10 / 35},
         },
-        -- RestoreAmmo = 1,
-        MinProgress = 15 / 30,
+        RestoreAmmo = 0,
+        MinProgress = 10 / 26,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -610,13 +613,14 @@ SWEP.Animations = {
     },
     ["reload_insert_pap"] = {
         Source = "reload_loop",
-        Time = 26 / 30,
+        Time = 26 / 35,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
         TPAnimStartTime = 0.3,
         EventTable = {
-            {s = "ARC9_BO1.MK_Shell", t = 10 / 30},
+            {s = "ARC9_BO1.MK_Shell", t = 10 / 35},
         },
-        MinProgress = 15 / 30,
+        MinProgress = 10 / 26,
+        FireASAP = 1,
         RestoreAmmo = 12,
         IKTimeLine = {
             {
@@ -643,10 +647,10 @@ SWEP.Animations = {
     },
     ["reload_finish"] = {
         Source = "reload_out",
-        Time = 26 / 30,
+        Time = 26 / 35,
         EventTable = {
-            {s = "ARC9_BO1.SPAS_Back", t = 8 / 30},
-            {s = "ARC9_BO1.SPAS_Fwd", t = 12 / 30},
+            {s = "ARC9_BO1.SPAS_Back", t = 8 / 35},
+            {s = "ARC9_BO1.SPAS_Fwd", t = 12 / 35},
         },
         IKTimeLine = {
             {

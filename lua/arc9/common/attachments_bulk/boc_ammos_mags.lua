@@ -484,6 +484,7 @@ ATT.FiremodesOverride = {
     },
 }
 ATT.RunawayBurstOverride = true
+ATT.PostBurstDelay = 0.5
 
 ARC9.LoadAttachment(ATT, "bo2_blundergat_kit_acid")
 

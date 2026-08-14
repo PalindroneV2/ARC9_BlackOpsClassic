@@ -364,7 +364,8 @@ SWEP.Animations = {
         EventTable = {
             {s = "ARC9_BO1.Ballistic_Load", t = 0.5},
         },
-        MinProgress = 0.01,
+        MinProgress = 30 / 100,
+        FireASAP = 1,
     },
     ["bash"] = {
         Source = "swipe",

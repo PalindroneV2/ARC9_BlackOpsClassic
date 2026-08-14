@@ -355,6 +355,7 @@ SWEP.Animations = {
         Source = "reload",
         Time = 93 / 30,
         MinProgress = 0.1,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.Launcher_Start", t = 1 / 30},
             {s = "ARC9_WAW.Launcher_Down", t = 10 / 30},
@@ -367,6 +368,7 @@ SWEP.Animations = {
         Source = "reload",
         Time = 93 / 30,
         MinProgress = 0.1,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.Launcher_Start", t = 1 / 30},
             {s = "ARC9_WAW.Launcher_Down", t = 15 / 30},

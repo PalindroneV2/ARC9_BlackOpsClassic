@@ -142,7 +142,7 @@ SWEP.ManualActionChamber = 1 -- How many shots we go between needing to cycle ag
 SWEP.ManualAction = true -- Pump/bolt action. Play the "cycle" animation after firing, when the trigger is released.
 SWEP.ManualActionNoLastCycle = true -- Do not cycle on the last shot.
 SWEP.SlamFire = false
-SWEP.CycleTime = 1.33
+SWEP.CycleTime = 1
 
 SWEP.ARC9WeaponCategory = 5
 SWEP.NPCWeight = 100
@@ -428,13 +428,13 @@ SWEP.Animations = {
     },
     ["cycle"] = {
         Source = "cycle",
-        Time = 35 / 40, -- 45 / 30 ; 30 / 30
+        Time = 35 / 30, -- 45 / 30 ; 30 / 30
         EjectAt = 12 / 40,
         EventTable = {
-            {s = "ARC9_BO2.Sniper_BoltUp", t = 6 / 40}, -- 9 / 30 ; 6 / 30
-            {s = "ARC9_BO2.Sniper_BoltBack", t = 10 / 40}, -- 15 / 30 ; 10 / 30
-            {s = "ARC9_BO2.Sniper_BoltFwd", t = 22 / 40}, -- 30 / 30 ; 20 / 30
-            {s = "ARC9_BO2.Sniper_BoltDown", t = 26 / 40}, -- 36 / 30 ; 24 / 30
+            {s = "ARC9_BO2.Sniper_BoltUp", t = 6 / 30}, -- 9 / 30 ; 6 / 30
+            {s = "ARC9_BO2.Sniper_BoltBack", t = 10 / 30}, -- 15 / 30 ; 10 / 30
+            {s = "ARC9_BO2.Sniper_BoltFwd", t = 22 / 30}, -- 30 / 30 ; 20 / 30
+            {s = "ARC9_BO2.Sniper_BoltDown", t = 26 / 30}, -- 36 / 30 ; 24 / 30
         },
         IKTimeLine = {
             {
@@ -469,7 +469,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_ClipOut", t = 27 / 40},
             {s = "ARC9_BO2.Sniper_ClipIn", t = 80 / 40},
         },
-        MinProgress = 90 / 40,
+        MinProgress = 90 / 120,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -505,7 +506,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_BoltFwd", t = 145 / 40},
             {s = "ARC9_BO2.Sniper_BoltDown", t = 149 / 40},
         },
-        MinProgress = 160 / 40,
+        MinProgress = 155 / 173,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -536,7 +538,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_ClipOut", t = 27 / 40},
             {s = "ARC9_BO2.Sniper_ClipIn", t = 80 / 40},
         },
-        MinProgress = 90 / 35,
+        MinProgress = 85 / 120,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -572,7 +575,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_BoltFwd", t = 145 / 40},
             {s = "ARC9_BO2.Sniper_BoltDown", t = 149 / 40},
         },
-        MinProgress = 160 / 40,
+        MinProgress = 155 / 173,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,

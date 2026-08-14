@@ -606,6 +606,12 @@ SWEP.Animations = {
         Source = "reload",
         Time = 2.5,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        EventTable = {
+            {s = "ARC9_BO2.AR_MagOut", t = 0.8},
+            {s = "ARC9_BO2.AR_MagIn", t = 1.25},
+        },
+        MinProgress = 1.25 / 2.5,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -628,16 +634,19 @@ SWEP.Animations = {
                 rhik = 0
             },
         },
-        EventTable = {
-            {s = "ARC9_BO2.AR_MagOut", t = 0.8},
-            {s = "ARC9_BO2.AR_MagIn", t = 1.25},
-        },
-        MinProgress = 1.4,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
         Time = 3,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        EventTable = {
+            {s = "ARC9_BO2.AR_MagOut", t = 0.8},
+            {s = "ARC9_BO2.AR_MagIn", t = 1.25},
+            {s = "ARC9_BO2.AR_Back", t = 2.05},
+            {s = "ARC9_BO2.AR_Fwd", t = 2.2},
+        },
+        MinProgress = 2.2 / 3,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -660,48 +669,16 @@ SWEP.Animations = {
                 rhik = 0
             },
         },
-        EventTable = {
-            {s = "ARC9_BO2.AR_MagOut", t = 0.8},
-            {s = "ARC9_BO2.AR_MagIn", t = 1.25},
-            {s = "ARC9_BO2.AR_Back", t = 2.05},
-            {s = "ARC9_BO2.AR_Fwd", t = 2.2},
-        },
-        MinProgress = 2.0,
     },
     ["fast"] = {
         Source = "reload_fast",
         Time = 1.79,
-        IKTimeLine = {
-            {
-                t = 0,
-                lhik = 1,
-                rhik = 0
-            },
-            {
-                t = 0.2,
-                lhik = 0,
-                rhik = 0
-            },
-            {
-                t = 0.7,
-                lhik = 0,
-                rhik = 0
-            },
-            {
-                t = 0.9,
-                lhik = 1,
-                rhik = 0
-            },
-        },
         EventTable = {
             {s = "ARC9_BO2.AR_MagOut", t = 0.6},
             {s = "ARC9_BO2.AR_MagIn", t = 1.15}
         },
-        MinProgress = 1.4
-    },
-    ["fast_empty"] = {
-        Source = "reload_empty_fast",
-        Time = 2.3,
+        MinProgress = 1.15 / 1.79,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -724,12 +701,39 @@ SWEP.Animations = {
                 rhik = 0
             },
         },
+    },
+    ["fast_empty"] = {
+        Source = "reload_empty_fast",
+        Time = 2.3,
         EventTable = {
             {s = "ARC9_BO2.AR_MagOut", t = 0.6},
             {s = "ARC9_BO2.AR_MagIn", t = 1.25},
             {s = "ARC9_BO2.AR_Fwd", t = 1.9},
         },
-        MinProgress = 2.0,
+        MinProgress = 1.9 / 2.3,
+        FireASAP = 1,
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 1,
+                rhik = 0
+            },
+            {
+                t = 0.2,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.7,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.9,
+                lhik = 1,
+                rhik = 0
+            },
+        },
     },
     ["enter_sprint"] = {
         Source = "sprint_in",
@@ -859,7 +863,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.AR_MagOut", t = 0.6},
             {s = "ARC9_BO2.AR_MagIn", t = 1.25}
         },
-        MinProgress = 1.4,
+        MinProgress = 1.25 / 2.5,
+        FireASAP = 1,
     },
     ["reload_empty_m320"] = {
         Source = "reload_empty_gl",
@@ -870,7 +875,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.AR_Back", t = 2.05},
             {s = "ARC9_BO2.AR_Fwd", t = 2.1},
         },
-        MinProgress = 2.0,
+        MinProgress = 2.1 / 3,
+        FireASAP = 1,
     },
     ["fast_m320"] = {
         Source = "reload_gl_fast",
@@ -879,7 +885,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.AR_MagOut", t = 0.6},
             {s = "ARC9_BO2.AR_MagIn", t = 1.15}
         },
-        MinProgress = 1.4
+        MinProgress = 1.15 / 1.79,
+        FireASAP = 1,
     },
     ["fast_empty_m320"] = {
         Source = "reload_empty_gl_fast",
@@ -889,7 +896,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.AR_MagIn", t = 1.25},
             {s = "ARC9_BO2.AR_Fwd", t = 1.9},
         },
-        MinProgress = 2.0,
+        MinProgress = 1.9 / 2.3,
+        FireASAP = 1,
     },
     ["enter_sprint_m320"] = {
         Source = "sprint_in_gl",

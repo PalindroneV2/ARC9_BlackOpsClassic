@@ -541,6 +541,7 @@ SWEP.Animations = {
             {s = "ARC9_WAW.RGren_Click", t = 24 / 30},
         },
         MinProgress = 0.1,
+        FireASAP = 1,
     },
     ["reload_ubgl_soh"] = {
         Source = "reload_glsetup",

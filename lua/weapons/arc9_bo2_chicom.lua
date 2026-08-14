@@ -476,7 +476,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Kiparis_MagOut", t = 16 / 30},
             {s = "ARC9_BO1.Kiparis_MagIn", t = 47 / 30},
         },
-        MinProgress = 2,
+        MinProgress = 50 / 84,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -486,7 +487,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Kiparis_MagIn", t = 47 / 30},
             {s = "ARC9_BO1.Kiparis_Bolt", t = 65 / 30},
         },
-        MinProgress = 2.5,
+        MinProgress = 70 / 98,
+        FireASAP = 1,
     },
     ["reload_fast"] = {
         Source = "fast",
@@ -495,7 +497,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Kiparis_MagOut", t = 10 / 30},
             {s = "ARC9_BO1.Kiparis_MagIn", t = 30 / 30},
         },
-        MinProgress = 1.5,
+        MinProgress = 35 / 66,
+        FireASAP = 1,
     },
     ["reload_empty_fast"] = {
         Source = "fast_empty",
@@ -505,7 +508,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Kiparis_MagIn", t = 30 / 30},
             {s = "ARC9_BO1.Kiparis_Bolt", t = 45 / 30},
         },
-        MinProgress = 2,
+        MinProgress = 50 / 79,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",

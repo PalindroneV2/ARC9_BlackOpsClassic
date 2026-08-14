@@ -489,7 +489,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_ClipOut", t = 27 / 40},
             {s = "ARC9_BO2.Sniper_ClipIn", t = 80 / 40},
         },
-        MinProgress = 90 / 40,
+        MinProgress = 90 / 120,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -525,7 +526,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_BoltFwd", t = 145 / 40},
             {s = "ARC9_BO2.Sniper_BoltDown", t = 149 / 40},
         },
-        MinProgress = 160 / 40,
+        MinProgress = 150 / 173,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -556,7 +558,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_ClipOut", t = 27 / 40},
             {s = "ARC9_BO2.Sniper_ClipIn", t = 80 / 40},
         },
-        MinProgress = 90 / 40,
+        MinProgress = 90 / 120,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -592,7 +595,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_BoltFwd", t = 145 / 40},
             {s = "ARC9_BO2.Sniper_BoltDown", t = 149 / 40},
         },
-        MinProgress = 160 / 40,
+        MinProgress = 150 / 173,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,

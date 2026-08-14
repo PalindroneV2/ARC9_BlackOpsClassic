@@ -460,7 +460,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.M14_MagIn", t = 2.5},
             {s = "ARC9_BO1.M14_Tap", t = 2.6},
         },
-        MinProgress = 3,
+        MinProgress = 3 / 3.833,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -497,7 +498,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.LMG_Back", t = 3},
             {s = "ARC9_BO2.LMG_Fwd", t = 3.15},
         },
-        MinProgress = 4,
+        MinProgress = 4 / 4.566,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,

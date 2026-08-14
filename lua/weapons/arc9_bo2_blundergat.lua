@@ -229,15 +229,14 @@ SWEP.BarrelLength = 0 -- = 25
 SWEP.ExtraSightDist = 5
 
 SWEP.AttachmentElements = {
-    ["bo1_pap" and "acidkit"] = {
-        ClipSizeMult = 0.5,
+    ["acidkit"] = {
+        ClipSize = 3,
     },
 }
 
 SWEP.DefaultBodygroups = "100000000"
 
 SWEP.Hook_ModifyBodygroups = function(self, data)
-
     local vm = data.model
     local attached = data.elements
     local CUSTSTATE = self:GetCustomize()
@@ -245,30 +244,21 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
 
     if attached["bo1_pap"] then
         Papart = Papart + 1
-    --     vm:SetBodygroup(2,1)
-    --     if CUSTSTATE then
-    --         vm:SetBodygroup(2,2)
-    --     else
-    --         vm:SetBodygroup(2,1)
-    --     end
-    -- else
-    --     vm:SetBodygroup(2,0)
     end
 
     if CUSTSTATE then
-        vm:SetBodygroup(0,1)
-        vm:SetBodygroup(1,1)
-        if attached["bo1_pap"] then
-            Papart = Papart + 1
-        end
+        vm:SetBodygroup(0, 1)
+        vm:SetBodygroup(1, 1)
+
         if attached["acidkit"] then
-            vm:SetBodygroup(1,3)
+            vm:SetBodygroup(1, 3)
         end
     else
-        vm:SetBodygroup(0,0)
-        vm:SetBodygroup(1,0)
+        vm:SetBodygroup(0, 0)
+        vm:SetBodygroup(1, 0)
+
         if attached["acidkit"] then
-            vm:SetBodygroup(1,2)
+            vm:SetBodygroup(1, 2)
         end
     end
 
@@ -276,8 +266,7 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
         vm:SetSkin(1)
     end
 
-    vm:SetBodygroup(2,Papart)
-
+    vm:SetBodygroup(2, Papart)
 end
 
 SWEP.HookP_NameChange = function(self, name)

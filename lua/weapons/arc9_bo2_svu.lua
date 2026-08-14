@@ -435,7 +435,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_ClipOut", t = 0.6},
             {s = "ARC9_BO2.Sniper_ClipIn", t = 1.95},
         },
-        MinProgress = 2,
+        MinProgress = 2 / 3,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -446,7 +447,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_BoltBack", t = 2.45},
             {s = "ARC9_BO2.Sniper_BoltFwd", t = 2.65},
         },
-        MinProgress = 2.6,
+        MinProgress = 2.6 / 4,
+        FireASAP = 1,
     },
     ["fast"] = {
         Source = "fast",
@@ -455,7 +457,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_ClipOut", t = 0.6},
             {s = "ARC9_BO2.Sniper_ClipIn", t = 1.95},
         },
-        MinProgress = 2,
+        MinProgress = 2 / 3,
+        FireASAP = 1,
     },
     ["fast_empty"] = {
         Source = "fast_empty",
@@ -466,7 +469,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Sniper_BoltBack", t = 2.45},
             {s = "ARC9_BO2.Sniper_BoltFwd", t = 2.65},
         },
-        MinProgress = 2.6,
+        MinProgress = 2.6 / 4,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",

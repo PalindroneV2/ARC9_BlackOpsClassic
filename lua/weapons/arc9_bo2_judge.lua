@@ -403,9 +403,10 @@ SWEP.Animations = {
     },
     ["reload_start"] = {
         Source = "reload_in",
-        Time = 2.433 * (30 / 40),
+        Time = 1.825,
         RestoreAmmo = 1, -- loads a shell since the first reload has a shell in animation
-        MinProgress = 35 / 40,
+        MinProgress = 1.5 / 1.825,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO1.Python_Open", t = 20 / 40},
             {s = "ARC9_BO2.Judge_Empty", t = 40 / 40},
@@ -414,15 +415,16 @@ SWEP.Animations = {
     },
     ["reload_insert"] = {
         Source = "reload_loop",
-        Time = 1.003 * (30 / 40),
-        MinProgress = 16 / 30,
+        Time = 0.75,
+        MinProgress = 0.6 / 0.75,
+        FireASAP = 1,
         EventTable = {
-            {s = "ARC9_BO2.Judge_Load", t = 0.8 * (30 / 40)},
+            {s = "ARC9_BO2.Judge_Load", t = 0.6},
         },
     },
     ["reload_finish"] = {
         Source = "reload_out",
-        Time = 1.6 * (30 / 40),
+        Time = 1.125,
         EventTable = {
             {s = "ARC9_BO1.Python_Close", t = 0.75 * (30 / 40)},
         },

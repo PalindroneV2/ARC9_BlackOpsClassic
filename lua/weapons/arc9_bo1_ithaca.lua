@@ -546,7 +546,7 @@ SWEP.Animations = {
         },
         Time = 30 / 35,
         EjectAt = 0.3,
-        MinProgress = 22 / 35,
+        MinProgress = 22 / 30,
         EventTable = {
             {s = "ARC9_BO1.MK_Back", t = 5 / 30},
             {s = "ARC9_BO1.MK_Fwd", t = 10 / 30},
@@ -562,7 +562,7 @@ SWEP.Animations = {
         },
         Time = 20 / 25,
         EjectAt = 0.3,
-        MinProgress = 22 / 35,
+        MinProgress = 20 / 25,
         EventTable = {
             {s = "ARC9_BO1.MK_Back", t = 2 / 25},
             {s = "ARC9_BO1.MK_Fwd", t = 9 / 25},
@@ -578,7 +578,7 @@ SWEP.Animations = {
         },
         Time = 20 / 25,
         EjectAt = 0.3,
-        MinProgress = 22 / 35,
+        MinProgress = 20 / 25,
         EventTable = {
             {s = "ARC9_BO1.MK_Back", t = 2 / 25},
             {s = "ARC9_BO1.MK_Fwd", t = 9 / 25},
@@ -595,6 +595,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MK_Shell", t = 21 / 30},
         },
         RestoreAmmo = 1,
+        MinProgress = 21 / 30,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -624,6 +626,8 @@ SWEP.Animations = {
         EventTable = {
             {s = "ARC9_BO1.MK_Shell", t = 10 / 30},
         },
+        MinProgress = 10 / 16,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -724,7 +728,7 @@ SWEP.Animations = {
         },
         Time = 30 / 35,
         EjectAt = 10 / 35,
-        MinProgress = 22 / 35,
+        MinProgress = 20 / 30,
         EventTable = {
             {s = "ARC9_BO1.MK_Back", t = 5 / 30},
             {s = "ARC9_BO1.MK_Fwd", t = 10 / 30},
@@ -736,7 +740,7 @@ SWEP.Animations = {
         },
         Time = 20 / 25,
         EjectAt = 5 / 35,
-        MinProgress = 22 / 35,
+        MinProgress = 20 / 25,
         EventTable = {
             {s = "ARC9_BO1.MK_Back", t = 2 / 25},
             {s = "ARC9_BO1.MK_Fwd", t = 9 / 25},
@@ -748,7 +752,7 @@ SWEP.Animations = {
         },
         Time = 20 / 25,
         EjectAt = 5 / 35,
-        MinProgress = 22 / 35,
+        MinProgress = 20 / 25,
         EventTable = {
             {s = "ARC9_BO1.MK_Back", t = 2 / 25},
             {s = "ARC9_BO1.MK_Fwd", t = 9 / 25},
@@ -756,12 +760,19 @@ SWEP.Animations = {
     },
     ["reload_start_grip"] = {
         Source = "reload_in_grip",
-        Time = 15 / 30,
-        -- RestoreAmmo = 1,
+        Time = 30 / 30,
+        EventTable = {
+            {s = "ARC9_BO1.MK_Shell", t = 21 / 30},
+        },
+        RestoreAmmo = 1,
+        MinProgress = 21 / 30,
+        FireASAP = 1,
     },
     ["reload_insert_grip"] = {
         Source = "reload_loop_grip",
         Time = 16 / 30,
+        MinProgress = 10 / 16,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO1.MK_Shell", t = 10 / 30},
         },
