@@ -108,6 +108,7 @@ SWEP.VisualRecoilUp = 0.2
 SWEP.VisualRecoilSide = 0.2
 SWEP.VisualRecoilRoll = 1
 SWEP.VisualRecoilPunch = 1
+-- SWEP.VisualRecoilSights = 1
 SWEP.VisualRecoilUpMultSights = 0.2
 SWEP.VisualRecoilSideMultSights = 0.2
 SWEP.VisualRecoilRollMultSights = 1
