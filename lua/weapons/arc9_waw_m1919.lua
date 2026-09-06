@@ -477,12 +477,6 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         Time = 8.733 / 1.15,
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_SMG1,
-        Framerate = 30,
-        Checkpoints = {28, 38, 69},
-        LHIK = true,
-        LHIKIn = 0.5,
-        LHIKOut = 0.5,
         EventTable = {
             {s = "ARC9_WAW.M1919_Charge", t = 0.3},
             {s = "ARC9_WAW.M1919_Open", t = 2.5 / 1.15},
@@ -494,5 +488,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.M1919_BeltToss", t = 5.8 / 1.15},
             {s = "ARC9_WAW.M1919_Charge", t = 7.5 / 1.15},
         },
+        MinProgress = 5.8 / 8.733,
+        FireASAP = 1,
+        MagSwapTime = 3.5 / 1.15,
     },
 }

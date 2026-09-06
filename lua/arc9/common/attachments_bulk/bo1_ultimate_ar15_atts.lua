@@ -1760,7 +1760,7 @@ ATT = {}
 ATT.PrintName = "Rare Carry Handle Rear Sight"
 ATT.CompactName = "RCarry"
 ATT.Icon = Material("entities/bo1_atts/optics/retro_ar15/carry_side.png")
-ATT.Description = [[Strange futurized carry handle iron sight.
+ATT.Description = [[Strange futurized carry handle iron sight from Black Ops III's M16.
 Functions identically to other iron sights.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - BO1 AR-15 Attachments"
@@ -3197,7 +3197,7 @@ ATT.PrintName = "Futurized Flat Top Upper Receiver"
 ATT.CompactName = "FUTURE TOP"
 ATT.Icon = Material("entities/bo1_atts/optics/retro_ar15/top_future.png")
 ATT.Description = [[Futurized A4-Type AR-15 flat-top upper reciever.
-Allows for attachment of many kinds of optics and alternate iron sights.]]
+Allows for attachment of many kinds of optics and alternate iron sights from Black Ops III's M16.]]
 ATT.SortOrder = 5
 ATT.MenuCategory = "ARC9 - BO1 AR-15 Attachments"
 

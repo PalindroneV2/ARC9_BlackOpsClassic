@@ -405,6 +405,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.PPSh_MagOut", t = 16 / 30},
             {s = "ARC9_WAW.PPSh_MagIn", t = 58 / 30}
         },
+        MinProgress = 2 / 2.5,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -415,6 +417,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.PPSh_MagTap", t = 60 / 35},
             {s = "ARC9_WAW.PPSh_Bolt", t = 90 / 35},
         },
+        MinProgress = 3 / 3.5,
+        FireASAP = 1,
     },
 
     ["fast"] = {
@@ -424,6 +428,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.PPSh_MagOut", t = 15 / 30},
             {s = "ARC9_WAW.PPSh_MagIn", t = 45 / 30}
         },
+        MinProgress = 1.6 / 2,
+        FireASAP = 1,
     },
     ["fast_empty"] = {
         Source = "fast_empty",
@@ -434,5 +440,7 @@ SWEP.Animations = {
             {s = "ARC9_WAW.PPSh_MagTap", t = 53 / 35},
             {s = "ARC9_WAW.PPSh_Bolt", t = 70 / 35},
         },
+        MinProgress = 2.1 / 3,
+        FireASAP = 1,
     },
 }

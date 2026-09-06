@@ -1,10 +1,8 @@
 local ATT = {}
 
-
-
 ATT = {}
 
-ATT.PrintName = "Light Stock"
+ATT.PrintName = "Light Stock" --Vanilla BO1 M14E2 stock
 ATT.CompactName = "LIGHT"
 ATT.Icon = Material("entities/bo1_atts/other/stock.png")
 ATT.Description = [[Lightweight stock that doesn't provide as much recoil control but helps mobility.]]
@@ -31,7 +29,7 @@ ARC9.LoadAttachment(ATT, "bo1_m14_stock_grip")
 
 ATT = {}
 
-ATT.PrintName = "Heavy Stock"
+ATT.PrintName = "Heavy Stock" -- M14 classic wood stock
 ATT.CompactName = "HEAVY"
 ATT.Icon = Material("entities/bo1_atts/other/stock.png")
 ATT.Description = [[Offers best possible recoil control but handling and mobility are hindered.]]
@@ -66,7 +64,7 @@ ARC9.LoadAttachment(ATT, "bo1_m14_stock_full")
 
 ATT = {}
 
-ATT.PrintName = "Medium Stock"
+ATT.PrintName = "Medium Stock" -- M14 polymer classic stock
 ATT.CompactName = "MED"
 ATT.Icon = Material("entities/bo1_atts/other/stock.png")
 ATT.Description = [[A stock that provides a balance between mobility and recoil control.]]
@@ -116,7 +114,7 @@ ARC9.LoadAttachment(ATT, "bo1_m14_stock_full_synth")
 
 ATT = {}
 
-ATT.PrintName = "Pro Stock"
+ATT.PrintName = "Pro Stock" -- MK14 / EBR stock
 ATT.CompactName = "PRO"
 ATT.Icon = Material("entities/bo1_atts/other/stock.png")
 ATT.Description = [[A stock that provides a balance between mobility and recoil control.]]

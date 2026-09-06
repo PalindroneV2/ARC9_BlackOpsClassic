@@ -9,7 +9,7 @@ SWEP.Class = "Shotgun"
 SWEP.Description = [[12 gauge pump-action shotgun widely used by civilians, law enforcement and even militaries.
 It's incredibly reliable operation makes it incredibly popular.]]
 SWEP.Trivia = {
-    Manufacturer = "Remington",
+    Manufacturer = "Ithaca Gun Company",
     Calibre = "12 Gauge",
     Mechanism = "Pump-Action",
     Country = "USA",

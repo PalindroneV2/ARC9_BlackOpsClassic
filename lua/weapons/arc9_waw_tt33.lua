@@ -374,6 +374,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.TT33_Futz", t = 1.15},
             {s = "ARC9_WAW.TT33_In", t = 1.25}
         },
+        MinProgress = 1.25 / 2,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -384,5 +386,7 @@ SWEP.Animations = {
             {s = "ARC9_WAW.TT33_In", t = 1.25},
             {s = "ARC9_WAW.TT33_Slide", t = 1.8}
         },
+        MinProgress = 1.8 / 2.333,
+        FireASAP = 1,
     },
 }

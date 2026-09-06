@@ -412,6 +412,8 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         Time = 58 / 30,
+        MinProgress = 42 / 58,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.Thompson_MagOut", t = 14 / 30},
             {s = "ARC9_WAW.Thompson_MagIn", t = 42 / 30}
@@ -425,6 +427,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Thompson_MagIn", t = 32 / 35},
             {s = "ARC9_WAW.Thompson_Bolt", t = 54 / 35},
         },
+        MinProgress = 60 / 77,
+        FireASAP = 1,
     },
     ["reload_drum"] = {
         Source = "reload_drum",
@@ -433,6 +437,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Thompson_MagOut", t = 14 / 30},
             {s = "ARC9_WAW.Thompson_MagIn", t = 40 / 30}
         },
+        MinProgress = 50 / 78,
+        FireASAP = 1,
     },
     ["reload_empty_drum"] = {
         Source = "reload_empty_drum",
@@ -442,5 +448,7 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Thompson_MagIn", t = 35 / 30},
             {s = "ARC9_WAW.Thompson_Bolt", t = 65 / 30},
         },
+        MinProgress = 70 / 100,
+        FireASAP = 1,
     },
 }
