@@ -864,6 +864,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.AR_MagOut", t = 0.6},
             {s = "ARC9_BO2.AR_MagIn", t = 1.25}
         },
+        MinProgress = 1.45 / 2.5,
+        FireASAP = 1,
     },
     ["reload_empty_m203_fast"] = {
         Source = "reload_empty_gl_fast",
@@ -875,6 +877,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.AR_Back", t = 1.8},
             {s = "ARC9_BO2.AR_Fwd", t = 1.9},
         },
+        MinProgress = 2 / 3,
+        FireASAP = 1,
     },
     ["enter_sprint_m203"] = {
         Source = "sprint_in_gl",
@@ -972,6 +976,8 @@ SWEP.Animations = {
     ["reload_ubgl_glsetup"] = {
         Source = "reload_glsetup",
         Time = 3,
+        MinProgress = 70 / 90,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,

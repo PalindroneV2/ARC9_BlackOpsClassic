@@ -562,6 +562,8 @@ SWEP.Animations = {
             {e = "tesla_vm_glow",att = 5, t = 154 / 30},
             {e = "tesla_vm_glow",att = 6, t = 154 / 30},
         },
+        MinProgress = 154 / 197,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload",
@@ -582,5 +584,7 @@ SWEP.Animations = {
             {e = "tesla_vm_glow",att = 5, t = 154 / 30},
             {e = "tesla_vm_glow",att = 6, t = 154 / 30},
         },
+        MinProgress = 154 / 197,
+        FireASAP = 1,
     },
 }

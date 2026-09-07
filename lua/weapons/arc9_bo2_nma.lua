@@ -344,6 +344,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Makarov_In", t = 68 / 35},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 83 / 35},
         },
+        MinProgress = 83 / 100,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",

@@ -181,11 +181,11 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSights = {
-    Pos = Vector(-3.1, -1.5, 1.2),
-    Ang = Angle(0.1, 0, 0),
+    Pos = Vector(-3.52, -1.5, 1.2),
+    Ang = Angle(0, 0, 0),
     Magnification = 1.1,
     AssociatedSlot = 1,
-    ViewModelFOV = 60,
+    ViewModelFOV = 50,
     CrosshairInSights = false,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
@@ -250,28 +250,24 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
     local attached = data.elements
     local CUSTSTATE = self:GetCustomize()
 
-    local cust = 0
-    if CUSTSTATE then
-        cust = 1
-    else
-        cust = 0
-    end
+    local rail = 0
     local stock = 0
+    if attached["laserrcw"] then
+        rail = 2
+    end
     if attached["stock_h"] then
         stock = 1
     end
-
-    vm:SetBodygroup(0,cust)
-    vm:SetBodygroup(1,cust)
-    if cust == 1 and stock == 0 then
-        vm:SetBodygroup(2,0)
-    else
-        vm:SetBodygroup(2,stock + cust)
+    vm:SetBodygroup(1,rail)
+    vm:SetBodygroup(2,stock)
+    if CUSTSTATE then
+        vm:SetBodygroup(0,1)
+        vm:SetBodygroup(1,rail + 1)
+        if stock == 1 then
+            vm:SetBodygroup(2,stock + 1)
+        end
+        vm:SetBodygroup(3, 1)
     end
-
-    -- if attached["waw_aperture"] then
-    --     vm:SetBodygroup(1,3)
-    -- end
 
     local camo = 0
     if attached["camo_gold"] then
@@ -290,11 +286,27 @@ SWEP.HookP_NameChange = function(self, name)
 
     local gunname = "M1921AC Thompson"
 
+    if attached["laserrcw"] then
+        gunname = "Wattz Laser RCW Thompson"
+    end
+
     if attached["bo1_pap"] then
         gunname = "Speakeasy"
     end
 
     return gunname
+end
+
+SWEP.Hook_TranslateAnimation = function (self, anim)
+    local attached = self:GetElements()
+    local newanim = ""
+    if attached["laserrcw"] and anim == "reload_empty" then
+        newanim = "reload"
+    end
+    if attached["laserrcw"] and (anim == "fire" or anim == "fire_iron") then
+        newanim = "fire_iron_rcw"
+    end
+    return newanim
 end
 
 SWEP.Attachments = {
@@ -304,15 +316,16 @@ SWEP.Attachments = {
         Bone = "j_gun",
         Pos = Vector(-3.5, 0, 3.6),
         Ang = Angle(0, 0, 0),
-        Category = {"waw_aperture"},
+        Category = {"waw_aperture","bo2_thompson_rail"},
     },
     {
         PrintName = "Muzzle",
         Bone = "j_gun",
-        Scale = Vector(1,1.3,1.3),
-        Pos = Vector(16.2, 0, 3.1),
+        Scale = Vector(1,1.4,1.4),
+        Pos = Vector(15.8, 0, 3.1),
         Ang = Angle(0, 0, 0),
         Category = {"cod_muzzle_pistol"},
+        ExcludeElements = {"laserrcw"},
     },
     {
         PrintName = "Stock",
@@ -383,23 +396,14 @@ SWEP.Animations = {
     ["draw"] = {
         Source = "draw",
         Time = 0.75,
-        LHIK = true,
-        LHIKIn = 0.25,
-        LHIKOut = 0.25,
     },
     ["holster"] = {
         Source = "holster",
         Time = 0.5,
-        LHIK = true,
-        LHIKIn = 0.25,
-        LHIKOut = 0.25,
     },
     ["ready"] = {
         Source = "draw",
         Time = 0.75,
-        LHIK = true,
-        LHIKIn = 0.25,
-        LHIKOut = 0.25,
     },
     ["fire"] = {
         Source = {"fire"},
@@ -410,6 +414,14 @@ SWEP.Animations = {
         Source = {"fire_ads"},
         Time = 7 / 30,
         EjectAt = 0,
+    },
+    ["fire_rcw"] = {
+        Source = {"fire"},
+        Time = 7 / 30,
+    },
+    ["fire_iron_rcw"] = {
+        Source = {"fire_ads"},
+        Time = 7 / 30,
     },
     ["reload"] = {
         Source = "reload",

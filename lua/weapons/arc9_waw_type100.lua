@@ -363,6 +363,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Type100_Tap", t = 55 / 30},
             {s = "ARC9_WAW.Type100_MagIn", t = 61 / 30}
         },
+        MinProgress = 65 / 78,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -373,5 +375,7 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Type100_MagIn", t = 61 / 35},
             {s = "ARC9_WAW.Type100_Bolt", t = 82 / 35},
         },
+        MinProgress = 85 / 100,
+        FireASAP = 1,
     },
 }

@@ -7,7 +7,7 @@ EFFECT.DieTime = 0
 EFFECT.Color = Color(255, 255, 255)
 EFFECT.Speed = 5000
 
-local head = Material("effects/bopack_tracers/green_f")
+local head = Material("effects/bopack_tracers/green_f.vmt")
 local tracer = Material("effects/bopack_tracers/green_m.vmt")
 -- local smoke = Material("trails/smoke")
 

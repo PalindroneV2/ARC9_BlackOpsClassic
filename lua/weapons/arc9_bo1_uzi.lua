@@ -181,7 +181,7 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSights = {
-    Pos = Vector(-3.14, -3, 1.1),
+    Pos = Vector(-3.14, -3, 1.13),
     Ang = Angle(0, 0, 0),
     Magnification = 1.1,
     ViewModelFOV = 60,
@@ -477,6 +477,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Uzi_MagOut", t = 15 / 40},
             {s = "ARC9_BO1.Uzi_MagIn", t = 56 / 40}
         },
+        MinProgress = 56 / 90,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -509,6 +511,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Uzi_BoltBack", t = 79 / 40},
             {s = "ARC9_BO1.Uzi_BoltFwd", t = 87 / 40},
         },
+        MinProgress = 90 / 120,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -539,6 +543,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Uzi_MagOut", t = 15 / 40},
             {s = "ARC9_BO1.Uzi_MagIn", t = 56 / 40}
         },
+        MinProgress = 60 / 90,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -571,6 +577,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Uzi_BoltBack", t = 79 / 40},
             {s = "ARC9_BO1.Uzi_BoltFwd", t = 87 / 40},
         },
+        MinProgress = 90 / 120,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,

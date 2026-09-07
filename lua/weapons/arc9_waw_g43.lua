@@ -417,6 +417,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.G43_In", t = 45 / 35},
             {s = "ARC9_WAW.G43_Tap", t = 52 / 35},
         },
+        MinProgress = 60 / 99,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -428,6 +430,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.G43_Back", t = 102 / 35},
             {s = "ARC9_WAW.G43_Fwd", t = 106 / 35},
         },
+        MinProgress = 110 / 142,
+        FireASAP = 1,
     },
 
     -- M7 GRENADE LAUNCHER --
@@ -464,6 +468,8 @@ SWEP.Animations = {
     ["reload_ubgl"] = {
         Source = "reload_glsetup",
         Time = 64 / 30,
+        MinProgress = 0.1,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.RGren_Futz", t = 16 / 30},
             {s = "ARC9_WAW.RGren_Load", t = 19 / 30},

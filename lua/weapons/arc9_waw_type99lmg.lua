@@ -423,6 +423,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Type99_Out", t = 45 / 35},
             {s = "ARC9_WAW.Type99_In", t = 90 / 35},
         },
+        MinProgress = 2.571 / 3.733,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -433,6 +435,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Type99_In", t = 90 / 35},
             {s = "ARC9_WAW.Type99_Charge", t = 130 / 35},
         },
+        MinProgress = 3.714 / 5.033,
+        FireASAP = 1,
     },
     ["bash"] = {
         Source = "swipe",

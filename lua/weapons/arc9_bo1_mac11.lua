@@ -274,7 +274,7 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
         rstock = 2
     end
     if attached["mount"] then
-        rirons = 2
+        rirons = 1
     end
     if attached["universal_camo"] then
         camo = 1
@@ -338,7 +338,7 @@ SWEP.Attachments = {
     {
         PrintName = "Optic",
         Bone = "j_gun",
-        Pos = Vector(-4, 0.075, 2.6),
+        Pos = Vector(-4, 0, 2.6),
         Ang = Angle(0, 0, 0),
         Category = {"cod_optic_lp", "cod_rail_riser"},
         -- CorrectiveAng = Angle(0.025, 0.05, 0),
@@ -502,6 +502,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MAC11_Futz", t = 59 / 40},
             {s = "ARC9_BO1.MAC11_MagIn", t = 64 / 40}
         },
+        MinProgress = 70 / 90,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -513,6 +515,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MAC11_BoltBack", t = 85 / 40},
             {s = "ARC9_BO1.MAC11_BoltFwd", t = 91 / 40},
         },
+        MinProgress = 91 / 120,
+        FireASAP = 1,
     },
     ["ext"] = {
         Source = "ext",
@@ -522,6 +526,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MAC11_Futz", t = 59 / 40},
             {s = "ARC9_BO1.MAC11_MagIn", t = 64 / 40}
         },
+        MinProgress = 70 / 90,
+        FireASAP = 1,
     },
     ["ext_empty"] = {
         Source = "ext_empty",
@@ -533,6 +539,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MAC11_BoltBack", t = 85 / 40},
             {s = "ARC9_BO1.MAC11_BoltFwd", t = 91 / 40},
         },
+        MinProgress = 91 / 120,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",
@@ -581,13 +589,15 @@ SWEP.Animations = {
     },
     ["reload_right"] = {
         Source = "reload_empty_ar",
-        Time = 2.5 * 0.85,
+        Time = 2.125,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_PISTOL,
         EventTable = {
             {s = "ARC9_BO1.MAC11_MagOut", t = 15 / 40},
             {s = "ARC9_BO1.MAC11_Futz", t = 59 / 40},
             {s = "ARC9_BO1.MAC11_MagIn", t = 64 / 40}
         },
+        MinProgress = 1.7 / 2.125,
+        FireASAP = 1,
     },
     ["reload_left"] = {
         Source = "reload_empty_al",
@@ -598,6 +608,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MAC11_Futz", t = 59 / 40},
             {s = "ARC9_BO1.MAC11_MagIn", t = 64 / 40}
         },
+        MinProgress = 1.7 / 2.125,
+        FireASAP = 1,
     },
     ["reload_akimbo"] = {
         Source = "reload_empty_ab",
@@ -608,6 +620,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MAC11_Futz", t = 59 / 40},
             {s = "ARC9_BO1.MAC11_MagIn", t = 64 / 40}
         },
+        MinProgress = 1.7 / 2.125,
+        FireASAP = 1,
     },
     ["reload_empty_right"] = {
         Source = "reload_empty_ar",
@@ -620,6 +634,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MAC11_BoltBack", t = 65 / 35},
             {s = "ARC9_BO1.MAC11_BoltFwd", t = 75 / 35},
         },
+        MinProgress = 2.15 / 2.85,
+        FireASAP = 1,
     },
     ["reload_empty_left"] = {
         Source = "reload_empty_al",
@@ -632,6 +648,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MAC11_BoltBack", t = 65 / 35},
             {s = "ARC9_BO1.MAC11_BoltFwd", t = 75 / 35},
         },
+        MinProgress = 2.15 / 2.85,
+        FireASAP = 1,
     },
     ["reload_empty_akimbo"] = {
         Source = "reload_empty_ab",
@@ -644,6 +662,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.MAC11_BoltBack", t = 65 / 35},
             {s = "ARC9_BO1.MAC11_BoltFwd", t = 75 / 35},
         },
+        MinProgress = 2.15 / 2.85,
+        FireASAP = 1,
     },
     ["enter_sprint_akimbo"] = {
         Source = "sprint_in_a",

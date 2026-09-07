@@ -732,6 +732,15 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         Time = 2.5,
+        EventTable = {
+            {s = "ARC9_BO1.M14_Futz", t = 0.4},
+            {s = "ARC9_BO1.M14_MagOut", t = 0.5},
+            {s = "ARC9_BO1.M14_Futz", t = 1.5},
+            {s = "ARC9_BO1.M14_MagIn", t = 1.75},
+            {s = "ARC9_BO1.M14_Tap", t = 1.85},
+        },
+        MinProgress = 1.95 / 2.5,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -754,17 +763,21 @@ SWEP.Animations = {
                 rhik = 1
             },
         },
+    },
+    ["reload_empty"] = {
+        Source = "reload_empty",
+        Time = 3.1,
         EventTable = {
             {s = "ARC9_BO1.M14_Futz", t = 0.4},
             {s = "ARC9_BO1.M14_MagOut", t = 0.5},
             {s = "ARC9_BO1.M14_Futz", t = 1.5},
             {s = "ARC9_BO1.M14_MagIn", t = 1.75},
             {s = "ARC9_BO1.M14_Tap", t = 1.85},
+            {s = "ARC9_BO1.M14_BoltBack", t = 2.25},
+            {s = "ARC9_BO1.M14_BoltFwd", t = 2.4},
         },
-    },
-    ["reload_empty"] = {
-        Source = "reload_empty",
-        Time = 3.1,
+        MinProgress = 2.5 / 3.1,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -796,15 +809,6 @@ SWEP.Animations = {
                 lhik = 1,
                 rhik = 1
             },
-        },
-        EventTable = {
-            {s = "ARC9_BO1.M14_Futz", t = 0.4},
-            {s = "ARC9_BO1.M14_MagOut", t = 0.5},
-            {s = "ARC9_BO1.M14_Futz", t = 1.5},
-            {s = "ARC9_BO1.M14_MagIn", t = 1.75},
-            {s = "ARC9_BO1.M14_Tap", t = 1.85},
-            {s = "ARC9_BO1.M14_BoltBack", t = 2.25},
-            {s = "ARC9_BO1.M14_BoltFwd", t = 2.4},
         },
     },
     ["enter_sprint"] = {
@@ -907,6 +911,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.M14_MagIn", t = 1.75},
             {s = "ARC9_BO1.M14_Tap", t = 1.85},
         },
+        MinProgress = 1.95 / 2.5,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -942,6 +948,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.M14_BoltBack", t = 2.25},
             {s = "ARC9_BO1.M14_BoltFwd", t = 2.4},
         },
+        MinProgress = 2.5 / 3.1,
+        FireASAP = 1,
         IKTimeLine = {
             {t = 0, lhik = 0, rhik = 1},
             {t = 1, lhik = 0, rhik = 1},
@@ -1047,6 +1055,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.M14_MagIn", t = 1.75},
             {s = "ARC9_BO1.M14_Tap", t = 1.85},
         },
+        MinProgress = 1.95 / 2.5,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -1082,6 +1092,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.M14_BoltBack", t = 2.25},
             {s = "ARC9_BO1.M14_BoltFwd", t = 2.4},
         },
+        MinProgress = 2.5 / 3.1,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -1205,6 +1217,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.M14_MagIn", t = 1.75},
             {s = "ARC9_BO1.M14_Tap", t = 1.85},
         },
+        MinProgress = 1.95 / 2.5,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -1240,6 +1254,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.M14_BoltBack", t = 2.25},
             {s = "ARC9_BO1.M14_BoltFwd", t = 2.4},
         },
+        MinProgress = 2.5 / 3.1,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,

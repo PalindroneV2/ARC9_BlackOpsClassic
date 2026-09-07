@@ -436,6 +436,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_MagOut", t = 0.25},
             {s = "ARC9_BO2.Pistol_MagIn", t = 0.8}
         },
+        MinProgress = 1 / 1.66,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -445,6 +447,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_MagIn", t = 0.8},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 1.5}
         },
+        MinProgress = 1.6 / 2,
+        FireASAP = 1,
     },
     ["fast"] = {
         Source = "fast",
@@ -453,6 +457,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_MagOut", t = 0.25},
             {s = "ARC9_BO2.Pistol_MagIn", t = 0.8}
         },
+        MinProgress = 1 / 1.6,
+        FireASAP = 1,
     },
     ["fast_empty"] = {
         Source = "fast_empty",
@@ -462,6 +468,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_MagIn", t = 0.8},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 1.3}
         },
+        MinProgress = 1.4 / 1.73,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",

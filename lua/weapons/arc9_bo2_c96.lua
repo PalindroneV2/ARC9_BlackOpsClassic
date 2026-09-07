@@ -267,13 +267,13 @@ SWEP.HookP_NameChange = function(self, name)
     return gunname
 end
 
-SWEP.Hook_TranslateAnimation = function (self, anim)
-    local attached = self:GetElements()
+-- SWEP.Hook_TranslateAnimation = function (self, anim)
+--     local attached = self:GetElements()
 
-    if attached["mauserscope"] then
-        return anim .. "_up"
-    end
-end
+--     if attached["mauserscope"] then
+--         return anim .. "_up"
+--     end
+-- end
 
 SWEP.Attachments = {
     {
@@ -394,6 +394,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_MagOut", t = 0.25},
             {s = "ARC9_BO2.Pistol_MagIn", t = 0.9}
         },
+        MinProgress = 1.1 / 1.5,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -403,6 +405,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_MagIn", t = 0.9},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 1.5}
         },
+        MinProgress = 1.6 / 2,
+        FireASAP = 1,
     },
     ["reload_empty_up"] = {
         Source = "reload_empty_up",
@@ -412,6 +416,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_MagIn", t = 0.9},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 1.5}
         },
+        MinProgress = 1.6 / 2,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",

@@ -493,6 +493,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.STG44_Futz", t = 0.9},
             {s = "ARC9_WAW.STG44_MagIn", t = 1},
         },
+        MinProgress = 1.1 / 2,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -525,6 +527,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.STG44_MagIn", t = 1.15},
             {s = "ARC9_WAW.STG44_Charge", t = 1.75},
         },
+        MinProgress = 1.9 / 2.5,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,

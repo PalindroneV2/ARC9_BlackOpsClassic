@@ -469,6 +469,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.ASP_Out", t = 8 / 30},
             {s = "ARC9_BO1.ASP_In", t = 25 / 30}
         },
+        MinProgress = 30 / 50,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -478,6 +480,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.ASP_In", t = 25 / 30},
             {s = "ARC9_BO1.ASP_Fwd", t = 36 / 30}
         },
+        MinProgress = 40 / 54,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "idle",

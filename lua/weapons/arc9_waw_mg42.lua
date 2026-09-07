@@ -419,5 +419,7 @@ SWEP.Animations = {
             {s = "ARC9_WAW.MG42_Pull", t = 100 / 35},
             {s = "ARC9_WAW.MG42_Charge", t = 105 / 35},
         },
+        MinProgress = 105 / 150,
+        FireASAP = 1,
     },
 }

@@ -499,6 +499,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.CZ75_Futz", t = 16 / 35},
             {s = "ARC9_BO1.CZ75_In", t = 29 / 35}
         },
+        MinProgress = 30 / 47,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -510,6 +512,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.CZ75_Back", t = 42 / 35},
             {s = "ARC9_BO1.CZ75_Fwd", t = 45 / 35}
         },
+        MinProgress = 50 / 58,
+        FireASAP = 1,
     },
     ["reload_ext"] = {
         Source = "reload_ext",
@@ -519,6 +523,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.CZ75_Futz", t = 16 / 35},
             {s = "ARC9_BO1.CZ75_In", t = 29 / 35}
         },
+        MinProgress = 30 / 47,
+        FireASAP = 1,
     },
     ["reload_empty_ext"] = {
         Source = "reload_empty_ext",
@@ -530,6 +536,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.CZ75_Back", t = 42 / 35},
             {s = "ARC9_BO1.CZ75_Fwd", t = 45 / 35}
         },
+        MinProgress = 50 / 58,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "holster",
@@ -637,6 +645,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.CZ75_In", t = 33 / 35},
             {s = "ARC9_BO1.CZ75_Fwd", t = 60 / 35}
         },
+        MinProgress = 60 / 75,
+        FireASAP = 1,
     },
     ["reload_left"] = {
         Source = "reload_empty_al",
@@ -648,6 +658,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.CZ75_In", t = 33 / 35},
             {s = "ARC9_BO1.CZ75_Fwd", t = 60 / 35}
         },
+        MinProgress = 60 / 75,
+        FireASAP = 1,
     },
     ["reload_akimbo"] = {
         Source = "reload_empty_ab",
@@ -659,6 +671,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.CZ75_In", t = 33 / 35},
             {s = "ARC9_BO1.CZ75_Fwd", t = 60 / 35}
         },
+        MinProgress = 60 / 75,
+        FireASAP = 1,
     },
     ["reload_empty_right"] = {
         Source = "reload_empty_ar",
@@ -670,6 +684,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.CZ75_In", t = 33 / 35},
             {s = "ARC9_BO1.CZ75_Fwd", t = 60 / 35}
         },
+        MinProgress = 60 / 75,
+        FireASAP = 1,
     },
     ["reload_empty_left"] = {
         Source = "reload_empty_al",
@@ -681,6 +697,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.CZ75_In", t = 33 / 35},
             {s = "ARC9_BO1.CZ75_Fwd", t = 60 / 35}
         },
+        MinProgress = 60 / 75,
+        FireASAP = 1,
     },
     ["reload_empty_akimbo"] = {
         Source = "reload_empty_ab",
@@ -692,6 +710,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.CZ75_In", t = 33 / 35},
             {s = "ARC9_BO1.CZ75_Fwd", t = 60 / 35}
         },
+        MinProgress = 60 / 75,
+        FireASAP = 1,
     },
     ["enter_sprint_akimbo"] = {
         Source = "sprint_in_a",

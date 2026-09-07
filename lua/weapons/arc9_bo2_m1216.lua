@@ -436,9 +436,8 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         Time = 3.2,
-        LHIK = true,
-        LHIKIn = 0,
-        LHIKOut = 0.4,
+        MinProgress = 2.4 / 3.2,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.1216_Out", t = 0.5 / 1.15},
             {s = "ARC9_BO2.1216_In", t = 2.4 / 1.15},
@@ -447,9 +446,8 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "reload_empty",
         Time = 3.83,
-        LHIK = true,
-        LHIKIn = 0,
-        LHIKOut = 0.4,
+        MinProgress = 3 / 3.83,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Back", t = 0.25},
             {s = "ARC9_BO2.1216_Out", t = 0.9},
@@ -461,9 +459,6 @@ SWEP.Animations = {
     ["fast"] = {
         Source = "fast",
         Time = 2.5,
-        LHIK = true,
-        LHIKIn = 0,
-        LHIKOut = 0.4,
         EventTable = {
             {s = "ARC9_BO2.1216_Out", t = 0.1},
             {s = "ARC9_BO2.1216_In", t = 1.2},
@@ -474,9 +469,6 @@ SWEP.Animations = {
     ["fast_empty"] = {
         Source = "fast_empty",
         Time = 3,
-        LHIK = true,
-        LHIKIn = 0,
-        LHIKOut = 0.4,
         MinProgress = 1.8 / 3,
         FireASAP = 1,
         Mult = 0.75,

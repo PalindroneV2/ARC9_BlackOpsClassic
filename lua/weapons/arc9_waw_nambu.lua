@@ -373,6 +373,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Nambu_Futz", t = 0.4},
             {s = "ARC9_WAW.Nambu_In", t = 0.6},
         },
+        MinProgress = 0.8 / 1.2666,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -383,5 +385,7 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Nambu_In", t = 0.6},
             {s = "ARC9_WAW.Nambu_Slide", t = 1.35}
         },
+        MinProgress = 1.5 / 2.13,
+        FireASAP = 1,
     },
 }

@@ -455,9 +455,8 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         Time = 105 / 30,
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-        Framerate = 30,
-        Checkpoints = {28, 38, 69},
+        MinProgress = 85 / 105,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.Garand_Pull", t = 16 / 30},
             {s = "ARC9_WAW.Garand_Out", t = 23 / 30},
@@ -476,9 +475,8 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "reload_empty",
         Time = 46 / 30,
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-        Framerate = 30,
-        Checkpoints = {28, 38, 69},
+        MinProgress = 33 / 46,
+        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.Garand_In", t = 27 / 30},
             {s = "ARC9_WAW.Garand_Close", t = 33 / 30},
@@ -546,11 +544,6 @@ SWEP.Animations = {
     ["reload_ubgl_soh"] = {
         Source = "reload_glsetup",
         Time = 64 / 60,
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_MAGIC,
-        TPAnimStartTime = 0.1,
-        LHIK = true,
-        LHIKIn = 0.125,
-        LHIKOut = 0.125,
         EventTable = {
             {s = "ARC9_WAW.RGren_Futz", t = 16 / 60},
             {s = "ARC9_WAW.RGren_Load", t = 19 / 60},

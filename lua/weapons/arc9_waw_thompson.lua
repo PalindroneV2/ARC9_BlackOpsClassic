@@ -412,12 +412,12 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         Time = 58 / 30,
-        MinProgress = 42 / 58,
-        FireASAP = 1,
         EventTable = {
             {s = "ARC9_WAW.Thompson_MagOut", t = 14 / 30},
             {s = "ARC9_WAW.Thompson_MagIn", t = 42 / 30}
         },
+        MinProgress = 42 / 58,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",

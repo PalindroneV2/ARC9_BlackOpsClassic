@@ -407,6 +407,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.PTRS_In", t = 1.6},
             {s = "ARC9_WAW.PTRS_Close", t = 2.25},
         },
+        MinProgress = 79 / 114,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -418,5 +420,7 @@ SWEP.Animations = {
             {s = "ARC9_WAW.PTRS_Pull", t = 2.9},
             {s = "ARC9_WAW.PTRS_Release", t = 3.1},
         },
+        MinProgress = 109 / 142,
+        FireASAP = 1,
     },
 }

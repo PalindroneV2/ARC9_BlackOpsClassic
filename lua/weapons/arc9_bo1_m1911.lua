@@ -770,6 +770,8 @@ SWEP.Animations = {
             {s = snd_magout, t = 0.25},
             {s = snd_magin, t = 1}
         },
+        MinProgress = 1.1 / 1.5,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -780,6 +782,8 @@ SWEP.Animations = {
             {s = snd_magin, t = 1},
             {s = snd_slidefwd, t = 1.5}
         },
+        MinProgress = 1.6 / 2,
+        FireASAP = 1,
     },
     ["reload_bo2"] = {
         Source = "reload",
@@ -789,6 +793,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_MagOut", t = 0.25},
             {s = "ARC9_BO2.Pistol_MagIn", t = 1}
         },
+        MinProgress = 1.1 / 1.5,
+        FireASAP = 1,
     },
     ["reload_empty_bo2"] = {
         Source = "reload_empty",
@@ -799,6 +805,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_MagIn", t = 1},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 1.5}
         },
+        MinProgress = 1.6 / 2,
+        FireASAP = 1,
     },
     ["reload_cod4"] = {
         Source = "reload",
@@ -808,6 +816,8 @@ SWEP.Animations = {
             {s = "ARC9_COD4E.1911_Out", t = 0.25},
             {s = "ARC9_COD4E.1911_In", t = 1}
         },
+        MinProgress = 1.1 / 1.5,
+        FireASAP = 1,
     },
     ["reload_empty_cod4"] = {
         Source = "reload_empty",
@@ -818,6 +828,8 @@ SWEP.Animations = {
             {s = "ARC9_COD4E.1911_In", t = 1},
             {s = "ARC9_COD4E.1911_Chamber", t = 1.35}
         },
+        MinProgress = 1.6 / 2,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",
@@ -953,6 +965,8 @@ SWEP.Animations = {
             {s = snd_slideback, t = 65 / 35},
             {s = snd_slidefwd, t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_left"] = {
         Source = "reload_empty_al",
@@ -965,6 +979,8 @@ SWEP.Animations = {
             {s = snd_slideback, t = 65 / 35},
             {s = snd_slidefwd, t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_akimbo"] = {
         Source = "reload_empty_ab",
@@ -977,6 +993,8 @@ SWEP.Animations = {
             {s = snd_slideback, t = 65 / 35},
             {s = snd_slidefwd, t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_right"] = {
         Source = "reload_empty_ar",
@@ -989,6 +1007,8 @@ SWEP.Animations = {
             {s = snd_slideback, t = 65 / 35},
             {s = snd_slidefwd, t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_left"] = {
         Source = "reload_empty_al",
@@ -1001,6 +1021,8 @@ SWEP.Animations = {
             {s = snd_slideback, t = 65 / 35},
             {s = snd_slidefwd, t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_akimbo"] = {
         Source = "reload_empty_ab",
@@ -1013,6 +1035,8 @@ SWEP.Animations = {
             {s = snd_slideback, t = 65 / 35},
             {s = snd_slidefwd, t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_right_bo2"] = {
         Source = "reload_empty_ar",
@@ -1025,6 +1049,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_SlideBack", t = 65 / 35},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_left_bo2"] = {
         Source = "reload_empty_al",
@@ -1037,6 +1063,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_SlideBack", t = 65 / 35},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_akimbo_bo2"] = {
         Source = "reload_empty_ab",
@@ -1049,6 +1077,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_SlideBack", t = 65 / 35},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_right_bo2"] = {
         Source = "reload_empty_ar",
@@ -1061,6 +1091,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_SlideBack", t = 65 / 35},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_left_bo2"] = {
         Source = "reload_empty_al",
@@ -1073,6 +1105,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_SlideBack", t = 65 / 35},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_akimbo_bo2"] = {
         Source = "reload_empty_ab",
@@ -1085,6 +1119,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.Pistol_SlideBack", t = 65 / 35},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_right_cod4"] = {
         Source = "reload_empty_ar",
@@ -1097,6 +1133,8 @@ SWEP.Animations = {
             {s = "ARC9_COD4E.1911_Chamber", t = 65 / 35},
             {s = "ARC9_COD4E.1911_Chamber", t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_left_cod4"] = {
         Source = "reload_empty_al",
@@ -1121,6 +1159,8 @@ SWEP.Animations = {
             {s = "ARC9_COD4E.1911_Chamber", t = 65 / 35},
             {s = "ARC9_COD4E.1911_Chamber", t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_right_cod4"] = {
         Source = "reload_empty_ar",
@@ -1133,6 +1173,8 @@ SWEP.Animations = {
             {s = "ARC9_COD4E.1911_Chamber", t = 65 / 35},
             {s = "ARC9_COD4E.1911_Chamber", t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_left_cod4"] = {
         Source = "reload_empty_al",
@@ -1145,6 +1187,8 @@ SWEP.Animations = {
             {s = "ARC9_COD4E.1911_Chamber", t = 65 / 35},
             {s = "ARC9_COD4E.1911_Chamber", t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_akimbo_cod4"] = {
         Source = "reload_empty_ab",
@@ -1157,6 +1201,8 @@ SWEP.Animations = {
             {s = "ARC9_COD4E.1911_Chamber", t = 65 / 35},
             {s = "ARC9_COD4E.1911_Chamber", t = 83 / 35},
         },
+        MinProgress = 83 / 94,
+        FireASAP = 1,
     },
     ["enter_sprint_akimbo"] = {
         Source = "sprint_in_a",

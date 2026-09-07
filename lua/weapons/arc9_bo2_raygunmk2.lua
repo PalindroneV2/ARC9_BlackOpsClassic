@@ -159,7 +159,7 @@ SWEP.SpeedMultBlindFire = 1
 SWEP.AimDownSightsTime = 0.2
 SWEP.SprintToFireTime = 0.2
 
-SWEP.RPM = 500
+SWEP.RPM = 600
 SWEP.AmmoPerShot = 1 -- number of shots per trigger pull.
 SWEP.Firemodes = {
     {
@@ -167,7 +167,7 @@ SWEP.Firemodes = {
     },
 }
 SWEP.RunawayBurst = true
-SWEP.PostBurstDelay = 0.1
+SWEP.PostBurstDelay = 0.2
 SWEP.ARC9WeaponCategory = 3
 SWEP.NPCWeight = 1
 SWEP.NotForNPCs = true -- Won't be given to NPCs.
@@ -375,6 +375,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.RGMK2_Out", t = 25 / 30},
             {s = "ARC9_BO2.RGMK2_In", t = 70 / 30},
         },
+        MinProgress = 70 / 105,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload",
@@ -384,6 +386,8 @@ SWEP.Animations = {
             {s = "ARC9_BO2.RGMK2_Out", t = 25 / 30},
             {s = "ARC9_BO2.RGMK2_In", t = 70 / 30},
         },
+        MinProgress = 70 / 105,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",

@@ -378,20 +378,24 @@ SWEP.Animations = {
     },
     ["reload"] = {
         Source = "reload",
-        Time = 2.966 * (30 / 35),
+        Time = 89 / 35,
         EventTable = {
             {s = "ARC9_WAW.FG42_Out", t = 10 / 35},
             {s = "ARC9_WAW.FG42_In", t = 65 / 35},
         },
+        MinProgress = 70 / 89,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
-        Time = 4.933 * (30 / 35),
+        Time = 148 / 35,
         EventTable = {
             {s = "ARC9_WAW.FG42_Out", t = 15 / 35},
             {s = "ARC9_WAW.FG42_In", t = 60 / 35},
             {s = "ARC9_WAW.FG42_Back", t = 105 / 35},
             {s = "ARC9_WAW.FG42_Fwd", t = 111 / 35},
         },
+        MinProgress = 111 / 148,
+        FireASAP = 1,
     },
 }

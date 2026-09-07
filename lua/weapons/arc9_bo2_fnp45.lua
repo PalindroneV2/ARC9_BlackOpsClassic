@@ -423,27 +423,23 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         Time = 1.5,
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_PISTOL,
-        LHIK = true,
-        LHIKIn = 0.2,
-        LHIKOut = 0.2,
         EventTable = {
             {s = "ARC9_BO2.Pistol_MagOut", t = 0.25},
             {s = "ARC9_BO2.Pistol_MagIn", t = 1}
         },
+        MinProgress = 1.1 / 1.5,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
         Time = 2,
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_PISTOL,
-        LHIK = true,
-        LHIKIn = 0.2,
-        LHIKOut = 0.2,
         EventTable = {
             {s = "ARC9_BO2.Pistol_MagOut", t = 0.25},
             {s = "ARC9_BO2.Pistol_MagIn", t = 1},
             {s = "ARC9_BO2.Pistol_SlideFwd", t = 1.5}
         },
+        MinProgress = 1.6 / 2,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",

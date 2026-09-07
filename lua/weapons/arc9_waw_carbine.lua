@@ -445,6 +445,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Carbine_Futz", t = 54 / 30},
             {s = "ARC9_WAW.Carbine_In", t = 70 / 30 },
         },
+        MinProgress = 70 / 95,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -456,6 +458,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Carbine_Charge", t = 93 / 30 },
             --{s = "ARC9_WAW.Carbine_Charge", t = 98 / 30 },
         },
+        MinProgress = 93 / 111,
+        FireASAP = 1,
     },
     ["reload_ext"] = {
         Source = "reload_ext",
@@ -465,6 +469,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Carbine_Futz", t = 54 / 30},
             {s = "ARC9_WAW.Carbine_In", t = 70 / 30 },
         },
+        MinProgress = 70 / 95,
+        FireASAP = 1,
     },
     ["reload_empty_ext"] = {
         Source = "reload_empty_ext",
@@ -476,5 +482,7 @@ SWEP.Animations = {
             {s = "ARC9_WAW.Carbine_Charge", t = 93 / 30 },
             --{s = "ARC9_WAW.Carbine_Charge", t = 98 / 30 },
         },
+        MinProgress = 93 / 111,
+        FireASAP = 1,
     },
 }

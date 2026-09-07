@@ -420,6 +420,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.BAR_In", t = 54 / 30},
             {s = "ARC9_WAW.BAR_Tap", t = 70 / 30 },
         },
+        MinProgress = 75 / 95,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,
@@ -453,6 +455,8 @@ SWEP.Animations = {
             {s = "ARC9_WAW.BAR_Charge", t = 80 / 30 },
             --{s = "ARC9_WAW.BAR_Charge", t = 98 / 30 },
         },
+        MinProgress = 85 / 111,
+        FireASAP = 1,
         IKTimeLine = {
             {
                 t = 0,

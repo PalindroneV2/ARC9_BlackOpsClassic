@@ -1509,6 +1509,16 @@ sound.Add( {
     }
 } )
 sound.Add( {
+    name = "ARC9_WAW.LaserRCW_Fire",
+    channel = CHAN_WEAPON,
+    volume = 1.0,
+    level = 100,
+    ----pitch = {95, 110},
+    sound = {
+        "^weapons/arc9/waw_thompson/fire_rcw.ogg",
+    }
+} )
+sound.Add( {
     name = "ARC9_WAW.Thompson_MagIn",
     channel = CHAN_ITEM,
     volume = 1.0,

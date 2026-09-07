@@ -508,6 +508,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Makarov_Futz", t = 15 / 30},
             {s = "ARC9_BO1.Makarov_In", t = 25 / 30},
         },
+        MinProgress = 1.1 / 1.5,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -518,6 +520,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Makarov_In", t = 29 / 30},
             {s = "ARC9_BO1.Makarov_Slide_Fwd", t = 45 / 30},
         },
+        MinProgress = 1.6 / 2,
+        FireASAP = 1,
     },
     ["reload_ext"] = {
         Source = "reload_ext",
@@ -527,6 +531,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Makarov_Futz", t = 15 / 30},
             {s = "ARC9_BO1.Makarov_In", t = 25 / 30},
         },
+        MinProgress = 1.1 / 1.5,
+        FireASAP = 1,
     },
     ["reload_empty_ext"] = {
         Source = "reload_empty_ext",
@@ -537,6 +543,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Makarov_In", t = 29 / 30},
             {s = "ARC9_BO1.Makarov_Slide_Fwd", t = 45 / 30},
         },
+        MinProgress = 1.6 / 2,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "holster",
@@ -661,6 +669,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Makarov_Futz", t = 28 / 35},
             {s = "ARC9_BO1.Makarov_In", t = 33 / 35},
         },
+        MinProgress = 40 / 70,
+        FireASAP = 1,
     },
     ["reload_empty_right"] = {
         Source = "reload_empty_ar2",
@@ -672,6 +682,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Makarov_In", t = 33 / 35},
             {s = "ARC9_BO1.Makarov_Slide_Fwd", t = 60 / 35},
         },
+        MinProgress = 60 / 75,
+        FireASAP = 1,
     },
     -- ["reload_empty_left"] = {
     --     Source = "reload_empty_al",
@@ -695,6 +707,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Makarov_Slide_Fwd2", t = 60 / 35},
             {s = "", t = 60 / 35},
         },
+        MinProgress = 60 / 75,
+        FireASAP = 1,
     },
     ["enter_sprint_akimbo"] = {
         Source = "sprint_in_a",

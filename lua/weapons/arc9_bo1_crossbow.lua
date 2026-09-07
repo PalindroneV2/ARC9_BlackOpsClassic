@@ -376,6 +376,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.Crossbow_Latch", t = 50 / 35},
             {s = "ARC9_BO1.Crossbow_Bolt", t = 60 / 35},
         },
+        MinProgress = 63 / 93,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",
