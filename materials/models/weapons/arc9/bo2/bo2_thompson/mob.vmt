@@ -9,7 +9,6 @@ VertexlitGeneric
 	$detailscale 5
 	$detailblendmode 5
 	
-	//"$color2" "[ .4 .4 .4 ]"
 	"$blendtintbybasealpha" "1"
 	"$phong" "1"
 	"$phongboost" "1"

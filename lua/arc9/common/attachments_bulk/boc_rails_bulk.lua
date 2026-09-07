@@ -343,6 +343,7 @@ local Attachments = {
                 Ang = Angle(0, 0, 0),
                 Icon_Offset = Vector(0, 0, 1.5),
                 Category = {"cod_optic", "cod_rail_riser"},
+                InstalledElements = {"rcwrailontop"}
             },
         },
         FirstShootSound = "ARC9_WAW.LaserRCW_Fire",

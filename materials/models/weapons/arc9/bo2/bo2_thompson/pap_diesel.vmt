@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/pap/origins/diesel"
+	"$basetexturetransform" "center 0 0 scale 5 5 rotate 0 translate 0 0"
+	"$bumpmap" "models/weapons/arc9/pap/origins/diesel_n"
+	"$bumptransform" "center 0 0 scale 5 5 rotate 0 translate 0 0"
+	"$phongexponenttexture" "models/weapons/arc9/pap/origins/diesel_exp"
+	$normalmapalphaenvmapmask 1
+	
+	$detail		"models/weapons/arc9/pap/origins/diesel_s"
+	"$detailscale" "5"
+	$detailblendmode	1
+	$detailblendfactor 0.05
+
+	//"$color2" "[ .4 .4 .4 ]"
+	"$blendtintbybasealpha" "1"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongalbedotint" "2"
+	"$PhongFresnelRanges" "[ 2 5 4 ]"
+	"$envmap" "env_cubemap"
+	$envmapfresnel "0.01"
+	$envmaptint "[ .01 .01 .01 ]"
+	"$nocull" "1"
+}

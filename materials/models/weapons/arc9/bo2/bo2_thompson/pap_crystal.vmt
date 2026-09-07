@@ -1,0 +1,39 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/bo1/camos/gunmetal"
+	"$bumpmap" "models/weapons/arc9/bo1/camos/normalmap"
+	"$phongexponenttexture" "models/weapons/arc9/bo1/camos/normalmap"
+	"$envmapmask" "models/weapons/arc9/bo1/camos/normalmap"
+	$normalmapalphaenvmapmask 1
+	
+	$phong "0"
+	$phongboost "2.5"
+	$phongfresnelranges "[2 5 4]"
+	$phongtint "[.3 .3 .4]"
+	$phongalbedotint "1"
+	
+	$envmap "env_cubemap"
+	$envmaptint "[.03 .03 .04]"
+	$envmapfresnel "[.2 .5 .4]"
+	"$nocull" "1"
+
+	"$detail" "models/weapons/arc9/pap/origins/mystic_ember"
+	"$detailscale" "5"
+	"$detailblendmode" "2"
+	"$detailblendfactor" "1"
+	"$detailtint" "[0.05 0.35 1.0]"
+	"$selfillummask" "models/weapons/arc9/pap/origins/mystic_ember_si1"
+	$selfillum 1
+	"$selfillumtint" "[0.6 0.9 1.5]"
+	
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar $detailtexturetransform
+			texturescrollrate .001
+			texturescrollangle 30
+		}
+	}
+}
+}

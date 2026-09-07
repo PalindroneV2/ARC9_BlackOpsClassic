@@ -494,6 +494,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.PM63_MagOut", t = 15 / 40},
             {s = "ARC9_BO1.PM63_MagIn", t = 56 / 40}
         },
+        MinProgress = 60 / 90,
+        FireASAP = 1,
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -504,6 +506,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.PM63_BoltBack", t = 75 / 40},
             {s = "ARC9_BO1.PM63_BoltFwd", t = 84 / 40},
         },
+        MinProgress = 90 / 120,
+        FireASAP = 1,
     },
     ["ext"] = {
         Source = "ext",
@@ -512,6 +516,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.PM63_MagOut", t = 15 / 40},
             {s = "ARC9_BO1.PM63_MagIn", t = 56 / 40}
         },
+        MinProgress = 60 / 90,
+        FireASAP = 1,
     },
     ["ext_empty"] = {
         Source = "ext_empty",
@@ -522,6 +528,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.PM63_BoltBack", t = 75 / 40},
             {s = "ARC9_BO1.PM63_BoltFwd", t = 84 / 40},
         },
+        MinProgress = 90 / 120,
+        FireASAP = 1,
     },
     ["enter_sprint"] = {
         Source = "sprint_in",
@@ -624,6 +632,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.PM63_MagOut", t = 16 / 40},
             {s = "ARC9_BO1.PM63_MagIn", t = 56 / 40},
         },
+        MinProgress = 60 / 94,
+        FireASAP = 1,
     },
     ["reload_left"] = {
         Source = "reload_al",
@@ -633,6 +643,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.PM63_MagOut", t = 16 / 40},
             {s = "ARC9_BO1.PM63_MagIn", t = 56 / 40},
         },
+        MinProgress = 60 / 94,
+        FireASAP = 1,
     },
     ["reload_akimbo"] = {
         Source = "reload_ab",
@@ -642,6 +654,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.PM63_MagOut", t = 16 / 40},
             {s = "ARC9_BO1.PM63_MagIn", t = 56 / 40},
         },
+        MinProgress = 60 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_right"] = {
         Source = "reload_empty_ar",
@@ -653,6 +667,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.PM63_BoltBack", t = 75 / 40},
             {s = "ARC9_BO1.PM63_BoltFwd", t = 84 / 40},
         },
+        MinProgress = 60 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_left"] = {
         Source = "reload_empty_al",
@@ -664,6 +680,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.PM63_BoltBack", t = 75 / 40},
             {s = "ARC9_BO1.PM63_BoltFwd", t = 84 / 40},
         },
+        MinProgress = 60 / 94,
+        FireASAP = 1,
     },
     ["reload_empty_akimbo"] = {
         Source = "reload_empty_ab",
@@ -675,6 +693,8 @@ SWEP.Animations = {
             {s = "ARC9_BO1.PM63_BoltBack", t = 75 / 40},
             {s = "ARC9_BO1.PM63_BoltFwd", t = 84 / 40},
         },
+        MinProgress = 60 / 94,
+        FireASAP = 1,
     },
     ["enter_sprint_akimbo"] = {
         Source = "sprint_in_a",

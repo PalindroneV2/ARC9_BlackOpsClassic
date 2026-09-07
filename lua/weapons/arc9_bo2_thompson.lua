@@ -254,17 +254,22 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
     local stock = 0
     if attached["laserrcw"] then
         rail = 2
+        if attached["rcwrailontop"] then
+            rail = 3
+        end
     end
     if attached["stock_h"] then
         stock = 1
     end
-    vm:SetBodygroup(1,rail)
-    vm:SetBodygroup(2,stock)
+    vm:SetBodygroup(1, rail)
+    vm:SetBodygroup(2, stock)
     if CUSTSTATE then
-        vm:SetBodygroup(0,1)
-        vm:SetBodygroup(1,rail + 1)
+        vm:SetBodygroup(0, 1)
+        if rail == 0 then
+            vm:SetBodygroup(1, 1)
+        end
         if stock == 1 then
-            vm:SetBodygroup(2,stock + 1)
+            vm:SetBodygroup(2, 2)
         end
         vm:SetBodygroup(3, 1)
     end
@@ -292,6 +297,9 @@ SWEP.HookP_NameChange = function(self, name)
 
     if attached["bo1_pap"] then
         gunname = "Speakeasy"
+        if attached["laserrcw"] then
+            gunname = "Made Man"
+        end
     end
 
     return gunname
