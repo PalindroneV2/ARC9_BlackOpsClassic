@@ -35,7 +35,7 @@ ATT.RangeMinMult = 0.5
 ATT.PhysBulletMuzzleVelocityMult = 0.5
 
 -- ATT.FirstShootSound = "PAP_Effect"
-ATT.ShootSound = "ARC9_BO1.DOOMSG_Fire"
+ATT.ShootSound = "ARC9_WAW.SSG_Fire"
 ATT.ShootSoundSilenced = ""
 ATT.DistantShootSound = ""
 
