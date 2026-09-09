@@ -371,6 +371,7 @@ local Attachments = {
             Year = "Sometime before 2077",
             Games = [[Fallout: New Vegas]]
         },
+        InstallSound = "ARC9_BO2.FNV_EE"
     },
 }
 
