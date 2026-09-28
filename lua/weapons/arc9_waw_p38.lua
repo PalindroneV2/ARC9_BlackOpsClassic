@@ -224,6 +224,7 @@ SWEP.CustomizePos = Vector(14, 25, 2.75)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeSnapshotPos = Vector(0, -10, 0)
 SWEP.CustomizeSnapshotAng = Angle(0, 0, 0)
+SWEP.CustomizeRotateAnchor = Vector(14.25, -3.15, -3.5)
 
 local wolfPos = Vector(-3, -2, 0)
 local wolfAng = Angle(0.1, 0, 0)

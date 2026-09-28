@@ -273,6 +273,7 @@ end
 
 SWEP.CustomizePos = Vector(17.5, 35, 7)
 SWEP.CustomizeAng = Angle(90, 0, 0)
+SWEP.CustomizeRotateAnchor = Vector(18, -5, -9)
 
 SWEP.BarrelLength = 0 -- = 25
 

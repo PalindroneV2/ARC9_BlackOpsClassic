@@ -225,6 +225,7 @@ SWEP.SprintAng = SWEP.ActiveAng
 
 SWEP.CustomizePos = Vector(12.5, 35, 4)
 SWEP.CustomizeAng = Angle(90, 0, 0)
+SWEP.CustomizeRotateAnchor = Vector(14, -3.15, -3.5)
 
 SWEP.BarrelLength = 0 -- = 25
 
@@ -248,13 +249,13 @@ end
 SWEP.ActiveAngHook = function(self)
     local attached = self:GetElements()
     if attached["akimbo"] then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 SWEP.CrouchAngHook = function(self)
     local attached = self:GetElements()
     if attached["akimbo"] then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 

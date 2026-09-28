@@ -226,6 +226,7 @@ SWEP.CustomizePos = Vector(14, 25, 3)
 SWEP.CustomizeAng = Angle(90, 0, -1.5)
 SWEP.CustomizeSnapshotFOV = 75
 SWEP.CustomizeSnapshotPos = Vector(0.5,-5,1)
+SWEP.CustomizeRotateAnchor = Vector(14, -2.25, -3.5)
 SWEP.CustomizePosHook = function(self)
     local attached = self:GetElements()
     if attached["extmag"] then
@@ -236,7 +237,7 @@ end
 SWEP.ActiveAngHook = function(self)
     local attached = self:GetElements()
     if attached["akimbo"] then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 

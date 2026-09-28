@@ -296,7 +296,7 @@ end
 SWEP.ActiveAngHook = function(self)
     local attached = self:GetElements()
     if attached["bo1_mk"] and self:GetUBGL() then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 
@@ -312,7 +312,7 @@ end
 SWEP.ReloadAngHook = function(self)
     local attached = self:GetElements()
     if attached["bo1_mk"] and self:GetUBGL() then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 
@@ -329,7 +329,7 @@ end
 SWEP.MovingAngHook = function(self)
     local attached = self:GetElements()
     if attached["bo1_mk"] and self:GetUBGL() then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 
@@ -357,7 +357,7 @@ end
 SWEP.CrouchAngHook = function(self)
     local attached = self:GetElements()
     if attached["bo1_mk"] and self:GetUBGL() then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 
@@ -377,7 +377,7 @@ end
 SWEP.SprintAngHook = function(self)
     local attached = self:GetElements()
     if attached["bo1_mk"] and self:GetUBGL() then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 
@@ -397,6 +397,7 @@ SWEP.CustomizePos = Vector(12.5, 35, 4.5)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeSnapshotPos = Vector(0, 5, 0)
 SWEP.CustomizeSnapshotAng = Angle(0, 0, 0)
+SWEP.CustomizeRotateAnchor = Vector(13, -3.15, -3.5)
 
 SWEP.CustomizePosHook = function(self)
     local attached = self:GetElements()

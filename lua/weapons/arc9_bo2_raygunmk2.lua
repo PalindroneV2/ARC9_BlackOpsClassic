@@ -87,8 +87,8 @@ SWEP.SuppressSmokeTrail = false
 --     if !IsValid(emitter) then return end
 --     local trace = util.SpriteTrail(bullet, 0, Color(66, 255, 0), bullet, 3, 6, 0.1, 1, "effects/laser1.vmt")
 --     local smoke = emitter:Add("effects/blueflare1", bullet.Pos)
---     smoke:SetVelocity(Vector(0,0,0))
---     smoke:SetGravity(Vector(0,0,0))
+--     smoke:SetVelocity(Vector(0, 0, 0))
+--     smoke:SetGravity(Vector(0, 0, 0))
 --     smoke:SetDieTime(math.Rand(0.1, 0.25))
 --     smoke:SetStartAlpha(255)
 --     smoke:SetEndAlpha(0)
@@ -265,6 +265,7 @@ SWEP.CustomizePos = Vector(22, 25, 4.5)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeSnapshotPos = Vector(0, 5, 0)
 SWEP.CustomizeSnapshotAng = Angle(0, 0, 0)
+SWEP.CustomizeRotateAnchor = Vector(24, -6.5, -3.5)
 
 SWEP.BarrelLength = 0 -- = 25
 

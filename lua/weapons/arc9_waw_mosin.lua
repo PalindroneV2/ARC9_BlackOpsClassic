@@ -270,13 +270,13 @@ end
 SWEP.MovingAngHook = function(self)
     local attached = self:GetElements()
     if attached["mosin_scope"] then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 SWEP.MovingMidPointHook = function(self)
     local attached = self:GetElements()
     if attached["mosin_scope"] then
-        return {Pos = Vector(0,0,0), Ang = Angle(0,0,0)}
+        return {Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0)}
     end
 end
 SWEP.CrouchPosHook = function(self)
@@ -288,7 +288,7 @@ end
 SWEP.CrouchAngHook = function(self)
     local attached = self:GetElements()
     if attached["mosin_scope"] then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 SWEP.SprintPosHook = function(self)
@@ -308,6 +308,7 @@ SWEP.CustomizePos = Vector(12.5, 38, 4)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeSnapshotPos = Vector(0, 10, 0)
 SWEP.CustomizeSnapshotAng = Angle(0, 0, 0)
+SWEP.CustomizeRotateAnchor = Vector(13, -1.25, -3.5)
 
 
 SWEP.BarrelLength = 0 -- = 25

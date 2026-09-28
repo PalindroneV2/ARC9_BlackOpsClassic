@@ -218,6 +218,7 @@ SWEP.SprintAng = SWEP.ActiveAng
 SWEP.CustomizePos = Vector(14, 25, 3)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeSnapshotFOV = 75
+SWEP.CustomizeRotateAnchor = Vector(15, -2.15, -3.5)
 
 SWEP.BarrelLength = 0 -- = 9
 
@@ -243,7 +244,7 @@ SWEP.AttachmentElements = {
 SWEP.ActiveAngHook = function(self)
     local attached = self:GetElements()
     if attached["akimbo"] then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 

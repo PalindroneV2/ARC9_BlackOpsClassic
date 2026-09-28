@@ -247,7 +247,7 @@ end
 SWEP.ActiveAngHook = function(self)
     local attached = self:GetElements()
     if attached["bo1_mk"] and self:GetUBGL() then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 SWEP.ReloadPosHook = function(self)
@@ -259,7 +259,7 @@ end
 SWEP.ReloadAngHook = function(self)
     local attached = self:GetElements()
     if attached["bo1_mk"] and self:GetUBGL() then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 SWEP.MovingPosHook = function(self)
@@ -271,7 +271,7 @@ end
 SWEP.MovingAngHook = function(self)
     local attached = self:GetElements()
     if attached["bo1_mk"] and self:GetUBGL() then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 SWEP.MovingMidPointHook = function(self)
@@ -289,7 +289,7 @@ end
 SWEP.CrouchAngHook = function(self)
     local attached = self:GetElements()
     if attached["bo1_mk"] and self:GetUBGL() then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 SWEP.SprintPosHook = function(self)
@@ -301,12 +301,13 @@ end
 SWEP.SprintAngHook = function(self)
     local attached = self:GetElements()
     if attached["bo1_mk"] and self:GetUBGL() then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 
 SWEP.CustomizePos = Vector(10, 35, 3)
 SWEP.CustomizeAng = Angle(90, 0, 0)
+SWEP.CustomizeRotateAnchor = Vector(12, -2, -3.5)
 
 SWEP.BarrelLength = 0 -- = 25
 
@@ -435,7 +436,7 @@ SWEP.Attachments = {
         PrintName = "Fire Control Group",
         DefaultCompactName = "AUTO",
         Bone = "j_gun",
-        Pos = Vector(2, -5, 0.5),
+        Pos = Vector(2, 0, 0.5),
         Ang = Angle(0, 0, 0),
         Category = {"bo1_fcg_bst", "bo1_fcg_semi"},
     },

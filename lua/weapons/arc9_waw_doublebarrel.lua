@@ -250,7 +250,7 @@ end
 SWEP.ActiveAngHook = function(self)
     local attached = self:GetElements()
     if attached["ssg"] then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 SWEP.MovingPosHook = function(self)
@@ -262,25 +262,25 @@ end
 SWEP.MovingAngHook = function(self)
     local attached = self:GetElements()
     if attached["ssg"] then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 SWEP.MovingMidPointHook = function(self)
     local attached = self:GetElements()
     if attached["ssg"] then
-        return {Pos = Vector(0,0,0), Ang = Angle(0,0,0)}
+        return {Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0)}
     end
 end
 SWEP.CrouchPosHook = function(self)
     local attached = self:GetElements()
     if attached["ssg"] then
-        return Vector(0,0,0)
+        return Vector(0, 0, 0)
     end
 end
 SWEP.CrouchAngHook = function(self)
     local attached = self:GetElements()
     if attached["ssg"] then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 SWEP.SprintPosHook = function(self)
@@ -292,12 +292,13 @@ end
 SWEP.SprintAngHook = function(self)
     local attached = self:GetElements()
     if attached["ssg"] then
-        return Angle(0,0,0)
+        return Angle(0, 0, 0)
     end
 end
 
 SWEP.CustomizePos = Vector(25, 40, 4)
 SWEP.CustomizeAng = Angle(90, 0, 0)
+SWEP.CustomizeRotateAnchor = Vector(26, -3.15, -3.5)
 
 SWEP.BarrelLength = 0 -- = 25
 

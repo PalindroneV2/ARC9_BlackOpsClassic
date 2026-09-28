@@ -234,6 +234,7 @@ SWEP.CustomizePos = Vector(20, 40, 3)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeSnapshotPos = Vector(1, 20, 0)
 SWEP.CustomizeSnapshotAng = Angle(0, 0, 0)
+SWEP.CustomizeRotateAnchor = Vector(20, -1, -3.5)
 
 SWEP.BarrelLength = 0 -- = 25
 

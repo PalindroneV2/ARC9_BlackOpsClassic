@@ -229,6 +229,7 @@ SWEP.CustomizePos = Vector(13.75, 37.5, 3)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeSnapshotPos = Vector(0, 10, 0)
 SWEP.CustomizeSnapshotAng = Angle(0, 0, 0)
+SWEP.CustomizeRotateAnchor = Vector(14, -2, -3.5)
 
 SWEP.BipodPos = Vector(-1.9535, -8, -1)
 SWEP.BipodAng = Angle(-0.1125, -2.35, 0)
@@ -306,7 +307,7 @@ SWEP.Attachments = {
         PrintName = "Optic",
         Bone = "j_gun",
         Scale = Vector(1, 1, 1),
-        Pos = Vector(0,0,0),
+        Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
         Category = {"waw_garand_scope"},
     },
