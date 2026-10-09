@@ -1,6 +1,6 @@
--- BARRELS
 local ATT = {}
 
+------------ Barrels
 ATT = {}
 
 ATT.PrintName = [[7" SBR Barrel]]
@@ -87,6 +87,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.7
 
 ARC9.LoadAttachment(ATT, "retro_ar15_barrel_7")
 
+
 ATT = {}
 
 ATT.PrintName = [[7" Department of Energy Barrel]]
@@ -147,6 +148,7 @@ ATT.RangeMinMult = 0.7
 ATT.PhysBulletMuzzleVelocityMult = 0.7
 
 ARC9.LoadAttachment(ATT, "retro_ar15_barrel_9mm")
+
 
 ATT = {}
 
@@ -238,6 +240,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.8
 
 ARC9.LoadAttachment(ATT, "retro_ar15_barrel_10")
 
+
 ATT = {}
 
 ATT.PrintName = [[11.5" XM177E2 Barrel]]
@@ -325,6 +328,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.85
 
 ARC9.LoadAttachment(ATT, "retro_ar15_barrel_11")
 
+
 ATT = {}
 
 ATT.PrintName = [[XM177 4.5" Moderator]]
@@ -344,6 +348,7 @@ ATT.ShootPitchMult = 1.1
 ATT.ShootPitchVariation = 0.1
 
 ARC9.LoadAttachment(ATT, "retro_ar15_muzzle_moderator")
+
 
 ATT = {}
 
@@ -431,6 +436,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.9
 
 ARC9.LoadAttachment(ATT, "retro_ar15_barrel_14")
 
+
 ATT = {}
 
 ATT.PrintName = [[16" Sporter Barrel]]
@@ -497,6 +503,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.95
 
 ARC9.LoadAttachment(ATT, "retro_ar15_barrel_16")
 
+
 ATT = {}
 
 ATT.PrintName = [[20" Heavy Barrel]]
@@ -532,6 +539,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.05
 
 ARC9.LoadAttachment(ATT, "retro_ar15_barrel_a2")
 
+
 ATT = {}
 
 ATT.PrintName = "Flattened cut-down Gasblock"
@@ -550,8 +558,9 @@ ATT.ExcludeElements = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_front_flat")
 
--- HANDGUARDS M16
 
+
+------------ Handguards - M16
 ATT = {}
 
 ATT.PrintName = [[M203 Heatshield Handguard]]
@@ -590,6 +599,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_m203")
 
+
 ATT = {}
 
 ATT.PrintName = [[A2 Handguard]]
@@ -620,6 +630,7 @@ ATT.SprintToFireTimeMult = 1.025
 -- }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_a2")
+
 
 ATT = {}
 
@@ -696,6 +707,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_a4")
+
 
 ATT = {}
 
@@ -807,6 +819,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_mlok")
 
+
 ATT = {}
 
 ATT.PrintName = [[Geissele SMR 12" Handguard]]
@@ -906,7 +919,9 @@ end
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_geissele_long")
 
--- HANDGUARDS M4
+
+
+------------ Handguards - M4
 ATT = {}
 
 ATT.PrintName = [[CAR-15 Carbine Handguard]]
@@ -959,6 +974,7 @@ ATT.Attachments = {
     },
 }
 
+
 ATT = {}
 
 ATT.PrintName = [[Shortened Heatshield Handguard]]
@@ -1007,6 +1023,7 @@ ATT.LHIK_Priority = 0
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_flamer")
 
+
 ATT = {}
 
 ATT.PrintName = [[M607a Barrel Assembly]]
@@ -1042,6 +1059,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_607")
+
 
 ATT = {}
 
@@ -1095,6 +1113,7 @@ ATT.SprintToFireTimeMult = 1.2
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_famas")
 
+
 ATT = {}
 
 ATT.PrintName = [[M231 Firing Port Weapon]]
@@ -1144,6 +1163,7 @@ ATT.AimDownSightsTimeMult = 0.85
 ATT.SpeedMultShooting = 1.1
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_patriot")
+
 
 ATT = {}
 
@@ -1216,6 +1236,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_ris")
+
 
 ATT = {}
 
@@ -1317,6 +1338,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_mlok_short")
 
+
 ATT = {}
 
 ATT.PrintName = [[Daniel Defense RIS II 9" Hanguard]]
@@ -1386,6 +1408,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_ris_mw19")
+
 
 ATT = {}
 
@@ -1479,6 +1502,7 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_hk416")
+
 
 ATT = {}
 
@@ -1574,7 +1598,9 @@ end
 
 ARC9.LoadAttachment(ATT, "retro_ar15_handguard_geissele")
 
--- REAR SIGHTS
+
+
+------------ Rear Sights
 ATT = {}
 
 ATT.PrintName = "Carry Handle Rear Sight"
@@ -1604,6 +1630,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_iron_carry")
+
 
 ATT = {}
 
@@ -1635,6 +1662,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_iron_a2rear")
 
+
 ATT = {}
 
 ATT.PrintName = [[SCAR Rear Sight]]
@@ -1665,6 +1693,7 @@ ATT.RequireElements = {"a4_top"}
 -- }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_scar_iron")
+
 
 ATT = {}
 
@@ -1755,6 +1784,7 @@ ATT.Sights = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_tmm4_riser")
 
+
 ATT = {}
 
 ATT.PrintName = "Rare Carry Handle Rear Sight"
@@ -1807,6 +1837,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_iron_carry_bo3")
+
 
 ATT = {}
 
@@ -1872,7 +1903,9 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_iron_mw3")
 
--- FIREMODES
+
+
+------------ Firemodes/FCGs
 ATT = {}
 
 ATT.PrintName = "M645 S-1-3 FCG"
@@ -1909,6 +1942,7 @@ ATT.RecoilSideMult = 0.9
 
 ARC9.LoadAttachment(ATT, "retro_ar15_lower_burst")
 
+
 ATT = {}
 
 ATT.PrintName = "R6000 Sporting FCG"
@@ -1942,6 +1976,7 @@ ATT.RecoilSideMult = 0.85
 ATT.RPMOverride = 500
 
 ARC9.LoadAttachment(ATT, "retro_ar15_lower_semi")
+
 
 ATT = {}
 
@@ -1981,6 +2016,7 @@ ATT.RecoilSideMult = 0.95
 
 ARC9.LoadAttachment(ATT, "retro_ar15_lower_skullsplitter")
 
+
 ATT = {}
 
 ATT.PrintName = "M231 FPW FCG"
@@ -2011,6 +2047,7 @@ ATT.RecoilUpMult = 1.05
 ATT.RecoilSideMult = 1.05
 
 ARC9.LoadAttachment(ATT, "retro_ar15_lower_fpw")
+
 
 ATT = {}
 
@@ -2044,8 +2081,9 @@ ATT.ReloadTimeMult = 0.9
 
 ARC9.LoadAttachment(ATT, "retro_ar15_lower_badlatch")
 
---MAGAZINES
 
+
+------------ Magazines
 ATT = {}
 
 ATT.PrintName = [[AR-15 10 Round STANAG]]
@@ -2086,6 +2124,7 @@ ATT.RPMAdd = -100
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_10")
 
+
 ATT = {}
 
 ATT.PrintName = [[AR-15 20 Round STANAG]]
@@ -2108,6 +2147,7 @@ ATT.AimDownSightsTimeMult = 0.975
 ATT.SprintToFireTimeMult = 0.975
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_20")
+
 
 ATT = {}
 
@@ -2132,6 +2172,7 @@ ATT.SprintToFireTimeMult = 1.025
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_40")
 
+
 ATT = {}
 
 ATT.PrintName = [[AR-15 60 Round Quad-Stack STANAG]]
@@ -2155,6 +2196,7 @@ ATT.SprintToFireTimeMult = 1.15
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_60")
 
+
 ATT = {}
 
 ATT.PrintName = [[AR-15 30 Round PMAG]]
@@ -2174,6 +2216,7 @@ ATT.ActivateElements = {"pul_mag"}
 ATT.ReloadTimeMult = 0.9
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_pul")
+
 
 ATT = {}
 
@@ -2197,6 +2240,7 @@ ATT.AimDownSightsTimeMult = 1.025
 ATT.SprintToFireTimeMult = 1.025
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_pul_40")
+
 
 ATT = {}
 
@@ -2256,6 +2300,7 @@ ATT.Trivia = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_9mm")
 
+
 ATT = {}
 
 ATT.PrintName = [[10 Round .50 Beowulf Mag]]
@@ -2310,6 +2355,7 @@ ATT.Trivia = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_beowulf")
 
+
 ATT = {}
 
 ATT.PrintName = [[.300 Blackout 30 Round STANAG]]
@@ -2348,6 +2394,7 @@ ATT.Trivia = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_300blk_30")
+
 
 ATT = {}
 
@@ -2392,6 +2439,7 @@ ATT.Trivia = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_300blk_20")
 
+
 ATT = {}
 
 ATT.PrintName = [[.300 Blackout 40 Round STANAG]]
@@ -2434,6 +2482,7 @@ ATT.Trivia = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_300blk_40")
+
 
 ATT = {}
 
@@ -2478,6 +2527,7 @@ ATT.Trivia = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_300blk_60")
 
+
 ATT = {}
 
 ATT.PrintName = [[.300 Blackout 30 Round PMAG]]
@@ -2517,6 +2567,7 @@ ATT.Trivia = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_300blk_pul")
+
 
 ATT = {}
 
@@ -2561,6 +2612,7 @@ ATT.Trivia = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_300blk_pul_40")
 
+
 ATT = {}
 
 ATT.PrintName = [[.300 Blackout 100 Round C-Mag]]
@@ -2604,6 +2656,7 @@ ATT.Trivia = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_300blk_100")
 
+
 ATT = {}
 
 ATT.PrintName = [[AR-15 100 round C-Mag]]
@@ -2626,6 +2679,7 @@ ATT.AimDownSightsTimeMult = 1.25
 ATT.SprintToFireTimeMult = 1.25
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_100")
+
 
 ATT = {}
 
@@ -2661,8 +2715,9 @@ ATT.SprintToFireTimeAdd = 0.1
 
 ARC9.LoadAttachment(ATT, "retro_ar15_mag_patriot")
 
---STOCKS
 
+
+------------ Stocks
 ATT = {}
 
 ATT.PrintName = "M16 Fixed Rifle Stock"
@@ -2694,6 +2749,7 @@ ATT.SpreadMultShooting = 0.65
 
 ARC9.LoadAttachment(ATT, "retro_ar15_stock_full")
 
+
 ATT = {}
 
 ATT.PrintName = "Generation 1 Collapsible Stock"
@@ -2723,6 +2779,7 @@ ATT.SprintToFireTimeAdd = 0.2
 ATT.SpeedAddSights = -0.16
 
 ARC9.LoadAttachment(ATT, "retro_ar15_stock_gen1")
+
 
 ATT = {}
 
@@ -2788,6 +2845,7 @@ ARC9.LoadAttachment(ATT, "retro_ar15_stock_gen2")
 
 -- ARC9.LoadAttachment(ATT, "retro_ar15_stock_gen3")
 
+
 ATT = {}
 
 ATT.PrintName = "B5 Systems Bravo Stock"
@@ -2817,6 +2875,7 @@ ATT.SprintToFireTimeAdd = 0.12
 ATT.SpeedAddSights = -0.12
 
 ARC9.LoadAttachment(ATT, "retro_ar15_stock_bravo")
+
 
 ATT = {}
 
@@ -2861,6 +2920,7 @@ end
 
 ARC9.LoadAttachment(ATT, "retro_ar15_stock_416")
 
+
 ATT = {}
 
 ATT.PrintName = "Wire Stock"
@@ -2893,6 +2953,7 @@ ATT.SpeedAddSights = -0.08
 
 ARC9.LoadAttachment(ATT, "retro_ar15_stock_wire")
 
+
 ATT = {}
 
 ATT.PrintName = "AAC PDW Collapsible Stock"
@@ -2924,6 +2985,7 @@ ATT.SprintToFireTimeAdd = 0.08
 ATT.SpeedAddSights = -0.08
 
 ARC9.LoadAttachment(ATT, "retro_ar15_stock_hb")
+
 
 ATT = {}
 
@@ -2969,6 +3031,7 @@ end
 
 ARC9.LoadAttachment(ATT, "retro_ar15_stock_moe")
 
+
 ATT = {}
 
 ATT.PrintName = "Magpul PSR Marksman Stock"
@@ -3002,6 +3065,7 @@ ATT.SpreadMultHipFire = 1.25
 
 ARC9.LoadAttachment(ATT, "retro_ar15_stock_sniper")
 
+
 ATT = {}
 
 ATT.PrintName = "Fixed FAMAS F1 Rear Assembly"
@@ -3032,7 +3096,9 @@ ATT.SpreadMultShooting = 0.65
 
 ARC9.LoadAttachment(ATT, "retro_ar15_stock_famas")
 
---UPPERS
+
+
+------------ Upper Receivers
 ATT = {}
 
 ATT.PrintName = "A1 Upper Receiver"
@@ -3050,6 +3116,7 @@ ATT.ExcludeElements = {"handguard_famas"}
 
 ARC9.LoadAttachment(ATT, "retro_ar15_upper_a1")
 
+
 ATT = {}
 
 ATT.PrintName = "A2 Upper Receiver"
@@ -3066,6 +3133,7 @@ ATT.ActivateElements = {"a2_top"}
 ATT.ExcludeElements = {"handguard_famas", "is_patriot"}
 
 ARC9.LoadAttachment(ATT, "retro_ar15_upper_a2")
+
 
 ATT = {}
 
@@ -3113,6 +3181,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_upper_a4")
+
 
 ATT = {}
 
@@ -3191,6 +3260,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_upper_commando")
 
+
 ATT = {}
 
 ATT.PrintName = "Futurized Flat Top Upper Receiver"
@@ -3258,7 +3328,9 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_upper_future")
 
--- UBGL
+
+
+------------ UBGLs
 ATT = {}
 
 ATT.PrintName = [[M203 Grenade Launcher]]
@@ -3314,6 +3386,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "retro_ar15_ubgl_m203")
+
 
 ATT = {}
 
@@ -3377,6 +3450,9 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "retro_ar15_ubgl_mw203")
 
+
+
+------------ Sling
 ATT = {}
 
 ATT.PrintName = "Wrapped Sling"

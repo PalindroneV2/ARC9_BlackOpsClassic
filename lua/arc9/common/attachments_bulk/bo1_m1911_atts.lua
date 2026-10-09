@@ -1,7 +1,6 @@
 local ATT = {}
 
---MUZZLE
-
+------------ Muzzle
 ATT = {}
 
 ATT.PrintName = [[M1911A1 Compensator]]
@@ -32,8 +31,9 @@ ATT.PhysBulletMuzzleVelocityMult = 1.1
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_compensator")
 
--- COSMETICS SKINS
 
+
+------------ Cosmetics
 ATT = {}
 
 ATT.PrintName = "24 Karat Gold"
@@ -51,6 +51,7 @@ ATT.ActivateElements = {"gold"}
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_cosmetic_gold")
 
+
 ATT = {}
 
 ATT.PrintName = "Nickel Finish"
@@ -67,6 +68,7 @@ ATT.Category = {"bo1_m1911_cosmetics"}
 ATT.ActivateElements = {"nickel"}
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_cosmetic_nickel")
+
 
 ATT = {}
 
@@ -88,6 +90,7 @@ ATT.SubMaterial13 = "models/weapons/arc9/bo1/bo1_m1911/fullsteel.vmt"
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_cosmetic_steel")
 
+
 ATT = {}
 
 ATT.PrintName = "Battle Worn"
@@ -105,8 +108,9 @@ ATT.ActivateElements = {"worn"}
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_cosmetic_worn")
 
--- FRAMES HAMMERS TRIGGERS
 
+
+------------ Iron Sights, Hammers, and Triggers
 ATT = {}
 
 ATT.PrintName = "Improved Iron Sights"
@@ -124,6 +128,7 @@ ATT.Category = {"bo1_m1911_sights"}
 ATT.ActivateElements = {"irons_improved"}
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_sights_improved")
+
 
 ATT = {}
 
@@ -143,6 +148,7 @@ ATT.ActivateElements = {"irons_novak"}
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_sights_novak")
 
+
 ATT = {}
 
 ATT.PrintName = "Beretta 2025 Iron Sights"
@@ -160,6 +166,7 @@ ATT.Category = {"bo1_m1911_sights"}
 ATT.ActivateElements = {"irons_2025"}
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_sights_2025")
+
 
 ATT = {}
 
@@ -180,6 +187,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.05
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_hammer_ring")
 
+
 ATT = {}
 
 ATT.PrintName = "Delta Hammer"
@@ -198,6 +206,7 @@ ATT.RangeMaxMult = 1.05
 ATT.PhysBulletMuzzleVelocityMult = 1.05
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_hammer_delta")
+
 
 ATT = {}
 
@@ -218,6 +227,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.05
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_hammer_2025")
 
+
 ATT = {}
 
 ATT.PrintName = "Competition Hair Trigger"
@@ -236,6 +246,7 @@ ATT.SpreadMult = 1.1
 ATT.RPMMult = 1.1
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_trigger_fast")
+
 
 ATT = {}
 
@@ -256,8 +267,9 @@ ATT.RPMMult = 1.1
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_trigger_long")
 
---SLIDES
 
+
+------------ Slides
 ATT = {}
 
 ATT.PrintName = "Officer Compact Slide"
@@ -285,6 +297,7 @@ ATT.ActivateElements = {"1911_slide_officer", "officerbarrel"}
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_slides_officer")
 
+
 ATT = {}
 
 ATT.PrintName = "Commander Short Slide"
@@ -308,6 +321,7 @@ ATT.Category = {"bo1_m1911_slides"}
 ATT.ActivateElements = {"1911_slide_short", "shortbarrel"}
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_slides_short")
+
 
 ATT = {}
 
@@ -333,7 +347,9 @@ ATT.ActivateElements = {"1911_slide_baller", "longbarrel"}
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_slides_hardballer")
 
--- SOUND MODS
+
+
+------------ Sounds
 ATT = {}
 
 ATT.PrintName = "World at War"
@@ -352,6 +368,7 @@ ATT.Category = {"bo1_m1911_sounds"}
 ATT.ActivateElements = {"waw_sound"}
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_sounds_waw")
+
 
 ATT = {}
 
@@ -373,8 +390,9 @@ ATT.ActivateElements = {"bo2_sound"}
 
 ARC9.LoadAttachment(ATT, "bo1_m1911_sounds_bo2")
 
--- FRAME
 
+
+------------ Modern Frame
 ATT = {}
 
 ATT.PrintName = "Springfield Armory Modern Frame"

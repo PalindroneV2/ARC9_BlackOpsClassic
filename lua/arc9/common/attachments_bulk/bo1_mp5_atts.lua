@@ -1,7 +1,6 @@
 local ATT = {}
 
---BARRELS
-
+------------ Barrels
 ATT = {}
 
 ATT.PrintName = [[MP5 Kurz Barrel]]
@@ -128,8 +127,9 @@ ATT.ActivateElements = {"mp5sd","sdbarrel"}
 
 ARC9.LoadAttachment(ATT, "bo1_mp5_barrel_sd")
 
---MAGS
 
+
+------------ Magazines
 ATT = {}
 
 ATT.PrintName = [[10x25mm 30 Round Magazine]]
@@ -259,8 +259,9 @@ ATT.ReloadTimeMult = 0.9
 
 ARC9.LoadAttachment(ATT, "bo1_mp5_mag_short")
 
---- stock pdw --- ris rail --- no grip
 
+
+------------ Stocks/Handguards/Rails
 ATT = {}
 
 ATT.PrintName = "PDW Stock"

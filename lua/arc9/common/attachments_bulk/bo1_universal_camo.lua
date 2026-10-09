@@ -13,6 +13,7 @@ ATT.ActivateElements = {"camo_full"}
 
 ARC9.LoadAttachment(ATT, "bo1_camo_complete")
 
+
 ATT = {}
 
 ATT.PrintName = "Gold"
@@ -26,6 +27,7 @@ ATT.MenuCategory = "ARC9 - Camos"
 ATT.ActivateElements = {"camo_gold"}
 
 ARC9.LoadAttachment(ATT, "bo1_camo_gold")
+
 
 ATT = {}
 
@@ -43,6 +45,7 @@ ATT.ActivateElements = {"woodcamo"}
 
 ARC9.LoadAttachment(ATT, "bo1_camo_redwood")
 
+
 ATT = {}
 
 ATT.PrintName = "Bright Wood"
@@ -58,6 +61,7 @@ ATT.CustomCamoScale = 2.5
 ATT.ActivateElements = {"woodcamo"}
 
 ARC9.LoadAttachment(ATT, "bo1_camo_m14wood")
+
 
 ATT = {}
 
@@ -75,6 +79,7 @@ ATT.ActivateElements = {"woodcamo"}
 
 ARC9.LoadAttachment(ATT, "bo1_camo_olyimpiawood")
 
+
 ATT = {}
 
 ATT.PrintName = "AK Wood"
@@ -91,6 +96,7 @@ ATT.ActivateElements = {"woodcamo"}
 
 ARC9.LoadAttachment(ATT, "bo1_camo_akwood")
 
+
 ATT = {}
 
 ATT.PrintName = "Off White"
@@ -104,6 +110,7 @@ ATT.CustomCamoTexture = "models/weapons/arc9/bo1/camos/off_white"
 ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_offwhite")
+
 
 ATT = {}
 
@@ -119,6 +126,7 @@ ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_solidwhite")
 
+
 ATT = {}
 
 ATT.PrintName = "Bakelite"
@@ -132,6 +140,7 @@ ATT.CustomCamoTexture = "models/weapons/arc9/bo1/camos/bakelite"
 ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_bakelite")
+
 
 ATT = {}
 
@@ -147,6 +156,7 @@ ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_darkbake")
 
+
 ATT = {}
 
 ATT.PrintName = "HK Tan"
@@ -161,6 +171,7 @@ ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_hk21_tan")
 
+
 ATT = {}
 
 ATT.PrintName = "Dark Tan"
@@ -174,6 +185,7 @@ ATT.CustomCamoTexture = "models/weapons/arc9/bo1/camos/tan_dark"
 ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_darktan")
+
 
 ATT = {}
 
@@ -190,6 +202,7 @@ ATT.CustomCamoScale = 1
 
 ARC9.LoadAttachment(ATT, "bo1_camo_mustard")
 
+
 ATT = {}
 
 ATT.PrintName = "Blue Shift"
@@ -203,6 +216,7 @@ ATT.CustomCamoTexture = "models/weapons/arc9/bo1/camos/blueshift"
 ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_blueshift")
+
 
 ATT = {}
 
@@ -219,6 +233,7 @@ ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_aug_green")
 
+
 ATT = {}
 
 ATT.PrintName = "Kaki 1"
@@ -233,6 +248,7 @@ ATT.CustomCamoScale = 20
 ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_kaki_01")
+
 
 ATT = {}
 
@@ -249,6 +265,7 @@ ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_kaki_02")
 
+
 ATT = {}
 
 ATT.PrintName = "Deep Green"
@@ -263,6 +280,7 @@ ATT.CustomCamoScale = 20
 ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_true_od")
+
 
 ATT = {}
 
@@ -279,6 +297,7 @@ ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_toy_green")
 
+
 ATT = {}
 
 ATT.PrintName = "American Cheese"
@@ -294,6 +313,7 @@ ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_yellow")
 
+
 ATT = {}
 
 ATT.PrintName = "Gunmetal Gray"
@@ -307,6 +327,7 @@ ATT.CustomCamoTexture = "models/weapons/arc9/bo1/camos/gunmetal"
 ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_gunmetal_gray")
+
 
 ATT = {}
 
@@ -322,6 +343,7 @@ ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_gunmetal_brown")
 
+
 ATT = {}
 
 ATT.PrintName = "Gunmetal Blue"
@@ -335,6 +357,7 @@ ATT.CustomCamoTexture = "models/weapons/arc9/bo1/camos/blue_mac"
 ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_gunmetal_bluemac")
+
 
 ATT = {}
 
@@ -350,6 +373,7 @@ ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_black_detail")
 
+
 ATT = {}
 
 ATT.PrintName = "Vantablack"
@@ -364,6 +388,7 @@ ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_deepblack")
 
+
 ATT = {}
 
 ATT.PrintName = "Blood Red"
@@ -377,6 +402,7 @@ ATT.CustomCamoTexture = "models/weapons/arc9/bo1/camos/red"
 ATT.Folder = "COD FLAT"
 
 ARC9.LoadAttachment(ATT, "bo1_camo_redone")
+
 
 ATT = {}
 
@@ -393,6 +419,7 @@ ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_nevada")
 
+
 ATT = {}
 
 ATT.PrintName = "Afghan Desert"
@@ -407,6 +434,7 @@ ATT.Folder = "BO1 CAMOS/DESERT"
 ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_desert_rus")
+
 
 ATT = {}
 
@@ -423,6 +451,7 @@ ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_sahara")
 
+
 ATT = {}
 
 ATT.PrintName = "Woodland"
@@ -437,6 +466,7 @@ ATT.Folder = "BO1 CAMOS/FOREST"
 ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_woodland")
+
 
 ATT = {}
 
@@ -453,6 +483,7 @@ ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_flora")
 
+
 ATT = {}
 
 ATT.PrintName = "Flecktarn"
@@ -467,6 +498,7 @@ ATT.Folder = "BO1 CAMOS/FOREST"
 ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_flecktarn")
+
 
 ATT = {}
 
@@ -483,6 +515,7 @@ ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_siberia")
 
+
 ATT = {}
 
 ATT.PrintName = "Yukon Winter"
@@ -498,6 +531,7 @@ ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_yukon")
 
+
 ATT = {}
 
 ATT.PrintName = "American Jungle"
@@ -512,6 +546,7 @@ ATT.Folder = "BO1 CAMOS/JUNGLE"
 ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_jungle_us")
+
 
 ATT = {}
 
@@ -531,6 +566,7 @@ ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_jungle_rus")
 
+
 ATT = {}
 
 ATT.PrintName = "Tigerstripe"
@@ -545,6 +581,7 @@ ATT.Folder = "BO1 CAMOS/JUNGLE"
 ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_tiger")
+
 
 ATT = {}
 
@@ -561,6 +598,7 @@ ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_urban_warsaw")
 
+
 ATT = {}
 
 ATT.PrintName = "Urban German"
@@ -575,6 +613,7 @@ ATT.Folder = "BO1 CAMOS/URBAN"
 ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_urban_german")
+
 
 ATT = {}
 
@@ -591,6 +630,7 @@ ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_urban_rus")
 
+
 ATT = {}
 
 ATT.PrintName = "Xx_MLGMaster420_xX"
@@ -605,6 +645,7 @@ ATT.Folder = "GAMER"
 ATT.CustomCamoScale = 5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_weed")
+
 
 ATT = {}
 
@@ -621,6 +662,7 @@ ATT.CustomCamoScale = 5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_fireblu")
 
+
 ATT = {}
 
 ATT.PrintName = "China #1"
@@ -635,6 +677,7 @@ ATT.Folder = "FLAGS"
 ATT.CustomCamoScale = 5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_ccp")
+
 
 ATT = {}
 
@@ -651,6 +694,7 @@ ATT.CustomCamoScale = 5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_ussr")
 
+
 ATT = {}
 
 ATT.PrintName = "Normal"
@@ -665,6 +709,7 @@ ATT.Folder = "GAMER"
 ATT.CustomCamoScale = 1
 
 ARC9.LoadAttachment(ATT, "bo1_camo_bumpmap")
+
 
 ATT = {}
 
@@ -681,8 +726,9 @@ ATT.CustomCamoScale = 2.5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_benjamins")
 
--- PAP CAMOS --
 
+
+------------ Pack-A-Punch Camos
 ATT = {}
 
 ATT.PrintName = "Etching I"
@@ -698,6 +744,7 @@ ATT.CustomCamoScale = 2.5
 ATT.SortOrder = 1
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap1")
+
 
 ATT = {}
 
@@ -715,6 +762,7 @@ ATT.SortOrder = 2
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap2")
 
+
 ATT = {}
 
 ATT.PrintName = "Hellscape"
@@ -730,6 +778,7 @@ ATT.CustomCamoScale = 5
 ATT.SortOrder = 4
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap3")
+
 
 ATT = {}
 
@@ -747,6 +796,7 @@ ATT.SortOrder = 5
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap4")
 
+
 ATT = {}
 
 ATT.PrintName = "Weaponized 115"
@@ -762,6 +812,7 @@ ATT.CustomCamoScale = 5
 ATT.SortOrder = 8
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap5")
+
 
 ATT = {}
 
@@ -779,6 +830,7 @@ ATT.SortOrder = 6
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap6")
 
+
 ATT = {}
 
 ATT.PrintName = "Dieselpunk"
@@ -794,6 +846,7 @@ ATT.CustomCamoScale = 5
 ATT.SortOrder = 7
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap7")
+
 
 ATT = {}
 
@@ -811,6 +864,7 @@ ATT.SortOrder = 9
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap8")
 
+
 ATT = {}
 
 ATT.PrintName = "Molten Alloys"
@@ -826,6 +880,7 @@ ATT.CustomCamoScale = 5
 ATT.SortOrder = 3
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap9")
+
 
 ATT = {}
 
@@ -843,6 +898,7 @@ ATT.SortOrder = 10
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap10")
 
+
 ATT = {}
 
 ATT.PrintName = "Emerald"
@@ -858,6 +914,7 @@ ATT.CustomCamoScale = 5
 ATT.SortOrder = 11
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap11")
+
 
 ATT = {}
 
@@ -875,6 +932,7 @@ ATT.SortOrder = 12
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap12")
 
+
 ATT = {}
 
 ATT.PrintName = "Sapphire"
@@ -890,6 +948,7 @@ ATT.CustomCamoScale = 5
 ATT.SortOrder = 13
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap13")
+
 
 ATT = {}
 
@@ -907,6 +966,7 @@ ATT.SortOrder = 14
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap14")
 
+
 ATT = {}
 
 ATT.PrintName = "Topaz"
@@ -922,6 +982,7 @@ ATT.CustomCamoScale = 5
 ATT.SortOrder = 15
 
 ARC9.LoadAttachment(ATT, "bo1_camo_pap15")
+
 
 ATT = {}
 
@@ -939,6 +1000,7 @@ ATT.Category = {"waw_p38_cosmetic"}
 ATT.ActivateElements = {"destron_finish"}
 
 ARC9.LoadAttachment(ATT, "waw_p38_cosmetic_destron")
+
 
 ATT = {}
 

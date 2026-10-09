@@ -1,7 +1,6 @@
 local ATT = {}
 
---BARRELS
-
+------------ Barrels
 ATT = {}
 
 ATT.PrintName = [[RPK 590mm Barrel]]
@@ -65,6 +64,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_barrel_rpk")
 
+
 ATT = {}
 
 ATT.PrintName = [[AKS-74u 206.5mm Barrel]]
@@ -109,6 +109,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.6
 -- }
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_barrel_short")
+
 
 ATT = {}
 
@@ -163,6 +164,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_barrel_asval")
 
+
 ATT = {}
 
 ATT.PrintName = [[100 Series 420mm Carbine Barrel]]
@@ -198,6 +200,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.95
 -- }
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_barrel_102")
+
 
 ATT = {}
 
@@ -237,8 +240,9 @@ ATT.PhysBulletMuzzleVelocityMult = 1.05
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_barrel_rpd")
 
--- GOLD
 
+
+------------ Gold
 ATT = {}
 
 ATT.PrintName = "Gold Plating"
@@ -256,8 +260,9 @@ ATT.Category = {"bo1_ultimate_ak_gold"}
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_furniture_gold")
 
--- FURNITURES HANDGUARDS
 
+
+------------ Handguards
 ATT = {}
 
 ATT.PrintName = "RPD Handguard"
@@ -278,6 +283,7 @@ ATT.AimDownSightsTimeMult = 1.1
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_furniture_rpd")
 
+
 ATT = {}
 
 ATT.PrintName = "Worn Bakelite"
@@ -297,6 +303,7 @@ ATT.RecoilMult = 1.1
 ATT.AimDownSightsTimeMult = 0.9
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_furniture_bakelite_worn")
+
 
 ATT = {}
 
@@ -362,6 +369,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_furniture_modern")
 
+
 ATT = {}
 
 ATT.PrintName = "Modern Furniture II"
@@ -423,8 +431,9 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_furniture_modern3")
 
--- MAGAZINES MAGS
 
+
+------------ Magazines
 ATT = {}
 
 ATT.PrintName = [[Jungle-Taped RPK 45rnd Mag]]
@@ -445,6 +454,7 @@ ATT.AimDownSightsTimeMult = 1.15
 ATT.SprintToFireTimeMult = 1.15
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_mag_rpk_dual")
+
 
 ATT = {}
 
@@ -478,6 +488,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_mag_rpk_drum")
 
+
 ATT = {}
 
 ATT.PrintName = [[45rnd Extended Magazine]]
@@ -500,8 +511,8 @@ ATT.SprintToFireTimeMult = 1.125
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_mag_ext")
 
--- RECEIVERS
 
+------------ Receivers
 ATT = {}
 
 ATT.PrintName = [[AK-47 Smooth Dust Cover Receiver]]
@@ -518,6 +529,7 @@ ATT.Category = {"bo1_ultimate_ak_receiver"}
 ATT.ActivateElements = {"smooth","ak47og"}
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_receiver_ak47_smooth")
+
 
 ATT = {}
 
@@ -575,6 +587,7 @@ ATT.Trivia = {
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_receiver_ak74")
 
+
 ATT = {}
 
 ATT.PrintName = [[AK-15 Receiver 7.62]]
@@ -624,6 +637,7 @@ ATT.Trivia = {
 }
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_receiver_ak12_hybrid")
+
 
 ATT = {}
 
@@ -691,6 +705,7 @@ ATT.Trivia = {
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_receiver_ak12")
 
+
 ATT = {}
 
 ATT.PrintName = [[RPK Receiver]]
@@ -737,6 +752,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_receiver_rpkm")
+
 
 ATT = {}
 
@@ -805,6 +821,7 @@ ATT.Trivia = {
 }
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_receiver_rpk")
+
 
 ATT = {}
 
@@ -887,8 +904,9 @@ ATT.Trivia = {
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_receiver_rpk12")
 
--- STOCKS
 
+
+------------ Stocks
 ATT = {}
 
 ATT.PrintName = "VSS Sniper Stock"
@@ -919,6 +937,7 @@ ATT.SpeedMultShooting = 0.95
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_stock_vss")
 
+
 ATT = {}
 
 ATT.PrintName = "RPK Light Machine Gun Stock"
@@ -948,6 +967,7 @@ ATT.SpeedMultShooting = 0.95
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_stock_rpk")
 
+
 ATT = {}
 
 ATT.PrintName = "Side-folding Stock"
@@ -975,6 +995,7 @@ ATT.SpreadMultHipFire = 0.9
 ATT.SpeedMultShooting = 1.1
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_stock_sidefolder")
+
 
 ATT = {}
 
@@ -1004,6 +1025,7 @@ ATT.SpeedMultShooting = 1.1
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_stock_alpha")
 
+
 ATT = {}
 
 ATT.PrintName = "M4-Style Collapsible stock"
@@ -1031,6 +1053,7 @@ ATT.SprintToFireTimeAdd = 0.12
 ATT.SpeedAddSights = -0.12
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_stock_tactical")
+
 
 ATT = {}
 
@@ -1060,6 +1083,7 @@ ATT.SpreadMultHipFire = 0.975
 ATT.SpeedMultShooting = 0.975
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_stock_type2")
+
 
 ATT = {}
 
@@ -1092,8 +1116,9 @@ ATT.SpeedAddSights = -0.08
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_stock_underfolder")
 
--- RAILS
 
+
+------------ Rails
 ATT = {}
 
 ATT.PrintName = "Smooth AK Optic Rail"
@@ -1124,6 +1149,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "bo1_ultimate_ak_rail_smooth")
+
 
 ATT = {}
 

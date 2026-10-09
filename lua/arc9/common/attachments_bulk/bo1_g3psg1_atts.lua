@@ -1,7 +1,6 @@
 local ATT = {}
 
--- BARRELS HANDGUARDS
-
+------------ Barrels and Handguards
 ATT = {}
 
 ATT.PrintName = [[HK33 Barrel]]
@@ -37,6 +36,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.85
 
 ARC9.LoadAttachment(ATT, "bo1_g3_barrel_hk33")
 
+
 ATT = {}
 
 ATT.PrintName = [[HK53 Barrel]]
@@ -71,6 +71,7 @@ ATT.PenetrationMult = 0.75
 ATT.PhysBulletMuzzleVelocityMult = 0.75
 
 ARC9.LoadAttachment(ATT, "bo1_g3_barrel_hk53")
+
 
 ATT = {}
 
@@ -127,6 +128,7 @@ ATT.DistantShootSound = {
 
 ARC9.LoadAttachment(ATT, "bo1_g3_barrel_psg1")
 
+
 ATT = {}
 
 ATT.PrintName = [[HK21 Handguard]]
@@ -156,8 +158,9 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "bo1_g3_hg_hk21")
 
--- MAGS CALIBERS
 
+
+------------ Magazines and Alternate Calibers
 ATT = {}
 
 ATT.PrintName = [[30 Round 5.56mm NATO Magazine]]
@@ -214,6 +217,7 @@ ATT.Trivia = {
 
 ARC9.LoadAttachment(ATT, "bo1_g3_mag_556")
 
+
 ATT = {}
 
 ATT.PrintName = [[10 Round Marksman Magazine]]
@@ -249,7 +253,8 @@ ATT.RPMAdd = -100
 ARC9.LoadAttachment(ATT, "bo1_g3_mag_psg1")
 
 
---HK21 ONLY
+
+------------ HK21 Magazine
 ATT = {}
 
 ATT.PrintName = [[20 Round Standard Magazine]]

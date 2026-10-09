@@ -27,6 +27,7 @@ ATT.ExcludeElements = {}
 
 ARC9.LoadAttachment(ATT, "bo1_asp_barrel_asp")
 
+
 ATT = {}
 
 ATT.PrintName = [[Mk 22 Mod 0 Hush Barrel]]
@@ -34,8 +35,7 @@ ATT.CompactName = [[HUSH]]
 ATT.Icon = Material("entities/bo1_atts/bocw/atts_ak5/barrels/heavy_pro.png", "mips smooth")
 ATT.Description = [[
     Custom made for the Mk 22 Mod 0 "Hush Puppy".
-    Featuring a threaded barrel, taller iron sights to clear a suppressor and a slide lock for less noise production.
-]]
+    Featuring a threaded barrel, taller iron sights to clear a suppressor and a slide lock for less noise production.]]
 ATT.CustomPros = {}
 ATT.CustomCons = {}
 ATT.SortOrder = 0
@@ -70,6 +70,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "bo1_asp_barrel_hush")
 
+
 ATT = {}
 
 ATT.PrintName = [[Polymer Grip]]
@@ -77,8 +78,7 @@ ATT.CompactName = [[Polymer]]
 ATT.Icon = Material("entities/bo1_atts/bocw/atts_ak5/barrels/heavy_pro.png", "mips smooth")
 ATT.Description = [[Lightweight polymer grips allow the user to glance at the magazine inside to quickly asses how many shots they have left.
 
-Colorable
-]]
+Colorable]]
 ATT.CustomPros = {}
 ATT.CustomCons = {}
 ATT.SortOrder = 0
@@ -95,13 +95,13 @@ ATT.ExcludeElements = {}
 
 ARC9.LoadAttachment(ATT, "bo1_asp_grip_polymer")
 
+
 ATT = {}
 
 ATT.PrintName = [[Translucent Polymer Grip]]
 ATT.CompactName = [[ASP]]
 ATT.Icon = Material("entities/bo1_atts/bocw/atts_ak5/barrels/heavy_pro.png", "mips smooth")
-ATT.Description = [[Lightweight translucent polymer grips allow the user to glance at the magazine inside to quickly asses how many shots they have left.
-]]
+ATT.Description = [[Lightweight translucent polymer grips allow the user to glance at the magazine inside to quickly asses how many shots they have left.]]
 ATT.CustomPros = {}
 ATT.CustomCons = {}
 ATT.SortOrder = 0

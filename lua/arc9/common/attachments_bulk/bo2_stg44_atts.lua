@@ -15,6 +15,7 @@ ATT.ActivateElements = {"sd_hand"}
 
 ARC9.LoadAttachment(ATT, "bo2_stg_handguard_sd")
 
+
 ATT = {}
 
 ATT.PrintName = [[Integral Suppressor]]
@@ -50,6 +51,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.1
 
 ARC9.LoadAttachment(ATT, "bo2_stg_supp_sd")
 
+
 ATT = {}
 
 ATT.PrintName = [[Short Barrel]]
@@ -82,6 +84,7 @@ ATT.RangeMinMult = 0.6
 ATT.PhysBulletMuzzleVelocityMult = 0.6
 
 ARC9.LoadAttachment(ATT, "bo2_stg_barrel_short")
+
 
 ATT = {}
 

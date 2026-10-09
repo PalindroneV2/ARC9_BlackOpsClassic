@@ -27,6 +27,7 @@ ATT.SpeedAddSights = -0.12
 
 ARC9.LoadAttachment(ATT, "bo1_m14_stock_grip")
 
+
 ATT = {}
 
 ATT.PrintName = "Heavy Stock" -- M14 classic wood stock
@@ -61,6 +62,7 @@ ATT.RHIK = true
 ATT.RHIK_Priority = 1
 
 ARC9.LoadAttachment(ATT, "bo1_m14_stock_full")
+
 
 ATT = {}
 
@@ -111,6 +113,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "bo1_m14_stock_full_synth")
+
 
 ATT = {}
 
@@ -172,6 +175,7 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "bo1_m14_stock_ebr_chassis")
+
 
 ATT = {}
 

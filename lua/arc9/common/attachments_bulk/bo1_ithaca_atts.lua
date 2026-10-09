@@ -18,6 +18,7 @@ ATT.ReloadTimeMult = 0.9
 
 ARC9.LoadAttachment(ATT, "bo1_ithaca_strap")
 
+
 ATT = {}
 
 ATT.PrintName = [[Heatshield]]
@@ -35,6 +36,7 @@ ATT.ActivateElements = {"cheese_grater"}
 ATT.CycleTimeMult = 0.9
 
 ARC9.LoadAttachment(ATT, "bo1_ithaca_heatshield")
+
 
 ATT = {}
 
@@ -68,6 +70,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.6
 
 ARC9.LoadAttachment(ATT, "bo1_ithaca_barrel_short")
 
+
 ATT = {}
 
 ATT.PrintName = [[Medium Barrel]]
@@ -100,6 +103,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.9
 
 ARC9.LoadAttachment(ATT, "bo1_ithaca_barrel_mid")
 
+
 ATT = {}
 
 ATT.PrintName = [[Full-Length Barrel]]
@@ -118,6 +122,7 @@ ATT.ClipSizeAdd = 2
 ATT.AimDownSightsTimeMult = 1.1
 
 ARC9.LoadAttachment(ATT, "bo1_ithaca_barrel_full")
+
 
 ATT = {}
 
@@ -145,6 +150,7 @@ ATT.SprintToFireTimeAdd = 0.16
 ATT.SpeedAddSights = -0.12
 
 ARC9.LoadAttachment(ATT, "bo1_ithaca_stock_grip")
+
 
 ATT = {}
 
@@ -180,6 +186,7 @@ ATT.RHIK = true
 ATT.RHIK_Priority = 1
 
 ARC9.LoadAttachment(ATT, "bo1_ithaca_stock_full")
+
 
 ATT = {}
 
@@ -217,6 +224,7 @@ ATT.SubMaterial4 = "models/weapons/arc9/bo1/bo1_ithaca/redux/ithaca37_stock_synt
 
 ARC9.LoadAttachment(ATT, "bo1_ithaca_stock_full_synth")
 
+
 ATT = {}
 
 ATT.PrintName = "Stakeout Foregrip"
@@ -247,6 +255,7 @@ ATT.SubMaterial2 = "models/weapons/arc9/bo1/bo1_ithaca/redux/ithaca37_pump_synth
 
 ARC9.LoadAttachment(ATT, "bo1_ithaca_grip_integral")
 
+
 ATT = {}
 
 ATT.PrintName = "Sling-Wrapped Synthetic Pump"
@@ -271,6 +280,7 @@ ATT.SubMaterial2 = "models/weapons/arc9/bo1/bo1_ithaca/redux/ithaca37_pump_synth
 
 ARC9.LoadAttachment(ATT, "bo1_ithaca_pump_synth_sling")
 
+
 ATT = {}
 
 ATT.PrintName = "Sling-Wrapped  Pump"
@@ -291,6 +301,7 @@ ATT.CycleTimeMult = 0.9
 -- ATT.SubMaterial2 = "models/weapons/arc9/bo1/bo1_ithaca/redux/ithaca37_pump_synthetic.vmt"
 
 ARC9.LoadAttachment(ATT, "bo1_ithaca_pump_sling")
+
 
 ATT = {}
 
