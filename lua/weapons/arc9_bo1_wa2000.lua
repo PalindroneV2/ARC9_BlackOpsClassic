@@ -282,7 +282,7 @@ SWEP.HookP_NameChange = function(self, name)
     local gunname = "Walther WA 2000"
 
     if attached["bo1_pap"] then
-        gunname = "Wound Agreggator 20k"
+        gunname = "Wound Aggregator 20k"
     end
 
     return gunname
