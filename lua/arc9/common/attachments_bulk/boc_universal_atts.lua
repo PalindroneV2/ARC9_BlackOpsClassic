@@ -1572,49 +1572,6 @@ ARC9.LoadAttachment(ATT, "bo2_muzzle_suppressor_smg1")
 
 ATT = {}
 
-ATT.PrintName = [[UNCLE Barrel Extension]]
-ATT.CompactName = [[UNCLE]]
-ATT.Icon = Material("materials/entities/bo1_atts/barrel/bo1_suppressor.png")
-ATT.Description = [[Extended barrel used by special agent unit UNCLE.]]
-ATT.CustomPros = {}
-ATT.CustomCons = {}
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - WAW Attachments"
-ATT.Free = false
-
-ATT.Model = "models/weapons/arc9/atts/bo1_suppressor.mdl"
-ATT.Scale = Vector(0,0,0)
-ATT.ModelOffset = Vector(7.5, 0, 0)
-
-ATT.Category = {"waw_p38_muzzle"}
-ATT.ActivateElements = {"destron_flash"}
-ATT.MuzzleDevice = true
-ATT.Silencer = false
-ATT.MuzzleDevice_Priority = 5
-ATT.MuzzleParticle = "megatron_flash"
-ATT.DistantShootSoundOverride = ""
-ATT.FirstDistantShootSoundOverride = ""
-ATT.ShootSoundOverride = "ARC9_WAW.P38_Fusion"
-
-ATT.ShootVolumeMult = 4 / 5
-ATT.ShootPitchMult = 1.1
-
-ATT.SpreadMult = 0.99
-ATT.RecoilMult = 0.975
-ATT.RecoilUpMult = 0.975
-ATT.AimDownSightsTimeMult = 1.025
-ATT.SprintToFireTimeMult = 1.05
-ATT.SpreadMultHipFire = 1.05
---ATT.SpreadMultMove = 1.05
-ATT.RangeMaxMult = 1.1
-ATT.RangeMinMult = 0.9
-ATT.PhysBulletMuzzleVelocityMult = 1.1
-
-ARC9.LoadAttachment(ATT, "waw_p38_muzzle_uncle")
-
-
-ATT = {}
-
 ATT.PrintName = [[Sniper Suppressor 1]]
 ATT.CompactName = [[SUPP 1]]
 ATT.Icon = Material("materials/entities/bo1_atts/barrel/bo2_suppressor.png")
