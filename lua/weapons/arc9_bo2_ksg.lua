@@ -606,7 +606,7 @@ SWEP.Animations = {
         Time = 26 / 30,
         MinProgress = 10 / 26,
         FireASAP = 1,
-        RestoreAmmo = 1,
+        RestoreAmmo = 2,
         EventTable = {
             {s = "ARC9_BO2.Shotgun_Shell", t = 10 / 30},
         },
@@ -973,7 +973,7 @@ SWEP.Animations = {
         TPAnimStartTime = 0.3,
         MinProgress = 10 / 26,
         FireASAP = 1,
-        RestoreAmmo = 1,
+        RestoreAmmo = 2,
         EventTable = {
             {s = "ARC9_MW3E.KSG_In", t = 10 / 30},
         },
