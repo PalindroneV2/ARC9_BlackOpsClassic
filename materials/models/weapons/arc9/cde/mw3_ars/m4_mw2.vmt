@@ -5,9 +5,9 @@ VertexlitGeneric
 	$bumpmap	"models/weapons/arc9/cde/mw3_ars/mw2_m4_n"
 	$phongexponenttexture "models/weapons/arc9/cde/mw3_ars/mw2_m4_s"
 	
-	$detail "models/weapons/arc9/colors/black_detail"
-	$detailblendfactor 0.1
-	$detailblendmode 1
+	// $detail "models/weapons/arc9/bo1/camos/black_detail"
+	// $detailblendfactor 0.1
+	// $detailblendmode 1
 	
 	"$blendtintbybasealpha" "1"
 	"$phong" "1"
