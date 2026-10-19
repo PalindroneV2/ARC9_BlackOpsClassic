@@ -586,7 +586,7 @@ SWEP.Animations = {
         EventTable = {
             {s = "ARC9_BO1.MK_Shell", t = 10 / 35},
         },
-        RestoreAmmo = 0,
+        RestoreAmmo = 1,
         MinProgress = 10 / 26,
         FireASAP = 1,
         IKTimeLine = {

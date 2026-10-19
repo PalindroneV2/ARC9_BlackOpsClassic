@@ -143,7 +143,7 @@ ATT.RTScopeReticleScale = 0.45
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeRes = 1024
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo1/bo1_acogs/acog_lens")
-ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo1_aug_crosshair.png", "mips smooth")   
+ATT.RTScopeReticle = Material("hud/arc9_bo1/scopes/bo1_aug_crosshair.png", "mips smooth")
 ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
 
