@@ -1841,8 +1841,8 @@ ARC9.LoadAttachment(ATT, "retro_ar15_iron_carry_bo3")
 
 ATT = {}
 
-ATT.PrintName = "Low Profile Flip-Up Iron Sights"
-ATT.CompactName = "LP Irons"
+ATT.PrintName = "GG&G A2 Back Up Iron Sights"
+ATT.CompactName = "GG&G A2"
 ATT.Icon = Material("entities/bo1_atts/optics/retro_ar15/deltaforce.png")
 ATT.Description = [["You will aim with sights of iron and you will like it."
 
@@ -2051,8 +2051,8 @@ ARC9.LoadAttachment(ATT, "retro_ar15_lower_fpw")
 
 ATT = {}
 
-ATT.PrintName = "Bad Latch Quick Load System"
-ATT.CompactName = "Bad Latch"
+ATT.PrintName = "B.A.D. Lever Battery Assist Device"
+ATT.CompactName = "B.A.D. Lever"
 ATT.Icon = Material("entities/bo1_atts/other/select_fire.png")
 ATT.Description = [[Quick load system for the AR-15s.]]
 ATT.CustomPros = {}
@@ -2079,7 +2079,7 @@ end
 
 ATT.ReloadTimeMult = 0.9
 
-ARC9.LoadAttachment(ATT, "retro_ar15_lower_badlatch")
+ARC9.LoadAttachment(ATT, "retro_ar15_lower_badlever")
 
 
 

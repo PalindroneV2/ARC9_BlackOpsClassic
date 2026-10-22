@@ -236,7 +236,7 @@ SWEP.ExtraSightDist = 5
 SWEP.StandardPresets = {
     "[MP5SD3]XQAAAQDnAAAAAAAAAAA9iIIiM7hMNz0dhIkbkvJZHs4/7gvJbLaf352LD+uk3FySieulVfD7VtlfDZsuICVrZVO2pzTnx+Hbp7BYLle8UUmd1hAd7Fau+8IXSItZRZKyAdigbfH9qxDwjyfo4ESLWqBOTp7gLTsjpVHgbbSmvZdpjBsLAA==",
     "[MP5K PDW]XQAAAQAaAQAAAAAAAAA9iIIiM7hMNz0dhIkbkvJZHs4/7gvJbLaf352LD+uk3FySdRkUGXnnfd3A2TD9KiYL6ea4XD0r3meEqYpSfKkOjWDo2JNIIBv56iac/39u7cdNtWkHghJJZKt+O4voUyg/kZq0Icj0ESEdxG0zKOj90CGhEc+TkVNaBQ324DvpAA==",
-    "[MP5A2]XQAAAQBdAQAAAAAAAAA9iIIiM7tuo1AtTygaX+tEC4m1uxvqzP3w5yzX0nK0PbsjLgze4ZBT7F7jGkL0tEJ1a/pUU8YkYwGveyZCxackuGkTpVr5UX0OrbvxUnS0dBFs7LY/6JrItP9Sqf8tyGQnUcXVKFWaRxOicqsACVjx6yJvh2LHXBcM8ghLTGGX845QzGguFraj1ORBDHKqlgA=",
+    "[MP5A2]XQAAAQB3AQAAAAAAAAA9iIIiM7tuo1AtTygaX+s+A6u9EE4yQhIrgM3KFSm87f5/F3biMb3iN5lNSPA9ZWtnIW82wesxaBRMe2nInuLnBKOduF5gYIEL1cC995Ay1oWj80jgEQntek+DLIsnnexvUp2s6MGfOj8wuBGn1YrkAwkKyKAiy3jl6sln81WseyGg3NQPptHxA5PlYuS6",
 }
 
 SWEP.AttachmentElements = {
@@ -287,27 +287,20 @@ SWEP.AttachmentElements = {
     },
     ["mp5k"] = {
         Bodygroups = {
-            {0,1},
+        {0,1},
             {1,2},
             {2,3},
             {3,3},
         },
         AttPosMods = {
             [1] = {
-                Pos = Vector(-2.75, 0.01, 3.15),
-                -- Pos = Vector(-3.5, 0.01, 3.3),
+                -- Pos = Vector(-2.75, 0.01, 3.15),
+                Pos = Vector(-2.75, 0.01, 3.3),
             },
             [3] = {
                 Pos = Vector(5.95, 0.15, 0.875),
             },
-        }
-        -- IronSights = {
-        --     Pos = Vector(-3.175, -3, 0.85),
-        --     Ang = Angle(0.025, 0.1, 0),
-        --     Magnification = 1.1,
-        --     ViewModelFOV = 60,
-        --     CrosshairInSights = false,
-        -- }
+        },
     },
 }
 
@@ -492,7 +485,7 @@ SWEP.Hook_TranslateAnimation = function (self, anim)
     elseif attached["bo1_mp5_barrel_kurz"] then
         hand = "_grip"
     end
-    if attached["stock_m"] then
+    if attached["stock_m"] and !attached["bo1_mp5_barrel_kurz"] then
         stock = "_stock"
     end
     if attached["fastmag"] then

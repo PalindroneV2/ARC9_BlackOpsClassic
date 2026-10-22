@@ -110,7 +110,7 @@ ATT.Attachments = {
     },
 }
 
-ARC9.LoadAttachment(ATT, "bo1_mp5_barrel_ris")
+ARC9.LoadAttachment(ATT, "bo1_mp5_barrel_ris_mw3")
 
 ATT = {}
 
@@ -398,7 +398,7 @@ ATT.Attachments = {
 -- ATT.LHIK = true
 -- ATT.LHIK_Priority = 1
 
-ARC9.LoadAttachment(ATT, "bo1_top_rail_g36c")
+ARC9.LoadAttachment(ATT, "bo1_mp5_toprail_g36c")
 
 
 
@@ -437,7 +437,7 @@ ATT.Attachments = {
 -- ATT.LHIK = true
 -- ATT.LHIK_Priority = 1
 
-ARC9.LoadAttachment(ATT, "bo1_top_rail_mw3")
+ARC9.LoadAttachment(ATT, "bo1_mp5_toprail_mw3")
 
 ATT = {}
 
@@ -456,7 +456,7 @@ ATT.ActivateElements = {"mp5ksd","sdbarrel"}
 
 ATT.Model = "models/weapons/arc9/atts/cde_mp5k_nogrip.mdl"
 ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelOffset = Vector(1.1, 0, 0)
 -- ATT.IconOffset = Vector(2, 1.5, 1)
 
 ATT.LHIK = true

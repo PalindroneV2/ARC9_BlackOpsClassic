@@ -1128,8 +1128,8 @@ ARC9.LoadAttachment(ATT, "cod_muzzle_suppressor_us")
 
 ATT = {}
 
-ATT.PrintName = [[AR Suppressor (USSR)]]
-ATT.CompactName = [[SUPP USSR]]
+ATT.PrintName = [[PBS-4 Suppressor]]
+ATT.CompactName = [[PBS-4 BO1]]
 ATT.Icon = Material("materials/entities/bo1_atts/barrel/bo1_suppressor.png")
 ATT.Description = [[Lightweight can cools and disperses gases leaving the barrel, muffling the firearm's audible report.]]
 ATT.CustomPros = {}
@@ -1909,7 +1909,7 @@ ATT.Attachments = {
     {
         PrintName = "Optic",
         Bone = "j_gun",
-        Pos = Vector(0, 0, -1),
+        Pos = Vector(0, 0, -0.95),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 1.5),
         Category = {"cod_optic", "cod_rail_riser"},

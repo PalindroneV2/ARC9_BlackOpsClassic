@@ -38,7 +38,7 @@ SWEP.WorldModelOffset = {
     Bone    =    "ValveBiped.Bip01_R_Hand",
     Scale   =   0.75
 }
-SWEP.ViewModelFOVBase = 75
+SWEP.ViewModelFOVBase = 60
 
 SWEP.DefaultBodygroups = "10"
 SWEP.DefaultWMBodygroups = "00"
@@ -192,7 +192,7 @@ SWEP.HoldTypeSights = "crossbow"
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_AR2
 
-SWEP.ActivePos = Vector(0, -2, -1)
+SWEP.ActivePos = Vector(0, 0, -1)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 local movingoffset = Vector(0, -0.25, -0.25)
@@ -214,7 +214,7 @@ SWEP.SprintVerticalOffset = false
 SWEP.SprintPos = SWEP.ActivePos
 SWEP.SprintAng = SWEP.ActiveAng
 
-SWEP.CustomizePos = Vector(24, 40, 12)
+SWEP.CustomizePos = Vector(24, 50, 12)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeRotateAnchor = Vector(28, -10, -15)
 
